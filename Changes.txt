@@ -1,0 +1,18 @@
+Use Plugz on layers to get/prod-ready their dependencies
+
+sudo apt install gnome-games (mark on list to replace)
+sudo apt install obs-studio
+sudo apt install gnome-usage (floflis ltm)
+sudo apt install gnome-books (mark on list to replace)
+
+sudo apt install gnuchess
+sudo apt install filezilla (optional / seed file)
+-
+snap install citra-emu (optional / seed file)
+snap install yuzu (optional / seed file)
+-
+snap connect citra-emu:removable-media (warn files can be removed on Windows dual-boot)
+snap connect yuzu:removable-media (warn files can be removed on Windows dual-boot)
+sudo apt install modem-manager-gui (optional / seed file)
+sudo apt install wine64 (optional / seed file)
+sudo apt install playonlinux (optional / seed file)

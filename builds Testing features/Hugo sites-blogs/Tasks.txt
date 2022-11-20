@@ -1,0 +1,4 @@
+- DM site migrate to Hugo
+- launch thesedifficulttimes.eth
+- Create new site/blog from template
+- Adjust site for personal, news site, etc

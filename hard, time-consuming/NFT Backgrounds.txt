@@ -1,0 +1,27 @@
+Internal testing: current non-Floflis art NFTs as backgrounds (accept Foundation)
+
+NFT backgrounds. Applying a background is saved on smart-contract state and Floflis srv
+
+Learn the basic of Solidity
+- 
+
+Learn about OpenZeppelin's contracts:
+- https://docs.openzeppelin.com/contracts/4.x/erc1155#constructing_an_erc1155_token_contract
+- https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md#erc-1155-metadata-uri-json-schema
+
+Backgrounds as NFTs
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/nftbg
+
+Floflis Backgrounds contract:
+- ERC-1155
+- URI uses ENS+IPFS
+- Use "ERC1155PresetMinterPauser" (https://docs.openzeppelin.com/contracts/3.x/api/presets#ERC1155PresetMinterPauser - this also implements the "AccessControl" module - https://docs.openzeppelin.com/contracts/3.x/api/access#AccessControl), so a centralized admin address is responsible for minting new backgrounds (new tokens with their own IDs onchain and URIs offchain) before this address grants to a DAO. This centralized address will be located at UniStore's server.
+- Tests on Polygon testnet
+- If multiple tests results ok, then: modify contract to be Upgradeable https://docs.openzeppelin.com/contracts/4.x/upgradeable (again, owner address should have the ability to later transfer ownership to a other address - DAO)
+- Probably useful resource: https://docs.openzeppelin.com/contracts/3.x/extending-contracts
+- Tests on Polygon testnet
+- If multiple tests results ok, then: implement function for multiple creators as Rrible did. https://chainsecurity.com/security-audit/staking-erc721-erc1155/ "A minted token is associated with one or multiple creators, namely the addresses that signed the minting data. Each creator of a token owns a share of it. The shares of a token need to add up to 10000, which represents 100% with 2 decimal places of precision."
+
+- how it will work
+NFT factory - so all NFTs will be owned by their authors but the collection is Floflis Backgrounds
+UniStore calls contract to mint, communicating directly to Frame

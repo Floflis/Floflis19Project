@@ -1,0 +1,174 @@
+return of git updates
+
+Flf emergency updt (in case W3U error) - have update 0 applied and check for new hsh
+
+w3u sequential updates
+W3C README:
+Please avoid using W3C in production if your project is small; updating ENS entries (on dev side only; on user side its free) costs ETH until ENS v2 is launched on Layer2; so it will change soon
+Also, its recommended to use a Ethereum node you trust to avoid hacked updates that will risk your assets.
+-
+W3C, Plugz, 01:
+- detect shexec mode (also used by UniStore) and download binary and dependencies externally to tmp, before "." installing to libs
+- add this feature to map of projects and their mechs
+-
+- sh it: support for ENS full URLs (detects and replaces *.eth/ to CID/) without relying on IPNS
+- add this feature to map of projects and their mechs
+-
+W3C mkdocs (based on Floflis Docs) at separate branch
+- Installs libs and detects first start through update.json
+- How it have its own updates system, and how updates 4 and 5 adds new fields/functionalities (move to own-update.sh)
+- Stores timestamps and reads
+- How to add updates (edit both update_at and update.sh - every project have its own individual)
+- Using Plugz to install dependencies
+
+fl generate an unlimited amount of colors for folders (img edit and .sh saves as symlink)
+fl site insp (messari transparency verified) https://status.im/keycard/#
+fl screenshots in their own folder https://askubuntu.com/questions/114429/how-can-i-specify-the-default-save-directory-for-gnome-screenshot/1373558#1373558
+
+fl widgets:
+- DeFi TVL
+- CoinGecko
+
+- Floflis Central - Profile: meet your Local Profile, import data; import Activity (fb psts/actvts, tt psts/actvts, rcs, ntfs, msgs, ubr) to JSON files for timeline
+-
+fl Plasmmer Health: integrate with fl activity log (pressure, water, glic, weight, etc), also enable fml mode to trsnf data later if th create account
+Plasmmer Health:
+- add water cups count
+- add weight
+- weight graphic
+- adicionar peso/weight pra jejum, lanches e janta/almoço
+
+- fl audio format that plays directly from spotify/others
+- fl deduplicate and symlink shared files
+- fl symlink shared files from git objects' slices
+- fl video proxy editing assistant (ideal for 4K/8K videos)
+- fl update Cinnamon or use as base a distro which already made it done all of the works Floflis would take months to
+- fl link to PoAP https://app.poap.xyz/scan/0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91
+- fl PRO, support any art as desktop background
+- fl shared bytes database: use its default theme to versioning differ/deduplicate on screenshots folder!
+- fl html5 dvd writer: byte/kb/mb count!
+- fl Crowdin repo
+
+agon
+This client will not remove branding nor add any kind of ad/link of our own.
+XDai will be later removed and P cstm client will cease; after ensuring Reddit tokens are available on other chains
+This client will use ANT tokens as the official
+g nltcs
+-
+Plasmmer's custom Aragon Client used by Floflis: Corviknight
+This won't be a brand new product (the Aragon branding will be fully kept), but a codenamed custom fork that better suits the Floflis ecosystem
+-
+Corviknight tasks:
+- merge with Aragon Client and 1Hive Client
+- add XDai/Gnosis
+- remove Metis (as it is an optimistic rollup not supported by Hop)
+- add zkSync testnet
+- add Optimism testnet
+- add Arbitrum testnet
+- add Optimism Mainnet
+- add Arbitrum Mainnet
+-
+https://newsletter.banklesshq.com/p/how-to-launch-a-dao
+-
+- Chatip fix and test embed
+Cmnc placeholder app
+Create repo for Communicator, based in FMWK for C2
+Annotate task: interact with ModemManager CLI to manage SMS and Calls
+-
+Cmmnctr groups import from wpp and make DAOs, admins are holders/voters
+
+Floflis will send an initial free MATIC/ETH for a single user in the following layer2s: Polygon, XDai/Gnosis, Optimism, Arbitrum and zkSync
+This will be converted directly from their FLOF holdings
+Users will get FLOF divided between all layer2s, but once they get enough for fees, user can choose what layer2 to receive (and change/adjust at any time)
+
+fl tell abt crpt slangs (gm, og, etc)
+fl crpt crs through pnk gam
+-
+Magic tokens
+- ALCX: self-paying loans
+- YFI + GRO: automatic yield aggregation
+- AXS/SLP/RON: money from playing games
+- Lido: yield from locking ETH
+- IMX: yield from locking Liquidity Pools
+Magic services
+- PoolTogether: no-waste lottery
+
+Flf injct layer2s in MetaMask?, geth and Frame
+
+Flf will allow storing brand new private key (or imported one), before:
+- Support to these hw: Trezor, Ledger, Keepkey
+- Argent zkSync 2.0 Mainnet
+
+Fl layer2's why:
+- Polygon, Optimism, Arbitrum: Uniswap
+- XDai/Gnosis Chain: PoAP, Reddit BRICK/MOON
+- zkSync: Argent, Gitcoin
+Pending to deploy FLO/GAME/PLA/etc: Optimism, Arbitrum, zkSync
+Although Metis is supported by Aragon, it isn't by Hop Exchange
+
+Fl ETH address import: bn snctnd addresses
+Impermax July hack addresses: 0x8e430d8388d44e30f8e612708d59cf9d832daac2
+0x64e5ac2e59ccd85c02dede27d290f16d0ed5bf24
+0x1d2677ed1b0815fab22368347723551a9dd1fb1b
+https://www.infomoney.com.br/mercados/canada-bloqueia-carteiras-de-criptomoedas-ligadas-a-protestos-antivacina/
+
+
+
+
+
+
+
+
+01
+- .01 folder is the main
+- pre-commit: vrsion image files using external prgrm, remove the image files from the stage, commit (prepare it for supporting git checkout)
+- pre-commit: before implementing, is it possible to extract audio and images from video, then reversing and keeping same cid? And, can vrsion audio files?
+- test the capability of versioning audio files, through normal and playback versions
+- pre-commit: extract from added compressed files, verify the extracted files (recursively), remove the compressed files from the stage, commit (containing the compressed file name+cid and list of its files)
+- pre-commit also extracting binary files (list of supported files will be constantly updated, start with .exe and others)
+- When checking out a git folder, reproduce the same compressed/binary files with same cid
+
+GIPFS will use 01, but no need for supporting compressed/binary files, yet (but need of supporting image files)
+rename GIPFS to MVFS (or split with CPFS)
+gipfs - layer2 for ipfs
+- works only for specific file types, but also imgs!
+- get gipfs CID from a ipfs CID (IPLD or Omni)
+- gipfs:// protocol (metamask/gipfs companion, ens)
+- mix with AddressTower
+
+layer3 for GIPFS (call it MVFS and rename GIPFS to CPFS?)
+- use sharedbytes to use HTML or img diff in some parts (for example, an messaging app can use HTML in their app screenshot and img diff in other parts that contains the OS UI)
+
+Fl app that will be useable: Feofle
+useable by e.g CmmnChn
+
+UniStore
+ipfs folder+ens (like W3U uses) containing all of the category and listings. These also contain an up-to-date index file which is downloaded, and this folder uses GIPFS.
+UniStore: update apk-only apps, such as Axie Infinity and Ronin (use shrdchn)
+
+Firedoge start page: news and record snapshot of the page using your own CmnChn
+
+unistore: fx addons, lnx/wnds apps
+unistore: lnx/wnds apps
+
+- UniStore loop reads cache JSON of Cinnamon extensions
+- sh loops into every Cinnamon extension (sys or user) and forms a JSON list so Floflis Central can read (also know which ones are installed - hide mark extensions)
+
+- UniStore loop reads cache JSON of Cinnamon desklets
+- sh loops into every Cinnamon desklet (sys or user) and forms a JSON list so Floflis Central can read (also know which ones are installed - ovhide zb desklets)
+
+- UniStore loop reads cache JSON of Cinnamon applets
+- sh loops into every Cinnamon applet (sys or user) and forms a JSON list so Floflis Central can read (also know which ones are installed - ovhide zb applets)
+
+- UniStore: first listing category: C2 addons by their IDs, with "UniStore 3rd-party listing" as publisher
+
+- UniStore: listing category: Firefox/Firedoge addons, with New Tab as first. Message: all addons will be available soon, through Common/Sharedchain (once Sharedchain/Sharedpoint receives support to validation/consensus)
+
+- UniStore: listing category: Floflis Applications: apps and games
+- UniStore UI for its core
+- UniStore uses Web3Updater (wrapped into UniStore Update like Floflis Update) to update assets
+- UniStore listed at UniStore with Plasmmer as publisher
+
+- UniStore: Firefox themes (.git) and addons; KaiOS packages
+
+UniStore "Play app/game" before installing

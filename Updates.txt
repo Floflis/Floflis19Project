@@ -1,0 +1,145 @@
+Soil asks to install NodeJS
+sudo apt install nodejs
+sudo apt install npm
+mkdir ~/.npm-global (should use /1 folder)
+npm config set prefix '~/.npm-global' (should use /1 folder)
+Open or create both ~/.profile and ~/.bashrc file and add this line:
+export PATH=~/.npm-global/bin:$PATH (for bashrc, also add ~/.npm-global/bin:$PATH) (should use /1 folder)
+then run:
+source ~/.profile
+
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash (CommonChain, Sh it)
+
+Aragon (tells NodeJS is a dependence), Aragon CLI imports geth seed, npm-on-ipfs
+
+updates are stored on backstage before being applied, detect layer and open backstage folder accordingly before letting user approve the update
+
+[layer] asks to install rust
+curl https://sh.rustup.rs -sSf | sh
+(use IPFS instead of sh.rustup.rs)
+source $HOME/.cargo/env
+rustc --version
+
+/home/daniell/.config/autostart (remove FDM.desktop and mailspring.desktop)
+
+fixer:
+sudo chown -R $USER /var/www/html
+sudo chown -R www-data:www-data /var/www/html/storage/framework
+
+/usr/share/icons/Floflis/scalable/devices
+/home/daniell/Downloads/devices
+
+Floflis Fixer app:
+- My Internet is slower than normal
+disable C/Y (ask directly to YN so it can register its disabled) (and also FDM, Trnsmssn and IPFS untl slved), but can re-enable if user want
+
+If Yarn is detected installed, update from CommonChain: curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+
+sudo apt install unzip (proprietary)
+unzip Win7Games4Win10_8_81_v2.zip (proprietary)
+
+/media/daniell/UBUNTU
+
+https://diolinux.com.br/amd/mais-desempenho-com-gpus-amd-antigas-com-o-aco.html
+
+study about favorite apps, and if they will work on new Ubuntu upgrades
+
+you can use yn/vznt to quickly get from npm/apt/unistore
+
+ask for external drive for tree and AppCapsule/FilePeace (and after fixing udf, use discs to store git)
+AppCapsule for sync PortableApps/Windows/Linux
+
+FilePeace to sync editing files between desktop(s) and mobile(s)
+
+Floflis Replacements list: Ubuntu apt > Floflis apt, git > pijul, Gnome Term > Starship, C > Rust, Electron apps > HTML5Apps Platform
+
+Mac theme (from note HDD Linux), modified for CommonDesign
+
+OmniLink+CommonChain first use: get download link from http, and link with its IPFS CID (after .ppl files and profile are working - https://sh.rustup.rs, Ubuntu .iso direct+torrent+IPFS)
+
+
+icon for preferences-color
+new icon for Weather
+new icon for LibreOffice Draw
+new icon for LibreOffice Writer
+new icon for LibreOffice Impress
+new icon for LibreOffice Calc
+new icon for LibreOffice Math
+install Almanah diary
+new icon for Audacity
+new icon for KeePassXC
+new icon for PlayOnLinux
+new icon for Computer
+
+
+
+
+/media/daniell/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/New term
+Install Starship directly from IPFS instead of https://github.com/starship/starship/releases/latest/download/starship-x86_64-unknown-linux-gnu.tar.gz (OmniLink)
+
+Bash
+  Add the following to the end of ~/.bashrc:
+
+      eval "$(starship init bash)"
+
+Zsh
+  Add the following to the end of ~/.zshrc:
+
+      eval "$(starship init zsh)"
+
+Fish
+  Add the following to the end of ~/.config/fish/config.fish:
+
+      starship init fish | source
+
+Ion
+  Add the following to the end of ~/.config/ion/initrc:
+
+      eval eval $(/usr/local/bin/starship init ion --print-full-init)
+      
+      
+      
+      
+      
+Ubuntu 21.04
+
+UniStore should be the first place to list/get cinnamon spices
+/home/daniell/.cinnamon/spices.cache
+/home/daniell/Desktop/shexec
+
+Central
+/usr/share/cinnamon-control-center
+/usr/share/cinnamon-screensaver
+/usr/share/cinnamon-session
+/usr/share/cinnamon-settings-daemon
+
+Transform Adapta and Adapta Nokto into three themes: normal, dark and light (Floflis theme)
+
+/usr/share/backgrounds
+
+"witchcraft" cmd wrapper bin
+"git" cmd wrapper bin
+"firefloflis" cmd wrapper bin
+
+comp course
+
+frndnt
+
+th hptcl ntn
+
+better sounds with more events, edit M3 tags
+icons for more apps
+merged three start menus
+
+action center applet (have the notifications applet as dependency)
+
+Floflis Central: this is the new place to download themes, extensions, applets and desklets. These can have dependencies, and be installed from CLI using UniStore.
+
+Floflis Server: support to ETH2 and OnlyOffice
+
+Floflis Fixer:
+/media/daniell
+sudo rm -rf B && sudo ln -s B1 B
+sudo rm -rf UBUNTU1 && sudo ln -s UBUNTU2 UBUNTU1
+sudo rm -rf UBUNTU && sudo ln -s UBUNTU2 UBUNTU
+sudo rm -rf A && sudo ln -s A1 A

@@ -1,0 +1,447 @@
+- Experience: Floflis on Termux and Cygwn
+
+- Online icon for Explorer
+- loop in drives until Windows is found
+-
+- Floflis Manager for Windows: detect the location of Windows drive. If more than one, ask which one is preferred by user. Detect Windows version of every drive (Screens Explorer will use this to display icons for every version). Will take use of list-devices.sh that writes all data (drives, types, infos, free/used space, etc) into JSON
+- UniStore installs C2 addons at Construct 2 if they're not installed; if already installed then compare versions before showing new update is available
+-
+- Floflis Manager for Windows: know Windows' original fonts and identify custom fonts then ask to use
+-
+- Floflis Manager for Windows: link Windows and WINE locations/files
+- Search: import installed Windows program into WINE
+
+Floflis:
+- HTML5 Player app
+-
+- ask if PC is shared or single-user
+- 🌳 folder: separate users in folders if this is a setting
+- "floflis add frnd" cmd (stored in JSON - detect user data folder if 🌳 or other)
+
+claim candy
+flf mem gme
+- daily candy claim remind
+- if a week without claiming candy, snd notif
+
+HTML5Apps Platform placeholder app, with its own CLI and support to notifs and screensavers APIs
+-
+Central own cli for updating desktop background (not a priority - already have a work)
+-
+floapi app, which app uses for example to request pinning (uses permissions)
+
+- Floflis Central: Profile
+- Floflis Central Personalization: backgrounds, sounds
+-
+first boot UI wizard
+- taskbar position
+- taskbar icons size 
+- desktop shrtcts such as Face and other sites/games
+- ask if indi gamedev, yt/ttk/streammer, musician (suggest Roll)
+-
+- app Axie, PoolTogether, The Giving Block, Lido, Fractional, Alchemix, YFI, Roll, Showtime, Ncities, https://app.rabbithole.gg/skills
+
+- license and token limit for frks like UniOS; license permits to be replaced/turn more permissive if DAO votes after five years
+
+Flf
+- 1inch alternative
+
+JSON fields: current pin (Uniswap, Aragon, etc)
+current pin is updated so the previous after 5 is removed
+
+first batch of flf tkns - next is limited and permissive
+count the amount of FLOF tokens ever received
+egg frame for unverified (bght) https://link.medium.com/QAYThLE3bmb
+
+Personal Issues absolute path:
+/1/data/issues?
+add to Floflis Docs: Floflis isn't made for shared/multiuser computers (yet)
+
+Flf gitcoin
+It will use Ethereum+ENS and IPFS for its own related updates; but you will not miss your APT's and untouched Ubuntu's updates you are already comfortable with.
+g nltcs
+"For a few years Ubuntu-based distros were a bit of a meme. They were considered low-effort reskins offering few substantive differences. Oh, how the times have changed!"
+[omgubuntu](https://www.omgubuntu.co.uk/2021/12/best-linux-distro-releases-in-2021).
+
+Flof advanced forms:
+- Ubuntu x86
+- Ubuntu ARM
+- Manjaro+KDE Plasma ARM+x86
+- Ubuntu RISC-V
+- Redox
+
+- Eventlr count fix
+
+Floflis Blog: arch old posts
+g nltcs
+
+- compare Internet Cat's read-from-input-value with Screens Explorer's own
+
+- Floflis Packager: sign with ETH address
+- Floflis Application Handler: display publisher and validate ETH sign
+
+- Floflis Packager tasks.txt annotate: in addition to supporting usual ETH signing, also support by-DAO signatures (both offchain - EIP like in Snapshot - and onchain)
+
+Floflis' philosophy about duplication: de-duplicate files always; except for backups. Incentive user to understand why backups are essential
+
+- icons for Screens Explorer, Writer, Personal Issues, Eventlr (new icon), Internet Cat, Alertz, .nu file
+- Use from-Windows icons
+
+- screenshot in repos' README.md (Explorer, Central, Writer, Personal Issues, Floflis Application Handler, Chatip)
+- tmp.txt: repos to push/upload
+
+.nu handler will identify when file isn't marked as executable and, like Java, will warn (will use the executable-warn.sh shared script that may be used by Floflis Application Handler)
+
+- experiment with site clonning through addon (gipfs)
+- Fix newtab addon (and submit)
+- test Messaging fx addon
+- Fix Internet Cat
+- Merge newtab into Internet Cat
+
+musiclr anotate task: decide the amount of musics to play until the next shuffle (default: 5)
+
+- BR IR environment (Neyma Receita - eth.floflis.neymareceita)
+re-work NFT generator (duplication loopingsearch for every new NFT to be generated)
+
+- Study about how the .game format will use a package.json with strict permissions and more security restrictions
+This package.json will be forced when the app is extracted into /tmp, before it loads.
+
+- Floflis Packager: mark if app have blur effect
+- linux-icons-generator: installer
+- Floflis Packager: when installing, process app's icon and .desktop
+- Floflis Packager: .desktop info at manifest.webapp
+
+! document !
+- httb add/edit site (Site Maker not available yet - add Site Maker to projmap)
+- httb config file
+- httb $variables in HTML (will be changed)
+- httb /custom (scripts, db)
+- Floflis Packager (pre-export (Kongregate), initpreview, pack; manifest.webapp, exports folder and its HTML/scripts - also exemplified in FMWK for C2) and update FMWK for C2 with these docs
+- Floflis Docs (online and other utilities/tools)
+
+Floflis Status server: temporarily disable nginx and test httb
+Works?
+Make test HTTPS site with nginx+certbot. then replace nginx to test httb's HTTPS support
+Probably httb will able to identify an HTTPS request, but won't be able to read nor send because of no handshake using the installed cert
+
+- restore Peeper Poster (and the data folder and imgs) and prepare to add it to Floflis' next builds
+
+Floflis ETH key assist will detect GUI, then open its Electron app.
+This app will spawn a Floflis Connect popup window and begin session
+
+profile.floflis.com:
+- get profile photo from ENS (know when profile photo is normal or if NFT display in hexagon)
+- get other profile data from ENS
+- if no ENS data, enable user to fill this data so it will be stored in Web 2.0
+- future task: enable user to set NFT PFP on ENS, by creating a sign-able message that will open Floflis Connect to open a wallet sign request/window
+
+Floflis will have a post-signup method, sending sybil/ens tt and other acknowledged info with ETH signature and server will validate; if ETH signature ok, store/update data in users.json
+- httb sample web3 site: test signing messages with web3/ethers.js and console log
+- login page will try to open MetaMask/use existing web3 session then login via web3 by signing message
+- option to upgrade web 2.0 account to web 3.0
+- support for hexagonal NFT profile pic (next Floflis build)
+- httb: support to file upload (user can update profile picture and cover) with size limit for every type of request
+- request adding user as friend, option to accept request
+- notifications via Alertz
+
+- Enter Floflis Status server and copy all recent commands (useful for Floflis Server)
+
+- In separate server, install nginx, domain and https. This server will be floflisconnect.com. User logs with Web3 wallet through Web3Modal and, through its identified URL data (floflisconnect.com/popup#http://ip.ip.ip.ip:8080), send back POST data to the site that openned the popup (this data is user's ETH address and signed message with nonce)
+- httb signup form: two options: web 2.0 and web 3.0.
+Web 2.0 / Web3 tabs are also part of the Floflis Connect HTML
+if web3: open wallet through Framework Web3 and get ETH address. Use ETH address as username. All inputs will be deactivated until ETH address appears and, after that, username input remain deactivated. server will put a character limit on web 2.0 usernames, and validate web 3.0 usernames both at login/signup (starts with 0x, character count)
+- move httb floflis to new, definitive server
+- Security steps for both Floflis Profile and Floflis Connect
+- Floflis Profile annotate task: send confirmation email before proceeding with signup
+- Floflis Status server: log profile.floflis.com and floflisconnect.com status
+- Floflis Profile site will tell about the importance of backups as "passwords" cannot be reset- Floflis Packager anotate task: move application IDs to reverse format (eth.floflis.central) for next build
+Next build anotate about Floflis Central and Floflis Packager tasks. At next build, changing background will also change Floflis Profile's cover; same for Linux username and avatar
+
+- httb annotate task: support character/bytes limit on received data (character limits on post/password form, bytes limits on uploaded data/files depending on mimetype)
+
+- research about offline github issues and how Personal Issues/Issues Editor could be merged
+
+.sss (screensaver) handler; use the same or better sandbox as for .game; close after mouse moves or any button pressed/input detected)
+
+- httb: own 404 error page unless user have sett its own (conf.json)
+- httb: use variable in login.html and signup.html to display errors
+- httb install: if /var/www/html is empty, add starter .html file
+- httb sample site: better 404 error page
+- httb initializing: check if html folder exists before running
+- httb sample site: use FrameworkJS (but merge original CSS into FrameworkJS dark theme, for FMWK r3)
+-------------------------------------------------------------------------
+- httb: move some functions to /custom as external scripts (at login/signup functions, check if there are overhides before running)
+- example site will have update.sh and install.sh
+- example site will be renamed to Framework HTTB and referenced in HTTB readme.md
+-
+- httb checks if ncat/jq/mlq are installed and if not, install (mlq will be downloaded from gh before plugz, annotate this task)
+-
+- httb logs the htmlfolder and port used, when started
+
+How Floflis is different, and the incubator of Web3:
+- IPFS under the hood
+- Native system-wide Wallet (Frame)
+- Support for Ledger/other hardware wallets
+- #PlayAndEarn built-in
+- User/sync account logged by ETH address
+- Token and NFT listing (user's Inventory)
+- NFT'ed user Pic and desktop Background
+
+- restructure /1 folder
+- fl ppl (add new; .ppl file; ETH address, IPFS p ID)
+
+- Floflis' Internet shortcut apps' icon generator (at Floflis Icons installer)
+- HTML5Apps Platform: app listing .sh (loop in /1/apps and /1/games and lists all, categorized)
+- HTML5Apps Platform annotate task: emulate SD card/internal storage then get support for Firefox OS/KaiOS/Cordova APIs
+- HTML5Apps Platform annotate task: Android build, inspired by Firefox and Hermit. Run Cordova/Firefox/KaiOS apps from a single runtime
+
+Floflis 20: new Ubuntu icons and features (such as Settings' accent colors)
+
+Floflis/Plasmmer Social/Sociflow idea: slideshow NFT PFPs: alternate between original photo and NFT constantly
+
+resume FMWK (after ds st)
+-
+Plasmmer Health PoC FMWK app
+-
+Plasmmer Health most important feature: co-pilot:
+Tell the symptoms and AI will tell the possible causes and what examination to do
+-
+Plasmmer Health will have its Digital Wellbeing sector
+
+FMWK: use ipfs-js to sd site
+
+Vids: Floflis Packager running at Central and 2048
+
+
+
+
+
+
+
+
+
+
+https://diolinux.com.br/aplicativos/melhores-aplicativos-2021.html
+https://opensource.com/article/21/12/open-source-alternatives
+https://diolinux.com.br/noticias/acontecimentos-tecnologia-2021.html
+https://diolinux.com.br/sistemas-operacionais/distribuicoes-para-servidores-2021.html
+https://www.omgubuntu.co.uk/2021/12/best-linux-distro-releases-in-2021
+https://hackaday.com/2021/12/26/bios-flashing-journey-writeup-puts-tutorials-to-shame/
+
+https://www.makeuseof.com/best-ide-code-editors-for-linux/
+https://blog.logrocket.com/best-typescript-ides/
+
+https://dev.to/narottam04/web-10-web-20-web-30-explained-591n
+https://news.yahoo.com/what-is-web3-new-version-of-the-internet-everyone-is-talking-about-130641883.html
+https://olhardigital.com.br/2021/12/25/colunistas/seja-bem-vinda-web-3-0/
+https://exame.com/blog/fernando-ribeiro/blockchain-e-o-estado-da-arte-do-desenvolvimento-de-software/
+https://www.uol.com.br/tilt/noticias/redacao/2021/12/30/web3-o-que-e.htm
+https://www.uol.com.br/tilt/noticias/reuters/2021/12/20/de-metaverso-a-dao-guia-para-expressoes-de-tecnologia-de-2021.htm
+
+
+
+
+
+
+
+
+
+Gamlr site:
+Sample Runny Car isolated features (vib, badges/achievements, AirConsole)
+C2 recommend addons for games (also, apps)
+Its preferrable if you are a indi gamedev
+g nltcs
+
+Gamlr for C2:
+- AirConsole
+- Vib gamepad
+- Electron
+- Cordova
+- Steam
+- Xbox
+- Web3/Ethereum (authentication, tokens, NFTs, IPFS)
+g nltcs
+
+FMWK for C2
+- lnk to Gamlr for C2
+- HTML/iframe
+- template
+- Electron
+- Cordova
+- Web3/Ethereum (authentication, tokens, NFTs, IPFS)
+g nltcs
+
+
+
+
+
+
+
+plugz -> cake (site explains its the simplest build sys and also independent dependencies)
+Plugz: dont anymore use versions; use locally only
+
+rename Plasmozill to WebDAO
+rename FirefloflisNewTab to Floflis Tab
+Soon: doge ads (start page background, most accessed, news - soon for sites) accepting DOG tokens and paying WEB to vwrs
+WebDAO and doge, g nltcs
+
+FMWK Hugo - CLI to install it, and to change its comment sys and other settings/gadgets/etc
+
+FMWK for C2 use GTK module so apps will have consistent theme
+
+- FMWK r3: return platform (Firefox OS, KaiOS, www, localhost, IPFS)
+
+- FMWK r3: detect Electron platform
+- FMWK r3: detect Tauri platform
+
+- FMWK C2 will receive FMWK r3 and display advanced tricks to learn (such as c2export and HTML + scripts folders, detect platform, C2 function, get value from JS (Personal Issues timestamp), display output of sh, run sh/program/app, loop listing, read from HTML input content, change HTML input content)
+- Floflis Central count items
+- Personal Issues "New Issues" as HTML dialog
+- Writer in HTML
+- Writer "File" menu where "Save", "Save as..." and "Describe changes" uses git/pijul to preserve files
+- Screens Explorer simple tasks
+- Alertz app and core; develop single-news feeds
+- Floflis next-build team: Floflis Packager r3, FMWK C2 (special folder), Personal Issues (writes to absolute path), Internet Cat, Writer, Screens Explorer
+Icons will be added to the "Other" category of Explore menu
+- p map at site <> desktop
+- p snpsh @ Polygon
+
+
+
+
+- multi-platform c2 game
+
+
+
+
+Firedoge Ads
+Use the same Floflis Accounts.
+Enable creating Advertiser profile, then adding ads for review. Ad types: new tab background+link, sites that have added the Firedoge Ads embed.
+-
+Beam Ads scan outdoor screen and start filling ad form. Pay with ETH/token and get approved in minutes
+
+
+
+
+
+
+
+
+
+
+- apps slated to migrate to FMWK r3 (and newer versions), at projmap (USV PoC Player, Central, David Explorer, David Writer, Internet Boat/Cat, HTML5 Player, Personal Issues, Peeper Poster)
+
+- Start moving parts from Screens, such as Launcher module, Lockscreen module.
+Lockscreen will start to be merged with Firefox OS Gaia's lockscreen
+
+- Plugz loop reads at recipes.json and install every; also, before, installs self directly from the script that calls it
+
+new for the USV spec:
+- local files (.usvx) or external CIDs (.usv), audio and video
+-
+- conditional scenes, being included or excluded according to localization/i18n
+- clickable cards (allowlist/denylist for links can be defined by the embed's host)
+-
+- CSS scene transitions
+
+- re-factor USV PoC Player (read directly from .usv file communicating with Bash)
+- remove C2 load screen
+- using Kongregate or Scirra Arcade, Player is embedable. From URL know what video to load (local file, http URL, CID). Replace bash .usv decompressing by pure JS if not Electron
+
+
+
+
+- divide Framework r3 into FMWK Base (npm package) and FMWK Full
+
+- backup my Nokia phone's recovery and ROM, prepare for GerdaOS
+- backup my Alcatel phone's recovery and ROM, prepare for flashing Gaia
+
+David Launcher to work both at Firefox OS, GerdaOS AND Web:
+- Modify KaiOS sim 2.5's launcher to have plain text (backup original)
+- Also modify FxOS sim's launcher using the same file (backup original)
+- Works? Now use FMWK; Change layout according to platform (on KaiOS shows footer labels; on FxOS and Web turns into buttons)
+- Works? Now display date/time on both KaiOS and FxOS
+- Works? Now list apps on both KaiOS and FxOS (while displaying msg at Web)
+
+- start working at omni-packager
+- test js2me on my FxOS phone (place the packaged app with the .jar files and with the packaged FrameworkJS app)
+- test js2me on my KaiOS phone (place the packaged app with the .jar files and with the packaged FrameworkJS app)
+
+
+
+
+
+- Firedoge newtab addon: apps and games to install; opens on new tab.
+
+
+
+Floflis Screens annotate task: featurephone mode (enables to switch to test modes on Firefox OS sim, and also should work on secondary screen of Plasmmer Phone PRO)
+- Plasmmer Phone are wireless colored feature phones based in Floflis Screens; Plasmmer Phone PRO have a sliding physical keyboard that can be upgraded to touch screen.
+NFT collection "Adopt a first-time-Internet user"
+
+
+
+- KaiOS sim: FrameworkJS, Pocket Kitten
+- respond anbox
+restart and test Anbox
+
+- Firedoge anotate task: new icon (for stable release)
+
+- CommonChain: install globally. work pointed at any folder. traverse between GitHub releases then re-structure the chain. pubsub, brightid prs (validate brightid before accepting data) and frnds telling new updates.
+-
+- create server for PS server 1 for testing
+- create server for PS server 2 for testing
+Each one using a different boilerplate.
+Later these servers may be merged.
+Their NodeJS script will communicate with Bash, firing event on every buck transfer (cmnchn)
+-
+PokéShowdown bot:
+- rename XPS to WPS (Wrapped PokeShowdown bucks)
+- get username that is sending a message
+- get the amount of bucks a user messaging have (commit)
+-
+- cmd to exchange bucks to XPS (ask ETH address (pre-signup) if no ETH address and validate it, check if XPS hotwallet reserve is ok, detect bucks transfer then send from hot wallet)
+- every 6 hours, detect the total supply of bucks a server have; also snapshot userlist's balances
+- cmd to exchange XPS to bucks (check if bucks reserve is ok, tell the required ETH address to send from and the ETH address to send to and also how to submit support request, detect XPS was received, then send the server's native bucks)
+-
+- Floflis Connect: store all signed (private or public)
+- command to signup so it stores user's ETH address; open Floflis Connect to sign a message then finish proof of owning
+- know if username is registered, pre-registered or new; if already registered at Floflis Accounts, send PS user (also signed msg containing username) and it will result in FLOF multiplier
+
+Discord nitro for Floflis server
+Discord nitro for Plasmmer server
+Bitbol
+Maki.gg premium for Plasmmer server
+
+Change maki.gg settings; every server will distribute daily the same candies amount as CoinGecko
+
+- search: Discord bot with Bash
+
+- Bot that sends commands to Maki.gg; it should be able to then parse/read user's balance and then take/convert
+- Floflis shouldn't permit candy claims in Floflis Central if they're already claimed from the Discord server and vice-versa; this will mean Floflis Discord should have its own bot
+
+Merged Firefox OS/KaiOS 2.5:
+- Detect new Gecko version then "port" to new APIs if newer version is detected
+
+Development platform of NeTVision Box:
+- Built-in soundfonts (.sf2) such as 8Bit and MIDI interpreter JS (but games can use their own also)
+- Built-in node_modules such as DualShock 4 gamepad support
+- Built-in C2 plugins/addons (NFC, SVG, HTML, etc)
+- Can put built-in things on your game for other platforms (Floflis Packager)
+- Floflis 20, Firedoge OS and Floflis Screens will get the same platform as of NeTVision ?
+
+test KaiOS sim in other Ubuntu
+if ok, test FMWK and Pocket Kitten
+test replacing KaiOS Gaia by FirefoxOS Gaia
+
+- fix Pocket Kitten relative URL in manifest.webapp
+fmwk r3:
+- put JS into "js/" folder
+- own repository for "app/", site and UI (UI uses FMWK Base)
+- research about getting CSS/JS from node module (if FMWK r3's CSS can work directly from calling from module so as it is possible with JS)
+- mkdocs for fmwk base
+
+Test Capy and with David Launcher
+
+first NeTVision sample JSON
+
+https://www.makeuseof.com/how-to-build-a-linux-desktop-environment/

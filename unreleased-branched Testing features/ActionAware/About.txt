@@ -1,0 +1,1 @@
+Append data to Flo system Bash scripts that are triggered on actions, such as taking a screenshot, clicking the Show Desktop applet or opening the Start menu
