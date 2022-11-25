@@ -1,0 +1,4 @@
+https://itsfoss.com/nemo-tweaks/
+https://github.com/linuxmint/nemo-extensions
+https://connectwww.com/how-to-install-nemo-file-manager-nemo-extensions-on-ubuntu/61820/
+https://repology.org/project/nemo-extensions/versions
