@@ -1,0 +1,1 @@
+Allow only the quantity of candies relative to the amount of time since the Insiders Build the feature was introduced
