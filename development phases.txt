@@ -4,7 +4,7 @@ builds:
 33. polishing: fix issues of previous build; 01 VCS, migrate to UbuntuCinnamonRemix
 34. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 35. upper layers
-36. stable? web3updater at upper layers. install web3updater
+36. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
 37. stable? first build
 
 attempt 32:
