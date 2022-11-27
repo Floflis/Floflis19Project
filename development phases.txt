@@ -30,6 +30,8 @@ This also improves the visibility of the icon
 - Relative link for /1/Z-root
 - Create /1/personal/data (prepare for the Personal Issues and Offline Peeper Poster apps)
 
+fix issue with Core/Soil's energy module
+
 Flf new icon and title for Cryptovoxels -> Voxels
 
 guppy cmd uses neofetch
