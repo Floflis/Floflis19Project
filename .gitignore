@@ -1,0 +1,6 @@
+builds Testing features/timecalc
+*/timecalc
+*.zip
+*.AppImage
+*.tar*
+*.bz2
