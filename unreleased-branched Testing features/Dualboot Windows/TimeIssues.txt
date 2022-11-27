@@ -1,0 +1,13 @@
+Booting on Windows
+Has the time changed?
+Shutting down Windows. If time has been changed, tell to Linux.
+-
+Booting on Linux
+If time has changed on Windows, put +3 hour on Linux
+----
+Booting on Linux
+Has the time changed?
+Shutting down Linux. If time has been changed, tell to Windows.
+-
+Booting on Windows
+If time has changed on Linux, put -3 hour on Windows
