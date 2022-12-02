@@ -33,11 +33,11 @@ This also improves the visibility of the icon
 - fix getting source script from layers
 - Important Updates and sanitize/organize files at Soil layer and its to-merge.sh
 - Don't attempt to create folders/files that already exist
-
-- both to-merge_firstlogon.sh and to-merge.sh are installing floapps and nu-post-install
 - install Floflis icons from git
-
-- replace /usr/share/cinnamon/faces/user-generic.png from to-merge_firstlogon.sh
+- New generic avatar
+-
+Issues that may appear in this build:
+- /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 
 - test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
 - fix adding Z-root (core's install.sh)
@@ -51,8 +51,6 @@ Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3).
 $maysudo ln -s /1/sounds/Starting.ogg /usr/share/sounds/Yaru/stereo/desktop-login.oga
 $maysudo ln -s /1/sounds/Starting.ogg /usr/share/sounds/Yaru/stereo/system-ready.oga
 doesn't works because sys is expecting a .oga file instead of .ogg
-
-don't install cinnamon 4.8 if a greater-or-equal than 4.9 version is found
 
 - fix issue with .html5, .nu, .apps and .game icons
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
@@ -99,6 +97,8 @@ Soil:
 Flf new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
 
 - guppy cmd uses neofetch
+
+don't install cinnamon 4.8 if a greater-or-equal than 4.9 version is found
 
 add Floflis Packager and other tools
 add httb to server layer
