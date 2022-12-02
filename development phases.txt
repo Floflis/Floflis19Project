@@ -39,6 +39,63 @@ This also improves the visibility of the icon
 Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 
+Installing global shared NodeJS modules...
+mkdir: cannot create directory ‘/1’: File exists
+mkdir: cannot create directory ‘/1/Floflis’: File exists
+mkdir: cannot create directory ‘/1/Floflis/libs’: File exists
+
+
+Installing game-engines lib folder...
+mkdir: cannot create directory ‘/1/Floflis/libs/game-engines’: File exists
+
+Welcome to another awesome autistic art by Daniella Mesquita.
+
+identify identify: Unable to open file (/media/daniell/B/bkp/ST500LM012) [No such file or directory].
+identify identify: Unable to open file (HN-M500MBB) [No such file or directory].
+identify identify: Unable to open file (Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-apps.png) [No such file or directory].
+identify identify: Request did not return an image.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
+Welcome to another awesome autistic art by Daniella Mesquita.
+
+
+
+
+
+mkdir: cannot create directory ‘icons’: File exists
+mkdir: cannot create directory ‘icons/16x16’: File exists
+mkdir: cannot create directory ‘icons/16x16@2x’: File exists
+mkdir: cannot create directory ‘icons/24x24’: File exists
+mkdir: cannot create directory ‘icons/24x24@2x’: File exists
+mkdir: cannot create directory ‘icons/32x32’: File exists
+mkdir: cannot create directory ‘icons/32x32@2x’: File exists
+mkdir: cannot create directory ‘icons/48x48’: File exists
+mkdir: cannot create directory ‘icons/48x48@2x’: File exists
+mkdir: cannot create directory ‘icons/256x256’: File exists
+mkdir: cannot create directory ‘icons/256x256@2x’: File exists
+mkdir: cannot create directory ‘icons/16x16/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/16x16@2x/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/24x24/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/24x24@2x/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/32x32/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/32x32@2x/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/48x48/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/48x48@2x/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/256x256/mimetypes’: File exists
+mkdir: cannot create directory ‘icons/256x256@2x/mimetypes’: File exists
+identify identify: Unable to open file (/media/daniell/B/bkp/ST500LM012) [No such file or directory].
+identify identify: Unable to open file (HN-M500MBB) [No such file or directory].
+identify identify: Unable to open file (Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-html5.png) [No such file or directory].
+identify identify: Request did not return an image.
+
+
+Creating HTML5 apps directory...
+mkdir: cannot create directory ‘/1/apps’: File exists
+Creating HTML5 games directory...
+mkdir: cannot create directory ‘/1/games’: File exists
+Creating html5 directory...
+mkdir: cannot create directory ‘/1/html5’: File exists
+
 - test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
 - fix adding Z-root (core's install.sh)
 
