@@ -34,18 +34,42 @@ This also improves the visibility of the icon
 - Important Updates and sanitize/organize files at Soil layer and its to-merge.sh
 - Don't attempt to create folders/files that already exist
 
+- guppy cmd uses neofetch
+
+- install Floflis icons from git
+
+- replace /usr/share/cinnamon/faces/user-generic.png from to-merge_firstlogon.sh
+
+- test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
+- fix adding Z-root (core's install.sh)
+
+- both to-merge_firstlogon.sh and to-merge.sh are installing floapps and nu-post-install
+
+$maysudo ln -s /1/sounds/Starting.ogg /usr/share/sounds/Yaru/stereo/desktop-login.oga
+$maysudo ln -s /1/sounds/Starting.ogg /usr/share/sounds/Yaru/stereo/system-ready.oga
+doesn't works because sys is expecting a .oga file instead of .ogg
+
+don't install cinnamon 4.8 if a greater-or-equal than 4.9 version is found
+
+neofetch mkdir fix
+Creating HTML5 apps directory...
+mkdir: cannot create directory ‘/1/apps’: File exists
+Creating HTML5 games directory...
+mkdir: cannot create directory ‘/1/games’: File exists
+Creating html5 directory...
+mkdir: cannot create directory ‘/1/html5’: File exists
+
 - fix issue with .html5, .nu, .apps and .game icons
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
 Error in file "/usr/share/applications/org.kde.kdeconnect_open.desktop": "*/*" is an invalid MIME type ("*" is an unregistered media type)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
 
-- fix issue of Term colors not installed; same for Nushell
 - soil's to-merge_firstlogon.sh don't install starship from the Internet, but from locally
+- fix issue of Term colors not installed; same for Nushell
 
 - Electron apps still not working
 
-guppy cmd uses neofetch
 fix floapps installer
 
 If Cubic mode, don't ask before installing important programs such as git (also git lfs)
@@ -94,7 +118,7 @@ organize Eleganse-Floflis.tar.gz, Adapta.tar.gz, Adapta-Nokto.tar.gz at own fold
 
 create common-user-iso_installed.sh and install floapps, nu-post-install, aragon.tar.gz, hop.tar.gz, uniswap.tar.gz, home-daniella-.cinnamon-configs.tar.gz at both ISO and installation user. avatar.png and avatar-iso.png
 
-Ubuntu Cinnamon
+Ubuntu Cinnamon Remix
 - detect, differ from normal ubuntu
 - rework Floflis Yaru icon theme, symlink all dupliced, support to Cinnamon Remix/Ubuntu 22 colors in folders
 - replace gnome 2048 for .apps version, if floapps is installed (floapps require node.js)
