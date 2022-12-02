@@ -77,20 +77,6 @@ mv: cannot stat '/usr/share/cinnamon/faces/7_panda.png': No such file or directo
 mv: cannot stat '/usr/share/cinnamon/faces/7_penguin.png': No such file or directory
 mv: cannot stat '/usr/share/cinnamon/faces/7_tucan.png': No such file or directory
 
-Installing mlq...
-Facebook is online.
-You are online.
-Your branch is up to date with 'origin/main'.
-Installing mlq...
-mkdir: cannot create directory ‘/usr/lib/mlq’: File exists
-
-
-Installing ethgas...
-First content
-Your branch is up to date with 'origin/main'.
-Installing ethgas...
-mkdir: cannot create directory ‘/usr/lib/ethgas’: File exists
-
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
