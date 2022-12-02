@@ -39,62 +39,75 @@ This also improves the visibility of the icon
 Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 
-Installing global shared NodeJS modules...
-mkdir: cannot create directory ‘/1’: File exists
-mkdir: cannot create directory ‘/1/Floflis’: File exists
-mkdir: cannot create directory ‘/1/Floflis/libs’: File exists
+mv: cannot stat '/usr/share/backgrounds/brad-huchteman-stone-mountain.jpg': No such file or directory
+mv: cannot stat '/usr/share/backgrounds/hardy_wallpaper_uhd.png': No such file or directory
+mv: cannot stat '/usr/share/backgrounds/joshua-coleman-something-yellow.jpg': No such file or directory
+mv: cannot stat '/usr/share/backgrounds/matt-mcnulty-nyc-2nd-ave.jpg': No such file or directory
+mv: cannot stat '/usr/share/backgrounds/ryan-stone-skykomish-river.jpg': No such file or directory
+cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file
 
 
-Installing game-engines lib folder...
-mkdir: cannot create directory ‘/1/Floflis/libs/game-engines’: File exists
-
-Welcome to another awesome autistic art by Daniella Mesquita.
-
-identify identify: Unable to open file (/media/daniell/B/bkp/ST500LM012) [No such file or directory].
-identify identify: Unable to open file (HN-M500MBB) [No such file or directory].
-identify identify: Unable to open file (Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-apps.png) [No such file or directory].
-identify identify: Request did not return an image.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-Welcome to another awesome autistic art by Daniella Mesquita.
+Updating default background...
+mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
+mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No such file or directory
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 
 
+Installing avatars...
+mv: cannot stat '/usr/share/cinnamon/faces/0_cars.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/0_chess.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/0_coffee.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/0_guitar.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/2_10.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/2_11.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/2_12.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/2_13.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/3_lightning.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/3_mountain.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/3_sky.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/3_sunset.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/4_cinnamon.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/4_flower.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/4_leaf.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/4_sunflower.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/5_fish.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/5_kitten.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/5_penguin.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/5_puppy.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/6_astronaut.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/6_butterfly.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/6_flake.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/6_grapes.jpg': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_bat.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_dog.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_elephant.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_fox.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_lion.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_panda.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_penguin.png': No such file or directory
+mv: cannot stat '/usr/share/cinnamon/faces/7_tucan.png': No such file or directory
+
+Installing Cinnamon applets, desklets and extensions...
+tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
+tar: Exiting with failure status due to previous errors
 
 
-
-mkdir: cannot create directory ‘icons’: File exists
-mkdir: cannot create directory ‘icons/16x16’: File exists
-mkdir: cannot create directory ‘icons/16x16@2x’: File exists
-mkdir: cannot create directory ‘icons/24x24’: File exists
-mkdir: cannot create directory ‘icons/24x24@2x’: File exists
-mkdir: cannot create directory ‘icons/32x32’: File exists
-mkdir: cannot create directory ‘icons/32x32@2x’: File exists
-mkdir: cannot create directory ‘icons/48x48’: File exists
-mkdir: cannot create directory ‘icons/48x48@2x’: File exists
-mkdir: cannot create directory ‘icons/256x256’: File exists
-mkdir: cannot create directory ‘icons/256x256@2x’: File exists
-mkdir: cannot create directory ‘icons/16x16/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/16x16@2x/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/24x24/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/24x24@2x/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/32x32/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/32x32@2x/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/48x48/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/48x48@2x/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/256x256/mimetypes’: File exists
-mkdir: cannot create directory ‘icons/256x256@2x/mimetypes’: File exists
-identify identify: Unable to open file (/media/daniell/B/bkp/ST500LM012) [No such file or directory].
-identify identify: Unable to open file (HN-M500MBB) [No such file or directory].
-identify identify: Unable to open file (Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-html5.png) [No such file or directory].
-identify identify: Request did not return an image.
+Installing mlq...
+Facebook is online.
+You are online.
+Your branch is up to date with 'origin/main'.
+Installing mlq...
+mkdir: cannot create directory ‘/usr/lib/mlq’: File exists
 
 
-Creating HTML5 apps directory...
-mkdir: cannot create directory ‘/1/apps’: File exists
-Creating HTML5 games directory...
-mkdir: cannot create directory ‘/1/games’: File exists
-Creating html5 directory...
-mkdir: cannot create directory ‘/1/html5’: File exists
+Installing ethgas...
+First content
+Your branch is up to date with 'origin/main'.
+Installing ethgas...
+mkdir: cannot create directory ‘/usr/lib/ethgas’: File exists
 
 - test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
 - fix adding Z-root (core's install.sh)
