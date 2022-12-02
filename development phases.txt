@@ -29,20 +29,23 @@ This also improves the visibility of the icon
 - add Nu post-install
 - Relative link for /1/Z-root
 - Create /1/personal/data (prepare for the Personal Issues and Offline Peeper Poster apps)
--
-Probable issues that may be found at this buildAttempt:
-- Floflis Central shortcut not updated from "Floflis Central" to "Central"
-- Electron apps still not working
-- install script not updating things at a current running Floflis (only at fresh install)
-- Term colors not installed; same for Starship and Nushell
+- Load modules from a separate modules.sh file, and only if the modules folder is found
+- fix getting source script from layers
+- Important Updates and sanitize/organize files at Soil layer and its to-merge.sh
+- Don't attempt to create folders/files that already exist
 
-- fix issue with Core/Soil's energy module
 - fix issue with .html5, .nu, .apps and .game icons
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/org.kde.kdeconnect_open.desktop": "*/*" is an invalid MIME type ("*" is an unregistered media type)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
 
-Flf new icon and title for Cryptovoxels -> Voxels
+- fix issue of Term colors not installed; same for Nushell
+- soil's to-merge_firstlogon.sh don't install starship from the Internet, but from locally
+
+- Electron apps still not working
 
 guppy cmd uses neofetch
-
 fix floapps installer
 
 If Cubic mode, don't ask before installing important programs such as git (also git lfs)
@@ -56,8 +59,23 @@ up-to-date OS data (build)
 
 attempt 33:
 
-- Update Ethereal from 2.7.4 to 
-- Update Nushell from 0.44.0 to 
+Core:
+- Update go-ipfs from v0.9.0-rc1 to 
+- Update ipget from v0.6.0 to 
+- Update jq from jq-1.6 to 
+Soil:
+- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
+- Update Nushell from 0.44.0 to 0.72.0 https://github.com/nushell/nushell/releases/tag/0.72.0
+- Update Starship from v1.0.0 to v1.11.0 https://github.com/starship/starship/releases/tag/v1.11.0
+- Update Gitoxide from 0.10.0 to v0.19.0 https://github.com/Byron/gitoxide/releases/tag/v0.19.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
+- Update balenaEtcher from 1.6.0 to 
+- Update Hugo from 0.89.2 to 
+- Update GDevelop from  to 
+- Update geth from 1.10.11 to 
+- Update git-lfs from 2.9.2 to 
+- Update Pijul from 1.0.0-alpha.56 to 
+
+Flf new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
 
 add Floflis Packager and other tools
 add httb to server layer
