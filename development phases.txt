@@ -35,22 +35,12 @@ This also improves the visibility of the icon
 - Don't attempt to create folders/files that already exist
 - install Floflis icons from git
 - New generic avatar
+
+- Don't attempt to move folders/files that aren't there anymore
+
 -
 Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
-
-mv: cannot stat '/usr/share/backgrounds/brad-huchteman-stone-mountain.jpg': No such file or directory
-mv: cannot stat '/usr/share/backgrounds/hardy_wallpaper_uhd.png': No such file or directory
-mv: cannot stat '/usr/share/backgrounds/joshua-coleman-something-yellow.jpg': No such file or directory
-mv: cannot stat '/usr/share/backgrounds/matt-mcnulty-nyc-2nd-ave.jpg': No such file or directory
-mv: cannot stat '/usr/share/backgrounds/ryan-stone-skykomish-river.jpg': No such file or directory
-cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file
-
-
-Updating default background...
-mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
-mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No such file or directory
-ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 
 
 Installing avatars...
@@ -87,14 +77,6 @@ mv: cannot stat '/usr/share/cinnamon/faces/7_panda.png': No such file or directo
 mv: cannot stat '/usr/share/cinnamon/faces/7_penguin.png': No such file or directory
 mv: cannot stat '/usr/share/cinnamon/faces/7_tucan.png': No such file or directory
 
-Installing Cinnamon applets, desklets and extensions...
-tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
-tar: Exiting with failure status due to previous errors
-
-
 Installing mlq...
 Facebook is online.
 You are online.
@@ -108,6 +90,18 @@ First content
 Your branch is up to date with 'origin/main'.
 Installing ethgas...
 mkdir: cannot create directory ‘/usr/lib/ethgas’: File exists
+
+Installing Cinnamon applets, desklets and extensions...
+tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
+tar: Exiting with failure status due to previous errors
+
+cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file
+
+Updating default background...
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 
 - test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
 - fix adding Z-root (core's install.sh)
@@ -164,7 +158,7 @@ Soil:
 - Update git-lfs from 2.9.2 to 
 - Update Pijul from 1.0.0-alpha.56 to 
 
-Flf new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
+svg+png icon for Cryptovoxels
 
 - guppy cmd uses neofetch
 
@@ -300,6 +294,8 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 up-to-date OS data (build)
 
 attempt 34:
+
+new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
 
 Firedoge replaces Firefox
 Update include/ubiquity-slideshow.tar.gz
