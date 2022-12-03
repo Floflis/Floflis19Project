@@ -58,17 +58,56 @@ tar: Exiting with failure status due to previous errors
 - fix adding Z-root (core's install.sh)
 
 replace .git symlink, to "git clone --no-checkout <repo_url> ."
+/media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
+/usr/share/icons/Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
+/media/daniell/B/git/Floflis/Rust/nushell/nu-post-install
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity-slideshow
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/witchcraft-candy-colors
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/ethgas
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/mlq
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/online
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/shexec
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/VCS/01
 
-! cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file (use ipfs check CID)
-! there will also be a cp/mv error for if [ -f /usr/share/cinnamon/faces/user-generic.png ]; then $maysudo mv -f /usr/share/cinnamon/faces/user-generic.png /usr/share/cinnamon/faces/cinnamon; fi (use ipfs check CID)
-! Updating default background...
-ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
+Installing icons for .nu files...
+Cloning into 'linux-icon-builder'...
+remote: Enumerating objects: 50, done.
+remote: Counting objects: 100% (50/50), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 50 (delta 15), reused 48 (delta 13), pack-reused 0
+Unpacking objects: 100% (50/50), 7.83 KiB | 56.00 KiB/s, done.
+Welcome to another awesome autistic art by Daniella Mesquita.
+
+identify identify: Unable to open file (/media/daniell/B/bkp/ST500LM012) [No such file or directory].
+identify identify: Unable to open file (HN-M500MBB) [No such file or directory].
+identify identify: Unable to open file (Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png) [No such file or directory].
+identify identify: Request did not return an image.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
+Installing handler for .nu files...
+Installing nu-script-handler...
+
+
+
+
+Installing sounds...
+ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
+
 
 Installing Witchcraft Candy Colors...
 Your branch is up to date with 'origin/master'.
 ./install.sh: 4: declare: not found
 ./install.sh: 5: Syntax error: "(" unexpected
-Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+
+
+
+
+
+! cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file (use ipfs check CID)
+! there will also be a cp/mv error for if [ -f /usr/share/cinnamon/faces/user-generic.png ]; then $maysudo mv -f /usr/share/cinnamon/faces/user-generic.png /usr/share/cinnamon/faces/cinnamon; fi (use ipfs check CID)
+! Updating default background...
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 
 - fix issue with .html5, .nu, .apps and .game icons
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
