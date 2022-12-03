@@ -1,1 +1,1 @@
-/media/daniell/B/git/Floflis/&meta/Fl.txt
+../&meta/Fl.txt
