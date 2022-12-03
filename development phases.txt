@@ -1,12 +1,13 @@
 steps:
 builds:
 32. examine what happens with Core's firstboot, logging everything
-33. polishing: fix issues of previous build; 01 VCS
+33. polishing: fix issues of previous build; 01 VCS; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb, almanah
 34. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 35. upper layers
 36. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
 37. stable? migrate to UbuntuCinnamonRemix
 38. stable? first build
+After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
 attempt 32:
 - up-to-date OS data (build, year)
@@ -37,12 +38,14 @@ This also improves the visibility of the icon
 - install Floflis icons from git
 - New generic avatar
 - Don't attempt to move folders/files that aren't there anymore
-
+- Add buildcodename to config file and the --version command
+- fix sounds and installer's logon sound
+- fix installing Starship
+- add osbuildcodename at presentation
 -
 Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
-
-replace .git symlink, to "git clone --no-checkout <repo_url> ."
+- $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
@@ -51,13 +54,15 @@ tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
 tar: Exiting with failure status due to previous errors
 
+- test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
+- fix adding Z-root (core's install.sh)
+
+replace .git symlink, to "git clone --no-checkout <repo_url> ."
+
 ! cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file (use ipfs check CID)
 ! there will also be a cp/mv error for if [ -f /usr/share/cinnamon/faces/user-generic.png ]; then $maysudo mv -f /usr/share/cinnamon/faces/user-generic.png /usr/share/cinnamon/faces/cinnamon; fi (use ipfs check CID)
 ! Updating default background...
 ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
-
-- test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
-- fix adding Z-root (core's install.sh)
 
 Installing Witchcraft Candy Colors...
 Your branch is up to date with 'origin/master'.
@@ -65,18 +70,11 @@ Your branch is up to date with 'origin/master'.
 ./install.sh: 5: Syntax error: "(" unexpected
 Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
 
-$maysudo ln -s /1/sounds/Starting.ogg /usr/share/sounds/Yaru/stereo/desktop-login.oga
-$maysudo ln -s /1/sounds/Starting.ogg /usr/share/sounds/Yaru/stereo/system-ready.oga
-doesn't works because sys is expecting a .oga file instead of .ogg
-
 - fix issue with .html5, .nu, .apps and .game icons
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
 Error in file "/usr/share/applications/org.kde.kdeconnect_open.desktop": "*/*" is an invalid MIME type ("*" is an unregistered media type)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
-
-- soil's to-merge_firstlogon.sh don't install starship from the Internet, but from locally
-- fix issue of Term colors not installed; same for Nushell
 
 - Electron apps still not working
 
@@ -88,6 +86,13 @@ Soil: don't install autoconf elinks ceni gdebi udftools nodejs
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
 - fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
 possible workaround: disable firstboot on both Core/Soil and re-enable slowly
+
+include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz
+Use git repos for Spices whenever possible
+
+2048 pre-installed
+include/BeepBox_4_0_1.zip ? futurely convert to .apps
+include/HTML5Apps/central.tar.gz convert to .apps
 
 up-to-date OS data (build)
 
@@ -113,7 +118,11 @@ Soil:
 
 svg+png icon for Cryptovoxels
 
+sounds are still incomplete
+dconf dump /org/cinnamon/ > org-cinnamon.txt
+
 - guppy cmd uses neofetch
+/media/daniell/B/git/Floflis/Utilities/guppy
 
 don't install cinnamon 4.8 if a greater-or-equal than 4.9 version is found
 
@@ -455,7 +464,10 @@ full icon de-duplication (Floflis ands Yaru)
 
 attempt 36:
 
-frst bld
+e-ink theme/mode
+sudo apt install edid-decode
+for file in `ls -1 /sys/class/drm/*/edid`; do text=$(tr -d '\0' <"$file"); if [ -n "$text" ]; then edid-decode "$file" | grep -e Manufacturer: -e Product; sleep 0.0001; fi done
+https://unix.stackexchange.com/a/594100
 
 implement Web3Updater (with branches support, and Floflis branch is of its preview builds before it upgrades into stable branch - also, upgrading from Floflis 19 to an upgrade also changes its branch)
 
@@ -464,6 +476,8 @@ Web3Updater if arm*/riscv64: use rust-ipfs
 attempt 37: apt-on-ipfs
 
 attempt 38:
+
+frst bld
 
 import geth seed on ethereal
 user profile from CLI
