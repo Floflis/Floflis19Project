@@ -1,0 +1,15 @@
+Floflis tool for Windows time: Floflis stores when Floflis got connected to the Internet and its time/date changed, and identify when Windows has started and still offline. This tool will serve to not permit Windows messing up with time/date as its different from Linux. Windows is offline and its date/time is different of Linux, then when it goes online and changes date/time, and restarts to Linux and it also started offline: revert.
+
+Booting on Windows
+Has the time changed?
+Shutting down Windows. If time has been changed, tell to Linux.
+-
+Booting on Linux
+If time has changed on Windows, put +3 hour on Linux
+----
+Booting on Linux
+Has the time changed?
+Shutting down Linux. If time has been changed, tell to Windows.
+-
+Booting on Windows
+If time has changed on Linux, put -3 hour on Windows
