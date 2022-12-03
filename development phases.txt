@@ -47,6 +47,8 @@ Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 - $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
+Floflis icons were reset
+
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
