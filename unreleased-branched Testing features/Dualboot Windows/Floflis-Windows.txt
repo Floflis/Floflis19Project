@@ -1,0 +1,11 @@
+- loop in drives until Windows is found (should also be used by davidExplorer)
+-
+- Floflis Manager for Windows: detect the location of Windows drive. If more than one, ask which one is preferred by user. Detect Windows version of every drive (Screens Explorer will use this to display icons for every version). Will take use of list-devices.sh that writes all data (drives, types, infos, free/used space, etc) into JSON
+- UniStore installs C2 addons at Construct 2 if they're not installed; if already installed then compare versions before showing new update is available
+-
+- Floflis Manager for Windows: know Windows' original fonts and identify custom fonts then ask to use
+-
+- Floflis Manager for Windows: link Windows and WINE locations/files
+- Search: import installed Windows program into WINE
+
+bkp Windows' Explorer pinned folders https://www.easeus.com/backup-utility/backup-restore-quick-access-pinned-folders.html (integrate with the experimental cross-os FilePeace's DataSync)

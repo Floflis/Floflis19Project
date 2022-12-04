@@ -1,0 +1,2 @@
+- Git name and email
+- /home/daniell/.local/share/gvfs-metadata/home (includes Nemo's custom folder icons) # should use a better method later, to extract digestible data from this /home binary file
