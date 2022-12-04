@@ -1,0 +1,20 @@
+agon
+This client will not remove branding nor add any kind of ad/link of our own.
+XDai will be later removed and P cstm client will cease; after ensuring Reddit tokens are available on other chains
+This client will use ANT tokens as the official
+g nltcs
+-
+Plasmmer's custom Aragon Client used by Floflis: Corviknight
+This won't be a brand new product (the Aragon branding will be fully kept), but a codenamed custom fork that better suits the Floflis ecosystem
+-
+Corviknight tasks:
+- merge with Aragon Client and 1Hive Client
+- add XDai/Gnosis
+- remove Metis (as it is an optimistic rollup not supported by Hop)
+- add zkSync testnet
+- add Optimism testnet
+- add Arbitrum testnet
+- add Optimism Mainnet
+- add Arbitrum Mainnet
+-
+https://newsletter.banklesshq.com/p/how-to-launch-a-dao

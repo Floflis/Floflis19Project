@@ -47,6 +47,35 @@ Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 - $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
+/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps
+
+Installing neofetch...
+Your branch is up to date with 'build/main'.
+mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
+
+to-merge.sh: line 1024: break: only meaningful in a `for', `while', or `until' loop
+Installing 01 VCS...
+
+- Installing flo command in /usr/bin...
+- Turning flo command into a executable...
+install.sh: line 120: break: only meaningful in a `for', `while', or `until' loop
+- Installing Floflis DNA as init program...
+
+- Openning Floflis Core installer...
+./install.sh: 27: [[: not found
+-. .-.   .-. .-.   .-. .-.   .
+
+- Openning Floflis Soil installer...
+./install.sh: 26: [[: not found
+-. .-.   .-. .-.   .-. .-.   .
+
+Installing icons...
+Updating files: 100% (7363/7363), done.
+Your branch is up to date with 'origin/master'.
+sending incremental file list
+cannot delete non-empty directory: Floflis/.git
+could not make way for new symlink: Floflis/.git
+
 Floflis icons were reset
 
 Installing Cinnamon applets, desklets and extensions...

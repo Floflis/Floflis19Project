@@ -1,3 +1,6 @@
+Updates:
+- FLOF governance
+
 Soil asks to install NodeJS
 sudo apt install nodejs
 sudo apt install npm
