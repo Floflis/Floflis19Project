@@ -25,8 +25,7 @@ This also improves the visibility of the icon
 - create /1/games folder
 - create /1/html5 folder and install "Color Converter.html5"
 - Update Ethereal to 2.7.4 (support to advanced parsing from smart-contracts; NFT parsing now possible)
-- Update Nushell to 0.72.0 (now stable; but, still, provided as-is at your own choices/conscient risks)
-- Introduce Nushell plugins
+- Update Nushell to 0.44.0 (now stable; but, still, provided as-is at your own choices/conscient risks)
 - Add floapps and its floflis-application-handler
 - add Nu post-install
 - Relative link for /1/Z-root
@@ -40,8 +39,9 @@ This also improves the visibility of the icon
 - Don't attempt to move folders/files that aren't there anymore
 - Add buildcodename to config file and the --version command
 - fix sounds and installer's logon sound
-- fix installing Starship (v1.11.0)
 - add osbuildcodename at presentation
+- fix removing leftovers from tools install
+- fix installing Starship (v1.3.0)
 -
 Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
