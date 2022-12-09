@@ -1,6 +1,6 @@
 - Detect devices from both USB and Bluetooth (get from "Device database")
 - Run qjoypad with autostart
-- Load qjoypad profile depending on the device /home/daniell/.qjoypad3 (get layouts folder from git)
+- Load qjoypad profile depending on the device /home/daniell/.qjoypad3 (get layouts folder from git https://github.com/Floflis/qjoypad-layouts.git)
 - Floflis Central tutorial for connecting console gamepad (on Inventory, have a Consoles tab!)
 - Detect device disconnect, then return qjoypad to default layout
 
