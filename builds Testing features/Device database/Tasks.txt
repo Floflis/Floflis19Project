@@ -1,0 +1,3 @@
+- Detect USB and Bluetooth devices
+- List them (HTML - with imgs) and ask user to identify/submit to GH
+- Include store links where a device is available (then UniStore will integrate DeviceDB)
