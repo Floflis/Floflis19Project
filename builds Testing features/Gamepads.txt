@@ -1,0 +1,10 @@
+- Detect devices from both USB and Bluetooth (get from "Device database")
+- Load qjoypad profile depending on the device /home/daniell/.qjoypad3 (get layouts folder from git)
+- Floflis Central tutorial for connecting console gamepad (on Inventory, have a Consoles tab!)
+
+https://www.lifewire.com/use-nintendo-switch-joy-cons-on-pc-5071572
+https://www.digitaltrends.com/gaming/how-to-connect-a-nintendo-switch-controller-to-a-pc/
+https://github.com/panzi/qjoypad
+https://qjoypad.sourceforge.net/doc/x179.html
+https://qjoypad.sourceforge.net/doc/doc_index.html
+https://www.linuxquestions.org/questions/linux-software-2/x11-keymaps-and-macros-4175448636/
