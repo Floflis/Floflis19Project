@@ -1,6 +1,8 @@
 - Detect devices from both USB and Bluetooth (get from "Device database")
+- Run qjoypad with autostart
 - Load qjoypad profile depending on the device /home/daniell/.qjoypad3 (get layouts folder from git)
 - Floflis Central tutorial for connecting console gamepad (on Inventory, have a Consoles tab!)
+- Detect device disconnect, then return qjoypad to default layout
 
 https://www.lifewire.com/use-nintendo-switch-joy-cons-on-pc-5071572
 https://www.digitaltrends.com/gaming/how-to-connect-a-nintendo-switch-controller-to-a-pc/
