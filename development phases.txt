@@ -164,6 +164,8 @@ Use git repos for Spices whenever possible
 include/BeepBox_4_0_1.zip ? futurely convert to .apps
 include/HTML5Apps/central.tar.gz convert to .apps
 
+only prepare to build if Floflis Central tasks are done
+
 up-to-date OS data (build)
 
 attempt 33:
