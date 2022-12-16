@@ -1,2 +1,20 @@
 https://github.com/Fmstrat/winapps/blob/main/docs/KVM.md
 https://github.com/Fmstrat/winapps
+
+Windows 7 Home Premium (or "tiny10" from NTDEV or "Superlite compact" - but these aren't official)
+https://archive.org/details/Windows7_x86-x64_ptBR_Pack_MSDN
+https://www.google.com/search?channel=fs&client=ubuntu&q=Windows+7+Home+Premium+download+from+Microsoft
+https://learn.microsoft.com/en-us/lifecycle/products/windows-7
+possibility to upgrade to Windows 10 (first, check if activated)
+https://www.zdnet.com/article/heres-how-you-can-still-get-a-free-windows-10-upgrade/
+
+help IT installers open Windows VM and config it to customer
+
+https://github.com/Fmstrat/winapps/issues/96
+
+Shouldn't support Windows Store apps (as it would prejudice the latest versions of Windows), but Floflis will focus solely on Win32 apps.
+
+https://github.com/Fmstrat/winapps/issues/269
+https://github.com/Fmstrat/winapps/pull/318
+https://github.com/ne0YT/Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux
+https://github.com/casualsnek/cassowary
