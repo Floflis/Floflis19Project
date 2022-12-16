@@ -12,7 +12,7 @@ help IT installers open Windows VM and config it to customer
 
 https://github.com/Fmstrat/winapps/issues/96
 
-Shouldn't support Windows Store apps (as it would prejudice the latest versions of Windows), but Floflis will focus solely on Win32 apps.
+Shouldn't support Windows Store apps (as it would prejudice the latest versions of Windows), but Floflis will focus solely on Win32 apps. Floflis won't support Office 2019's OneNote nor other UWP apps, only .exes.
 
 https://github.com/Fmstrat/winapps/issues/269
 https://github.com/Fmstrat/winapps/pull/318

@@ -1,0 +1,4012 @@
+This folder: /media/daniell/B/git/Floflis/Floflis 19/unreleased-branched Testing features/Dualboot Windows/[frk] run Windows apps using... ...Windows
+
+  File: ./.folderstamp
+  Size: 150       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107020     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:57:04.594062100 -0300
+Modify: 2022-12-15 21:57:04.593447600 -0300
+Change: 2022-12-15 21:57:04.593447600 -0300
+ Birth: -
+IPFS hash: QmeGWdAPkXPw6VqPQPjtiVWYpb5aRqXBBeoBN6eBVkFaaC
+------------------------------
+  File: ./cassowary/.git/config
+  Size: 261       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106890     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.897343500 -0300
+Modify: 2022-12-15 21:56:18.885821600 -0300
+Change: 2022-12-15 21:56:18.886659500 -0300
+ Birth: -
+IPFS hash: QmXVvtYiMCN2ugHENAReiN1jF7V4r29B8PiZi2MBnGvgho
+------------------------------
+  File: ./cassowary/.git/description
+  Size: 73        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106804     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:57:00.148605900 -0300
+Modify: 2022-12-15 21:56:17.414790200 -0300
+Change: 2022-12-15 21:56:17.414790200 -0300
+ Birth: -
+IPFS hash: Qmdy135ZFG4kUALkaMhr6Cy3VhhkxyAh264kyg3725x8be
+------------------------------
+  File: ./cassowary/.git/HEAD
+  Size: 21        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106880     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.866770200 -0300
+Modify: 2022-12-15 21:56:18.865349000 -0300
+Change: 2022-12-15 21:56:18.866072800 -0300
+ Birth: -
+IPFS hash: QmbRUdVtdtxcpdqyJE3iZwTJq7FPcXR1ErQRFB76sQCg9H
+------------------------------
+  File: ./cassowary/.git/hooks/applypatch-msg.sample
+  Size: 478       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106815     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:57:01.440583500 -0300
+Modify: 2022-12-15 21:56:17.425863900 -0300
+Change: 2022-12-15 21:56:17.425863900 -0300
+ Birth: -
+IPFS hash: QmY2duvZ5Resxt8astYUgQ8RXQz1N9axe77gCb5j6M95Gf
+------------------------------
+  File: ./cassowary/.git/hooks/commit-msg.sample
+  Size: 896       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106814     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:57:01.832492500 -0300
+Modify: 2022-12-15 21:56:17.424659400 -0300
+Change: 2022-12-15 21:56:17.424659400 -0300
+ Birth: -
+IPFS hash: QmQbraCfKaCTZkqtdXCJPc11CWEiZGw1yYGwtbA6nbXWeh
+------------------------------
+  File: ./cassowary/.git/hooks/fsmonitor-watchman.sample
+  Size: 3079      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106810     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:57:02.199184800 -0300
+Modify: 2022-12-15 21:56:17.420657300 -0300
+Change: 2022-12-15 21:56:17.420657300 -0300
+ Birth: -
+IPFS hash: QmTRjr8FhnRPHMZTTBF1vZ3NJmPB3pL2ekRTuiGYu19quX
+------------------------------
+  File: ./cassowary/.git/hooks/post-update.sample
+  Size: 189       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106812     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.422324100 -0300
+Modify: 2022-12-15 21:56:17.422454700 -0300
+Change: 2022-12-15 21:56:17.422454700 -0300
+ Birth: -
+IPFS hash: QmQjYxVj9iwitDGkmR48Cemr1JTgc6pvwo5cFkumNWqnjm
+------------------------------
+  File: ./cassowary/.git/hooks/pre-applypatch.sample
+  Size: 424       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106817     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.427707700 -0300
+Modify: 2022-12-15 21:56:17.427863300 -0300
+Change: 2022-12-15 21:56:17.427863300 -0300
+ Birth: -
+IPFS hash: QmdzjzkpM31jTKd5YBJkWsbDXJeeW1Uy1UxVPwfKFxwy89
+------------------------------
+  File: ./cassowary/.git/hooks/pre-commit.sample
+  Size: 1638      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106813     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.423111300 -0300
+Modify: 2022-12-15 21:56:17.423311900 -0300
+Change: 2022-12-15 21:56:17.423311900 -0300
+ Birth: -
+IPFS hash: QmdzPLQANJjZton4gqoxXeX6yqchxQ4RMpE8P5DEiogThd
+------------------------------
+  File: ./cassowary/.git/hooks/pre-merge-commit.sample
+  Size: 416       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106816     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.426702800 -0300
+Modify: 2022-12-15 21:56:17.426886300 -0300
+Change: 2022-12-15 21:56:17.426886300 -0300
+ Birth: -
+IPFS hash: QmPte81MJoXgCngK75SVZTn2DAXskuo9gdVr2uR5PfVVQE
+------------------------------
+  File: ./cassowary/.git/hooks/pre-push.sample
+  Size: 1348      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106806     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.416158800 -0300
+Modify: 2022-12-15 21:56:17.416635800 -0300
+Change: 2022-12-15 21:56:17.416635800 -0300
+ Birth: -
+IPFS hash: QmXprUtrWGYLRETUvuA89HjwUGdufGrwJxYaXyGwQ7TMvQ
+------------------------------
+  File: ./cassowary/.git/hooks/pre-rebase.sample
+  Size: 4898      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106808     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.418268500 -0300
+Modify: 2022-12-15 21:56:17.418517900 -0300
+Change: 2022-12-15 21:56:17.418517900 -0300
+ Birth: -
+IPFS hash: QmSQrei5kUrb4RaEp4c7oobLEHURhPJ8AFZS1uiRg4JfLv
+------------------------------
+  File: ./cassowary/.git/hooks/pre-receive.sample
+  Size: 544       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106811     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.421439300 -0300
+Modify: 2022-12-15 21:56:17.421593100 -0300
+Change: 2022-12-15 21:56:17.421593100 -0300
+ Birth: -
+IPFS hash: QmRKbU9DFRNWjR1UwV4nC6MXPnrNanfsBM5579t4HLUuig
+------------------------------
+  File: ./cassowary/.git/hooks/prepare-commit-msg.sample
+  Size: 1492      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106807     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.417352100 -0300
+Modify: 2022-12-15 21:56:17.417532800 -0300
+Change: 2022-12-15 21:56:17.417532800 -0300
+ Birth: -
+IPFS hash: QmPku8ai5p4sSCDHe19n9Ekfo21xM5urFdkq9Rg1wBHjcV
+------------------------------
+  File: ./cassowary/.git/hooks/update.sample
+  Size: 3610      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106809     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.419259200 -0300
+Modify: 2022-12-15 21:56:17.419527100 -0300
+Change: 2022-12-15 21:56:17.419527100 -0300
+ Birth: -
+IPFS hash: QmfKMgUdSUwrS1wF6yfkQ9B6Vdbomrx87vGhpvpLfxgVn2
+------------------------------
+  File: ./cassowary/.git/index
+  Size: 8474      	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106896     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.895570600 -0300
+Modify: 2022-12-15 21:56:18.989212600 -0300
+Change: 2022-12-15 21:56:18.990231200 -0300
+ Birth: -
+IPFS hash: QmPUeQZ2jtsUS72KiAnkHyR5FdvTJJMT2ueqyD13BeV9FH
+------------------------------
+  File: ./cassowary/.git/info/exclude
+  Size: 240       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106820     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.429948400 -0300
+Modify: 2022-12-15 21:56:17.430123800 -0300
+Change: 2022-12-15 21:56:17.430123800 -0300
+ Birth: -
+IPFS hash: QmcfzxUpw36y8fu2GR3s7Vgq7RBgooKtc6BgsqFnadsDLc
+------------------------------
+  File: ./cassowary/.git/logs/HEAD
+  Size: 198       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106884     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.875486400 -0300
+Modify: 2022-12-15 21:56:18.875673300 -0300
+Change: 2022-12-15 21:56:18.875673300 -0300
+ Birth: -
+IPFS hash: QmamkxLwySeFEAyLB9oRwidNN9eAQ1zjsm65b1Bx1r8kcw
+------------------------------
+  File: ./cassowary/.git/logs/refs/heads/main
+  Size: 198       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106886     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.879117100 -0300
+Modify: 2022-12-15 21:56:18.879270400 -0300
+Change: 2022-12-15 21:56:18.879270400 -0300
+ Birth: -
+IPFS hash: QmamkxLwySeFEAyLB9oRwidNN9eAQ1zjsm65b1Bx1r8kcw
+------------------------------
+  File: ./cassowary/.git/logs/refs/remotes/origin/HEAD
+  Size: 198       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106879     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.861019500 -0300
+Modify: 2022-12-15 21:56:18.861189800 -0300
+Change: 2022-12-15 21:56:18.861189800 -0300
+ Birth: -
+IPFS hash: QmamkxLwySeFEAyLB9oRwidNN9eAQ1zjsm65b1Bx1r8kcw
+------------------------------
+  File: ./cassowary/.git/objects/pack/pack-ed78f6c8ca5560e755bfdcdb5829bce3b77412ae.idx
+  Size: 27252     	Blocks: 56         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106866     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.812431900 -0300
+Modify: 2022-12-15 21:56:18.548289800 -0300
+Change: 2022-12-15 21:56:18.807144400 -0300
+ Birth: -
+IPFS hash: QmPASGBa7o9UqyVcvsqoC4o6KcrrK6q7UwNWJ6UNk3tV7x
+------------------------------
+  File: ./cassowary/.git/objects/pack/pack-ed78f6c8ca5560e755bfdcdb5829bce3b77412ae.pack
+  Size: 1185746   	Blocks: 2320       IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106865     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.847895200 -0300
+Modify: 2022-12-15 21:56:18.546353800 -0300
+Change: 2022-12-15 21:56:18.805834700 -0300
+ Birth: -
+IPFS hash: QmbKCcuJYn1fGY9inmmd1UwDUb3G9EsLWEZZhxNvWZN9ME
+------------------------------
+  File: ./cassowary/.git/packed-refs
+  Size: 590       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106869     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.850568800 -0300
+Modify: 2022-12-15 21:56:18.848503700 -0300
+Change: 2022-12-15 21:56:18.849426300 -0300
+ Birth: -
+IPFS hash: QmcxGQDeHV3kAg26ZoDJuFvF2LdrRbfaMMK9essNTtCbmq
+------------------------------
+  File: ./cassowary/.git/refs/heads/main
+  Size: 41        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106883     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.894689700 -0300
+Modify: 2022-12-15 21:56:18.875041700 -0300
+Change: 2022-12-15 21:56:18.880410600 -0300
+ Birth: -
+IPFS hash: QmezEharJNf6qeREa9wEwmRwxK1qRhkjwgRESyH6bMNPRD
+------------------------------
+  File: ./cassowary/.git/refs/remotes/origin/HEAD
+  Size: 30        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106874     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.855374300 -0300
+Modify: 2022-12-15 21:56:18.861590500 -0300
+Change: 2022-12-15 21:56:18.862464800 -0300
+ Birth: -
+IPFS hash: Qmf6vD59Raf3SH1FrqJUcqzCPMGe4s4y5hRS6FLMg5BY4K
+------------------------------
+  File: ./cassowary/.github/FUNDING.yml
+  Size: 74        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106899     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.897929100 -0300
+Modify: 2022-12-15 21:56:18.898029400 -0300
+Change: 2022-12-15 21:56:18.898029400 -0300
+ Birth: -
+IPFS hash: QmQmbHFnys1tir4poqVY6X2ivzaXCiocVdQGzbAs5ranQ6
+------------------------------
+  File: ./cassowary/.github/ISSUE_TEMPLATE/bug_report.md
+  Size: 851       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106901     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.898875400 -0300
+Modify: 2022-12-15 21:56:18.899101500 -0300
+Change: 2022-12-15 21:56:18.899101500 -0300
+ Birth: -
+IPFS hash: QmRhmSJRpDn73xPS32AHubBCeNzYrkMuD24SxFw8kVcA4H
+------------------------------
+  File: ./cassowary/.github/ISSUE_TEMPLATE/feature_request.md
+  Size: 595       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106902     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.899635700 -0300
+Modify: 2022-12-15 21:56:18.899806500 -0300
+Change: 2022-12-15 21:56:18.899806500 -0300
+ Birth: -
+IPFS hash: QmTvbMdN71iVjfBpKpC3Cx2N6cWqhsHpVdBXaXPkn2UTqd
+------------------------------
+  File: ./cassowary/.gitignore
+  Size: 1803      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106903     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:31.694892100 -0300
+Modify: 2022-12-15 21:56:18.900373200 -0300
+Change: 2022-12-15 21:56:18.900373200 -0300
+ Birth: -
+IPFS hash: Qmc2T5ha4jvTmnPeCxftQRLGhfCWH56QXBrPKXVoZyo1nm
+------------------------------
+  File: ./cassowary/app-linux/build.sh
+  Size: 75        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106908     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.903254000 -0300
+Modify: 2022-12-15 21:56:18.903402200 -0300
+Change: 2022-12-15 21:56:18.903402200 -0300
+ Birth: -
+IPFS hash: QmYJWDofKXbxrWa8o79hV66fMEM7kCffjS1PgHipnPm3AH
+------------------------------
+  File: ./cassowary/app-linux/pyproject.toml
+  Size: 90        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106909     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.903848300 -0300
+Modify: 2022-12-15 21:56:18.904042700 -0300
+Change: 2022-12-15 21:56:18.904042700 -0300
+ Birth: -
+IPFS hash: QmVZnxeFJU1sJ4SYrUZexV7UjRL9W43cswPWWTDsrrnYAY
+------------------------------
+  File: ./cassowary/app-linux/requirements.txt
+  Size: 20        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106910     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.904394700 -0300
+Modify: 2022-12-15 21:56:18.904553300 -0300
+Change: 2022-12-15 21:56:18.904553300 -0300
+ Birth: -
+IPFS hash: QmPaz6trAWrhVyZXY1wBNDDNqjXXdC11ThMaBFJGb5AYzT
+------------------------------
+  File: ./cassowary/app-linux/setup.cfg
+  Size: 700       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106911     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.904844200 -0300
+Modify: 2022-12-15 21:56:18.905224100 -0300
+Change: 2022-12-15 21:56:18.905224100 -0300
+ Birth: -
+IPFS hash: Qmd9fx8bqxmA8d3jvh9zbio6d6PPpXuiZTUu4UP5Mrhx13
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/base/cfgvars.py
+  Size: 2624      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106923     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.910035600 -0300
+Modify: 2022-12-15 21:56:18.910245300 -0300
+Change: 2022-12-15 21:56:18.910245300 -0300
+ Birth: -
+IPFS hash: QmQedETkoK8NFdvKBypwW3Q7eHUxPzUnQ6uLhhtRWiXxUu
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/base/functions.py
+  Size: 7432      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106924     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.910709400 -0300
+Modify: 2022-12-15 21:56:18.911029300 -0300
+Change: 2022-12-15 21:56:18.911029300 -0300
+ Birth: -
+IPFS hash: QmSnCjAFUuQBCeqrx9ViVkUWixXSFJWLKMSYtwUEDAWAS5
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/base/helper.py
+  Size: 20954     	Blocks: 48         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106925     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.911505200 -0300
+Modify: 2022-12-15 21:56:18.912303800 -0300
+Change: 2022-12-15 21:56:18.912303800 -0300
+ Birth: -
+IPFS hash: QmRQZ2BsKGuJgBzRoj6RfRio4rQfQf98Pq3LRSE6DQcZZE
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/base/log.py
+  Size: 1507      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106926     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.912767400 -0300
+Modify: 2022-12-15 21:56:18.913288400 -0300
+Change: 2022-12-15 21:56:18.913288400 -0300
+ Birth: -
+IPFS hash: QmU7nAvJSKYeVJr54kqNNfWWvA3EhdMm5sqJzVEWqUeL2i
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/base/__init__.py
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 834h/2100d	Inode: 1106922     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.909355400 -0300
+Modify: 2022-12-15 21:56:18.909355400 -0300
+Change: 2022-12-15 21:56:18.909355400 -0300
+ Birth: -
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/cli.py
+  Size: 9197      	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106927     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.913713700 -0300
+Modify: 2022-12-15 21:56:18.914025000 -0300
+Change: 2022-12-15 21:56:18.914025000 -0300
+ Birth: -
+IPFS hash: QmXioE9HmqizR2ViyWiaNCQcjyYJYpSyAYtv4WmrjbFaJs
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/client.py
+  Size: 10356     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106928     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.914435700 -0300
+Modify: 2022-12-15 21:56:18.914917200 -0300
+Change: 2022-12-15 21:56:18.914917200 -0300
+ Birth: -
+IPFS hash: QmUv8wK5VDQ5vffUQ6ncyHHipR4ipmr7gJesfVh8LRg5XH
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/components/desktopitemdialog.py
+  Size: 2953      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106933     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.917739900 -0300
+Modify: 2022-12-15 21:56:18.917992500 -0300
+Change: 2022-12-15 21:56:18.917992500 -0300
+ Birth: -
+IPFS hash: QmNYXoifhwRECdSKv7iSZG1VMyMRv13Ps2MWUn7zPQPjtK
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/components/main_ui.py
+  Size: 19024     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106934     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.918441600 -0300
+Modify: 2022-12-15 21:56:18.918968100 -0300
+Change: 2022-12-15 21:56:18.918968100 -0300
+ Birth: -
+IPFS hash: QmeW39wXne9Js8yCG3WKuxFcTTvYhCBMTrJakvEWEozrRT
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/components/minidialog.py
+  Size: 519       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106935     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.919416100 -0300
+Modify: 2022-12-15 21:56:18.919561900 -0300
+Change: 2022-12-15 21:56:18.919561900 -0300
+ Birth: -
+IPFS hash: QmYXEt9FfpZEnGXpMwKQQ3SLdMGe7c1mPDBfECxGyEP3VU
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/components/sharesandmaps.py
+  Size: 5832      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106936     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.920005700 -0300
+Modify: 2022-12-15 21:56:18.920654300 -0300
+Change: 2022-12-15 21:56:18.920654300 -0300
+ Birth: -
+IPFS hash: Qma9JtufAmETHAp3LEYJYfgqtmiDTTwwjiMpqWP6BWNFev
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/components/vmstart.py
+  Size: 2878      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106937     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.921333200 -0300
+Modify: 2022-12-15 21:56:18.921563200 -0300
+Change: 2022-12-15 21:56:18.921563200 -0300
+ Birth: -
+IPFS hash: QmVXFSyU5PA7ng2tWP1wkhjxuXGqMBAjL5fb7QKzyZYQxQ
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/components/__init__.py
+  Size: 2         	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106932     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.917008500 -0300
+Modify: 2022-12-15 21:56:18.917133900 -0300
+Change: 2022-12-15 21:56:18.917133900 -0300
+ Birth: -
+IPFS hash: Qmf9vKuR6MnTEGYXhzwpMib5EFGoXPWCJh3mXTvasb3Cas
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/extrares/cassowary.png
+  Size: 3950      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106940     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.924092000 -0300
+Modify: 2022-12-15 21:56:18.924284500 -0300
+Change: 2022-12-15 21:56:18.924284500 -0300
+ Birth: -
+IPFS hash: QmRNTcdj89fkwVnTsRwizR77TTt6SWKaRG8rYheonEB3Vi
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/extrares/cassowary.svg
+  Size: 19347     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106941     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.924701800 -0300
+Modify: 2022-12-15 21:56:18.925300800 -0300
+Change: 2022-12-15 21:56:18.925300800 -0300
+ Birth: -
+IPFS hash: QmRhifrhFkbYoLgT3jduZRLz3XSuz9Qp16eD9M2P2t5Kq6
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/extrares/cassowary_app.png
+  Size: 7728      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106942     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.925752100 -0300
+Modify: 2022-12-15 21:56:18.926003400 -0300
+Change: 2022-12-15 21:56:18.926003400 -0300
+ Birth: -
+IPFS hash: QmVoWbbxBi3vJycQHeXDyf9RNX9ycbaxay38ftEkiMqR7V
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/extrares/cassowary_app.svg
+  Size: 20388     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106943     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.926405500 -0300
+Modify: 2022-12-15 21:56:18.926894300 -0300
+Change: 2022-12-15 21:56:18.926894300 -0300
+ Birth: -
+IPFS hash: QmZkccXWvdPm8gfx5cSH3AXFaTJbZw7P3BJG8N5ko5s5qT
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/extrares/__init__.py
+  Size: 2         	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106939     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.923026100 -0300
+Modify: 2022-12-15 21:56:18.923329300 -0300
+Change: 2022-12-15 21:56:18.923329300 -0300
+ Birth: -
+IPFS hash: Qmf9vKuR6MnTEGYXhzwpMib5EFGoXPWCJh3mXTvasb3Cas
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/desktopcreate.ui
+  Size: 6396      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106946     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.928384000 -0300
+Modify: 2022-12-15 21:56:18.928678800 -0300
+Change: 2022-12-15 21:56:18.928678800 -0300
+ Birth: -
+IPFS hash: QmWqQGDtBdXqNAbfzDwfipTD18s8wcbCpQSwpAVh9tGtR7
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/main.ui
+  Size: 42245     	Blocks: 88         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106947     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.929098400 -0300
+Modify: 2022-12-15 21:56:18.929988400 -0300
+Change: 2022-12-15 21:56:18.929988400 -0300
+ Birth: -
+IPFS hash: QmPJ69819gZq27xrKwujy9MZoiYB6Y4mwoKBJdpYoKtiFc
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/newmap.ui
+  Size: 6268      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106948     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.930407100 -0300
+Modify: 2022-12-15 21:56:18.930611000 -0300
+Change: 2022-12-15 21:56:18.930611000 -0300
+ Birth: -
+IPFS hash: QmVW13ytofNLczk1RdaJziDiZRUqu52VseJ1TR8Nogunyg
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/newshare.ui
+  Size: 5096      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106949     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.931026000 -0300
+Modify: 2022-12-15 21:56:18.931282900 -0300
+Change: 2022-12-15 21:56:18.931282900 -0300
+ Birth: -
+IPFS hash: QmYYTenq4YMLD27yAkRq3Cz4AARKkwz26CnNc1hqsnFz12
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/notice.ui
+  Size: 1159      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106950     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.931694000 -0300
+Modify: 2022-12-15 21:56:18.931878000 -0300
+Change: 2022-12-15 21:56:18.931878000 -0300
+ Birth: -
+IPFS hash: QmbGSAm3fSKQ8jD1B9Hi95XTBjVjPsA99Avf45sc2bn8Vi
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/vmstart.ui
+  Size: 1769      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106951     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.932286300 -0300
+Modify: 2022-12-15 21:56:18.932433000 -0300
+Change: 2022-12-15 21:56:18.932433000 -0300
+ Birth: -
+IPFS hash: QmZCJ1Pm3JRgLnZy2ngx8myXXk7ZAmZcn8PnT868WAkdUL
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/qtui_files/__init__.py
+  Size: 2         	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106945     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.927760000 -0300
+Modify: 2022-12-15 21:56:18.927859900 -0300
+Change: 2022-12-15 21:56:18.927859900 -0300
+ Birth: -
+IPFS hash: Qmf9vKuR6MnTEGYXhzwpMib5EFGoXPWCJh3mXTvasb3Cas
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/gui/__init__.py
+  Size: 2         	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106930     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.915797300 -0300
+Modify: 2022-12-15 21:56:18.915921700 -0300
+Change: 2022-12-15 21:56:18.915921700 -0300
+ Birth: -
+IPFS hash: Qmf9vKuR6MnTEGYXhzwpMib5EFGoXPWCJh3mXTvasb3Cas
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/__init__.py
+  Size: 17545     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106918     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.906900800 -0300
+Modify: 2022-12-15 21:56:18.907693200 -0300
+Change: 2022-12-15 21:56:18.907693200 -0300
+ Birth: -
+IPFS hash: Qmd1x1GBzqtCoFgp4wTvtMbFN7YDgrdjz9LC6uk1QkkWP7
+------------------------------
+  File: ./cassowary/app-linux/src/cassowary/__main__.py
+  Size: 58        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106919     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.908222700 -0300
+Modify: 2022-12-15 21:56:18.908355700 -0300
+Change: 2022-12-15 21:56:18.908355700 -0300
+ Birth: -
+IPFS hash: QmWafRcWipaHrRpzkWRiFg8CzE8MuKynxa8RCyYB8YQU8L
+------------------------------
+  File: ./cassowary/app-win/build.bat
+  Size: 481       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106953     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.932905100 -0300
+Modify: 2022-12-15 21:56:18.933027700 -0300
+Change: 2022-12-15 21:56:18.933027700 -0300
+ Birth: -
+IPFS hash: QmRiJUJQXKPiujwAw9Csx98JM21N2ViPukUdM5bscVYQgp
+------------------------------
+  File: ./cassowary/app-win/build.sh
+  Size: 1484      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106955     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.933305900 -0300
+Modify: 2022-12-15 21:56:18.933480500 -0300
+Change: 2022-12-15 21:56:18.933480500 -0300
+ Birth: -
+IPFS hash: QmTCqvqmpV4seFLfwo39K7ZE6zGmc2e4QqW6GdhxB43BpD
+------------------------------
+  File: ./cassowary/app-win/requirements.txt
+  Size: 19        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106956     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.933742100 -0300
+Modify: 2022-12-15 21:56:18.933843300 -0300
+Change: 2022-12-15 21:56:18.933843300 -0300
+ Birth: -
+IPFS hash: QmWBLURfApMbRB44PEAxsyhDSkzeWa1wnv4Hujy89sHQAG
+------------------------------
+  File: ./cassowary/app-win/src/base/cfgvars.py
+  Size: 3005      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106968     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.935967200 -0300
+Modify: 2022-12-15 21:56:18.936132800 -0300
+Change: 2022-12-15 21:56:18.936132800 -0300
+ Birth: -
+IPFS hash: Qmc61dSKAuSZtURtKdYMMQuRCM6AC7iXvbjixXMECua4Tp
+------------------------------
+  File: ./cassowary/app-win/src/base/command/cmd_apps.py
+  Size: 7197      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106971     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.937785300 -0300
+Modify: 2022-12-15 21:56:18.938181800 -0300
+Change: 2022-12-15 21:56:18.938181800 -0300
+ Birth: -
+IPFS hash: QmNrE6y1XJmvvedhjU2x6D79wMQP9UrCcfgE4Jmu13hLBJ
+------------------------------
+  File: ./cassowary/app-win/src/base/command/cmd_asso.py
+  Size: 11917     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106972     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.938554600 -0300
+Modify: 2022-12-15 21:56:18.939165900 -0300
+Change: 2022-12-15 21:56:18.939165900 -0300
+ Birth: -
+IPFS hash: QmUfm56UmmtKd78AWG74qD1n4ANRBEjaxjaY9UzQouxkqf
+------------------------------
+  File: ./cassowary/app-win/src/base/command/cmd_dirs.py
+  Size: 16603     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106973     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.939622100 -0300
+Modify: 2022-12-15 21:56:18.940355800 -0300
+Change: 2022-12-15 21:56:18.940355800 -0300
+ Birth: -
+IPFS hash: QmTfwsKKxnWASCoAn86eZNcStdEzd4uKKbh4mHtmaAUivt
+------------------------------
+  File: ./cassowary/app-win/src/base/command/cmd_general.py
+  Size: 1273      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106974     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.940826100 -0300
+Modify: 2022-12-15 21:56:18.941101400 -0300
+Change: 2022-12-15 21:56:18.941101400 -0300
+ Birth: -
+IPFS hash: QmeqGB9XTn6KJj7eiiNjUrrFEkyk6SNXUru2BPvj9WieEV
+------------------------------
+  File: ./cassowary/app-win/src/base/command/__init__.py
+  Size: 397       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106970     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.936990600 -0300
+Modify: 2022-12-15 21:56:18.937177800 -0300
+Change: 2022-12-15 21:56:18.937177800 -0300
+ Birth: -
+IPFS hash: QmYkZK1FzdrMsLY4oZ8ebuDjwSqeGedMQ71bHuthsK1oEY
+------------------------------
+  File: ./cassowary/app-win/src/base/helper.py
+  Size: 2838      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106975     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.941500700 -0300
+Modify: 2022-12-15 21:56:18.941757100 -0300
+Change: 2022-12-15 21:56:18.941757100 -0300
+ Birth: -
+IPFS hash: QmYJ8Q9DtWFFnGBDyENxEvAkqr5WtfQJuDqmMBErqvktUN
+------------------------------
+  File: ./cassowary/app-win/src/base/log.py
+  Size: 1507      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106976     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.942180600 -0300
+Modify: 2022-12-15 21:56:18.942627200 -0300
+Change: 2022-12-15 21:56:18.942627200 -0300
+ Birth: -
+IPFS hash: QmU7nAvJSKYeVJr54kqNNfWWvA3EhdMm5sqJzVEWqUeL2i
+------------------------------
+  File: ./cassowary/app-win/src/base/__init__.py
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 834h/2100d	Inode: 1106967     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.935447300 -0300
+Modify: 2022-12-15 21:56:18.935447300 -0300
+Change: 2022-12-15 21:56:18.935447300 -0300
+ Birth: -
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./cassowary/app-win/src/client.py
+  Size: 6544      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106977     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.943011900 -0300
+Modify: 2022-12-15 21:56:18.943363400 -0300
+Change: 2022-12-15 21:56:18.943363400 -0300
+ Birth: -
+IPFS hash: QmQshcfyVYonTfgCLQaAqkTrSgXAJ6M268zKQDNqbGt7Eu
+------------------------------
+  File: ./cassowary/app-win/src/extras/app.ico
+  Size: 59582     	Blocks: 120        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106979     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.944233900 -0300
+Modify: 2022-12-15 21:56:18.945805100 -0300
+Change: 2022-12-15 21:56:18.945805100 -0300
+ Birth: -
+IPFS hash: QmdEcTnPEHAtkEhjNRxwVeofnR2CzyxerBjMxPdtcBNNB4
+------------------------------
+  File: ./cassowary/app-win/src/extras/app.svg
+  Size: 58958     	Blocks: 120        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106980     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.946377100 -0300
+Modify: 2022-12-15 21:56:18.947815900 -0300
+Change: 2022-12-15 21:56:18.947815900 -0300
+ Birth: -
+IPFS hash: QmQav2j1LtLj9WtURrk4QCxVUSaRsqZtqJV1qoADnp9UmU
+------------------------------
+  File: ./cassowary/app-win/src/extras/cassowary-server.xml
+  Size: 3098      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106981     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.948196700 -0300
+Modify: 2022-12-15 21:56:18.948372700 -0300
+Change: 2022-12-15 21:56:18.948372700 -0300
+ Birth: -
+IPFS hash: QmanRzbofVpUWC2jyvRhyjMggczuwmmrw6VCusapQqh1fd
+------------------------------
+  File: ./cassowary/app-win/src/extras/cassowary_nw.vbs
+  Size: 760       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106982     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.948738100 -0300
+Modify: 2022-12-15 21:56:18.948943300 -0300
+Change: 2022-12-15 21:56:18.948943300 -0300
+ Birth: -
+IPFS hash: Qme2UqQStSQfqX13DxhnpcHNFvLaE4boXxz4mYCKqnCr6K
+------------------------------
+  File: ./cassowary/app-win/src/extras/hostopen.bat
+  Size: 94        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106983     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.949300600 -0300
+Modify: 2022-12-15 21:56:18.949580200 -0300
+Change: 2022-12-15 21:56:18.949580200 -0300
+ Birth: -
+IPFS hash: QmUtVHfMhVx77y6RbsTtDJbNG2TaQCEti6U5uaRq3A5xcD
+------------------------------
+  File: ./cassowary/app-win/src/extras/nowindow.vbs
+  Size: 716       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106984     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.949961000 -0300
+Modify: 2022-12-15 21:56:18.950133300 -0300
+Change: 2022-12-15 21:56:18.950133300 -0300
+ Birth: -
+IPFS hash: QmSSXK3GenvZJc2YHwR74AZMFmyMBM5hNWk6cL8pjEGFyj
+------------------------------
+  File: ./cassowary/app-win/src/extras/setup.bat
+  Size: 3062      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106985     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.950513100 -0300
+Modify: 2022-12-15 21:56:18.950707100 -0300
+Change: 2022-12-15 21:56:18.950707100 -0300
+ Birth: -
+IPFS hash: QmZr99WdyoqrYf5LxFiRiQoN2ZuZC4JBZjsZSWgV99XGpg
+------------------------------
+  File: ./cassowary/app-win/src/extras/setup.reg
+  Size: 2251      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106990     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.951077000 -0300
+Modify: 2022-12-15 21:56:18.951276700 -0300
+Change: 2022-12-15 21:56:18.951276700 -0300
+ Birth: -
+IPFS hash: QmZZ7mEE728p6Jf6GmwGkY3V88tdyrMtLdddgom1XzgmXE
+------------------------------
+  File: ./cassowary/app-win/src/package.spec
+  Size: 910       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106991     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.951594200 -0300
+Modify: 2022-12-15 21:56:18.951979800 -0300
+Change: 2022-12-15 21:56:18.951979800 -0300
+ Birth: -
+IPFS hash: QmcEr7HvuMbgZ2t1NHgYBWUMpQEBu3ToZedNW3nPobJWqT
+------------------------------
+  File: ./cassowary/app-win/src/server.py
+  Size: 12060     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106992     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.952299100 -0300
+Modify: 2022-12-15 21:56:18.952777400 -0300
+Change: 2022-12-15 21:56:18.952777400 -0300
+ Birth: -
+IPFS hash: QmVaXNXeJKndiGx647BzxTzjqygVkfmcEubhLBhqgfbiB5
+------------------------------
+  File: ./cassowary/app-win/src/__init__.py
+  Size: 10164     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106965     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.934392200 -0300
+Modify: 2022-12-15 21:56:18.934723400 -0300
+Change: 2022-12-15 21:56:18.934723400 -0300
+ Birth: -
+IPFS hash: Qmcx1ynPkKoCweeh71h3r3LYt5x9VqerUT88WC6i8PVpxa
+------------------------------
+  File: ./cassowary/buildall.sh
+  Size: 178       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106994     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.953010200 -0300
+Modify: 2022-12-15 21:56:18.953143200 -0300
+Change: 2022-12-15 21:56:18.953143200 -0300
+ Birth: -
+IPFS hash: QmXUfsWpx319bkgTzVPhAFutffp2t9G47SybRZmGpHerZZ
+------------------------------
+  File: ./cassowary/docs/1-virt-manager.md
+  Size: 7559      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106998     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.953882200 -0300
+Modify: 2022-12-15 21:56:18.954307000 -0300
+Change: 2022-12-15 21:56:18.954307000 -0300
+ Birth: -
+IPFS hash: QmYJJ4KVX3c6QwUE1BykhL5CGPSC1FM4B7sJnFSEGfGkrq
+------------------------------
+  File: ./cassowary/docs/2-cassowary-install.md
+  Size: 2301      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106999     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.954726200 -0300
+Modify: 2022-12-15 21:56:18.954950000 -0300
+Change: 2022-12-15 21:56:18.954950000 -0300
+ Birth: -
+IPFS hash: QmVVK6HKjYu3ctTT35wJyEDCbaPTPhSF44dwyPkoWUgNKe
+------------------------------
+  File: ./cassowary/docs/3-faq.md
+  Size: 2739      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107003     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.955196000 -0300
+Modify: 2022-12-15 21:56:18.955375800 -0300
+Change: 2022-12-15 21:56:18.955375800 -0300
+ Birth: -
+IPFS hash: QmcEkkVoTxUJjaQ1jbYMabJ3S2WP6SWeF26Lux4WtUKn9H
+------------------------------
+  File: ./cassowary/docs/img/app-preview.gif
+  Size: 290938    	Blocks: 576        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107005     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.956214700 -0300
+Modify: 2022-12-15 21:56:18.964459600 -0300
+Change: 2022-12-15 21:56:18.964459600 -0300
+ Birth: -
+IPFS hash: QmQpdAQkngmjLVhEqVEy2cgKq14ahbi2tAp3uYDTQipsfx
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-0.png
+  Size: 21857     	Blocks: 48         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107006     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.964914300 -0300
+Modify: 2022-12-15 21:56:18.965671800 -0300
+Change: 2022-12-15 21:56:18.965671800 -0300
+ Birth: -
+IPFS hash: QmTzSfroBxPhRa8MAJrThKa6gLFfkVynx5nFDihSsu2X81
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-1.png
+  Size: 37410     	Blocks: 80         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107007     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.965946700 -0300
+Modify: 2022-12-15 21:56:18.966820500 -0300
+Change: 2022-12-15 21:56:18.966820500 -0300
+ Birth: -
+IPFS hash: QmPMKwisi3BJPeKbptmG57pEGLx5LnTHMjqmmvW3sGnteL
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-10.png
+  Size: 59108     	Blocks: 120        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107008     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.967100100 -0300
+Modify: 2022-12-15 21:56:18.968463700 -0300
+Change: 2022-12-15 21:56:18.968463700 -0300
+ Birth: -
+IPFS hash: QmcUNSRErwgL63z7XGiGLEQJWMBfKkYhZ4vetBVLMKPzGP
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-2.png
+  Size: 28503     	Blocks: 56         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107009     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.968742200 -0300
+Modify: 2022-12-15 21:56:18.969484100 -0300
+Change: 2022-12-15 21:56:18.969484100 -0300
+ Birth: -
+IPFS hash: QmVLr24CbXbvzLwKtdCkFuZsWwWxsgKfdwZKML3hY126ae
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-3.png
+  Size: 33121     	Blocks: 72         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107010     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.969775100 -0300
+Modify: 2022-12-15 21:56:18.971269200 -0300
+Change: 2022-12-15 21:56:18.971269200 -0300
+ Birth: -
+IPFS hash: QmdTfWQbneRWp61cLPwPvwA2pABqXnUwnEj1Z7ypvddPsS
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-4.png
+  Size: 41974     	Blocks: 88         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107011     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.971694500 -0300
+Modify: 2022-12-15 21:56:18.973155500 -0300
+Change: 2022-12-15 21:56:18.973155500 -0300
+ Birth: -
+IPFS hash: QmbSgpWqaK2yck4X5BuTce3nrFPj7uD5ikLW4JsKSehdSz
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-5.png
+  Size: 83846     	Blocks: 168        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107012     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.973528800 -0300
+Modify: 2022-12-15 21:56:18.976308300 -0300
+Change: 2022-12-15 21:56:18.976308300 -0300
+ Birth: -
+IPFS hash: QmafZt8sHUsj38meo5KCiE1iKDLT6UNtmQz1LoSVcTphkC
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-6.png
+  Size: 86832     	Blocks: 176        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107013     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.976837300 -0300
+Modify: 2022-12-15 21:56:18.979504200 -0300
+Change: 2022-12-15 21:56:18.979504200 -0300
+ Birth: -
+IPFS hash: QmPZqs3d8A9giVoWAzkrCqoMDbBVdPL6J1ohAHontGvG4C
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-7.png
+  Size: 93501     	Blocks: 184        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107014     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.979863800 -0300
+Modify: 2022-12-15 21:56:18.982744700 -0300
+Change: 2022-12-15 21:56:18.982744700 -0300
+ Birth: -
+IPFS hash: QmPYSMpFjKtNkmmTesNmvDeMVbe27xidMLRKhxLrJGvYDE
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-8.png
+  Size: 97486     	Blocks: 192        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107015     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.983091000 -0300
+Modify: 2022-12-15 21:56:18.985838800 -0300
+Change: 2022-12-15 21:56:18.985838800 -0300
+ Birth: -
+IPFS hash: QmQ6aCNCab5XcYFhcvDf4xQrynrfksmzfSHRbUpZQ4jBVK
+------------------------------
+  File: ./cassowary/docs/img/virt-manager-9.png
+  Size: 88437     	Blocks: 176        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107016     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.986208300 -0300
+Modify: 2022-12-15 21:56:18.988407400 -0300
+Change: 2022-12-15 21:56:18.988407400 -0300
+ Birth: -
+IPFS hash: Qmcw4BCW8tRA8sL8BB2TbmEdVHC8jKKRQk1hR5agMTLsxZ
+------------------------------
+  File: ./cassowary/LICENSE
+  Size: 18092     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106904     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.900651400 -0300
+Modify: 2022-12-15 21:56:18.901422200 -0300
+Change: 2022-12-15 21:56:18.901422200 -0300
+ Birth: -
+IPFS hash: QmTvq1vzaChrR417kynhj7Diuz3RZeCYfj24gbMGJoVEFH
+------------------------------
+  File: ./cassowary/README.md
+  Size: 3698      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106905     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.901719700 -0300
+Modify: 2022-12-15 21:56:18.902126200 -0300
+Change: 2022-12-15 21:56:18.902126200 -0300
+ Birth: -
+IPFS hash: QmPHMkRKewh8UMijcQKmoZKmTfYHa63UEcdtXCp5u1a6xE
+------------------------------
+  File: ./cassowary/_config.yml
+  Size: 26        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106906     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:18.902418500 -0300
+Modify: 2022-12-15 21:56:18.902578000 -0300
+Change: 2022-12-15 21:56:18.902578000 -0300
+ Birth: -
+IPFS hash: QmW5pC41DCmHBjv5okHWLRgWHsau7mzz1sz4tUSUYDnQff
+------------------------------
+  File: ./folderstamp_recursive.sh
+  Size: 2365      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1107017     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:58.169020500 -0300
+Modify: 2022-11-22 18:45:33.375753000 -0300
+Change: 2022-12-15 21:56:44.717388200 -0300
+ Birth: -
+IPFS hash: QmRmYGZyeoWY4jHLex4didmsviDWE3BDhMjuRicfENGBm2
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/config
+  Size: 305       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106785     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.377873900 -0300
+Modify: 2022-12-15 21:56:17.366409300 -0300
+Change: 2022-12-15 21:56:17.367085400 -0300
+ Birth: -
+IPFS hash: QmVs143RAjf7gfKAKooUP1HYzeQuqVyt2cmXWVLdAMgnhy
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/description
+  Size: 73        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106524     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.314623900 -0300
+Modify: 2022-12-15 21:56:16.314788500 -0300
+Change: 2022-12-15 21:56:16.314788500 -0300
+ Birth: -
+IPFS hash: Qmdy135ZFG4kUALkaMhr6Cy3VhhkxyAh264kyg3725x8be
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/HEAD
+  Size: 21        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106776     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.348080800 -0300
+Modify: 2022-12-15 21:56:17.346889000 -0300
+Change: 2022-12-15 21:56:17.347493700 -0300
+ Birth: -
+IPFS hash: QmbRUdVtdtxcpdqyJE3iZwTJq7FPcXR1ErQRFB76sQCg9H
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/applypatch-msg.sample
+  Size: 478       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106535     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.325817800 -0300
+Modify: 2022-12-15 21:56:16.326021200 -0300
+Change: 2022-12-15 21:56:16.326021200 -0300
+ Birth: -
+IPFS hash: QmY2duvZ5Resxt8astYUgQ8RXQz1N9axe77gCb5j6M95Gf
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/commit-msg.sample
+  Size: 896       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106534     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.324302000 -0300
+Modify: 2022-12-15 21:56:16.324701300 -0300
+Change: 2022-12-15 21:56:16.324701300 -0300
+ Birth: -
+IPFS hash: QmQbraCfKaCTZkqtdXCJPc11CWEiZGw1yYGwtbA6nbXWeh
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/fsmonitor-watchman.sample
+  Size: 3079      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106530     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.320304600 -0300
+Modify: 2022-12-15 21:56:16.320650000 -0300
+Change: 2022-12-15 21:56:16.320650000 -0300
+ Birth: -
+IPFS hash: QmTRjr8FhnRPHMZTTBF1vZ3NJmPB3pL2ekRTuiGYu19quX
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/post-update.sample
+  Size: 189       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106532     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.322355600 -0300
+Modify: 2022-12-15 21:56:16.322512200 -0300
+Change: 2022-12-15 21:56:16.322512200 -0300
+ Birth: -
+IPFS hash: QmQjYxVj9iwitDGkmR48Cemr1JTgc6pvwo5cFkumNWqnjm
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/pre-applypatch.sample
+  Size: 424       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106537     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.327900500 -0300
+Modify: 2022-12-15 21:56:16.328102900 -0300
+Change: 2022-12-15 21:56:16.328102900 -0300
+ Birth: -
+IPFS hash: QmdzjzkpM31jTKd5YBJkWsbDXJeeW1Uy1UxVPwfKFxwy89
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/pre-commit.sample
+  Size: 1638      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106533     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.323272500 -0300
+Modify: 2022-12-15 21:56:16.323513700 -0300
+Change: 2022-12-15 21:56:16.323513700 -0300
+ Birth: -
+IPFS hash: QmdzPLQANJjZton4gqoxXeX6yqchxQ4RMpE8P5DEiogThd
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/pre-merge-commit.sample
+  Size: 416       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106536     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.326884800 -0300
+Modify: 2022-12-15 21:56:16.327112700 -0300
+Change: 2022-12-15 21:56:16.327112700 -0300
+ Birth: -
+IPFS hash: QmPte81MJoXgCngK75SVZTn2DAXskuo9gdVr2uR5PfVVQE
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/pre-push.sample
+  Size: 1348      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106526     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.316446300 -0300
+Modify: 2022-12-15 21:56:16.316641300 -0300
+Change: 2022-12-15 21:56:16.316641300 -0300
+ Birth: -
+IPFS hash: QmXprUtrWGYLRETUvuA89HjwUGdufGrwJxYaXyGwQ7TMvQ
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/pre-rebase.sample
+  Size: 4898      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106528     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.318384700 -0300
+Modify: 2022-12-15 21:56:16.318641200 -0300
+Change: 2022-12-15 21:56:16.318641200 -0300
+ Birth: -
+IPFS hash: QmSQrei5kUrb4RaEp4c7oobLEHURhPJ8AFZS1uiRg4JfLv
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/pre-receive.sample
+  Size: 544       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106531     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.321413600 -0300
+Modify: 2022-12-15 21:56:16.321568700 -0300
+Change: 2022-12-15 21:56:16.321568700 -0300
+ Birth: -
+IPFS hash: QmRKbU9DFRNWjR1UwV4nC6MXPnrNanfsBM5579t4HLUuig
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/prepare-commit-msg.sample
+  Size: 1492      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106527     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.317389300 -0300
+Modify: 2022-12-15 21:56:16.317581400 -0300
+Change: 2022-12-15 21:56:16.317581400 -0300
+ Birth: -
+IPFS hash: QmPku8ai5p4sSCDHe19n9Ekfo21xM5urFdkq9Rg1wBHjcV
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/hooks/update.sample
+  Size: 3610      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106529     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.319373500 -0300
+Modify: 2022-12-15 21:56:16.319556600 -0300
+Change: 2022-12-15 21:56:16.319556600 -0300
+ Birth: -
+IPFS hash: QmfKMgUdSUwrS1wF6yfkQ9B6Vdbomrx87vGhpvpLfxgVn2
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/index
+  Size: 801       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106792     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.375945900 -0300
+Modify: 2022-12-15 21:56:17.399227000 -0300
+Change: 2022-12-15 21:56:17.400248000 -0300
+ Birth: -
+IPFS hash: QmUmrn7P8kCsxnjN3NU1Xuv9fgPwHbBGdRTV9rwFi6boxs
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/info/exclude
+  Size: 240       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106540     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.330440700 -0300
+Modify: 2022-12-15 21:56:16.330558500 -0300
+Change: 2022-12-15 21:56:16.330558500 -0300
+ Birth: -
+IPFS hash: QmcfzxUpw36y8fu2GR3s7Vgq7RBgooKtc6BgsqFnadsDLc
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/logs/HEAD
+  Size: 242       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106779     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.356187600 -0300
+Modify: 2022-12-15 21:56:17.356357600 -0300
+Change: 2022-12-15 21:56:17.356357600 -0300
+ Birth: -
+IPFS hash: QmNbJNC3oEDKmEWLumygLw6KQEzpjNoYcrxt83oB4mYrTe
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/logs/refs/heads/main
+  Size: 242       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106781     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.360181200 -0300
+Modify: 2022-12-15 21:56:17.360336400 -0300
+Change: 2022-12-15 21:56:17.360336400 -0300
+ Birth: -
+IPFS hash: QmNbJNC3oEDKmEWLumygLw6KQEzpjNoYcrxt83oB4mYrTe
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/logs/refs/remotes/origin/HEAD
+  Size: 242       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106775     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.342184900 -0300
+Modify: 2022-12-15 21:56:17.342489500 -0300
+Change: 2022-12-15 21:56:17.342489500 -0300
+ Birth: -
+IPFS hash: QmNbJNC3oEDKmEWLumygLw6KQEzpjNoYcrxt83oB4mYrTe
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/81/c4df060b7bed6149939ddd3403cf67c03734e8
+  Size: 276       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106673     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.139535600 -0300
+Modify: 2022-12-15 21:56:17.095755800 -0300
+Change: 2022-12-15 21:56:17.097027100 -0300
+ Birth: -
+IPFS hash: Qmd3SygwMgM8rMWHLLLN9iWuuBX7QzLMSjbEXpxNso5B4G
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/00/2cd3c0b577d422c8031bc2b5bd8dab78f2f8f3
+  Size: 288       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106700     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.301759000 -0300
+Modify: 2022-12-15 21:56:17.143984800 -0300
+Change: 2022-12-15 21:56:17.145148700 -0300
+ Birth: -
+IPFS hash: QmUrCk3FUgDJ1qkoRpYuYihW1Q7Wd5nTtqqhduZ5BS4tzB
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/09/ddd88408b8c5436da57f4788104d7cfc663a48
+  Size: 1280      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106708     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.170490600 -0300
+Modify: 2022-12-15 21:56:17.159990800 -0300
+Change: 2022-12-15 21:56:17.161261500 -0300
+ Birth: -
+IPFS hash: QmehjsfAo9MWKDF99kXxCJHGe42TYeTHKbhh2rQG9ZzyRw
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/0b/0a6bb7d8b56870fd75b5d9d425c0779ee211b1
+  Size: 557       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106633     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.286419100 -0300
+Modify: 2022-12-15 21:56:17.046122100 -0300
+Change: 2022-12-15 21:56:17.047211700 -0300
+ Birth: -
+IPFS hash: QmTHWUNZJ7ofkbjiwbXMgL24pBLryPAyfZKN9NmiQLQPuH
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/17/ebca6e1fbaa0a15d4df922cfad122bc4645326
+  Size: 557       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106645     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.288380700 -0300
+Modify: 2022-12-15 21:56:17.056700600 -0300
+Change: 2022-12-15 21:56:17.058128400 -0300
+ Birth: -
+IPFS hash: QmTUzE9H9t5QevzM1Sotm7nJ2YJc58B3YveHd2gwkenvNm
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/1b/8c4886277457ec3540b56d8c43e836eb34b1b0
+  Size: 1037      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106729     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.200633200 -0300
+Modify: 2022-12-15 21:56:17.201052500 -0300
+Change: 2022-12-15 21:56:17.202759500 -0300
+ Birth: -
+IPFS hash: QmPZGeaNEXDjdNubtJnxERFStDZ3mvF4r4wzeN5t2CVW76
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/1d/a6f95059870b761904b1ff03156c0dc9f63332
+  Size: 874       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106751     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.235322700 -0300
+Modify: 2022-12-15 21:56:17.235574300 -0300
+Change: 2022-12-15 21:56:17.236656400 -0300
+ Birth: -
+IPFS hash: QmbE3eNLi4RtcwbhUafRgqdDxzCiAdCBofzz4Y1gvHBWcr
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/1e/61fe2580fa26e877c57e7b0726a5f97a5d1e5b
+  Size: 886       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106745     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.226790500 -0300
+Modify: 2022-12-15 21:56:17.227071500 -0300
+Change: 2022-12-15 21:56:17.228151600 -0300
+ Birth: -
+IPFS hash: QmRa5oG4Wdwp3FfGCuxNWFigwPJETUs1WjjNzxhpg9PozG
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/21/2f404ab9e8d30f69be60eb42ce44371efbcffd
+  Size: 606       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106614     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.282638900 -0300
+Modify: 2022-12-15 21:56:17.024937400 -0300
+Change: 2022-12-15 21:56:17.026758500 -0300
+ Birth: -
+IPFS hash: QmR8TRL7NMpzaP1YjsStpqE5W7DtgWHaj7DJUW7WME5r6Z
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/22/084bab168604beb919f1f3341dd76ea1656cac
+  Size: 1370      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106705     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.152751600 -0300
+Modify: 2022-12-15 21:56:17.153186900 -0300
+Change: 2022-12-15 21:56:17.154366400 -0300
+ Birth: -
+IPFS hash: QmQgReLZAq5ehhKh9huS2QPezYCaSB7kzxCz7b18S6p8SR
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/22/c1fbe63e00da678935809e06d2dd06f2b94a14
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106659     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.291758700 -0300
+Modify: 2022-12-15 21:56:17.072311000 -0300
+Change: 2022-12-15 21:56:17.073460700 -0300
+ Birth: -
+IPFS hash: QmYkh9A88ExBV4ePq2dTsh5RiAsMLmDvgdtV1wvtopQZBC
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/30/00187168ca44c5cdcafdcdb75234b1314b189b
+  Size: 288       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106697     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.300739500 -0300
+Modify: 2022-12-15 21:56:17.138230700 -0300
+Change: 2022-12-15 21:56:17.139127800 -0300
+ Birth: -
+IPFS hash: QmQ82vi6GY5dmq5t2PuDhJ1Na4pBcg4o72LpyfCRrfZHHw
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/30/0a6bf8f2fd5f4ede94f88e0f311b8266beb733
+  Size: 123       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106756     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.319877900 -0300
+Modify: 2022-12-15 21:56:17.244954800 -0300
+Change: 2022-12-15 21:56:17.246151300 -0300
+ Birth: -
+IPFS hash: QmYzCowTWJ7staLDD6RVFaeSGpx2bHiN2hzyub7cEcoLK1
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/31/e3f3efd7ccbf4e115ac43eea4cbf847f6f99e0
+  Size: 667       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106758     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.252649500 -0300
+Modify: 2022-12-15 21:56:17.248430800 -0300
+Change: 2022-12-15 21:56:17.249546400 -0300
+ Birth: -
+IPFS hash: QmNkXMNt3xQWk1LfhWdTKxW9S6yQJR2QR47Xz7B2hnoqkF
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/39/66c02a01cb10ab12cccfd98162daf38ddf92f9
+  Size: 558       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106622     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.284258000 -0300
+Modify: 2022-12-15 21:56:17.034467400 -0300
+Change: 2022-12-15 21:56:17.035723000 -0300
+ Birth: -
+IPFS hash: QmauQhhpV1opoW9ezJqVjP6arq1fwNP4fgzkL3F45nj7z7
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/3a/79f167fc918263c90c926d5b07d4d6b967dda7
+  Size: 842       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106675     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.387712400 -0300
+Modify: 2022-12-15 21:56:17.099273900 -0300
+Change: 2022-12-15 21:56:17.100502600 -0300
+ Birth: -
+IPFS hash: QmX1gBd8yxuiUxhQwY93uYTgo9HinbAhXNR3XWSfk7iMJu
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/40/15b2f279b0fa7c30c38eae7377219e66f02cb0
+  Size: 1446      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106666     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.114110300 -0300
+Modify: 2022-12-15 21:56:17.082245500 -0300
+Change: 2022-12-15 21:56:17.083449100 -0300
+ Birth: -
+IPFS hash: QmekYqTsnSNhfGTzGGuPucF6miWJnvofV5uWsdAbAsGmFr
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/40/1b6e43f704074773555120d94bb9115efa5ec2
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106606     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.280977800 -0300
+Modify: 2022-12-15 21:56:17.016147400 -0300
+Change: 2022-12-15 21:56:17.017358700 -0300
+ Birth: -
+IPFS hash: QmNfPiNReXExbbfXVw3ouTyzn3PghjthhgUg4K818SSgZT
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/42/4ad0258056187566098007675bae0e8dcfe597
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106603     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.280448000 -0300
+Modify: 2022-12-15 21:56:17.012961100 -0300
+Change: 2022-12-15 21:56:17.014298900 -0300
+ Birth: -
+IPFS hash: QmUpPkKgQokGsSVbcsGoCSVgHzDGMMtaKGiiDGAVnyP9Km
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/47/ad7e2d45c30682fe470c619b39083253165bfe
+  Size: 261       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106709     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.305114800 -0300
+Modify: 2022-12-15 21:56:17.163055600 -0300
+Change: 2022-12-15 21:56:17.164368000 -0300
+ Birth: -
+IPFS hash: QmVHTtWoBAvBGZWhU2DXXZpWkRfJ1w3zVZ5PVEdQ3PoY3x
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/47/d9c1915bc18bcf7b49cbdc527663fb05163ff9
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106642     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.287890100 -0300
+Modify: 2022-12-15 21:56:17.054205300 -0300
+Change: 2022-12-15 21:56:17.055209800 -0300
+ Birth: -
+IPFS hash: QmNmMPEpTkp82ULbkWrhrZVTY15UPgbBV1FsHnrcCHJCod
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/48/0f1d786519ab73a4f4d6c3f66c939ce5263c2a
+  Size: 219       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106731     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.312848800 -0300
+Modify: 2022-12-15 21:56:17.205051700 -0300
+Change: 2022-12-15 21:56:17.206199600 -0300
+ Birth: -
+IPFS hash: QmdXLCChDrFwVKtKPrCp1r2gFXvjEaeSmRnJJE6q7uKXDJ
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/49/bd4e885540a00938c41ab25d3243f7a1594234
+  Size: 552       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106654     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.289982600 -0300
+Modify: 2022-12-15 21:56:17.067041000 -0300
+Change: 2022-12-15 21:56:17.068264000 -0300
+ Birth: -
+IPFS hash: QmXqpFrv8zp82k1f9Dn42etHZ11jqYYzDs6KD9zYBS3Fix
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/4e/ed07a7af28e014a63c7a9827614100fc352cf4
+  Size: 892       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106733     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.208330400 -0300
+Modify: 2022-12-15 21:56:17.208703700 -0300
+Change: 2022-12-15 21:56:17.209930500 -0300
+ Birth: -
+IPFS hash: QmTgdj7LSJ9SxmuJmCX4gGPmnUp24nyJSmBoiXmQx2X4v2
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/52/05a8ddc805f9c4923249a2bd000fa5cc768cac
+  Size: 123       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106747     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.316859400 -0300
+Modify: 2022-12-15 21:56:17.230118800 -0300
+Change: 2022-12-15 21:56:17.231096300 -0300
+ Birth: -
+IPFS hash: QmUtzw3NGuFSGSZp2iEuPf8ze1oD5nDCVZ9E37mGroPKZS
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/5e/205e70efdea61c6b2778710ca518cebe14db56
+  Size: 249       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106679     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.391658200 -0300
+Modify: 2022-12-15 21:56:17.105404500 -0300
+Change: 2022-12-15 21:56:17.106657800 -0300
+ Birth: -
+IPFS hash: QmVoFqnntF2RA9a3RZxv2hg2V5AE43g7GUzk9iiHyrtgiF
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/60/4fa1fd05fd19f24b04ce1441d90a6449af2ced
+  Size: 288       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106693     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.136752700 -0300
+Modify: 2022-12-15 21:56:17.132070800 -0300
+Change: 2022-12-15 21:56:17.133180700 -0300
+ Birth: -
+IPFS hash: QmaXVyoyn2KHsTfeLE7mMg33z8Up9A1nmhpyunnk82Euo2
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/61/d6f952a07d5a0e65d1338925990c7399029c1b
+  Size: 1112      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106718     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.179679900 -0300
+Modify: 2022-12-15 21:56:17.180086300 -0300
+Change: 2022-12-15 21:56:17.181176500 -0300
+ Birth: -
+IPFS hash: QmRRbAizx1LEAoqtuLnXeRmYpYiNBxCoqX7sAC2H7WbvwG
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/62/8de02d3cefb402c50e96b68157f2b35aa82283
+  Size: 69        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106671     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.384101600 -0300
+Modify: 2022-12-15 21:56:17.091746600 -0300
+Change: 2022-12-15 21:56:17.093278500 -0300
+ Birth: -
+IPFS hash: QmUkt84c7zCLVvtGMce2KsCKBKeWJgQjA2S7xXF75FTK3c
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/65/a7b9eeed230dbce6380422175e4aa02d1aa0af
+  Size: 557       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106651     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.289396400 -0300
+Modify: 2022-12-15 21:56:17.064034800 -0300
+Change: 2022-12-15 21:56:17.065228000 -0300
+ Birth: -
+IPFS hash: QmQ9ocWmyCykNcQQcNdHZBdkJCiiE8ZKoJpDct8xgggZuB
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/68/db7ee76b03fd72207feedc2fcbeb8ff2084bbe
+  Size: 55        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106677     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.389289800 -0300
+Modify: 2022-12-15 21:56:17.102520000 -0300
+Change: 2022-12-15 21:56:17.103627600 -0300
+ Birth: -
+IPFS hash: QmXrZZBoh574AYdxy4aCbNCb2T1b3oCDvnsCTd4AQY7Ei7
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/6f/0a3872d7fd78ea6551b6c757f46185f556f794
+  Size: 554       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106585     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.269169900 -0300
+Modify: 2022-12-15 21:56:16.991351900 -0300
+Change: 2022-12-15 21:56:16.992775500 -0300
+ Birth: -
+IPFS hash: QmanHB8wPxvw5iBE5GASfBrrsQcAEL4vZWumTop76wmMAL
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/70/ba764cbdf861804cf6a7eff4ec5924ef227611
+  Size: 679       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106755     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.241707400 -0300
+Modify: 2022-12-15 21:56:17.242145900 -0300
+Change: 2022-12-15 21:56:17.243594100 -0300
+ Birth: -
+IPFS hash: QmWu6PvxQJpuCcGk7AFryC4wcKW9RXwp8zkWiiSXaLyXGK
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/75/d1fe3e53ffbbc6d3ab871ce649ccd1551d1728
+  Size: 517       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106662     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.292363400 -0300
+Modify: 2022-12-15 21:56:17.075840500 -0300
+Change: 2022-12-15 21:56:17.077443400 -0300
+ Birth: -
+IPFS hash: QmR1RQkKabB6jo3CLg14GLs99QAh2osrZXbQZk1djpmHGd
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/78/c5bfb747bcf10d88afb03caa0196a4735d6167
+  Size: 559       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106594     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.278845500 -0300
+Modify: 2022-12-15 21:56:17.002151700 -0300
+Change: 2022-12-15 21:56:17.003489200 -0300
+ Birth: -
+IPFS hash: QmNVLwTATCANBT7omYK2DSEWefCiLR4U5HhybH38Vk3FTM
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/7b/889125fbb7fcb33c269d5c274ebdc3e4d0531b
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106648     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.288868000 -0300
+Modify: 2022-12-15 21:56:17.060910300 -0300
+Change: 2022-12-15 21:56:17.062259200 -0300
+ Birth: -
+IPFS hash: QmT27CeHkPZ2Wj84v4VSx8h1DFXN1dWMfsihGQfNHMP1Uf
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/7b/f81d215180e976e96c69df7e7beea35d1af577
+  Size: 1037      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106725     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.199099000 -0300
+Modify: 2022-12-15 21:56:17.193823300 -0300
+Change: 2022-12-15 21:56:17.195007000 -0300
+ Birth: -
+IPFS hash: QmRySZDoa9ectkWLiGdRgzq5shwqN9tApWbqJZt8hbEL9a
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/7f/8aef3e843962cad1655c349802824f7530e619
+  Size: 562       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106588     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.277550100 -0300
+Modify: 2022-12-15 21:56:16.994890800 -0300
+Change: 2022-12-15 21:56:16.996268500 -0300
+ Birth: -
+IPFS hash: QmT77R3MjSSobkD9BdGWQ1qcStJF6Hh8ygKwE16uXCK3Na
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/7f/9aa6e58fb2d580222cfef6879e4c39009d1b14
+  Size: 554       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106624     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.284786900 -0300
+Modify: 2022-12-15 21:56:17.036643800 -0300
+Change: 2022-12-15 21:56:17.037745600 -0300
+ Birth: -
+IPFS hash: QmU5Euv8HdLGuwC61gRDM8e8fXFQp1sk78FAgapRFUhSfk
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/7f/ac014fa99aab92262695430f86838b127fd2f8
+  Size: 491       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106761     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.253379100 -0300
+Modify: 2022-12-15 21:56:17.253578300 -0300
+Change: 2022-12-15 21:56:17.254776700 -0300
+ Birth: -
+IPFS hash: Qmc7KnrQsPA2rnSq1gCjeDmWCb5RV7SJHShEuNroAes4xr
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/83/451d67d9367996e72cf7dd6af7fce029579b1c
+  Size: 557       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106636     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.286929700 -0300
+Modify: 2022-12-15 21:56:17.048711000 -0300
+Change: 2022-12-15 21:56:17.050124700 -0300
+ Birth: -
+IPFS hash: QmTK9XsddAu1RMyMu5kFu2TDZuzzBZX7aMGYfswchqFsiN
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/86/26ab335977a980ba6bf5ed3e4e5abd73f403d2
+  Size: 211       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106739     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.217227400 -0300
+Modify: 2022-12-15 21:56:17.217406700 -0300
+Change: 2022-12-15 21:56:17.218585600 -0300
+ Birth: -
+IPFS hash: QmS95g6iAerVtxwU8kE7zcYiRhi5u5eDa9stSvs3Smmgur
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/8e/f4b9c06decbfe2fc7e2dbb8b022642814a97fa
+  Size: 160       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106743     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.228593500 -0300
+Modify: 2022-12-15 21:56:17.223707600 -0300
+Change: 2022-12-15 21:56:17.224748500 -0300
+ Birth: -
+IPFS hash: QmbFKz72To2NADHpcunMqxnqX81WJw45j6pJC5ZR55SdmB
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/96/5cb7a168a9df268677138e509234ccfece75a6
+  Size: 261       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106716     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.181561000 -0300
+Modify: 2022-12-15 21:56:17.176214300 -0300
+Change: 2022-12-15 21:56:17.177727900 -0300
+ Birth: -
+IPFS hash: QmVqz3f6tpG7rjpVbXDXcntqEi8xGUAk4vQYYorADBuHyb
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/96/b20c50fd8a6d5b16e696ca80c2d348d54a32fa
+  Size: 1110      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106722     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.191980400 -0300
+Modify: 2022-12-15 21:56:17.187787700 -0300
+Change: 2022-12-15 21:56:17.188681900 -0300
+ Birth: -
+IPFS hash: QmNNt8r7YfPj9UsTKTzmoV1VuEbtv4K6cPewqPTYG8bJ16
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/97/d87aaf550a897f6e10e2c7c96b9edb2515a300
+  Size: 123       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106749     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.237049500 -0300
+Modify: 2022-12-15 21:56:17.232530300 -0300
+Change: 2022-12-15 21:56:17.233533800 -0300
+ Birth: -
+IPFS hash: QmT7Gs65KV5k7ohF4tqGYmonULcwUJwc2WmMjH64a5ajK9
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/98/db041005fe401ca2d84592257213c33decbac3
+  Size: 160       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106741     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.314954200 -0300
+Modify: 2022-12-15 21:56:17.220474800 -0300
+Change: 2022-12-15 21:56:17.221749900 -0300
+ Birth: -
+IPFS hash: QmYWAFNuRcXYcDAwzpKYemQY3Ah3aUamZytr3R4AT8i2qz
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/99/ae1f085ebedf64bfc4f60a0d20554433cd8d4c
+  Size: 218       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106727     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.311966500 -0300
+Modify: 2022-12-15 21:56:17.197304400 -0300
+Change: 2022-12-15 21:56:17.198531200 -0300
+ Birth: -
+IPFS hash: QmZRGVdBggj6A7UgnGsBM4i8FWT4A8Mcmsb1cUUq2WapWr
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/9d/73ff08a3c011b04eb44fa3a4c640b46ebab277
+  Size: 748       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106681     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.240006600 -0300
+Modify: 2022-12-15 21:56:17.109258600 -0300
+Change: 2022-12-15 21:56:17.110375600 -0300
+ Birth: -
+IPFS hash: QmP4tf69diwngxuY5mdMJbjx3u7tJqKgKL4Mgf2Lwf3tZX
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/a1/3061be5b90457a06f7a84e8a85a04da0f34163
+  Size: 1404      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106685     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.115863300 -0300
+Modify: 2022-12-15 21:56:17.116286200 -0300
+Change: 2022-12-15 21:56:17.117539900 -0300
+ Birth: -
+IPFS hash: QmSELcNVohJUdmNyPjzRAnz6veH52Lh7mShCXMRd4GugGe
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/a1/f7bad341453264398b6c48a25308e36f36d42b
+  Size: 219       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106721     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.310113200 -0300
+Modify: 2022-12-15 21:56:17.185523400 -0300
+Change: 2022-12-15 21:56:17.186443600 -0300
+ Birth: -
+IPFS hash: QmTcrqreLZnXKwexNsdmkB5L2BrJt7rBKuUMvji5GhTyTE
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/a3/25b7e31cfa5da89cff4bd39133ce0a694dce78
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106639     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.287409300 -0300
+Modify: 2022-12-15 21:56:17.051578100 -0300
+Change: 2022-12-15 21:56:17.052678100 -0300
+ Birth: -
+IPFS hash: Qmd6pZVc4GDkjiVBzpyBJT1RNzbgZvL2NgPydmetJfz1Hq
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/a3/960d522222f5a56489ac71a3d5fdd41d9e8b73
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106656     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.290739600 -0300
+Modify: 2022-12-15 21:56:17.069348900 -0300
+Change: 2022-12-15 21:56:17.070626700 -0300
+ Birth: -
+IPFS hash: QmUzfXzzgKihnuM6t72oVLiE7Zut1WW8CFLcG9ALJg8ELt
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/aa/f8a3f75570e2922effc761bc9b557fb0bd80d2
+  Size: 1279      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106714     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.172034900 -0300
+Modify: 2022-12-15 21:56:17.172426600 -0300
+Change: 2022-12-15 21:56:17.173519000 -0300
+ Birth: -
+IPFS hash: QmNj42WyLZSBdCPCcCrid2NZJ95H75EsRTvCk2uGCi4Shc
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/af/5d05288273a5cc255c783b97fc9e93e2491fff
+  Size: 330       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106683     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.118119000 -0300
+Modify: 2022-12-15 21:56:17.112428400 -0300
+Change: 2022-12-15 21:56:17.113394500 -0300
+ Birth: -
+IPFS hash: QmXQWYbw2pdtArbMMMTzq5aK8gjTcGhxXSvZNCZ48vHLdH
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/b5/2f725aa304da0b6a47ff97f47034af91921ed3
+  Size: 576       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106600     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.279912900 -0300
+Modify: 2022-12-15 21:56:17.008863300 -0300
+Change: 2022-12-15 21:56:17.011025500 -0300
+ Birth: -
+IPFS hash: QmQgCegZLi6TVpyTfUkAokgNT3JV7yq4C2jyLrJEwd6nhf
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/b5/e586bd45319720ea75647cfe417daff8652bae
+  Size: 562       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106611     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.282096300 -0300
+Modify: 2022-12-15 21:56:17.021563100 -0300
+Change: 2022-12-15 21:56:17.022810400 -0300
+ Birth: -
+IPFS hash: QmU18Qcwa3cTy1jekkFJWB95Vy7uHfcvac5Z3eGoTVokCc
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/b6/39a9e29f248cfa3da1032c1e4f63ed0654ead5
+  Size: 287       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106689     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.130155600 -0300
+Modify: 2022-12-15 21:56:17.122582900 -0300
+Change: 2022-12-15 21:56:17.123480400 -0300
+ Birth: -
+IPFS hash: QmXrWkxNg3B64DVFYrNezHTY9KEuWiSPoqVqNZXQrrVniq
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/b8/d445bde0add8e53facd38bb8984d0b477ed085
+  Size: 555       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106630     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.285881200 -0300
+Modify: 2022-12-15 21:56:17.042498000 -0300
+Change: 2022-12-15 21:56:17.044348900 -0300
+ Birth: -
+IPFS hash: QmfJEdbWUqp8CoEqKnJHuAXGpwFCSoftmgcMi5Fp5BQL4X
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/bd/112b9d774983911b6ced09ad42d791342cb252
+  Size: 1371      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106702     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.146925200 -0300
+Modify: 2022-12-15 21:56:17.147336800 -0300
+Change: 2022-12-15 21:56:17.148356300 -0300
+ Birth: -
+IPFS hash: QmZ9Cs8N66CRD4WoLwup7D4K7phL7r3GxWhNBQbk881Ve7
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/be/dd9ba5ccb34071e352450c25e4904043b60bb0
+  Size: 557       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106619     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.283727600 -0300
+Modify: 2022-12-15 21:56:17.031709600 -0300
+Change: 2022-12-15 21:56:17.032865900 -0300
+ Birth: -
+IPFS hash: QmTCMhEj1y6KjFe5cxgZcgKQGrabNUNTeEnWpkhozfKnRr
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/c0/9725c8941c9dbed303ccf426f3a62214df1562
+  Size: 287       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106687     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.297910600 -0300
+Modify: 2022-12-15 21:56:17.119635900 -0300
+Change: 2022-12-15 21:56:17.120676200 -0300
+ Birth: -
+IPFS hash: QmP6xdgqaou45WbDqWMruiLSk9Yncp6dxrPZpou9rtENg4
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/c7/92a91012d089c2dc940e984a8832593b9a28f2
+  Size: 158       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106691     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.127190600 -0300
+Modify: 2022-12-15 21:56:17.127484900 -0300
+Change: 2022-12-15 21:56:17.129587800 -0300
+ Birth: -
+IPFS hash: QmRrBsjC5TkeDtcVeN9PnUNesRE8EeWAuz1dWZT3mNYXM3
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/c8/418695901aea6a144ab853854401d9d9ae40ba
+  Size: 262       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106712     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.306948200 -0300
+Modify: 2022-12-15 21:56:17.169192800 -0300
+Change: 2022-12-15 21:56:17.170096600 -0300
+ Birth: -
+IPFS hash: Qmad6scUu4mqCT8bWqbm9eZqyt86tGQZZKS7tPgfrTQRyk
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/d0/95c4585547799557a13d17dc63508544b6b220
+  Size: 571       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106597     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.279384900 -0300
+Modify: 2022-12-15 21:56:17.005412400 -0300
+Change: 2022-12-15 21:56:17.006790600 -0300
+ Birth: -
+IPFS hash: QmdXFsA9ipdCCrz3kCUNWX9JBip3YGVQzCa44cVtCqQmvX
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/d6/63297fb294168b9ccc3685ae7d00b1cc9f1e56
+  Size: 157       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106669     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.133660900 -0300
+Modify: 2022-12-15 21:56:17.088022700 -0300
+Change: 2022-12-15 21:56:17.089192700 -0300
+ Birth: -
+IPFS hash: Qmaq5SN6r8Swrm9qXR7jinGrazne9aYpBNEp2SuhbLDzZH
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/d6/bdae22d374683fb65785aae64af8972843e416
+  Size: 288       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106706     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.164901700 -0300
+Modify: 2022-12-15 21:56:17.155794700 -0300
+Change: 2022-12-15 21:56:17.156985500 -0300
+ Birth: -
+IPFS hash: QmVKNFeHC4s8Y82ryzbNQswdrYh339D6Z2HT2eWzyqJSat
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/d6/e585d5bb74d7371094b1e109063d696c15ce0e
+  Size: 554       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106616     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.283191500 -0300
+Modify: 2022-12-15 21:56:17.028766400 -0300
+Change: 2022-12-15 21:56:17.030127600 -0300
+ Birth: -
+IPFS hash: QmXT9gqFP7XYq7MWux8xY3pVaBrtTnqomCgEGFsFnt4inD
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/d7/d80bb4b29c8f11b4fce288f3279fac1b67c550
+  Size: 577       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106591     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.278247500 -0300
+Modify: 2022-12-15 21:56:16.998220100 -0300
+Change: 2022-12-15 21:56:16.999832500 -0300
+ Birth: -
+IPFS hash: QmcY7m98uMGwUvR8aiLbdmcjkHp7J67vZqdfBgsaugAbKc
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/d8/1559a1831942c715a54822cb91a7bb5c942081
+  Size: 219       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106724     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.311053800 -0300
+Modify: 2022-12-15 21:56:17.190504800 -0300
+Change: 2022-12-15 21:56:17.191473800 -0300
+ Birth: -
+IPFS hash: QmZSGuYkFH2LyJZoYkg93vwoungEYt2ZwFgDoqq3ZS5dMS
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/dd/57036e06305834b9cbaae48e56c92c71c27f25
+  Size: 123       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106753     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.318772200 -0300
+Modify: 2022-12-15 21:56:17.238507700 -0300
+Change: 2022-12-15 21:56:17.239542300 -0300
+ Birth: -
+IPFS hash: QmQukEK3XLnhNAZocXuxv7Z9Xps9iaGJ8Y8Gsxrw2izzCW
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/de/d673182c0eefe6d590b55e5539ecfffccd6eb5
+  Size: 89        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106764     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.322127600 -0300
+Modify: 2022-12-15 21:56:17.256195600 -0300
+Change: 2022-12-15 21:56:17.257544400 -0300
+ Birth: -
+IPFS hash: Qmc56os41Znu6FVomJdZVeyWmhCuT2NPZLHHHvShcfoRju
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/df/0ff779fe37a9aa1ee55ac0788c4636743a8b77
+  Size: 900       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106737     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.214262400 -0300
+Modify: 2022-12-15 21:56:17.214533000 -0300
+Change: 2022-12-15 21:56:17.215601700 -0300
+ Birth: -
+IPFS hash: QmPoJHnHY9Y3nQa6UVsJKEA6FmGEUzBrSZQgYBVbxoRajW
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/ea/c34bc9d3beb581bf8720cb392436068438bdd0
+  Size: 330       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106665     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.110872800 -0300
+Modify: 2022-12-15 21:56:17.079484400 -0300
+Change: 2022-12-15 21:56:17.080745700 -0300
+ Birth: -
+IPFS hash: QmSMg2pqtTmP3DMGpUwSxKRjcqD6Ez3j9y24KTBc7sTiCT
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/ee/f45ef0c97231c4202e856c1cf9aff74452c809
+  Size: 219       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106720     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.309341600 -0300
+Modify: 2022-12-15 21:56:17.183147900 -0300
+Change: 2022-12-15 21:56:17.184204400 -0300
+ Birth: -
+IPFS hash: QmTPSPw2TXS2PZSzANXEFEQRmvNGv7jDkqny3qyvePUtGK
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/f1/5c7b5ec940c0176b26c982242de3def3129b60
+  Size: 159       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106668     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.086969100 -0300
+Modify: 2022-12-15 21:56:17.085242700 -0300
+Change: 2022-12-15 21:56:17.086455300 -0300
+ Birth: -
+IPFS hash: QmXtYBLA3aFLQCwW3cezAUSwoLG1xjD5LVJd8vxuqBg8F7
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/f1/6fbb9baf9bb7ac7c5dcad872b49c0c2e269935
+  Size: 261       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106710     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.305994300 -0300
+Modify: 2022-12-15 21:56:17.166019200 -0300
+Change: 2022-12-15 21:56:17.167154700 -0300
+ Birth: -
+IPFS hash: QmWtgyiotE4gz2h4oZXWyYcrYr5jZFGha66gYN1tukZrvr
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/f2/b21a28a4567717d4e7f0ae3dcaba7deb7682ea
+  Size: 238       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106698     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.140265200 -0300
+Modify: 2022-12-15 21:56:17.140611100 -0300
+Change: 2022-12-15 21:56:17.141793300 -0300
+ Birth: -
+IPFS hash: QmSUpy4nCwD2bDUnsYCRR8gcAvdnTsPxDL1iPgyKRytQPj
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/f2/e55e880d835d8b9004aa8e001433d6385d0385
+  Size: 555       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106627     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.285332000 -0300
+Modify: 2022-12-15 21:56:17.039225100 -0300
+Change: 2022-12-15 21:56:17.040389400 -0300
+ Birth: -
+IPFS hash: QmRyYDmoX23Ck61C2XFBJN5gGdrWTc1imrXuLJfKT9RRdS
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/f3/b4aafb66bbeebc97f0d8353faecc19e1b173b6
+  Size: 629       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106609     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.281509200 -0300
+Modify: 2022-12-15 21:56:17.019140900 -0300
+Change: 2022-12-15 21:56:17.020306100 -0300
+ Birth: -
+IPFS hash: QmZSk2riqi92nEjeogq6jkYqkQqwAviPi6h9GwdVypjmEy
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/f5/39373cb77ca652d0b33b8af9d81a0ce9ce6af4
+  Size: 288       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106704     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.161827400 -0300
+Modify: 2022-12-15 21:56:17.150357100 -0300
+Change: 2022-12-15 21:56:17.151246600 -0300
+ Birth: -
+IPFS hash: QmaJQtpMDk1vyzqjwFN9Qo1asss2frtvdkWMtZEEdeD1TX
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/fb/6cfcb27f9ca9e73dd337126890868942772f79
+  Size: 123       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106760     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.320979800 -0300
+Modify: 2022-12-15 21:56:17.251137000 -0300
+Change: 2022-12-15 21:56:17.252218100 -0300
+ Birth: -
+IPFS hash: QmRqhwrYBsPH7kk5iChVgyED1qJvEpfF8syJ9eLAnEsccE
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/fc/038f94df6babdcae7bd607f04c015e8cf9f6a8
+  Size: 160       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106735     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.313777600 -0300
+Modify: 2022-12-15 21:56:17.211504500 -0300
+Change: 2022-12-15 21:56:17.212572800 -0300
+ Birth: -
+IPFS hash: Qma5Douhgohh9sqPSsqXzXBcgoMaBtYuNBnGZZ4SoPwwF8
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/objects/fe/7bed1a2e0c443a5cfc1609ad6fc850dbe301c6
+  Size: 156       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106695     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.135043400 -0300
+Modify: 2022-12-15 21:56:17.135346100 -0300
+Change: 2022-12-15 21:56:17.136335400 -0300
+ Birth: -
+IPFS hash: QmSqCCzHp6Fss54DAz7cdGXYFgYpML9F3qAWTKnrgieXBh
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/packed-refs
+  Size: 112       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106766     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.332196900 -0300
+Modify: 2022-12-15 21:56:17.330715100 -0300
+Change: 2022-12-15 21:56:17.331318800 -0300
+ Birth: -
+IPFS hash: QmRWPPb9A7cso9wT4ZmHuN8AH9GrXmyXAzr3w3vZXfrJ7b
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/refs/heads/main
+  Size: 41        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106778     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.374777900 -0300
+Modify: 2022-12-15 21:56:17.355736300 -0300
+Change: 2022-12-15 21:56:17.361427400 -0300
+ Birth: -
+IPFS hash: QmPJzD981uHGHkPJUGA8XWC1pG6cZneedAeEuUgoFpTqc8
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/.git/refs/remotes/origin/HEAD
+  Size: 30        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106770     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.336261500 -0300
+Modify: 2022-12-15 21:56:17.343103100 -0300
+Change: 2022-12-15 21:56:17.343938200 -0300
+ Birth: -
+IPFS hash: Qmf6vD59Raf3SH1FrqJUcqzCPMGe4s4y5hRS6FLMg5BY4K
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/disable_taskbar.cmd
+  Size: 53        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106796     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:29.637253700 -0300
+Modify: 2022-12-15 21:56:17.384600200 -0300
+Change: 2022-12-15 21:56:17.384600200 -0300
+ Birth: -
+IPFS hash: QmYER1h6EcLZetUqui5uJj7BKKH5r2aBP5ErJd6JUA4geA
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/install_LSW.sh
+  Size: 572       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106797     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.384988100 -0300
+Modify: 2022-12-15 21:56:17.386405100 -0300
+Change: 2022-12-15 21:56:17.386405100 -0300
+ Birth: -
+IPFS hash: QmW61rnCnm7Q91QTD1uuT7scniKuuHNCHw5gyr3Vjc6s66
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/powershell.exe.lnk
+  Size: 1746      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106798     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.386928800 -0300
+Modify: 2022-12-15 21:56:17.388299000 -0300
+Change: 2022-12-15 21:56:17.388299000 -0300
+ Birth: -
+IPFS hash: QmNjxTrzwyv4xQnfcbZCT8txAx9GkunxcctWiqhiNsh6iZ
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/README.md
+  Size: 2523      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106793     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.378465800 -0300
+Modify: 2022-12-15 21:56:17.379833000 -0300
+Change: 2022-12-15 21:56:17.379833000 -0300
+ Birth: -
+IPFS hash: QmTQRqxBErj2GjPeGsBnYFT7bWqcbjHpM2Zy2tFx2t5tTe
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/SaveWindows.desktop
+  Size: 174       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106794     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:29.649508200 -0300
+Modify: 2022-12-15 21:56:17.381484700 -0300
+Change: 2022-12-15 21:56:17.381484700 -0300
+ Birth: -
+IPFS hash: QmUbRFUp7EBnvF1gYXX5CrZMZ5C6JuGk8tA21ZL5KrH4qP
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/savewindows.sh
+  Size: 39        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106799     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.388563500 -0300
+Modify: 2022-12-15 21:56:17.390286600 -0300
+Change: 2022-12-15 21:56:17.390286600 -0300
+ Birth: -
+IPFS hash: QmRN95M5Jxv4mT4cm3LPMUpDdStF52rEi5aMBLkZxMRJEp
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/uninstall_LSW.sh
+  Size: 401       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106800     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.390776300 -0300
+Modify: 2022-12-15 21:56:17.392594400 -0300
+Change: 2022-12-15 21:56:17.392594400 -0300
+ Birth: -
+IPFS hash: QmSTCLC718SyAs9Z2DpUXA9GyMaFnshYqn6bNCFXv1Jf3S
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/Windows.desktop
+  Size: 169       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106795     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:29.648357600 -0300
+Modify: 2022-12-15 21:56:17.383163800 -0300
+Change: 2022-12-15 21:56:17.383163800 -0300
+ Birth: -
+IPFS hash: QmXQmSZx9KLAxE3Y3QyXrh7PpEvHSSt5eF3AjbusWQkM1c
+------------------------------
+  File: ./Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/windows.sh
+  Size: 1263      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106801     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:17.393143700 -0300
+Modify: 2022-12-15 21:56:17.394915000 -0300
+Change: 2022-12-15 21:56:17.394915000 -0300
+ Birth: -
+IPFS hash: QmRCww5mYd9gWwUGZCNJCdkA3HzWB58KS6UWVffrabCa1H
+------------------------------
+  File: ./winapps/.git/config
+  Size: 256       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106243     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.006132900 -0300
+Modify: 2022-12-15 21:56:15.990434400 -0300
+Change: 2022-12-15 21:56:15.991174900 -0300
+ Birth: -
+IPFS hash: Qmb4T6XMBpnJZGtXTWPdfUqaajsTPpRuVdFc2CTz97EGbx
+------------------------------
+  File: ./winapps/.git/description
+  Size: 73        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106147     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.411396300 -0300
+Modify: 2022-12-15 21:56:12.411959300 -0300
+Change: 2022-12-15 21:56:12.411959300 -0300
+ Birth: -
+IPFS hash: Qmdy135ZFG4kUALkaMhr6Cy3VhhkxyAh264kyg3725x8be
+------------------------------
+  File: ./winapps/.git/HEAD
+  Size: 21        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106236     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.972360100 -0300
+Modify: 2022-12-15 21:56:15.970878700 -0300
+Change: 2022-12-15 21:56:15.971644600 -0300
+ Birth: -
+IPFS hash: QmbRUdVtdtxcpdqyJE3iZwTJq7FPcXR1ErQRFB76sQCg9H
+------------------------------
+  File: ./winapps/.git/hooks/applypatch-msg.sample
+  Size: 478       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106158     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.713801600 -0300
+Modify: 2022-12-15 21:56:12.714346600 -0300
+Change: 2022-12-15 21:56:12.714346600 -0300
+ Birth: -
+IPFS hash: QmY2duvZ5Resxt8astYUgQ8RXQz1N9axe77gCb5j6M95Gf
+------------------------------
+  File: ./winapps/.git/hooks/commit-msg.sample
+  Size: 896       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106157     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.712439900 -0300
+Modify: 2022-12-15 21:56:12.712981100 -0300
+Change: 2022-12-15 21:56:12.712981100 -0300
+ Birth: -
+IPFS hash: QmQbraCfKaCTZkqtdXCJPc11CWEiZGw1yYGwtbA6nbXWeh
+------------------------------
+  File: ./winapps/.git/hooks/fsmonitor-watchman.sample
+  Size: 3079      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106153     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.706915800 -0300
+Modify: 2022-12-15 21:56:12.707525200 -0300
+Change: 2022-12-15 21:56:12.707525200 -0300
+ Birth: -
+IPFS hash: QmTRjr8FhnRPHMZTTBF1vZ3NJmPB3pL2ekRTuiGYu19quX
+------------------------------
+  File: ./winapps/.git/hooks/post-update.sample
+  Size: 189       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106155     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.709703400 -0300
+Modify: 2022-12-15 21:56:12.710202100 -0300
+Change: 2022-12-15 21:56:12.710202100 -0300
+ Birth: -
+IPFS hash: QmQjYxVj9iwitDGkmR48Cemr1JTgc6pvwo5cFkumNWqnjm
+------------------------------
+  File: ./winapps/.git/hooks/pre-applypatch.sample
+  Size: 424       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106160     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.716515900 -0300
+Modify: 2022-12-15 21:56:12.716892900 -0300
+Change: 2022-12-15 21:56:12.716892900 -0300
+ Birth: -
+IPFS hash: QmdzjzkpM31jTKd5YBJkWsbDXJeeW1Uy1UxVPwfKFxwy89
+------------------------------
+  File: ./winapps/.git/hooks/pre-commit.sample
+  Size: 1638      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106156     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.711071600 -0300
+Modify: 2022-12-15 21:56:12.711648000 -0300
+Change: 2022-12-15 21:56:12.711648000 -0300
+ Birth: -
+IPFS hash: QmdzPLQANJjZton4gqoxXeX6yqchxQ4RMpE8P5DEiogThd
+------------------------------
+  File: ./winapps/.git/hooks/pre-merge-commit.sample
+  Size: 416       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106159     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.715120200 -0300
+Modify: 2022-12-15 21:56:12.715637300 -0300
+Change: 2022-12-15 21:56:12.715637300 -0300
+ Birth: -
+IPFS hash: QmPte81MJoXgCngK75SVZTn2DAXskuo9gdVr2uR5PfVVQE
+------------------------------
+  File: ./winapps/.git/hooks/pre-push.sample
+  Size: 1348      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106149     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.417891200 -0300
+Modify: 2022-12-15 21:56:12.418629300 -0300
+Change: 2022-12-15 21:56:12.418629300 -0300
+ Birth: -
+IPFS hash: QmXprUtrWGYLRETUvuA89HjwUGdufGrwJxYaXyGwQ7TMvQ
+------------------------------
+  File: ./winapps/.git/hooks/pre-rebase.sample
+  Size: 4898      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106151     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.420780500 -0300
+Modify: 2022-12-15 21:56:12.421466500 -0300
+Change: 2022-12-15 21:56:12.421466500 -0300
+ Birth: -
+IPFS hash: QmSQrei5kUrb4RaEp4c7oobLEHURhPJ8AFZS1uiRg4JfLv
+------------------------------
+  File: ./winapps/.git/hooks/pre-receive.sample
+  Size: 544       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106154     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.708435500 -0300
+Modify: 2022-12-15 21:56:12.708889200 -0300
+Change: 2022-12-15 21:56:12.708889200 -0300
+ Birth: -
+IPFS hash: QmRKbU9DFRNWjR1UwV4nC6MXPnrNanfsBM5579t4HLUuig
+------------------------------
+  File: ./winapps/.git/hooks/prepare-commit-msg.sample
+  Size: 1492      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106150     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.419445800 -0300
+Modify: 2022-12-15 21:56:12.420003700 -0300
+Change: 2022-12-15 21:56:12.420003700 -0300
+ Birth: -
+IPFS hash: QmPku8ai5p4sSCDHe19n9Ekfo21xM5urFdkq9Rg1wBHjcV
+------------------------------
+  File: ./winapps/.git/hooks/update.sample
+  Size: 3610      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106152     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.702607200 -0300
+Modify: 2022-12-15 21:56:12.706173000 -0300
+Change: 2022-12-15 21:56:12.706173000 -0300
+ Birth: -
+IPFS hash: QmfKMgUdSUwrS1wF6yfkQ9B6Vdbomrx87vGhpvpLfxgVn2
+------------------------------
+  File: ./winapps/.git/index
+  Size: 15839     	Blocks: 32         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106248     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.003037300 -0300
+Modify: 2022-12-15 21:56:16.293028100 -0300
+Change: 2022-12-15 21:56:16.294642300 -0300
+ Birth: -
+IPFS hash: QmfARD4DUgRsofcArqqEtn2fwNjhLBaTQV21rmBX5DmEoD
+------------------------------
+  File: ./winapps/.git/info/exclude
+  Size: 240       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106163     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:12.719696600 -0300
+Modify: 2022-12-15 21:56:12.720021200 -0300
+Change: 2022-12-15 21:56:12.720021200 -0300
+ Birth: -
+IPFS hash: QmcfzxUpw36y8fu2GR3s7Vgq7RBgooKtc6BgsqFnadsDLc
+------------------------------
+  File: ./winapps/.git/logs/HEAD
+  Size: 193       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106239     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.981006700 -0300
+Modify: 2022-12-15 21:56:15.981174600 -0300
+Change: 2022-12-15 21:56:15.981174600 -0300
+ Birth: -
+IPFS hash: QmX7DWEWbvJWZBfjPrzTDDf2pcz3vALj1Tkxfb2TAAE3Uz
+------------------------------
+  File: ./winapps/.git/logs/refs/heads/main
+  Size: 193       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106241     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.984491700 -0300
+Modify: 2022-12-15 21:56:15.984642100 -0300
+Change: 2022-12-15 21:56:15.984642100 -0300
+ Birth: -
+IPFS hash: QmX7DWEWbvJWZBfjPrzTDDf2pcz3vALj1Tkxfb2TAAE3Uz
+------------------------------
+  File: ./winapps/.git/logs/refs/remotes/origin/HEAD
+  Size: 193       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106231     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.966056700 -0300
+Modify: 2022-12-15 21:56:15.966307000 -0300
+Change: 2022-12-15 21:56:15.966307000 -0300
+ Birth: -
+IPFS hash: QmX7DWEWbvJWZBfjPrzTDDf2pcz3vALj1Tkxfb2TAAE3Uz
+------------------------------
+  File: ./winapps/.git/objects/pack/pack-b45b9bc0d0be8fba7abccca660ad9c1b37c1418c.idx
+  Size: 22604     	Blocks: 48         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106210     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.919003400 -0300
+Modify: 2022-12-15 21:56:15.489085900 -0300
+Change: 2022-12-15 21:56:15.914657400 -0300
+ Birth: -
+IPFS hash: QmWVL1Fx8FREVPVHErALJNB18w1aFKJpVHqbvgruKpWM5L
+------------------------------
+  File: ./winapps/.git/objects/pack/pack-b45b9bc0d0be8fba7abccca660ad9c1b37c1418c.pack
+  Size: 6673573   	Blocks: 13040      IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106209     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.952864300 -0300
+Modify: 2022-12-15 21:56:15.487714300 -0300
+Change: 2022-12-15 21:56:15.911405200 -0300
+ Birth: -
+IPFS hash: QmSYWZHncE7GAKcFecvYJMTsMATV26jhvSHDPbRMCubhjh
+------------------------------
+  File: ./winapps/.git/packed-refs
+  Size: 323       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106213     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.954923300 -0300
+Modify: 2022-12-15 21:56:15.953309100 -0300
+Change: 2022-12-15 21:56:15.954015900 -0300
+ Birth: -
+IPFS hash: QmZvQ73QpKVq3zXMgRsUCU2hUmmjcQi2ScBNZozSZLi3Bj
+------------------------------
+  File: ./winapps/.git/refs/heads/main
+  Size: 41        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106238     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.001886300 -0300
+Modify: 2022-12-15 21:56:15.980558200 -0300
+Change: 2022-12-15 21:56:15.985914800 -0300
+ Birth: -
+IPFS hash: QmcnJijcYYGKCXi6SCit2iANa542b5Mns3jVJdG9b5wqFB
+------------------------------
+  File: ./winapps/.git/refs/remotes/origin/HEAD
+  Size: 30        	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106221     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:15.958897500 -0300
+Modify: 2022-12-15 21:56:15.966823200 -0300
+Change: 2022-12-15 21:56:15.967623700 -0300
+ Birth: -
+IPFS hash: Qmf6vD59Raf3SH1FrqJUcqzCPMGe4s4y5hRS6FLMg5BY4K
+------------------------------
+  File: ./winapps/apps/iexplorer/icon.svg
+  Size: 537       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106322     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.038515400 -0300
+Modify: 2022-12-15 21:56:16.038701300 -0300
+Change: 2022-12-15 21:56:16.038701300 -0300
+ Birth: -
+IPFS hash: QmXTDLbpTFcR7Pkm4QFqxiDS4eRj6nvpPe6ZSD2kUR8pG7
+------------------------------
+  File: ./winapps/apps/iexplorer/info
+  Size: 551       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106323     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.039182900 -0300
+Modify: 2022-12-15 21:56:16.039356500 -0300
+Change: 2022-12-15 21:56:16.039356500 -0300
+ Birth: -
+IPFS hash: QmZ2VLZM3Tbe5jKtrYEqbE7YVPVtKC5MfWzU1pUtcdkTEU
+------------------------------
+  File: ./winapps/apps/access/icon.svg
+  Size: 1110      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106264     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.014036300 -0300
+Modify: 2022-12-15 21:56:16.014402500 -0300
+Change: 2022-12-15 21:56:16.014402500 -0300
+ Birth: -
+IPFS hash: QmRP9jnjzbj2wDxCW2sPhKk1wz5Zu61FKAzMuE8cPfh7gS
+------------------------------
+  File: ./winapps/apps/access/info
+  Size: 322       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106269     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.014889400 -0300
+Modify: 2022-12-15 21:56:16.015097000 -0300
+Change: 2022-12-15 21:56:16.015097000 -0300
+ Birth: -
+IPFS hash: Qmb43xgN9CMRMUoowLZPDYHYuKSoQpLXgjH2ELHAjqsR6b
+------------------------------
+  File: ./winapps/apps/access-o365/icon.svg
+  Size: 1110      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106258     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.010294500 -0300
+Modify: 2022-12-15 21:56:16.010514900 -0300
+Change: 2022-12-15 21:56:16.010514900 -0300
+ Birth: -
+IPFS hash: QmRP9jnjzbj2wDxCW2sPhKk1wz5Zu61FKAzMuE8cPfh7gS
+------------------------------
+  File: ./winapps/apps/access-o365/info
+  Size: 317       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106259     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.011046700 -0300
+Modify: 2022-12-15 21:56:16.011251100 -0300
+Change: 2022-12-15 21:56:16.011251100 -0300
+ Birth: -
+IPFS hash: QmRUuUW62Geyzn8rf6qaKpiDKp67yCE8z8YeySAYrK2nhG
+------------------------------
+  File: ./winapps/apps/access-o365-x86/icon.svg
+  Size: 1110      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106255     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.008392600 -0300
+Modify: 2022-12-15 21:56:16.008570900 -0300
+Change: 2022-12-15 21:56:16.008570900 -0300
+ Birth: -
+IPFS hash: QmRP9jnjzbj2wDxCW2sPhKk1wz5Zu61FKAzMuE8cPfh7gS
+------------------------------
+  File: ./winapps/apps/access-o365-x86/info
+  Size: 323       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106256     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.008989100 -0300
+Modify: 2022-12-15 21:56:16.009220500 -0300
+Change: 2022-12-15 21:56:16.009220500 -0300
+ Birth: -
+IPFS hash: QmPNQJPnve6JaH7t1bFS3eeF7TcYVyH4GkySxiGVxLR2Jp
+------------------------------
+  File: ./winapps/apps/access-x86/icon.svg
+  Size: 1110      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106261     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.012273100 -0300
+Modify: 2022-12-15 21:56:16.012501000 -0300
+Change: 2022-12-15 21:56:16.012501000 -0300
+ Birth: -
+IPFS hash: QmRP9jnjzbj2wDxCW2sPhKk1wz5Zu61FKAzMuE8cPfh7gS
+------------------------------
+  File: ./winapps/apps/access-x86/info
+  Size: 328       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106262     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.013025800 -0300
+Modify: 2022-12-15 21:56:16.013214100 -0300
+Change: 2022-12-15 21:56:16.013214100 -0300
+ Birth: -
+IPFS hash: QmTWzeruV4wTw9zcqqEoDuYDBCyd1tJYuQeABKnboAm2CF
+------------------------------
+  File: ./winapps/apps/acrobat-reader-dc/icon.svg
+  Size: 2483      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106271     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.015872900 -0300
+Modify: 2022-12-15 21:56:16.016120400 -0300
+Change: 2022-12-15 21:56:16.016120400 -0300
+ Birth: -
+IPFS hash: QmUkmDraKyLrTVNPD1sxVz82s8yqoFPtfwQuRfuJfZaJNp
+------------------------------
+  File: ./winapps/apps/acrobat-reader-dc/info
+  Size: 336       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106272     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.016555300 -0300
+Modify: 2022-12-15 21:56:16.016738800 -0300
+Change: 2022-12-15 21:56:16.016738800 -0300
+ Birth: -
+IPFS hash: Qmc2KGmfNUirRy6wzkJzJCUfEtgHqcRBhX1VBYFhSm5SZr
+------------------------------
+  File: ./winapps/apps/acrobat-x-pro/icon.svg
+  Size: 2483      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106275     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.017606000 -0300
+Modify: 2022-12-15 21:56:16.017871400 -0300
+Change: 2022-12-15 21:56:16.017871400 -0300
+ Birth: -
+IPFS hash: QmUkmDraKyLrTVNPD1sxVz82s8yqoFPtfwQuRfuJfZaJNp
+------------------------------
+  File: ./winapps/apps/acrobat-x-pro/info
+  Size: 323       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106278     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.018301900 -0300
+Modify: 2022-12-15 21:56:16.018447600 -0300
+Change: 2022-12-15 21:56:16.018447600 -0300
+ Birth: -
+IPFS hash: QmUX9EXXuFVBg4X9rCHmgjh6UeuCmEpqeLJQupW33GeKta
+------------------------------
+  File: ./winapps/apps/adobe-cc/icon.svg
+  Size: 328       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106280     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.019147800 -0300
+Modify: 2022-12-15 21:56:16.019283600 -0300
+Change: 2022-12-15 21:56:16.019283600 -0300
+ Birth: -
+IPFS hash: QmRtJKfNdPChNVYXQCpxMweWhwPx2Qk5Rw4FkLLewEGGEx
+------------------------------
+  File: ./winapps/apps/adobe-cc/info
+  Size: 316       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106281     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.019644600 -0300
+Modify: 2022-12-15 21:56:16.019777600 -0300
+Change: 2022-12-15 21:56:16.019777600 -0300
+ Birth: -
+IPFS hash: QmWn5qE8cr4oSfwLbheNTVtekRUVehndAGL9UViLGt7WDm
+------------------------------
+  File: ./winapps/apps/aftereffects-cc/icon.svg
+  Size: 916       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106283     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.020432800 -0300
+Modify: 2022-12-15 21:56:16.020579000 -0300
+Change: 2022-12-15 21:56:16.020579000 -0300
+ Birth: -
+IPFS hash: QmWH5fdobJjgzF29cT8Dan2kWqc8Juvd9pu3xoRVQdmAgR
+------------------------------
+  File: ./winapps/apps/aftereffects-cc/info
+  Size: 414       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106284     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.020915000 -0300
+Modify: 2022-12-15 21:56:16.021081500 -0300
+Change: 2022-12-15 21:56:16.021081500 -0300
+ Birth: -
+IPFS hash: QmcBYhNrmfEdPBCmFBvP3xMWTRJbVvmBBjP5C2Je6vkzqm
+------------------------------
+  File: ./winapps/apps/audition-cc/icon.svg
+  Size: 328       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106286     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.021959600 -0300
+Modify: 2022-12-15 21:56:16.022088300 -0300
+Change: 2022-12-15 21:56:16.022088300 -0300
+ Birth: -
+IPFS hash: QmetXSUeirAQcrNHwaNFF7wYu2j9HcBSUeMvBNQQDcxPFd
+------------------------------
+  File: ./winapps/apps/audition-cc/info
+  Size: 305       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106287     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.022454000 -0300
+Modify: 2022-12-15 21:56:16.022581700 -0300
+Change: 2022-12-15 21:56:16.022581700 -0300
+ Birth: -
+IPFS hash: QmXhpjfe3yzhYXWjd8yebRYUTjv5JKaRc7EXmpipxEzuEk
+------------------------------
+  File: ./winapps/apps/bridge-cc/icon.svg
+  Size: 1269      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106293     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.023204800 -0300
+Modify: 2022-12-15 21:56:16.023407300 -0300
+Change: 2022-12-15 21:56:16.023407300 -0300
+ Birth: -
+IPFS hash: QmRiGjv54goErzNAbrC3sQNG9AthminAYsFZvSXfuhxGZM
+------------------------------
+  File: ./winapps/apps/bridge-cc/info
+  Size: 327       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106294     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.023780100 -0300
+Modify: 2022-12-15 21:56:16.023897500 -0300
+Change: 2022-12-15 21:56:16.023897500 -0300
+ Birth: -
+IPFS hash: QmfPBqsqcNBvie4hrYi5FEuvN4Fru9etcysX2iMhZTWTZE
+------------------------------
+  File: ./winapps/apps/bridge-cs6/icon.svg
+  Size: 1269      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106299     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.025962200 -0300
+Modify: 2022-12-15 21:56:16.026275800 -0300
+Change: 2022-12-15 21:56:16.026275800 -0300
+ Birth: -
+IPFS hash: QmRiGjv54goErzNAbrC3sQNG9AthminAYsFZvSXfuhxGZM
+------------------------------
+  File: ./winapps/apps/bridge-cs6/info
+  Size: 319       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106300     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.026740900 -0300
+Modify: 2022-12-15 21:56:16.026897500 -0300
+Change: 2022-12-15 21:56:16.026897500 -0300
+ Birth: -
+IPFS hash: QmbPm8nbfrw9hCGb1GDbBK3NMdjzav8Uxv3xFBUGnsU3Sr
+------------------------------
+  File: ./winapps/apps/bridge-cs6-x86/icon.svg
+  Size: 1269      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106296     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.024507900 -0300
+Modify: 2022-12-15 21:56:16.024673000 -0300
+Change: 2022-12-15 21:56:16.024673000 -0300
+ Birth: -
+IPFS hash: QmRiGjv54goErzNAbrC3sQNG9AthminAYsFZvSXfuhxGZM
+------------------------------
+  File: ./winapps/apps/bridge-cs6-x86/info
+  Size: 324       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106297     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.025042400 -0300
+Modify: 2022-12-15 21:56:16.025161200 -0300
+Change: 2022-12-15 21:56:16.025161200 -0300
+ Birth: -
+IPFS hash: QmZgQyU1uVw5b5XZ4JS4M1RL6y4wQHMYX1nnBo8uGbTv97
+------------------------------
+  File: ./winapps/apps/cmd/icon.svg
+  Size: 320       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106302     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.027699000 -0300
+Modify: 2022-12-15 21:56:16.027913800 -0300
+Change: 2022-12-15 21:56:16.027913800 -0300
+ Birth: -
+IPFS hash: Qma8f8BTUoz5rH93bZK7Q2cAqVSeZdECqfDTaBsszqoNxH
+------------------------------
+  File: ./winapps/apps/cmd/info
+  Size: 262       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106303     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.028558700 -0300
+Modify: 2022-12-15 21:56:16.028774400 -0300
+Change: 2022-12-15 21:56:16.028774400 -0300
+ Birth: -
+IPFS hash: QmV3mbKPhodim1RBhFitiVzQSS3rF285Vh2Jm95SEQHixm
+------------------------------
+  File: ./winapps/apps/excel/icon.svg
+  Size: 969       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106316     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.034928200 -0300
+Modify: 2022-12-15 21:56:16.035207300 -0300
+Change: 2022-12-15 21:56:16.035207300 -0300
+ Birth: -
+IPFS hash: QmUznZiShhc83bahAaYwRbxmqwgTWv6ySKfSLi4YWCTYTT
+------------------------------
+  File: ./winapps/apps/excel/info
+  Size: 647       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106317     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.035696000 -0300
+Modify: 2022-12-15 21:56:16.035876800 -0300
+Change: 2022-12-15 21:56:16.035876800 -0300
+ Birth: -
+IPFS hash: QmNUEEs1RRYU2S8x9bJ4D12UCPBLnQF76Pp4Th9odzpqNA
+------------------------------
+  File: ./winapps/apps/excel-o365/icon.svg
+  Size: 969       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106310     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.031457400 -0300
+Modify: 2022-12-15 21:56:16.031680200 -0300
+Change: 2022-12-15 21:56:16.031680200 -0300
+ Birth: -
+IPFS hash: QmUznZiShhc83bahAaYwRbxmqwgTWv6ySKfSLi4YWCTYTT
+------------------------------
+  File: ./winapps/apps/excel-o365/info
+  Size: 652       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106311     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.032157600 -0300
+Modify: 2022-12-15 21:56:16.032350600 -0300
+Change: 2022-12-15 21:56:16.032350600 -0300
+ Birth: -
+IPFS hash: QmXMbDdMi2yDukpFnZZmHrBegztj5mjachioaYmp6nB8JW
+------------------------------
+  File: ./winapps/apps/excel-o365-x86/icon.svg
+  Size: 969       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106305     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.029693600 -0300
+Modify: 2022-12-15 21:56:16.029950100 -0300
+Change: 2022-12-15 21:56:16.029950100 -0300
+ Birth: -
+IPFS hash: QmUznZiShhc83bahAaYwRbxmqwgTWv6ySKfSLi4YWCTYTT
+------------------------------
+  File: ./winapps/apps/excel-o365-x86/info
+  Size: 658       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106308     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.030425500 -0300
+Modify: 2022-12-15 21:56:16.030664000 -0300
+Change: 2022-12-15 21:56:16.030664000 -0300
+ Birth: -
+IPFS hash: QmTK6S2pFFHukrbC5NFNED4WECwmSq7HygHURoN7h8MwtR
+------------------------------
+  File: ./winapps/apps/excel-x86/icon.svg
+  Size: 969       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106313     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.033166200 -0300
+Modify: 2022-12-15 21:56:16.033390100 -0300
+Change: 2022-12-15 21:56:16.033390100 -0300
+ Birth: -
+IPFS hash: QmUznZiShhc83bahAaYwRbxmqwgTWv6ySKfSLi4YWCTYTT
+------------------------------
+  File: ./winapps/apps/excel-x86/info
+  Size: 653       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106314     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.033899600 -0300
+Modify: 2022-12-15 21:56:16.034107300 -0300
+Change: 2022-12-15 21:56:16.034107300 -0300
+ Birth: -
+IPFS hash: QmRxT6gVJpVQ8buQX1Zyvi6BxEckcujB86SEGEuefuM3TK
+------------------------------
+  File: ./winapps/apps/explorer/icon.svg
+  Size: 807       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106319     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.036701900 -0300
+Modify: 2022-12-15 21:56:16.036959300 -0300
+Change: 2022-12-15 21:56:16.036959300 -0300
+ Birth: -
+IPFS hash: QmSemRyyqRSzuwm48JgonRNHSSBN4U9hrvuDVYoSESkQ8M
+------------------------------
+  File: ./winapps/apps/explorer/info
+  Size: 267       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106320     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.037463600 -0300
+Modify: 2022-12-15 21:56:16.037635800 -0300
+Change: 2022-12-15 21:56:16.037635800 -0300
+ Birth: -
+IPFS hash: QmUeArEi4fqAxS7f9pPzaHug76knkaHc8iPAqQLLgtv9Fi
+------------------------------
+  File: ./winapps/apps/illustrator-cc/icon.svg
+  Size: 681       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106325     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.040187800 -0300
+Modify: 2022-12-15 21:56:16.040453200 -0300
+Change: 2022-12-15 21:56:16.040453200 -0300
+ Birth: -
+IPFS hash: QmPnKE3dH6xvwJHytpYW5FriYmGsfWn5tdjozsfwZ82o4b
+------------------------------
+  File: ./winapps/apps/illustrator-cc/info
+  Size: 366       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106326     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.040950500 -0300
+Modify: 2022-12-15 21:56:16.041121700 -0300
+Change: 2022-12-15 21:56:16.041121700 -0300
+ Birth: -
+IPFS hash: QmRJyb1fep1gZyDBQNVuk3U5A7sXK1MikaRdD4AhxRRntF
+------------------------------
+  File: ./winapps/apps/indesign-cc/icon.svg
+  Size: 811       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106328     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.042133700 -0300
+Modify: 2022-12-15 21:56:16.042443600 -0300
+Change: 2022-12-15 21:56:16.042443600 -0300
+ Birth: -
+IPFS hash: QmYo2UdmGZgMJ5BKHdX6hfUogAuUQ97G9FwD43fG2KdWQ3
+------------------------------
+  File: ./winapps/apps/indesign-cc/info
+  Size: 369       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106329     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.043068200 -0300
+Modify: 2022-12-15 21:56:16.043285800 -0300
+Change: 2022-12-15 21:56:16.043285800 -0300
+ Birth: -
+IPFS hash: QmSiu3Gm7jaSjPeMtsUZ6zSEc2Y1p1DHBpfVr2geP4F8N1
+------------------------------
+  File: ./winapps/apps/lightroom-cc/icon.svg
+  Size: 627       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106332     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.044224000 -0300
+Modify: 2022-12-15 21:56:16.044474300 -0300
+Change: 2022-12-15 21:56:16.044474300 -0300
+ Birth: -
+IPFS hash: QmY4y3vYuF7cphFYPxsmGsaiyTqDNDwqteKAdGmBvgFw3b
+------------------------------
+  File: ./winapps/apps/lightroom-cc/info
+  Size: 301       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106333     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.045021200 -0300
+Modify: 2022-12-15 21:56:16.045247300 -0300
+Change: 2022-12-15 21:56:16.045247300 -0300
+ Birth: -
+IPFS hash: QmaGAdb18YGmrwzR1sA8eNN2ekAd8qSXRrJ3QZGHQXrLnd
+------------------------------
+  File: ./winapps/apps/onenote/icon.svg
+  Size: 1025      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106344     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.050998100 -0300
+Modify: 2022-12-15 21:56:16.051239300 -0300
+Change: 2022-12-15 21:56:16.051239300 -0300
+ Birth: -
+IPFS hash: QmZcaK72fTRm7TTthTaqziPCk1tNXo3FjT6cyxQK79VHPP
+------------------------------
+  File: ./winapps/apps/onenote/info
+  Size: 317       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106345     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.051784900 -0300
+Modify: 2022-12-15 21:56:16.051967000 -0300
+Change: 2022-12-15 21:56:16.051967000 -0300
+ Birth: -
+IPFS hash: QmdFgUEZgDgKmbKmSkWr53ipoLz4yHTSvjij78LPJKWnu1
+------------------------------
+  File: ./winapps/apps/onenote-o365/icon.svg
+  Size: 1025      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106338     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.047814500 -0300
+Modify: 2022-12-15 21:56:16.048002300 -0300
+Change: 2022-12-15 21:56:16.048002300 -0300
+ Birth: -
+IPFS hash: QmZcaK72fTRm7TTthTaqziPCk1tNXo3FjT6cyxQK79VHPP
+------------------------------
+  File: ./winapps/apps/onenote-o365/info
+  Size: 322       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106339     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.048393100 -0300
+Modify: 2022-12-15 21:56:16.048530300 -0300
+Change: 2022-12-15 21:56:16.048530300 -0300
+ Birth: -
+IPFS hash: QmSyk62bvRm2yX7aqmsEvmZLni27V6CXXSMs5M6c7Uoqjz
+------------------------------
+  File: ./winapps/apps/onenote-o365-x86/icon.svg
+  Size: 1025      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106335     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.046229500 -0300
+Modify: 2022-12-15 21:56:16.046499200 -0300
+Change: 2022-12-15 21:56:16.046499200 -0300
+ Birth: -
+IPFS hash: QmZcaK72fTRm7TTthTaqziPCk1tNXo3FjT6cyxQK79VHPP
+------------------------------
+  File: ./winapps/apps/onenote-o365-x86/info
+  Size: 328       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106336     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.046945800 -0300
+Modify: 2022-12-15 21:56:16.047101900 -0300
+Change: 2022-12-15 21:56:16.047101900 -0300
+ Birth: -
+IPFS hash: QmPxh7s5GFYvqThw16p9TTPiCv7xZnWwN2LfMthYkH4JEg
+------------------------------
+  File: ./winapps/apps/onenote-x86/icon.svg
+  Size: 1025      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106341     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.049248000 -0300
+Modify: 2022-12-15 21:56:16.049438100 -0300
+Change: 2022-12-15 21:56:16.049438100 -0300
+ Birth: -
+IPFS hash: QmZcaK72fTRm7TTthTaqziPCk1tNXo3FjT6cyxQK79VHPP
+------------------------------
+  File: ./winapps/apps/onenote-x86/info
+  Size: 323       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106342     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.049960500 -0300
+Modify: 2022-12-15 21:56:16.050137400 -0300
+Change: 2022-12-15 21:56:16.050137400 -0300
+ Birth: -
+IPFS hash: QmeKribn9sL1Nik711WfMCrGPAGwCPEXtE1wa2Fp8iMLMg
+------------------------------
+  File: ./winapps/apps/outlook/icon.svg
+  Size: 834       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106359     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.057452300 -0300
+Modify: 2022-12-15 21:56:16.057664800 -0300
+Change: 2022-12-15 21:56:16.057664800 -0300
+ Birth: -
+IPFS hash: Qme8C7FG2NJV2S9Q4GodbgtMjzGWvN1F7DhU1SWYjCPicx
+------------------------------
+  File: ./winapps/apps/outlook/info
+  Size: 347       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106360     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.058092900 -0300
+Modify: 2022-12-15 21:56:16.058237200 -0300
+Change: 2022-12-15 21:56:16.058237200 -0300
+ Birth: -
+IPFS hash: QmVWc4oYogmGMkZFgjfESqTanKkQ3Yjieip9pCUCMefBWQ
+------------------------------
+  File: ./winapps/apps/outlook-o365/icon.svg
+  Size: 834       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106350     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.054414900 -0300
+Modify: 2022-12-15 21:56:16.054626300 -0300
+Change: 2022-12-15 21:56:16.054626300 -0300
+ Birth: -
+IPFS hash: Qme8C7FG2NJV2S9Q4GodbgtMjzGWvN1F7DhU1SWYjCPicx
+------------------------------
+  File: ./winapps/apps/outlook-o365/info
+  Size: 352       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106351     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.055055400 -0300
+Modify: 2022-12-15 21:56:16.055208300 -0300
+Change: 2022-12-15 21:56:16.055208300 -0300
+ Birth: -
+IPFS hash: QmT3J3YNaLvj9SVDTRsjDWNvDAW4LbxHpBmsAuMT2cZknr
+------------------------------
+  File: ./winapps/apps/outlook-o365-x86/icon.svg
+  Size: 834       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106347     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.052762300 -0300
+Modify: 2022-12-15 21:56:16.053006400 -0300
+Change: 2022-12-15 21:56:16.053006400 -0300
+ Birth: -
+IPFS hash: Qme8C7FG2NJV2S9Q4GodbgtMjzGWvN1F7DhU1SWYjCPicx
+------------------------------
+  File: ./winapps/apps/outlook-o365-x86/info
+  Size: 358       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106348     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.053465900 -0300
+Modify: 2022-12-15 21:56:16.053618100 -0300
+Change: 2022-12-15 21:56:16.053618100 -0300
+ Birth: -
+IPFS hash: QmcSaGoTLEy7hY61dY2dwJEMpitr8Ncixmyz5QjXtTJLWM
+------------------------------
+  File: ./winapps/apps/outlook-x86/icon.svg
+  Size: 834       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106356     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.055938300 -0300
+Modify: 2022-12-15 21:56:16.056155100 -0300
+Change: 2022-12-15 21:56:16.056155100 -0300
+ Birth: -
+IPFS hash: Qme8C7FG2NJV2S9Q4GodbgtMjzGWvN1F7DhU1SWYjCPicx
+------------------------------
+  File: ./winapps/apps/outlook-x86/info
+  Size: 353       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106357     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.056587400 -0300
+Modify: 2022-12-15 21:56:16.056728400 -0300
+Change: 2022-12-15 21:56:16.056728400 -0300
+ Birth: -
+IPFS hash: QmZfih2XPphvsSHtVNi3mzDZZPtm3MWxje4yaFtE3K44Kf
+------------------------------
+  File: ./winapps/apps/photoshop-cc/icon.svg
+  Size: 1230      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106362     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.059068400 -0300
+Modify: 2022-12-15 21:56:16.059323500 -0300
+Change: 2022-12-15 21:56:16.059323500 -0300
+ Birth: -
+IPFS hash: QmPXaxVEmL4zUqXAJJkpaCDxHxon73tUhb1F9oNhesqh5r
+------------------------------
+  File: ./winapps/apps/photoshop-cc/info
+  Size: 329       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106363     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.059848600 -0300
+Modify: 2022-12-15 21:56:16.060095600 -0300
+Change: 2022-12-15 21:56:16.060095600 -0300
+ Birth: -
+IPFS hash: QmNunzuhcotCvyU4m7bLWkvajzfAZhb37ouZ56zzTdcB1v
+------------------------------
+  File: ./winapps/apps/photoshop-cs6/icon.svg
+  Size: 1230      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106368     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.062980100 -0300
+Modify: 2022-12-15 21:56:16.063268800 -0300
+Change: 2022-12-15 21:56:16.063268800 -0300
+ Birth: -
+IPFS hash: QmPXaxVEmL4zUqXAJJkpaCDxHxon73tUhb1F9oNhesqh5r
+------------------------------
+  File: ./winapps/apps/photoshop-cs6/info
+  Size: 339       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106369     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.063670000 -0300
+Modify: 2022-12-15 21:56:16.063815200 -0300
+Change: 2022-12-15 21:56:16.063815200 -0300
+ Birth: -
+IPFS hash: QmQ5xGn2eDm2BkhcQjwXTx6kSZVnpYFDNGhnEh46HArQvj
+------------------------------
+  File: ./winapps/apps/photoshop-cs6-x86/icon.svg
+  Size: 1230      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106365     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.060932100 -0300
+Modify: 2022-12-15 21:56:16.061258500 -0300
+Change: 2022-12-15 21:56:16.061258500 -0300
+ Birth: -
+IPFS hash: QmPXaxVEmL4zUqXAJJkpaCDxHxon73tUhb1F9oNhesqh5r
+------------------------------
+  File: ./winapps/apps/photoshop-cs6-x86/info
+  Size: 336       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106366     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.061845200 -0300
+Modify: 2022-12-15 21:56:16.062009800 -0300
+Change: 2022-12-15 21:56:16.062009800 -0300
+ Birth: -
+IPFS hash: Qmb9DWr5X73rC2zKanHSZHSTbv2QpieHS3hQ4K3U9B3vBf
+------------------------------
+  File: ./winapps/apps/powerpoint/icon.svg
+  Size: 992       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106390     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.069059700 -0300
+Modify: 2022-12-15 21:56:16.069175600 -0300
+Change: 2022-12-15 21:56:16.069175600 -0300
+ Birth: -
+IPFS hash: QmaddPgzBmmd6ArFbzdhyYxduaNHsZECfaETkH7e7WmsVH
+------------------------------
+  File: ./winapps/apps/powerpoint/info
+  Size: 769       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106391     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.069478000 -0300
+Modify: 2022-12-15 21:56:16.069605200 -0300
+Change: 2022-12-15 21:56:16.069605200 -0300
+ Birth: -
+IPFS hash: QmZzQSB3GXmjUGAhizhBurn9G8qtEjwE63E1mzVYQnpdC3
+------------------------------
+  File: ./winapps/apps/powerpoint-o365/icon.svg
+  Size: 992       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106376     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.065951800 -0300
+Modify: 2022-12-15 21:56:16.066114100 -0300
+Change: 2022-12-15 21:56:16.066114100 -0300
+ Birth: -
+IPFS hash: QmaddPgzBmmd6ArFbzdhyYxduaNHsZECfaETkH7e7WmsVH
+------------------------------
+  File: ./winapps/apps/powerpoint-o365/info
+  Size: 774       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106381     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.066530000 -0300
+Modify: 2022-12-15 21:56:16.066741900 -0300
+Change: 2022-12-15 21:56:16.066741900 -0300
+ Birth: -
+IPFS hash: QmdLETQ3xoAKhWDuimt2KprX9KfLMbbrhqysLMLQtWCedD
+------------------------------
+  File: ./winapps/apps/powerpoint-o365-x86/icon.svg
+  Size: 992       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106371     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.064447300 -0300
+Modify: 2022-12-15 21:56:16.064680100 -0300
+Change: 2022-12-15 21:56:16.064680100 -0300
+ Birth: -
+IPFS hash: QmaddPgzBmmd6ArFbzdhyYxduaNHsZECfaETkH7e7WmsVH
+------------------------------
+  File: ./winapps/apps/powerpoint-o365-x86/info
+  Size: 780       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106372     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.065096900 -0300
+Modify: 2022-12-15 21:56:16.065276200 -0300
+Change: 2022-12-15 21:56:16.065276200 -0300
+ Birth: -
+IPFS hash: QmR2f78kwFQtXngvcEptzNvTEzpSQjqVyvG6JvgHo29Snt
+------------------------------
+  File: ./winapps/apps/powerpoint-x86/icon.svg
+  Size: 992       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106383     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.067473900 -0300
+Modify: 2022-12-15 21:56:16.067656000 -0300
+Change: 2022-12-15 21:56:16.067656000 -0300
+ Birth: -
+IPFS hash: QmaddPgzBmmd6ArFbzdhyYxduaNHsZECfaETkH7e7WmsVH
+------------------------------
+  File: ./winapps/apps/powerpoint-x86/info
+  Size: 775       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106388     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.068085100 -0300
+Modify: 2022-12-15 21:56:16.068256400 -0300
+Change: 2022-12-15 21:56:16.068256400 -0300
+ Birth: -
+IPFS hash: QmNUwaz1xVvED2npdSzhkN2a1LPhLhZSdCFJpPLcb4Sq3e
+------------------------------
+  File: ./winapps/apps/powershell/icon.svg
+  Size: 819       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106402     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.071472100 -0300
+Modify: 2022-12-15 21:56:16.071603200 -0300
+Change: 2022-12-15 21:56:16.071603200 -0300
+ Birth: -
+IPFS hash: QmYcV9raqiwZD9Pp2a9QXrm43eH34yGmEFAf3jUaMr7bfJ
+------------------------------
+  File: ./winapps/apps/powershell/info
+  Size: 305       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106403     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.072026200 -0300
+Modify: 2022-12-15 21:56:16.072121200 -0300
+Change: 2022-12-15 21:56:16.072121200 -0300
+ Birth: -
+IPFS hash: QmNgerrzzTMqe3Ak6Sn2Fa2GvhbeCcnEQUx1crv5dQCqDS
+------------------------------
+  File: ./winapps/apps/powershell-core/icon.svg
+  Size: 819       	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106394     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.070262400 -0300
+Modify: 2022-12-15 21:56:16.070419000 -0300
+Change: 2022-12-15 21:56:16.070419000 -0300
+ Birth: -
+IPFS hash: QmYcV9raqiwZD9Pp2a9QXrm43eH34yGmEFAf3jUaMr7bfJ
+------------------------------
+  File: ./winapps/apps/powershell-core/info
+  Size: 296       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106400     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.070886900 -0300
+Modify: 2022-12-15 21:56:16.070989100 -0300
+Change: 2022-12-15 21:56:16.070989100 -0300
+ Birth: -
+IPFS hash: QmPo6aGrtJEhjrGrPB5gfYYDUisj7eCps3RpC2K8dxyaan
+------------------------------
+  File: ./winapps/apps/premiere-pro-cc/icon.svg
+  Size: 328       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106405     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.072620400 -0300
+Modify: 2022-12-15 21:56:16.072708800 -0300
+Change: 2022-12-15 21:56:16.072708800 -0300
+ Birth: -
+IPFS hash: QmaMDHNeq8p5i7S6VjSthJVqV8Le5zsV3M7KyprUbTXKHL
+------------------------------
+  File: ./winapps/apps/premiere-pro-cc/info
+  Size: 346       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106406     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.073179100 -0300
+Modify: 2022-12-15 21:56:16.073286000 -0300
+Change: 2022-12-15 21:56:16.073286000 -0300
+ Birth: -
+IPFS hash: QmWoskevpio93841cuCAJPb8CSCtRF7uJAtdfwiJXuMuYq
+------------------------------
+  File: ./winapps/apps/project/icon.svg
+  Size: 4762      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106430     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.078182800 -0300
+Modify: 2022-12-15 21:56:16.078558400 -0300
+Change: 2022-12-15 21:56:16.078558400 -0300
+ Birth: -
+IPFS hash: QmepLfSJuBNnCz3ce1ikAqc2JjtLBXhiEcuuPmkDHo9Mnw
+------------------------------
+  File: ./winapps/apps/project/info
+  Size: 412       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106431     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.079014100 -0300
+Modify: 2022-12-15 21:56:16.079160700 -0300
+Change: 2022-12-15 21:56:16.079160700 -0300
+ Birth: -
+IPFS hash: QmWCXxkzzESWUMqN8qKyJby5eR9bJn97gVgTGvYfBDxkgL
+------------------------------
+  File: ./winapps/apps/project-o365/icon.svg
+  Size: 4762      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106420     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.074892300 -0300
+Modify: 2022-12-15 21:56:16.075087700 -0300
+Change: 2022-12-15 21:56:16.075087700 -0300
+ Birth: -
+IPFS hash: QmepLfSJuBNnCz3ce1ikAqc2JjtLBXhiEcuuPmkDHo9Mnw
+------------------------------
+  File: ./winapps/apps/project-o365/info
+  Size: 417       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106421     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.075500700 -0300
+Modify: 2022-12-15 21:56:16.075670000 -0300
+Change: 2022-12-15 21:56:16.075670000 -0300
+ Birth: -
+IPFS hash: QmbCGUs7wmbJobU531xJy5iYZZ8WS38JukJaSphWYkxhtR
+------------------------------
+  File: ./winapps/apps/project-o365-x86/icon.svg
+  Size: 4762      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106408     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.073799800 -0300
+Modify: 2022-12-15 21:56:16.074006100 -0300
+Change: 2022-12-15 21:56:16.074006100 -0300
+ Birth: -
+IPFS hash: QmepLfSJuBNnCz3ce1ikAqc2JjtLBXhiEcuuPmkDHo9Mnw
+------------------------------
+  File: ./winapps/apps/project-o365-x86/info
+  Size: 423       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106415     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.074286700 -0300
+Modify: 2022-12-15 21:56:16.074376600 -0300
+Change: 2022-12-15 21:56:16.074376600 -0300
+ Birth: -
+IPFS hash: QmXF2XJQbYdqFLfYsHSjwbVxqH5VxRsuawpJXvS4LwV7Qr
+------------------------------
+  File: ./winapps/apps/project-x86/icon.svg
+  Size: 4762      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106423     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.076465500 -0300
+Modify: 2022-12-15 21:56:16.076745500 -0300
+Change: 2022-12-15 21:56:16.076745500 -0300
+ Birth: -
+IPFS hash: QmepLfSJuBNnCz3ce1ikAqc2JjtLBXhiEcuuPmkDHo9Mnw
+------------------------------
+  File: ./winapps/apps/project-x86/info
+  Size: 418       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106425     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.077178400 -0300
+Modify: 2022-12-15 21:56:16.077331200 -0300
+Change: 2022-12-15 21:56:16.077331200 -0300
+ Birth: -
+IPFS hash: QmQMHEHUaxeLCJ11r7drBFWU5EyEW2Tp337zz7XpnVrDpo
+------------------------------
+  File: ./winapps/apps/publisher/icon.svg
+  Size: 586       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106449     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.084192800 -0300
+Modify: 2022-12-15 21:56:16.084374400 -0300
+Change: 2022-12-15 21:56:16.084374400 -0300
+ Birth: -
+IPFS hash: QmQeJfCMWSKRfjoEcBqYZra43XbGxFY8KEgqZLtPNQPSUX
+------------------------------
+  File: ./winapps/apps/publisher/info
+  Size: 326       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106450     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.084864700 -0300
+Modify: 2022-12-15 21:56:16.085039200 -0300
+Change: 2022-12-15 21:56:16.085039200 -0300
+ Birth: -
+IPFS hash: QmcJMk692xGYnz8CchxMVHVoYp5XD2t7KeLSfxJRgtxkEg
+------------------------------
+  File: ./winapps/apps/publisher-o365/icon.svg
+  Size: 586       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106436     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.080929300 -0300
+Modify: 2022-12-15 21:56:16.081050400 -0300
+Change: 2022-12-15 21:56:16.081050400 -0300
+ Birth: -
+IPFS hash: QmQeJfCMWSKRfjoEcBqYZra43XbGxFY8KEgqZLtPNQPSUX
+------------------------------
+  File: ./winapps/apps/publisher-o365/info
+  Size: 331       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106437     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.081399100 -0300
+Modify: 2022-12-15 21:56:16.081508800 -0300
+Change: 2022-12-15 21:56:16.081508800 -0300
+ Birth: -
+IPFS hash: QmQFnkHbGWLAxQzqVjxnmL8xKqbsr1FR9ZYHgYa4EGkRhn
+------------------------------
+  File: ./winapps/apps/publisher-o365-x86/icon.svg
+  Size: 586       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106433     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.079768700 -0300
+Modify: 2022-12-15 21:56:16.079902100 -0300
+Change: 2022-12-15 21:56:16.079902100 -0300
+ Birth: -
+IPFS hash: QmQeJfCMWSKRfjoEcBqYZra43XbGxFY8KEgqZLtPNQPSUX
+------------------------------
+  File: ./winapps/apps/publisher-o365-x86/info
+  Size: 337       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106434     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.080239000 -0300
+Modify: 2022-12-15 21:56:16.080343600 -0300
+Change: 2022-12-15 21:56:16.080343600 -0300
+ Birth: -
+IPFS hash: QmQXPWL5Y1dTxnyWJU65hCYxdWfeAeW2iCP9nrWS4U8QwW
+------------------------------
+  File: ./winapps/apps/publisher-x86/icon.svg
+  Size: 586       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106439     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.082311700 -0300
+Modify: 2022-12-15 21:56:16.082509000 -0300
+Change: 2022-12-15 21:56:16.082509000 -0300
+ Birth: -
+IPFS hash: QmQeJfCMWSKRfjoEcBqYZra43XbGxFY8KEgqZLtPNQPSUX
+------------------------------
+  File: ./winapps/apps/publisher-x86/info
+  Size: 332       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106445     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.083154800 -0300
+Modify: 2022-12-15 21:56:16.083350600 -0300
+Change: 2022-12-15 21:56:16.083350600 -0300
+ Birth: -
+IPFS hash: QmT2XqfmXbe8trU7k9j2t1nwNiFb8qqyar8A5webBenWGV
+------------------------------
+  File: ./winapps/apps/vs-community-2019/icon.svg
+  Size: 1155      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106452     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.085784300 -0300
+Modify: 2022-12-15 21:56:16.085952300 -0300
+Change: 2022-12-15 21:56:16.085952300 -0300
+ Birth: -
+IPFS hash: QmdF8mdCvPXA2HiRzBkDwHbVHga99qipYtxwiPCTC6SH5d
+------------------------------
+  File: ./winapps/apps/vs-community-2019/info
+  Size: 495       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106453     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.086310000 -0300
+Modify: 2022-12-15 21:56:16.086429700 -0300
+Change: 2022-12-15 21:56:16.086429700 -0300
+ Birth: -
+IPFS hash: QmQqy3EBgnmoCizBxPFvE6ecdkENqh4YUvX2rBfhmPnoGk
+------------------------------
+  File: ./winapps/apps/vs-enterprise-2019/icon.svg
+  Size: 1155      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106455     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.086993700 -0300
+Modify: 2022-12-15 21:56:16.087143600 -0300
+Change: 2022-12-15 21:56:16.087143600 -0300
+ Birth: -
+IPFS hash: QmdF8mdCvPXA2HiRzBkDwHbVHga99qipYtxwiPCTC6SH5d
+------------------------------
+  File: ./winapps/apps/vs-enterprise-2019/info
+  Size: 498       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106456     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.087579900 -0300
+Modify: 2022-12-15 21:56:16.087692500 -0300
+Change: 2022-12-15 21:56:16.087692500 -0300
+ Birth: -
+IPFS hash: QmZfnTzKdoXhyYxW3UiNYfV57tiivHazZBmsV4sHzj1jEA
+------------------------------
+  File: ./winapps/apps/vs-professional-2019/icon.svg
+  Size: 1155      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106458     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.088263500 -0300
+Modify: 2022-12-15 21:56:16.088413000 -0300
+Change: 2022-12-15 21:56:16.088413000 -0300
+ Birth: -
+IPFS hash: QmdF8mdCvPXA2HiRzBkDwHbVHga99qipYtxwiPCTC6SH5d
+------------------------------
+  File: ./winapps/apps/vs-professional-2019/info
+  Size: 504       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106459     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.088757500 -0300
+Modify: 2022-12-15 21:56:16.088861000 -0300
+Change: 2022-12-15 21:56:16.088861000 -0300
+ Birth: -
+IPFS hash: QmQ33phfuAaTEiY4ueScbMA6NRLQKocboACh7oAZdeDy1m
+------------------------------
+  File: ./winapps/apps/word/icon.svg
+  Size: 1243      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106470     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.093298400 -0300
+Modify: 2022-12-15 21:56:16.093753000 -0300
+Change: 2022-12-15 21:56:16.093753000 -0300
+ Birth: -
+IPFS hash: QmYEfiTNgs4S32ZhAbZbxDjTX3UZih9uhe1mQiS2LbQsaT
+------------------------------
+  File: ./winapps/apps/word/info
+  Size: 550       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106471     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.094185000 -0300
+Modify: 2022-12-15 21:56:16.094333600 -0300
+Change: 2022-12-15 21:56:16.094333600 -0300
+ Birth: -
+IPFS hash: QmSUghJfooriwHSdpomxmjLyTJcggrdF7LqjhywhkuvrE1
+------------------------------
+  File: ./winapps/apps/word-o365/icon.svg
+  Size: 1243      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106464     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.090626700 -0300
+Modify: 2022-12-15 21:56:16.090749200 -0300
+Change: 2022-12-15 21:56:16.090749200 -0300
+ Birth: -
+IPFS hash: QmYEfiTNgs4S32ZhAbZbxDjTX3UZih9uhe1mQiS2LbQsaT
+------------------------------
+  File: ./winapps/apps/word-o365/info
+  Size: 555       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106465     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.091077200 -0300
+Modify: 2022-12-15 21:56:16.091183600 -0300
+Change: 2022-12-15 21:56:16.091183600 -0300
+ Birth: -
+IPFS hash: QmZF5D8QMD2hhTav3gLe8myNCLpDgYeBumbvLnqKCdNTVD
+------------------------------
+  File: ./winapps/apps/word-o365-x86/icon.svg
+  Size: 1243      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106461     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.089411800 -0300
+Modify: 2022-12-15 21:56:16.089566900 -0300
+Change: 2022-12-15 21:56:16.089566900 -0300
+ Birth: -
+IPFS hash: QmYEfiTNgs4S32ZhAbZbxDjTX3UZih9uhe1mQiS2LbQsaT
+------------------------------
+  File: ./winapps/apps/word-o365-x86/info
+  Size: 561       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106462     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.089975200 -0300
+Modify: 2022-12-15 21:56:16.090080700 -0300
+Change: 2022-12-15 21:56:16.090080700 -0300
+ Birth: -
+IPFS hash: QmZvMRKNUPU1dkc9fHWPXbSx3N9qEJvrxg3e17HVges3xo
+------------------------------
+  File: ./winapps/apps/word-x86/icon.svg
+  Size: 1243      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106467     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.091731900 -0300
+Modify: 2022-12-15 21:56:16.091855400 -0300
+Change: 2022-12-15 21:56:16.091855400 -0300
+ Birth: -
+IPFS hash: QmYEfiTNgs4S32ZhAbZbxDjTX3UZih9uhe1mQiS2LbQsaT
+------------------------------
+  File: ./winapps/apps/word-x86/info
+  Size: 556       	Blocks: 2          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106468     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.092203100 -0300
+Modify: 2022-12-15 21:56:16.092341800 -0300
+Change: 2022-12-15 21:56:16.092341800 -0300
+ Birth: -
+IPFS hash: QmXkQCsJt4R5Stpdw8sPtyPbUVvpHC5Kc1PXeGkoj6ZRmF
+------------------------------
+  File: ./winapps/bin/winapps
+  Size: 3912      	Blocks: 8          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106473     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:59:39.341008700 -0300
+Modify: 2022-12-15 21:56:16.095305800 -0300
+Change: 2022-12-15 21:56:16.095305800 -0300
+ Birth: -
+IPFS hash: QmYyPTTMVGstg7trFo8X8fh5S2p4SDofNuJAeHEX2yiKQi
+------------------------------
+  File: ./winapps/demo/demo.gif
+  Size: 3533377   	Blocks: 6904       IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106475     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.095798700 -0300
+Modify: 2022-12-15 21:56:16.169548600 -0300
+Change: 2022-12-15 21:56:16.169548600 -0300
+ Birth: -
+IPFS hash: QmVkU2pVrEpFty52Q2dDbNsbMXzAFkoXGpgzDsSVWNa4P1
+------------------------------
+  File: ./winapps/demo/installer.gif
+  Size: 265068    	Blocks: 520        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106476     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.170317000 -0300
+Modify: 2022-12-15 21:56:16.178305500 -0300
+Change: 2022-12-15 21:56:16.178305500 -0300
+ Birth: -
+IPFS hash: QmZLqmMi9Uzrnij46TXXeMRVNc1NPhKC45oi6gDqrN1egt
+------------------------------
+  File: ./winapps/docs/kvm/00.png
+  Size: 103096    	Blocks: 208        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106480     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.180852300 -0300
+Modify: 2022-12-15 21:56:16.183357400 -0300
+Change: 2022-12-15 21:56:16.183357400 -0300
+ Birth: -
+IPFS hash: QmTbWUMAmG1ayMH5oHQgqHo8793e7jjwuE5H7Mr1YhKEHz
+------------------------------
+  File: ./winapps/docs/kvm/01.png
+  Size: 21102     	Blocks: 48         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106481     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.183772300 -0300
+Modify: 2022-12-15 21:56:16.184496200 -0300
+Change: 2022-12-15 21:56:16.184496200 -0300
+ Birth: -
+IPFS hash: QmaZLj51nQ2cNkn4fFZnnZvX5qFA973HV2r2g8PoG8g35J
+------------------------------
+  File: ./winapps/docs/kvm/02.png
+  Size: 14811     	Blocks: 32         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106482     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.184802800 -0300
+Modify: 2022-12-15 21:56:16.185158600 -0300
+Change: 2022-12-15 21:56:16.185158600 -0300
+ Birth: -
+IPFS hash: QmZttzRWqJ6dYFoivK231MSY5AfTCCoedVnBT5tNgijUb8
+------------------------------
+  File: ./winapps/docs/kvm/03.png
+  Size: 36656     	Blocks: 72         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106483     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.185478400 -0300
+Modify: 2022-12-15 21:56:16.186302500 -0300
+Change: 2022-12-15 21:56:16.186302500 -0300
+ Birth: -
+IPFS hash: QmPLSwAfPZzAfjtDkpEwLtjxp5tWFtnCsdN6R2Hzr4TSip
+------------------------------
+  File: ./winapps/docs/kvm/04.png
+  Size: 35930     	Blocks: 72         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106484     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.186595900 -0300
+Modify: 2022-12-15 21:56:16.187466400 -0300
+Change: 2022-12-15 21:56:16.187466400 -0300
+ Birth: -
+IPFS hash: QmREj4UNu6VtM6nBubR9jDrt3czXgbJaF3rcTxesURqfKv
+------------------------------
+  File: ./winapps/docs/kvm/05.png
+  Size: 25365     	Blocks: 56         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106485     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.187735700 -0300
+Modify: 2022-12-15 21:56:16.188358300 -0300
+Change: 2022-12-15 21:56:16.188358300 -0300
+ Birth: -
+IPFS hash: QmazCMHDwPs38CYBiTfJY1h4yyk2i4i5isc5XJ9s4sVLPP
+------------------------------
+  File: ./winapps/docs/kvm/06.png
+  Size: 30936     	Blocks: 64         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106486     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.188716900 -0300
+Modify: 2022-12-15 21:56:16.189358400 -0300
+Change: 2022-12-15 21:56:16.189358400 -0300
+ Birth: -
+IPFS hash: Qme776Uk3y1PsqCzoibWAUy3C32BEYiaDtnWk7uroagp4S
+------------------------------
+  File: ./winapps/docs/kvm/07.png
+  Size: 43307     	Blocks: 88         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106487     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.189681600 -0300
+Modify: 2022-12-15 21:56:16.190519000 -0300
+Change: 2022-12-15 21:56:16.190519000 -0300
+ Birth: -
+IPFS hash: QmYvGL2J7srjRpJVZpcjCGnXERewcC2wutVmqHBkjBaeDa
+------------------------------
+  File: ./winapps/docs/kvm/08.png
+  Size: 76725     	Blocks: 152        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106488     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.190773500 -0300
+Modify: 2022-12-15 21:56:16.192396300 -0300
+Change: 2022-12-15 21:56:16.192396300 -0300
+ Birth: -
+IPFS hash: QmRFQobds8mzxyvvWqNZZsxphRmwLWXGCWLxRzG1DTGzSa
+------------------------------
+  File: ./winapps/docs/kvm/09.png
+  Size: 128653    	Blocks: 256        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106489     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.192726500 -0300
+Modify: 2022-12-15 21:56:16.196559200 -0300
+Change: 2022-12-15 21:56:16.196559200 -0300
+ Birth: -
+IPFS hash: QmRS4LGFHudMtV77MQUDgF8TM5t2bD3btnUq3Sgbntn5ge
+------------------------------
+  File: ./winapps/docs/kvm/10.png
+  Size: 73746     	Blocks: 152        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106490     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.197034700 -0300
+Modify: 2022-12-15 21:56:16.199258400 -0300
+Change: 2022-12-15 21:56:16.199258400 -0300
+ Birth: -
+IPFS hash: QmeyS7PPdFsnV6sAxg1L568nNTEtqP1fsrdoGWahFRpX5B
+------------------------------
+  File: ./winapps/docs/kvm/11.png
+  Size: 79057     	Blocks: 160        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106491     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.199652900 -0300
+Modify: 2022-12-15 21:56:16.201749900 -0300
+Change: 2022-12-15 21:56:16.201749900 -0300
+ Birth: -
+IPFS hash: QmZei8wdDbMp7y2t3vwJ4Q4cQsCtxW4rcLQC7MGDP2nZXA
+------------------------------
+  File: ./winapps/docs/kvm/12.png
+  Size: 89898     	Blocks: 176        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106492     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.202140100 -0300
+Modify: 2022-12-15 21:56:16.204663700 -0300
+Change: 2022-12-15 21:56:16.204663700 -0300
+ Birth: -
+IPFS hash: QmX3tqbJxYaUaQU8YG2FbnMgzU3XqH3ZwTgNiEb8EAJjNb
+------------------------------
+  File: ./winapps/docs/kvm/13.png
+  Size: 82387     	Blocks: 168        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106493     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.205040400 -0300
+Modify: 2022-12-15 21:56:16.207743200 -0300
+Change: 2022-12-15 21:56:16.207743200 -0300
+ Birth: -
+IPFS hash: QmbAJRu1ieixZG2WRjoXUYURGhJKwRXgSk55RC8DTDN2Pz
+------------------------------
+  File: ./winapps/docs/kvm/14.png
+  Size: 74397     	Blocks: 152        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106494     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.208108500 -0300
+Modify: 2022-12-15 21:56:16.210626400 -0300
+Change: 2022-12-15 21:56:16.210626400 -0300
+ Birth: -
+IPFS hash: QmXy45S7rvHg73my82sfnNJhNxS6MUDZoZpJW7RRxepC8s
+------------------------------
+  File: ./winapps/docs/kvm/15.png
+  Size: 98328     	Blocks: 200        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106495     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.211101400 -0300
+Modify: 2022-12-15 21:56:16.214555100 -0300
+Change: 2022-12-15 21:56:16.214555100 -0300
+ Birth: -
+IPFS hash: QmPEs72w68Y7foLGFu1Z78A2KYA781giqwqsByckgZYEQd
+------------------------------
+  File: ./winapps/docs/kvm/16.png
+  Size: 37341     	Blocks: 80         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106496     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.214978600 -0300
+Modify: 2022-12-15 21:56:16.216204500 -0300
+Change: 2022-12-15 21:56:16.216204500 -0300
+ Birth: -
+IPFS hash: Qmf6Hp5ni1jEqyZ6qWuiqW72WBooWHkeN77yPW1RqQSonf
+------------------------------
+  File: ./winapps/docs/kvm/17.png
+  Size: 43961     	Blocks: 88         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106497     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.216566400 -0300
+Modify: 2022-12-15 21:56:16.218073200 -0300
+Change: 2022-12-15 21:56:16.218073200 -0300
+ Birth: -
+IPFS hash: QmYzTSNmcc3MQRaJfyRrZfJBxBB7FbB2EfPoFAKinaWkEn
+------------------------------
+  File: ./winapps/docs/kvm/18.png
+  Size: 54473     	Blocks: 112        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106498     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.218446500 -0300
+Modify: 2022-12-15 21:56:16.220254900 -0300
+Change: 2022-12-15 21:56:16.220254900 -0300
+ Birth: -
+IPFS hash: QmU1Gdbcz3U27sSsu6hbqZqKACUdpbMgimdZsCNxZ3jEFw
+------------------------------
+  File: ./winapps/docs/kvm/19.png
+  Size: 50057     	Blocks: 104        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106499     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.220620500 -0300
+Modify: 2022-12-15 21:56:16.222317100 -0300
+Change: 2022-12-15 21:56:16.222317100 -0300
+ Birth: -
+IPFS hash: QmNVpRdBjgh2Cymfj2cQ7zTfdLydh5w6RUxiVz4dHmFPq9
+------------------------------
+  File: ./winapps/docs/kvm/20.png
+  Size: 44324     	Blocks: 88         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106500     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.222681000 -0300
+Modify: 2022-12-15 21:56:16.224355400 -0300
+Change: 2022-12-15 21:56:16.224355400 -0300
+ Birth: -
+IPFS hash: QmU4bsgCFAKebZ5DhTBNsM4RRrCWjYbVMueVskFKnTEhvE
+------------------------------
+  File: ./winapps/docs/kvm/21.png
+  Size: 32753     	Blocks: 64         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106501     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.224716800 -0300
+Modify: 2022-12-15 21:56:16.226066500 -0300
+Change: 2022-12-15 21:56:16.226066500 -0300
+ Birth: -
+IPFS hash: QmQixyGoAihvB4Z4uLYCHMuHsBhYLrvWkX6dh9aZRE7YDh
+------------------------------
+  File: ./winapps/docs/kvm/22.png
+  Size: 30656     	Blocks: 64         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106502     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.226518800 -0300
+Modify: 2022-12-15 21:56:16.228617600 -0300
+Change: 2022-12-15 21:56:16.228617600 -0300
+ Birth: -
+IPFS hash: QmWPGx9U5mbru94CKDSX1zkxaeqy8XbvLA8pigd5B8UmuQ
+------------------------------
+  File: ./winapps/docs/kvm/23.png
+  Size: 72561     	Blocks: 144        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106503     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.229227900 -0300
+Modify: 2022-12-15 21:56:16.231989500 -0300
+Change: 2022-12-15 21:56:16.231989500 -0300
+ Birth: -
+IPFS hash: QmNUFbARBu8k1ZDPPtZoYAWZdFxgQi4yVXputzwCm8C5vh
+------------------------------
+  File: ./winapps/docs/kvm/24.png
+  Size: 203431    	Blocks: 400        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106504     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.232402000 -0300
+Modify: 2022-12-15 21:56:16.236848800 -0300
+Change: 2022-12-15 21:56:16.236848800 -0300
+ Birth: -
+IPFS hash: QmWndxT6CzbvcyfqRgCdsUjAvxiRp33FZahN4om2QAEZy4
+------------------------------
+  File: ./winapps/docs/kvm/25.png
+  Size: 230002    	Blocks: 456        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106505     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.237144600 -0300
+Modify: 2022-12-15 21:56:16.241982200 -0300
+Change: 2022-12-15 21:56:16.241982200 -0300
+ Birth: -
+IPFS hash: QmchA9otHSbG6REFp3WgGAsScAadi625niwx7yNCZEFQUS
+------------------------------
+  File: ./winapps/docs/kvm/26.png
+  Size: 202861    	Blocks: 400        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106506     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.242570800 -0300
+Modify: 2022-12-15 21:56:16.249236900 -0300
+Change: 2022-12-15 21:56:16.249236900 -0300
+ Birth: -
+IPFS hash: QmdxVvnLNLCHDm77zRiRWCvZRftNuQiEqsrJkjhicV57xC
+------------------------------
+  File: ./winapps/docs/kvm/27.png
+  Size: 172329    	Blocks: 344        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106507     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.249706800 -0300
+Modify: 2022-12-15 21:56:16.255063400 -0300
+Change: 2022-12-15 21:56:16.255063400 -0300
+ Birth: -
+IPFS hash: QmWxnQEwDJb64f38f6A14nnWYkgaptcaMocxuio8wW36gv
+------------------------------
+  File: ./winapps/docs/kvm/28.png
+  Size: 182136    	Blocks: 360        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106508     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.255497200 -0300
+Modify: 2022-12-15 21:56:16.262051300 -0300
+Change: 2022-12-15 21:56:16.262051300 -0300
+ Birth: -
+IPFS hash: QmYZA3wyRrHzcqnzQbhdxYtnzn4XZRBebwauwHcYtgxBqD
+------------------------------
+  File: ./winapps/docs/kvm/29.png
+  Size: 175252    	Blocks: 344        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106509     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.262571700 -0300
+Modify: 2022-12-15 21:56:16.268597800 -0300
+Change: 2022-12-15 21:56:16.268597800 -0300
+ Birth: -
+IPFS hash: QmNt5M2fAsGyJ62ioTJB81Z9VZfD9nBfna9GSYFj32qZx1
+------------------------------
+  File: ./winapps/docs/kvm/30.png
+  Size: 160743    	Blocks: 320        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106510     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.269012300 -0300
+Modify: 2022-12-15 21:56:16.274026800 -0300
+Change: 2022-12-15 21:56:16.274026800 -0300
+ Birth: -
+IPFS hash: QmYD1SzZkf5FPwJuoD8ZSGxBsuRJWJ6PxpZcfe1m1C8S5w
+------------------------------
+  File: ./winapps/docs/kvm/31.png
+  Size: 164177    	Blocks: 328        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106511     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.274355600 -0300
+Modify: 2022-12-15 21:56:16.279146800 -0300
+Change: 2022-12-15 21:56:16.279146800 -0300
+ Birth: -
+IPFS hash: QmNUnqWmdwi1pSWML3UKiuyBdg1gkdwdM4H1PuwUhQ26Lh
+------------------------------
+  File: ./winapps/docs/KVM.md
+  Size: 8330      	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106478     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.179520400 -0300
+Modify: 2022-12-15 21:56:16.180061700 -0300
+Change: 2022-12-15 21:56:16.180061700 -0300
+ Birth: -
+IPFS hash: QmRVpwqi77bioanUGQqLrFMzgrS9qr2xXXeSyhQ1eoeUs7
+------------------------------
+  File: ./winapps/icons/windows.svg
+  Size: 218       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106513     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:59:47.168290600 -0300
+Modify: 2022-12-15 21:56:16.280290400 -0300
+Change: 2022-12-15 21:56:16.280290400 -0300
+ Birth: -
+IPFS hash: Qmd2PZyZ4KmPEzX3SoFY59abkyyK2GqWz32FFtgDmbre1F
+------------------------------
+  File: ./winapps/install/ExtractPrograms.ps1
+  Size: 10072     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106515     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:59:54.686388300 -0300
+Modify: 2022-12-15 21:56:16.281450900 -0300
+Change: 2022-12-15 21:56:16.281450900 -0300
+ Birth: -
+IPFS hash: QmRYde9NBbMSJX5WAYgWzXig4f2yh3EWxiXhdNoT6T6Jk6
+------------------------------
+  File: ./winapps/install/inquirer.sh
+  Size: 19846     	Blocks: 40         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106517     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.282300600 -0300
+Modify: 2022-12-15 21:56:16.282988600 -0300
+Change: 2022-12-15 21:56:16.282988600 -0300
+ Birth: -
+IPFS hash: QmRweZydz73dP4HHXppbPeEK24naZihHsYtZF8h1yG89gW
+------------------------------
+  File: ./winapps/install/RDPApps.reg
+  Size: 312       	Blocks: 1          IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106516     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.281839800 -0300
+Modify: 2022-12-15 21:56:16.282011500 -0300
+Change: 2022-12-15 21:56:16.282011500 -0300
+ Birth: -
+IPFS hash: QmVusDfTdsPz1wWzLzmdNjnEZvZFUTRZAovMtcMFHJfsHE
+------------------------------
+  File: ./winapps/installer.sh
+  Size: 10320     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106518     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.283243500 -0300
+Modify: 2022-12-15 21:56:16.283742700 -0300
+Change: 2022-12-15 21:56:16.283742700 -0300
+ Birth: -
+IPFS hash: Qmc7RycFC1e9kMagcMxbxPysjUNoJeo5gWMwSUQMxG7HMt
+------------------------------
+  File: ./winapps/kvm/RDPWindows.qcow2
+  Size: 204800    	Blocks: 112        IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106520     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.284342600 -0300
+Modify: 2022-12-15 21:56:16.290956800 -0300
+Change: 2022-12-15 21:56:16.290956800 -0300
+ Birth: -
+IPFS hash: QmZwCoDXLCCATFMANiqzdDLeWRbt2cRe8cPvtPsmkokcC3
+------------------------------
+  File: ./winapps/kvm/RDPWindows.xml
+  Size: 7931      	Blocks: 16         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106521     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.291336700 -0300
+Modify: 2022-12-15 21:56:16.291730300 -0300
+Change: 2022-12-15 21:56:16.291730300 -0300
+ Birth: -
+IPFS hash: Qmc4nay943PxvXzM9Gb6kZzqTCWkVbZCR8Chteg7hs1qw5
+------------------------------
+  File: ./winapps/README.md
+  Size: 10198     	Blocks: 24         IO Block: 4096   regular file
+Device: 834h/2100d	Inode: 1106250     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-12-15 21:56:16.006792400 -0300
+Modify: 2022-12-15 21:56:16.007314800 -0300
+Change: 2022-12-15 21:56:16.007314800 -0300
+ Birth: -
+IPFS hash: QmTKcqdSk1eHXxRVzgfSDu3tEV1874qP2v6hMWfNMA8Ydf
+------------------------------
