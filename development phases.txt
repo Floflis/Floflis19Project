@@ -1,12 +1,12 @@
 steps:
 builds:
-32. examine what happens with Core's firstboot, logging everything
-33. polishing: fix issues of previous build; 01 VCS; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb, almanah
-34. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
-35. upper layers
-36. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
-37. stable? migrate to UbuntuCinnamonRemix
-38. stable? first build
+33. polishing: fix issues of previous build
+34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb, almanah
+35. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
+36. upper layers
+37. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
+38. stable? migrate to UbuntuCinnamonRemix
+39. stable? first build
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
 attempt 32:
@@ -47,11 +47,30 @@ Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 - $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
+replace .git symlink, to "git clone --no-checkout <repo_url> ."
+/media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
+/usr/share/icons/Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
+/media/daniell/B/git/Floflis/Rust/nushell/nu-post-install
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity-slideshow
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/witchcraft-candy-colors
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/ethgas
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/mlq
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/online
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/shexec
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/VCS/01
+
 /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps
 
 Installing neofetch...
 Your branch is up to date with 'build/main'.
 mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
+
+- possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
+- fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
+possible workaround: disable firstboot on both Core/Soil and re-enable slowly
+
+attempt 33:
 
 to-merge.sh: line 1024: break: only meaningful in a `for', `while', or `until' loop
 Installing 01 VCS...
@@ -87,19 +106,6 @@ tar: Exiting with failure status due to previous errors
 
 - test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
 - fix adding Z-root (core's install.sh)
-
-replace .git symlink, to "git clone --no-checkout <repo_url> ."
-/media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
-/usr/share/icons/Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
-/media/daniell/B/git/Floflis/Rust/nushell/nu-post-install
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity-slideshow
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/witchcraft-candy-colors
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/ethgas
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/mlq
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/online
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/shexec
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/VCS/01
 
 Installing icons for .nu files...
 Cloning into 'linux-icon-builder'...
@@ -153,10 +159,6 @@ fix floapps installer
 If Cubic mode, don't ask before installing important programs such as git (also git lfs)
 Soil: don't install autoconf elinks ceni gdebi udftools nodejs
 
-- possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
-- fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
-possible workaround: disable firstboot on both Core/Soil and re-enable slowly
-
 include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz
 Use git repos for Spices whenever possible
 
@@ -164,13 +166,11 @@ Use git repos for Spices whenever possible
 include/BeepBox_4_0_1.zip ? futurely convert to .apps
 include/HTML5Apps/central.tar.gz convert to .apps
 
+Soil: replace include/img/logo.png to svg
+
 only prepare to build if Floflis Central tasks are done
 
 up-to-date OS data (build)
-
-attempt 33:
-
-Soil: replace include/img/logo.png to svg
 
 Core:
 - Update go-ipfs from v0.9.0-rc1 to 
