@@ -47,6 +47,8 @@ Issues that may appear in this build:
 - /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 - $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
+ensure fix of cryptovoxels icon
+
 replace .git symlink, to "git clone --no-checkout <repo_url> ."
 /media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
 /usr/share/icons/Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
@@ -71,6 +73,8 @@ mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
 possible workaround: disable firstboot on both Core/Soil and re-enable slowly
 
 attempt 33:
+
+cryptovoxels svg icon
 
 to-merge.sh: line 1024: break: only meaningful in a `for', `while', or `until' loop
 Installing 01 VCS...
