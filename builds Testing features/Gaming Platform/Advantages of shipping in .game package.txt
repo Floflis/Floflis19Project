@@ -1,0 +1,5 @@
+- with plugz+floflis-packager, compile a smaller distribution (faster download) of your game by removing all of the sounds that have a .midi equivalent
+- Floflis' built-in JS .midi support + library of soundfonts
+- Floflis' built-in Construct 2/3 addons (so your .game package don't have to ship them)
+- Foflis' built-in Construct 2/3 resources
+- Floflis' built-in AirConsole JS
