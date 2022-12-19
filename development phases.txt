@@ -76,6 +76,11 @@ attempt 33:
 
 cryptovoxels svg icon
 
+study about rainbowallet (twitter) storing a bkp of seed at dropbox; fl integrate geth with ethereal+frame
+
+begin with the pre-installed IPFS apps/sites
+include: rpidtables, json lint
+
 to-merge.sh: line 1024: break: only meaningful in a `for', `while', or `until' loop
 Installing 01 VCS...
 
