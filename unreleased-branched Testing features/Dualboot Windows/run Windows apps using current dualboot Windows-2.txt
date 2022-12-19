@@ -1,1 +1,0 @@
-ensure first: don't have two minecraft apps on both windows/host linux (merge data folders using Floflis Bridge and add windows emblem icon to windows app)
