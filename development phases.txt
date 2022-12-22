@@ -49,6 +49,11 @@ Issues that may appear in this build:
 
 ensure fix of cryptovoxels icon
 
+floflis core energy module:
+systemctl reboot --firmware-setup
+#-credits: https://superuser.com/a/1083166
+(only if UEFI is detected. if true, also implement to Central)
+
 replace .git symlink, to "git clone --no-checkout <repo_url> ."
 /media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
 /usr/share/icons/Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
@@ -75,6 +80,8 @@ possible workaround: disable firstboot on both Core/Soil and re-enable slowly
 attempt 33:
 
 cryptovoxels svg icon
+
+Explore menu: merge two sources using foldmerger; add applet context menu with power menu including option to reboot to UEFI firmware (only if UEFI is detected)
 
 study about rainbowallet (twitter) storing a bkp of seed at dropbox; fl integrate geth with ethereal+frame
 
