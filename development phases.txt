@@ -1,7 +1,7 @@
 steps:
 builds:
 33. polishing: fix issues of previous build
-34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb, almanah
+34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its pack), almanah
 35. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 36. upper layers
 37. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
@@ -48,19 +48,15 @@ Issues that may appear in this build:
 - [PROBABLY] $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
 replace .git symlink, to "git clone --no-checkout <repo_url> ."
-/media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
-/usr/share/icons/Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
+include/System/ubiquity-slideshow
+include/Terminal/witchcraft-candy-colors
+include/Tools/ethgas
+include/Tools/mlq
+include/Tools/online
+include/VCS/01
 /media/daniell/B/git/Floflis/Rust/nushell/nu-post-install
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity-slideshow
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/witchcraft-candy-colors
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/ethgas
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/mlq
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/online
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Tools/shexec
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/VCS/01
-
-/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps
+include-firstlogon/floapps
+include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
 
 Installing neofetch...
 Your branch is up to date with 'build/main'.
@@ -96,6 +92,7 @@ If something went wrong, log on to tty and run the below command
 <font color="#FFB86C"><b>$ sudo update-alternatives --quiet --set gdm3-theme.gresource /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource</b></font></pre>
 (use at DeFi Central)
 --------------------------------------------------------------------------------------------
+include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
 
 cryptovoxels svg icon
 
