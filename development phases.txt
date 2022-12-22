@@ -44,35 +44,8 @@ This also improves the visibility of the icon
 - fix installing Starship (v1.3.0)
 -
 Issues that may appear in this build:
-- /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
-- $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
-
-ensure fix of cryptovoxels icon
-
---------------------------------------------------------------------------------------------
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/ubuntu-gdm-set-background
--
-sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
-#-from https://www.omgubuntu.co.uk/2022/01/change-ubuntu-login-screen-background
--
-/usr/share/plymouth
-/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
-/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
-/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
---------------------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------------------
-COLORS INSP:
-<pre><font color="#8BE9FD"><b>ubuntu-gdm-set-background</b></font> on <font color="#FF5555"><b> main</b></font> 
-<font color="#50FA7B"><b>❯</b></font> sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
-[sudo] password for daniell: 
-
-😀 <font color="#50FA7B"><b>Seems &apos;background change is successful&apos;</b></font>
-Changes will be effective after a Reboot (<font color="#FFB86C"><b>CTRL+ALT+F1</b></font> may show the changes immediately)
-If something went wrong, log on to tty and run the below command
-<font color="#FFB86C"><b>$ sudo update-alternatives --quiet --set gdm3-theme.gresource /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource</b></font></pre>
-(use at DeFi Central)
---------------------------------------------------------------------------------------------
+- [POSSIBLE] /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
+- [PROBABLY] $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
 
 replace .git symlink, to "git clone --no-checkout <repo_url> ."
 /media/daniell/B/git/Floflis/frk/neofetch /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch
@@ -93,11 +66,36 @@ Installing neofetch...
 Your branch is up to date with 'build/main'.
 mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
 
+--------------------------------------------------------------------------------------------
+/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/ubuntu-gdm-set-background
+-
+sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
+#-from https://www.omgubuntu.co.uk/2022/01/change-ubuntu-login-screen-background
+-
+/usr/share/plymouth
+/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
+/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
+/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
+--------------------------------------------------------------------------------------------
+
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
 - fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
 possible workaround: disable firstboot on both Core/Soil and re-enable slowly
 
 attempt 33:
+
+--------------------------------------------------------------------------------------------
+COLORS INSP:
+<pre><font color="#8BE9FD"><b>ubuntu-gdm-set-background</b></font> on <font color="#FF5555"><b> main</b></font> 
+<font color="#50FA7B"><b>❯</b></font> sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
+[sudo] password for daniell: 
+
+😀 <font color="#50FA7B"><b>Seems &apos;background change is successful&apos;</b></font>
+Changes will be effective after a Reboot (<font color="#FFB86C"><b>CTRL+ALT+F1</b></font> may show the changes immediately)
+If something went wrong, log on to tty and run the below command
+<font color="#FFB86C"><b>$ sudo update-alternatives --quiet --set gdm3-theme.gresource /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource</b></font></pre>
+(use at DeFi Central)
+--------------------------------------------------------------------------------------------
 
 cryptovoxels svg icon
 
@@ -105,6 +103,9 @@ floflis core energy module:
 systemctl reboot --firmware-setup
 #-credits: https://superuser.com/a/1083166
 (only if UEFI is detected. if true, also implement to Central)
+
+floflis central personalization: detect when user background is Pokemon_Scarlet_Violet_Terastal_Wallpaper_(*).jpg and add to list of NFTs,then put message at UniStore and mark as owned
+wallet: display nintendo silver/gold coins!
 
 https://www.omgubuntu.co.uk/2022/01/spicetify-change-spotify-app-theme
 
