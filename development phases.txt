@@ -1,6 +1,5 @@
 steps:
 builds:
-33. polishing: fix issues of previous build
 34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its pack), almanah
 35. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 36. upper layers
@@ -42,43 +41,23 @@ This also improves the visibility of the icon
 - add osbuildcodename at presentation
 - fix removing leftovers from tools install
 - fix installing Starship (v1.3.0)
+- Get some dependencies externally, from their git repos
+- to-merge_firstlogon.sh: /tmp/org-cinnamon add 'scaling-factor=uint32 0' (I dunno what it does, got it from my install)
+- to-merge.sh: begin Floflis' own logon design - credits to https://github.com/Floflis/ubuntu-gdm-set-background.git for the gradient background inspiration and an Adobe tool for extracting gradient from bitmap
+- rebase from canonical's ubuntu to ubuntu cinnamon remix
+- rebase from ubuntu 20 to ubuntu 22
+- disable installing cinnamon; for later: detect ubuntu cinnamon remix otherwise install cinnamon normally
 -
 Issues that may appear in this build:
 - [POSSIBLE] /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
 - [PROBABLY] $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
+- [POSSIBLE] Installing neofetch... / Your branch is up to date with 'build/main'. / mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
 
-replace .git symlink, to "git clone --no-checkout <repo_url> ."
-include/System/ubiquity-slideshow
-include/Terminal/witchcraft-candy-colors
-include/Tools/ethgas
-include/Tools/mlq
-include/Tools/online
-include/VCS/01
-/media/daniell/B/git/Floflis/Rust/nushell/nu-post-install
-include-firstlogon/floapps
-include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
-
-Installing neofetch...
-Your branch is up to date with 'build/main'.
-mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
-
---------------------------------------------------------------------------------------------
-/media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/ubuntu-gdm-set-background
--
-sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
-#-from https://www.omgubuntu.co.uk/2022/01/change-ubuntu-login-screen-background
--
-/usr/share/plymouth
-/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
-/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
-/media/daniell/Windows 10 main1/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
---------------------------------------------------------------------------------------------
+attempt 33:
 
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
 - fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
 possible workaround: disable firstboot on both Core/Soil and re-enable slowly
-
-attempt 33:
 
 --------------------------------------------------------------------------------------------
 COLORS INSP:
@@ -95,6 +74,10 @@ If something went wrong, log on to tty and run the below command
 include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
 
 cryptovoxels svg icon
+
+replace .git symlink, to "git clone --no-checkout <repo_url> ."
+include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
+https://github.com/Floflis/Eleganse-Floflis.git
 
 floflis core energy module:
 systemctl reboot --firmware-setup
