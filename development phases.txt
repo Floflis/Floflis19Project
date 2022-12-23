@@ -1,5 +1,6 @@
 steps:
 builds:
+33. polishing: fix issues of previous build
 34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its pack), almanah
 35. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 36. upper layers
@@ -9,6 +10,168 @@ builds:
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
 attempt 33:
+
+install openshot/mmex from a different source
+
+/usr/share/plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
+
+on every logon, floflis will register user's IPFS peer ID
+-
+jq /home/daniell/.ipfs/config
+"Identity": {
+    "PeerID"
+-
+
+Floflis Central repaginate:
+- new font
+- New design for navbar (transparent or blur)+hover+selected (FMWK will differ vertical and horizontal tabs)
+- navbar right shadow (using updated FMWK)
+- collapsible navbar from topbar/header
+- SVG logotype for header
+- SVG FLOF token logo/icon
+- SVG token logos
+- use the not-png floflis 2014 logo
+- more details about CPU architecture
+- integration with Alertz (Profile>Inventory>Backgrounds)
+- integrate IPFS (also display peerid)
+
+davidExplorer
+- if floflis detect user is pokefan, add easter egg .folderdata when accessing "/", showing a great tusk with "a wild dngrs thing appeared" with SV south battle music (get from external URL). only enable it if user is detected as pokefan and it have bgfxmusic mode activated
+- replace native file dialog (open, save)
+
+cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
+identify-im6.q16: unable to open image `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-apps.png': No such file or directory @ error/blob.c/OpenBlob/2924.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+
+identify-im6.q16: unable to open image `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-game.png': No such file or directory @ error/blob.c/OpenBlob/2924.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+
+identify-im6.q16: unable to open image `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-html5.png': No such file or directory @ error/blob.c/OpenBlob/2924.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+
+logname: no login name
+Installing floflis-application-handler...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Installing shortcut in /usr/share/applications...
+Turning floflis-application-handler into the default program (to user ) for .apps and .game applications...
+install.sh: line 24: /home//.config/mimeapps.list: No such file or directory
+- Turning floflis-application-handler into an executable...
+
+tar (child): include/node_modules.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+
+Installing C2 common libs...
+tar (child): include/Floflis_libs_game-engines_c2.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+Having common libs, C2 games/apps will be smaller to download (also to store locally)!
+Protecting (read-only) C2 common libs...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+chmod: cannot access '/1/Floflis/libs/game-engines/c2': No such file or directory
+
+logname: no login name
+Installing mimetypes for .nu files...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+gtk-update-icon-cache: Cache file created successfully.
+Installing icons for .nu files...
+Cloning into 'linux-icon-builder'...
+
+identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
+Installing handler for .nu files...
+Installing nu-script-handler...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Installing shortcut in /usr/share/applications...
+Turning nu-script-handler into the default program (to user ) for .nu scripts...
+./install.sh: 58: cannot create /home//.config/mimeapps.list: Directory nonexistent
+
+Proceeding with the install of Floflis icons...
+de-duplicing some icons in Yaru...
+de-duplicing some icons in Yaru/apps...
+Error: no IPFS repo found in /root/.ipfs.
+please run: 'ipfs init'
+
+Installing sounds...
+Installing Cinnamon applets, desklets and extensions...
+tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
+tar: Exiting with failure status due to previous errors
+sending incremental file list
+
+Installing logon design...
+Cloning into '.'...
+remote: Enumerating objects: 94, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 94 (delta 16), reused 18 (delta 13), pack-reused 67
+Receiving objects: 100% (94/94), 44.92 KiB | 958.00 KiB/s, done.
+Resolving deltas: 100% (32/32), done.
+Your branch is up to date with 'origin/main'.
+
+------------------------------------------------------------------
+Sorry, Script is only for Ubuntu 20.04, 21.04, 21.10 & 22.04 Only
+Exiting...
+------------------------------------------------------------------
+
+Installing git-LFS...
+./to-merge.sh: line 1045: gdebi: command not found
+Testing if git-LFS works:
+git: 'lfs' is not a git command. See 'git --help'.
+
+Installing Floflis Central...
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
+
+Installing Sh it...
+./to-merge.sh: line 1136: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+
+Installing nushell...
+/bin/nu
+Installing Witchcraft Candy Colors...
+Cloning into '.'...
+remote: Enumerating objects: 420, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 420 (delta 3), reused 9 (delta 2), pack-reused 409
+Receiving objects: 100% (420/420), 249.57 KiB | 906.00 KiB/s, done.
+Resolving deltas: 100% (211/211), done.
+Your branch is up to date with 'origin/main'.
+./install.sh: 4: declare: not found
+./install.sh: 5: Syntax error: "(" unexpected
+Installing Starship...
+
+Errors were encountered while processing:
+ balena-etcher-electron
+Installing Audacity (12.0 MB download; 52.2 MB installed)...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+
+Installing ethgas...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+- Turning ethgas into an executable...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+parse error: Invalid numeric literal at line 1, column 3
+Installation has failed.
+
+attempt 34:
 
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
 - fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
@@ -307,7 +470,7 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 
 up-to-date OS data (build)
 
-attempt 34:
+attempt 35:
 
 new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
 
@@ -470,7 +633,7 @@ sudo apt-get install gdebi-core
 sudo gdebi 
 sudo dpkg -i 
 
-attempt 35:
+attempt 36:
 
 feature to upgrade layers; Grass layer
 
@@ -514,7 +677,7 @@ Divide to-merge.sh into steps, while asking to proceed (makes output more organi
 /usr/share/icons/Floflis/.git.sh enables to re-download the icons' git
 full icon de-duplication (Floflis ands Yaru)
 
-attempt 36:
+attempt 37:
 
 e-ink theme/mode
 sudo apt install edid-decode
@@ -525,24 +688,24 @@ implement Web3Updater (with branches support, and Floflis branch is of its previ
 
 Web3Updater if arm*/riscv64: use rust-ipfs
 
-attempt 37: apt-on-ipfs
+attempt 38: apt-on-ipfs
 
-attempt 38:
+attempt 39:
 
 frst bld
 
 import geth seed on ethereal
 user profile from CLI
 
-attempt 39: Plugz build normal and lite versions of Floflis DNA
+attempt 40: Plugz build normal and lite versions of Floflis DNA
 
-attempt 40:
+attempt 41:
 
 support Ledger hardware wallet when creating/importing ETH address
 support migrating to Ledger
 annotate planned support for Trezor and Keycard
 
-attempt 41:
+attempt 42:
 
 After ETH address is created/imported, the first login will be required. Signing the login message with date/nonce, this msg is sent to Floflis srv using POST request, and it sends back that user is logged.
 
@@ -552,7 +715,7 @@ Verify with sybil, send this request, srv registers in profile, and sends back t
 
 after logging with ETH address and signing this login, will start syncing things such as "git config --global user.name" and "git config --global user.email"
 
-attempt 42:
+attempt 43:
 
 UI:
 - First logon wizard
@@ -560,7 +723,7 @@ UI:
 - Mouse course (offer achivement badges and FLOF)
 - Typing course (read its data and offer achivement badges and FLOF)
 
-attempt 43:
+attempt 44:
 
 upgrade packages again after upgrading distro
 
