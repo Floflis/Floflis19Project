@@ -11,7 +11,25 @@ After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-
 
 attempt 33:
 
-cryptovoxels svg icon
+#- Font Refresh Tip
+#- After you install new fonts on Ubuntu you’re not able to use them in apps until you reboot. To avoid that, run sudo fc-cache -f -v to refresh the font cache, then logout and back in. After doing this any fonts you installed manually will be selectable in apps/extensions such as this one.
+#- from https://www.omgubuntu.co.uk/2022/12/desktop-clock-gnome-extension
+
+Core:
+- Update go-ipfs from v0.9.0-rc1 to 
+- Update ipget from v0.6.0 to 
+- Update jq from jq-1.6 to 
+Soil:
+- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
+- Update Nushell from 0.44.0 to 0.72.0 https://github.com/nushell/nushell/releases/tag/0.72.0
+- Update Starship from v1.0.0 to v1.11.0 https://github.com/starship/starship/releases/tag/v1.11.0
+- Update Gitoxide from 0.10.0 to v0.19.0 https://github.com/Byron/gitoxide/releases/tag/v0.19.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
+- Update balenaEtcher from 1.6.0 to 
+- Update Hugo from 0.89.2 to 
+- Update GDevelop from  to 
+- Update geth from 1.10.11 to 
+- Update git-lfs from 2.9.2 to 
+- Update Pijul from 1.0.0-alpha.56 to 
 
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
@@ -179,6 +197,8 @@ Installation has failed.
 
 attempt 34:
 
+cryptovoxels svg icon
+
 install openshot/mmex from a different source
 
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
@@ -337,8 +357,6 @@ Soil:
 - Update geth from 1.10.11 to 
 - Update git-lfs from 2.9.2 to 
 - Update Pijul from 1.0.0-alpha.56 to 
-
-svg+png icon for Cryptovoxels
 
 sounds are still incomplete
 dconf dump /org/cinnamon/ > org-cinnamon.txt
