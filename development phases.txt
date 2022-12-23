@@ -8,51 +8,6 @@ builds:
 39. stable? first build
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
-attempt 32:
-- up-to-date OS data (build, year)
-- test if apps got installed/works
-- new logo.png (which also means the Explore menu now have an new orb/icon)
-- Ethereum icon in img/networks
-- Symlink ".local/share/nu/history.txt" at Home for easier access
-- Protect C2 common libs making them read-only
-This avoids any accident if user forgets to use the pre-export in Floflis Packager
-- remove sub-classes from .html5, .apps and .game mimetypes
-This will avoid that other programs appears when going to open these files
-- rename Floflis Central shortcut icon from "Floflis Central" to simply "Central"
-This also improves the visibility of the icon
-- add default avatar on Cinnamon if no avatar
-- create /1/games folder
-- create /1/html5 folder and install "Color Converter.html5"
-- Update Ethereal to 2.7.4 (support to advanced parsing from smart-contracts; NFT parsing now possible)
-- Update Nushell to 0.44.0 (now stable; but, still, provided as-is at your own choices/conscient risks)
-- Add floapps and its floflis-application-handler
-- add Nu post-install
-- Relative link for /1/Z-root
-- Create /1/personal/data (prepare for the Personal Issues and Offline Peeper Poster apps)
-- Load modules from a separate modules.sh file, and only if the modules folder is found
-- fix getting source script from layers
-- Important Updates and sanitize/organize files at Soil layer and its to-merge.sh
-- Don't attempt to create folders/files that already exist
-- install Floflis icons from git
-- New generic avatar
-- Don't attempt to move folders/files that aren't there anymore
-- Add buildcodename to config file and the --version command
-- fix sounds and installer's logon sound
-- add osbuildcodename at presentation
-- fix removing leftovers from tools install
-- fix installing Starship (v1.3.0)
-- Get some dependencies externally, from their git repos
-- to-merge_firstlogon.sh: /tmp/org-cinnamon add 'scaling-factor=uint32 0' (I dunno what it does, got it from my install)
-- to-merge.sh: begin Floflis' own logon design - credits to https://github.com/Floflis/ubuntu-gdm-set-background.git for the gradient background inspiration and an Adobe tool for extracting gradient from bitmap
-- rebase from canonical's ubuntu to ubuntu cinnamon remix
-- rebase from ubuntu 20 to ubuntu 22
-- disable installing cinnamon; for later: detect ubuntu cinnamon remix otherwise install cinnamon normally
--
-Issues that may appear in this build:
-- [POSSIBLE] /home/${flouser}/.face symlink overwritting /usr/share/cinnamon/faces/user-generic.png when updating avatar
-- [PROBABLY] $maysudo rm -f /usr/share/sounds/Yaru/stereo/system-ready.oga && $maysudo ln -s 'desktop-login.oga' /usr/share/sounds/Yaru/stereo/system-ready.oga
-- [POSSIBLE] Installing neofetch... / Your branch is up to date with 'build/main'. / mv: cannot stat '/usr/lib/neofetch/neofetch': No such file or directory
-
 attempt 33:
 
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
