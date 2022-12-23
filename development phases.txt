@@ -37,6 +37,8 @@ Exiting...
 UPSTREAM: add support to ubuntu cinnamon; install "sudo apt-get install libglib2.0-dev-bin" for user
 ------------------------------------------------------------------------------------------------------
 
+/media/daniell/78CFABD670741B231/ISO/other/Phabulous Pabllo Vittar 💞.jpeg
+
 on every logon, floflis will register user's IPFS peer ID
 -
 jq /home/daniell/.ipfs/config
