@@ -11,12 +11,31 @@ After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-
 
 attempt 33:
 
-install openshot/mmex from a different source
+cryptovoxels svg icon
 
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
+
+------------------------------------------------------------------------------------------------------
+Installing logon design...
+Cloning into '.'...
+remote: Enumerating objects: 94, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 94 (delta 16), reused 18 (delta 13), pack-reused 67
+Receiving objects: 100% (94/94), 44.92 KiB | 958.00 KiB/s, done.
+Resolving deltas: 100% (32/32), done.
+Your branch is up to date with 'origin/main'.
+
+------------------------------------------------------------------
+Sorry, Script is only for Ubuntu 20.04, 21.04, 21.10 & 22.04 Only
+Exiting...
+------------------------------------------------------------------
+
+UPSTREAM: add support to ubuntu cinnamon; install "sudo apt-get install libglib2.0-dev-bin" for user
+------------------------------------------------------------------------------------------------------
 
 on every logon, floflis will register user's IPFS peer ID
 -
@@ -106,21 +125,6 @@ tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
 tar: Exiting with failure status due to previous errors
 sending incremental file list
 
-Installing logon design...
-Cloning into '.'...
-remote: Enumerating objects: 94, done.
-remote: Counting objects: 100% (27/27), done.
-remote: Compressing objects: 100% (14/14), done.
-remote: Total 94 (delta 16), reused 18 (delta 13), pack-reused 67
-Receiving objects: 100% (94/94), 44.92 KiB | 958.00 KiB/s, done.
-Resolving deltas: 100% (32/32), done.
-Your branch is up to date with 'origin/main'.
-
-------------------------------------------------------------------
-Sorry, Script is only for Ubuntu 20.04, 21.04, 21.10 & 22.04 Only
-Exiting...
-------------------------------------------------------------------
-
 Installing git-LFS...
 ./to-merge.sh: line 1045: gdebi: command not found
 Testing if git-LFS works:
@@ -173,6 +177,8 @@ Installation has failed.
 
 attempt 34:
 
+install openshot/mmex from a different source
+
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
 - fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
 possible workaround: disable firstboot on both Core/Soil and re-enable slowly
@@ -190,8 +196,6 @@ If something went wrong, log on to tty and run the below command
 (use at DeFi Central)
 --------------------------------------------------------------------------------------------
 include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
-
-cryptovoxels svg icon
 
 replace .git symlink, to "git clone --no-checkout <repo_url> ."
 include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
