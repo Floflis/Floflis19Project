@@ -211,6 +211,7 @@ systemctl reboot --firmware-setup
 floflis central personalization: detect when user background is Pokemon_Scarlet_Violet_Terastal_Wallpaper_(*).jpg and add to list of NFTs,then put message at UniStore and mark as owned
 wallet: display nintendo silver/gold coins!
 
+https://www.omgubuntu.co.uk/2022/08/install-webp-image-support-ubuntu-22-04
 https://www.omgubuntu.co.uk/2022/01/spicetify-change-spotify-app-theme
 
 Explore menu: merge two sources using foldmerger; add applet context menu with power menu including option to reboot to UEFI firmware (only if UEFI is detected)
