@@ -25,11 +25,14 @@ Soil:
 - ubuntucinnamon ubiquity installer debug measures Core: disable firstboot/firstlogon
 - ubuntucinnamon ubiquity installer debug measures Soil: disable installing ubiquity slider, disable installing Floflis Icons
 - ubuntucinnamon ubiquity installer general debug measure: change username from floflis back to ubuntu
+- disable installing MMEX and Openshot
 -
 Issues that may appear on this build:
 - [STILL APPEARING] /usr/share/cups/data/ubuntu/.pdf being the same as of Floflis
 - [MAY STILL APPEAR] /usr/share/backgrounds/ubuntu.png being the same as of Floflis
 - [MAY STILL APPEAR] ubiquity not openning
+
+
 
 attempt 34:
 
@@ -39,14 +42,14 @@ then know what to install at cubic or at firstlogon from live ISO!
 
 don't anymore symlink yaru icon. change default icon pack at logon
 
+include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
 -
 https://www.turnkeylinux.org/docs/chroot-to-repair-system
-
-/media/daniell/78CFABD670741B231/ISO/other/Phabulous Pabllo Vittar 💞.jpeg
 
 on every logon, floflis will register user's IPFS peer ID
 -
