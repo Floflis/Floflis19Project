@@ -11,29 +11,23 @@ After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-
 
 attempt 33:
 - dont anymore base on "/usr/share/backgrounds/warty-final-ubuntu.png" but "/usr/share/backgrounds/ubuntucinnamon/kinetic/ubuntu_cinnamon_kinetic_kudu.jpg" (back at using Floflis' own desktop background)
+- temporarily disable "Installing logon design" until fixed for Ubuntu 22.10
+- Update font cache after installing FantasqueSans font
+- /usr/share/plymouth also move ubuntucinnamon-logo.png to its own "ubuntucinnamon" folder and make floflis own symlink
+Core:
+- Update go-ipfs from v0.9.0-rc1 to v0.18.0-rc1 (now named Kubo) https://github.com/ipfs/kubo/releases/tag/v0.18.0-rc1 and disable support for 32bit
+- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
+Soil:
+- Update Nushell from 0.44.0 to 0.73.0 https://github.com/nushell/nushell/releases/tag/0.73.0
+- Update Starship from v1.0.0 to v1.12.0 https://github.com/starship/starship/releases/tag/v1.12.0
+- Improve installing Witchcraft Candy Colors
 -
 Issues that may appear on this build:
 - [STILL APPEARING] /usr/share/cups/data/ubuntu/.pdf being the same as of Floflis
 - [MAY STILL APPEAR] /usr/share/backgrounds/ubuntu.png being the same as of Floflis
 - [MAY STILL APPEAR] ubiquity not openning
 
-- temporarily disable "Installing logon design" until fixed for Ubuntu 22.10
-- /usr/share/plymouth also move ubuntucinnamon-logo.png to its own "ubuntucinnamon" folder and make floflis own symlink
-- copy desktop applet settings, with peek enabled by default
-- install the latest Nushell and Starship
 
-#- Font Refresh Tip
-#- After you install new fonts on Ubuntu you’re not able to use them in apps until you reboot. To avoid that, run sudo fc-cache -f -v to refresh the font cache, then logout and back in. After doing this any fonts you installed manually will be selectable in apps/extensions such as this one.
-#- from https://www.omgubuntu.co.uk/2022/12/desktop-clock-gnome-extension
-
-Core:
-- Update go-ipfs from v0.9.0-rc1 to  (now named Kubo) https://github.com/ipfs/kubo/releases/
-- Update ipget from v0.6.0 to  https://github.com/ipfs/ipget/tags
-Soil:
-- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
-- Update Nushell from 0.44.0 to 0.73.0 https://github.com/nushell/nushell/releases/tag/0.73.0
-- Update Starship from v1.0.0 to v1.12.0 https://github.com/starship/starship/releases/tag/v1.12.0
-- Update Gitoxide from 0.10.0 to v0.20.0 https://github.com/Byron/gitoxide/releases/tag/v0.20.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
 - Update balenaEtcher from 1.6.0 to v1.12.7 https://github.com/balena-io/etcher/releases/tag/v1.12.7
 - Update Hugo from 0.89.2 to v0.109.0 https://github.com/gohugoio/hugo/releases/tag/v0.109.0
 - Update GDevelop from 5.0.0-beta72 to 5.1.153 https://github.com/4ian/GDevelop/releases/tag/v5.1.153
@@ -41,29 +35,12 @@ Soil:
 - Update git-lfs from 2.9.2 to v3.3.0 https://github.com/git-lfs/git-lfs/releases/tag/v3.3.0
 - Update Pijul from 1.0.0-alpha.56 to 
 
+- installer debug measure: disable firstboot/firstlogon, disable installing ubiquity slider
+
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
-
-------------------------------------------------------------------------------------------------------
-Installing logon design...
-Cloning into '.'...
-remote: Enumerating objects: 94, done.
-remote: Counting objects: 100% (27/27), done.
-remote: Compressing objects: 100% (14/14), done.
-remote: Total 94 (delta 16), reused 18 (delta 13), pack-reused 67
-Receiving objects: 100% (94/94), 44.92 KiB | 958.00 KiB/s, done.
-Resolving deltas: 100% (32/32), done.
-Your branch is up to date with 'origin/main'.
-
-------------------------------------------------------------------
-Sorry, Script is only for Ubuntu 20.04, 21.04, 21.10 & 22.04 Only
-Exiting...
-------------------------------------------------------------------
-
-UPSTREAM: add support to ubuntu cinnamon; install "sudo apt-get install libglib2.0-dev-bin" for user
-------------------------------------------------------------------------------------------------------
 
 /media/daniell/78CFABD670741B231/ISO/other/Phabulous Pabllo Vittar 💞.jpeg
 
@@ -206,6 +183,21 @@ parse error: Invalid numeric literal at line 1, column 3
 Installation has failed.
 
 attempt 34:
+
+rename system monitor to task manager (pt, pt-br, en, es)
+
+https://github.com/awslabs/git-secrets
+https://github.com/liuchengxu/git-commit-emoji-cn
+https://github.com/streamich/git-cz
+https://github.com/sickill/git-dude
+https://github.com/tj/git-extras
+
+- copy desktop applet settings, with peek enabled by default
+
+Core:
+- Update ipget from v0.6.0 to  https://github.com/ipfs/ipget/tags
+Soil:
+Update Gitoxide from 0.10.0 to v0.20.0 https://github.com/Byron/gitoxide/releases/tag/v0.20.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
 
 cryptovoxels svg icon
 
