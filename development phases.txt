@@ -22,15 +22,14 @@ Soil:
 - Update Starship from v1.0.0 to v1.12.0 https://github.com/starship/starship/releases/tag/v1.12.0
 - Improve installing Witchcraft Candy Colors
 - Update balenaEtcher from 1.6.0 to v1.10.11 https://github.com/balena-io/etcher/releases/tag/v1.10.11
+- ubuntucinnamon ubiquity installer debug measures Core: disable firstboot/firstlogon
+- ubuntucinnamon ubiquity installer debug measures Soil: disable installing ubiquity slider, disable installing Floflis Icons
+- ubuntucinnamon ubiquity installer general debug measure: change username from floflis back to ubuntu
 -
 Issues that may appear on this build:
 - [STILL APPEARING] /usr/share/cups/data/ubuntu/.pdf being the same as of Floflis
 - [MAY STILL APPEAR] /usr/share/backgrounds/ubuntu.png being the same as of Floflis
 - [MAY STILL APPEAR] ubiquity not openning
-
-- ubuntucinnamon ubiquity installer debug measures Core: disable firstboot/firstlogon
-- ubuntucinnamon ubiquity installer debug measures Soil: disable firstboot/firstlogon, disable installing ubiquity slider, disable installing Floflis Icons
-- ubuntucinnamon ubiquity installer general debug measure: change username from floflis back to ubuntu
 
 attempt 34:
 
@@ -38,10 +37,14 @@ rewriteup of Floflis install scripts.
 detect cubic mode and confirm /home have no subfolder.
 then know what to install at cubic or at firstlogon from live ISO!
 
+don't anymore symlink yaru icon. change default icon pack at logon
+
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
+-
+https://www.turnkeylinux.org/docs/chroot-to-repair-system
 
 /media/daniell/78CFABD670741B231/ISO/other/Phabulous Pabllo Vittar 💞.jpeg
 
