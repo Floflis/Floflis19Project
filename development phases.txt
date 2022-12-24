@@ -10,6 +10,17 @@ builds:
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
 attempt 33:
+- dont anymore base on "/usr/share/backgrounds/warty-final-ubuntu.png" but "/usr/share/backgrounds/ubuntucinnamon/kinetic/ubuntu_cinnamon_kinetic_kudu.jpg" (back at using Floflis' own desktop background)
+-
+Issues that may appear on this build:
+- [STILL APPEARING] /usr/share/cups/data/ubuntu/.pdf being the same as of Floflis
+- [MAY STILL APPEAR] /usr/share/backgrounds/ubuntu.png being the same as of Floflis
+- [MAY STILL APPEAR] ubiquity not openning
+
+- temporarily disable "Installing logon design" until fixed for Ubuntu 22.10
+- /usr/share/plymouth also move ubuntucinnamon-logo.png to its own "ubuntucinnamon" folder and make floflis own symlink
+- copy desktop applet settings, with peek enabled by default
+- install the latest Nushell and Starship
 
 #- Font Refresh Tip
 #- After you install new fonts on Ubuntu you’re not able to use them in apps until you reboot. To avoid that, run sudo fc-cache -f -v to refresh the font cache, then logout and back in. After doing this any fonts you installed manually will be selectable in apps/extensions such as this one.
