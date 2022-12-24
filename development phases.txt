@@ -1,6 +1,5 @@
 steps:
 builds:
-33. polishing: fix issues of previous build
 34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its pack), almanah
 35. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 36. upper layers
@@ -9,40 +8,74 @@ builds:
 39. stable? first build
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
-attempt 33:
-- dont anymore base on "/usr/share/backgrounds/warty-final-ubuntu.png" but "/usr/share/backgrounds/ubuntucinnamon/kinetic/ubuntu_cinnamon_kinetic_kudu.jpg" (back at using Floflis' own desktop background)
-- temporarily disable "Installing logon design" until fixed for Ubuntu 22.10
-- Update font cache after installing FantasqueSans font
-- /usr/share/plymouth also move ubuntucinnamon-logo.png to its own "ubuntucinnamon" folder and make floflis own symlink
-Core:
-- Update go-ipfs from v0.9.0-rc1 to v0.18.0-rc1 (now named Kubo) https://github.com/ipfs/kubo/releases/tag/v0.18.0-rc1 and disable support for 32bit
-- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
-Soil:
-- Update Nushell from 0.44.0 to 0.73.0 https://github.com/nushell/nushell/releases/tag/0.73.0
-- Update Starship from v1.0.0 to v1.12.0 https://github.com/starship/starship/releases/tag/v1.12.0
-- Improve installing Witchcraft Candy Colors
-- Update balenaEtcher from 1.6.0 to v1.10.11 https://github.com/balena-io/etcher/releases/tag/v1.10.11
-- ubuntucinnamon ubiquity installer debug measures Core: disable firstboot/firstlogon
-- ubuntucinnamon ubiquity installer debug measures Soil: disable installing ubiquity slider, disable installing Floflis Icons
-- ubuntucinnamon ubiquity installer general debug measure: change username from floflis back to ubuntu
-- disable installing MMEX and Openshot
--
-Issues that may appear on this build:
-- [STILL APPEARING] /usr/share/cups/data/ubuntu/.pdf being the same as of Floflis
-- [MAY STILL APPEAR] /usr/share/backgrounds/ubuntu.png being the same as of Floflis
-- [MAY STILL APPEAR] ubiquity not openning
-
-
-
 attempt 34:
 
-rewriteup of Floflis install scripts.
+- run "apt --fix-broken install" after installing Etcher
+- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
+- cat: /usr/lib/floflis/layers/dna/dna_ascii: No such file or directory
+
+Installing git-LFS...
+./to-merge.sh: line 1063: gdebi: command not found
+Testing if git-LFS works:
+
+/home/daniella/Desktop/Floflis-to-merge
+/media/daniella/B/git
+/media/daniella/Main Linux/usr/share/icons/Floflis
+
+Installing floapps...
+Cloning into '.'...
+Your branch is up to date with 'origin/main'.
+logname: no login name
+./install.sh: 7: [[: not found
+
+Creating HTML5 games directory...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Creating html5 directory...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Adding Color Converter.html5...
+cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
+Installing mimetypes and their icons...
+
+floapps:
+Creating HTML5 games directory...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Creating html5 directory...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Adding Color Converter.html5...
+cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
+Installing mimetypes and their icons...
+
+then:
+Installing Floflis Central...
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
+-
+Installing Sh it...
+./to-merge.sh: line 1158: cd: include/Tools/shexec: No such file or directory
+
+./to-merge.sh: line 1067: break: only meaningful in a `for', `while', or `until' loop
+
+rewriteup of Floflis install scripts:
 detect cubic mode and confirm /home have no subfolder.
 then know what to install at cubic or at firstlogon from live ISO!
 
 don't anymore symlink yaru icon. change default icon pack at logon
 
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+
+/usr/share/plymouth/themes/ubuntucinnamon-spinner
+
+duplicate entry for Music and Rythmbox
+
+hide nu-script-handler and floflis-application-handler from displaying
+
+ubuntu@ubuntu:~$ nu
+No environment config file found at /home/ubuntu/.config/nushell/env.nu
+Would you like to create one with defaults (Y/n):
+
+New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
 
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
