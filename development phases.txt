@@ -28,12 +28,84 @@ attempt 34:
 - improve installing backgrounds: move ubuntu-default-greyscale-wallpaper.png symlink to ubuntu folder
 - fix calling floapps installer
 - hide nu-script-handler and floflis-application-handler from displaying
+- fix issues of wrongly calling sh instead of bash when openning layers' installers
+- attempt to fix break issues
 
 - rename shortcuts as "shortcuts" instead of "icons"
 - fix: duplicate entry for Music and Rythmbox
 - separate script to install Internet shortcuts, and another to install Floflis' custom shortcuts
 
 /usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
+
+floapps:
+Adding Color Converter.html5...
+cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
+-
+linux-icons-builder file location errors (possibly quoting issues)
+-
+tar (child): include/node_modules.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+-
+Installing C2 common libs...
+tar (child): include/Floflis_libs_game-engines_c2.tar.gz: Cannot open: No such file or directory
+
+nu-post-install also have issues with linux-icons-builder:
+identify-im6.q16: unable to open image `/media/daniella/B/bkp/ST500LM012': No such file or directory @ error/blob.c/OpenBlob/2924.
+identify-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/575.
+identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
+identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
+
+Installing Cinnamon applets, desklets and extensions...
+tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
+tar: Exiting with failure status due to previous errors
+
+ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
+
+Testing if Pijul works:
+pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
+
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
+mv: cannot stat '*.ttf': No such file or directory
+mv: cannot stat '*.TTF': No such file or directory
+to-merge.sh: line 1179:  fc-cache: command not found
+Installing Sh it...
+to-merge.sh: line 1183: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+
+Installing Witchcraft Candy Colors...
+(UNLIKE THE PREVIOUS, IT WORKS!)
+
+after installing Hugo:
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /home/daniella/Desktop/Floflis-to-merge
 /media/daniella/B/git
