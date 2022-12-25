@@ -31,11 +31,12 @@ attempt 34:
 - fix issues of wrongly calling sh instead of bash when openning layers' installers
 - attempt to fix break issues
 
+ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
+/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
+
 - rename shortcuts as "shortcuts" instead of "icons"
 - fix: duplicate entry for Music and Rythmbox
 - separate script to install Internet shortcuts, and another to install Floflis' custom shortcuts
-
-/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
 floapps:
 Adding Color Converter.html5...
@@ -61,8 +62,6 @@ tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
 tar: Exiting with failure status due to previous errors
-
-ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
 
 Testing if Pijul works:
 pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
