@@ -1,26 +1,38 @@
 steps:
 builds:
-34. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its pack), almanah
-35. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
-36. upper layers
-37. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
-38. stable? migrate to UbuntuCinnamonRemix
-39. stable? first build
+34. polishing: fix issues of previous build;
+35. polishing: fix issues of previous build;
+36. polishing: fix issues of previous build;
+37. polishing: fix issues of previous build;
+38. polishing: fix issues of previous build;
+39. polishing: fix issues of previous build;
+40. polishing: fix issues of previous build;
+41. polishing: fix issues of previous build;
+42. polishing: fix issues of previous build;
+43. polishing: fix issues of previous build;
+44. polishing: fix issues of previous build;
+45. polishing: fix issues of previous build;
+46. polishing: fix issues of previous build;
+47. polishing: fix issues of previous build; include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its pack), almanah
+48. stable? install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
+49. upper layers
+50. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
+51. stable? migrate to UbuntuCinnamonRemix
+52. stable? first build
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
 attempt 34:
-
 - run "apt --fix-broken install" after installing Etcher
-- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
-- cat: /usr/lib/floflis/layers/dna/dna_ascii: No such file or directory
+- fix installing git-lfs
+- Floflis DNA installer: fix calling dna_ascii
 
-Installing git-LFS...
-./to-merge.sh: line 1063: gdebi: command not found
-Testing if git-LFS works:
+- /usr/share/cups/data/default-testpage.pdf use SVG floflis logotype
+- rename shortcuts as "shortcuts" instead of "icons"
 
 /home/daniella/Desktop/Floflis-to-merge
 /media/daniella/B/git
 /media/daniella/Main Linux/usr/share/icons/Floflis
+- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
 
 Installing floapps...
 Cloning into '.'...
@@ -61,8 +73,6 @@ rewriteup of Floflis install scripts:
 detect cubic mode and confirm /home have no subfolder.
 then know what to install at cubic or at firstlogon from live ISO!
 
-don't anymore symlink yaru icon. change default icon pack at logon
-
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
 
 /usr/share/plymouth/themes/ubuntucinnamon-spinner
@@ -76,6 +86,10 @@ No environment config file found at /home/ubuntu/.config/nushell/env.nu
 Would you like to create one with defaults (Y/n):
 
 New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
+
+attempt 35:
+
+don't anymore symlink yaru icon. change default icon pack at logon
 
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
@@ -189,28 +203,7 @@ fatal: destination path '.' already exists and is not an empty directory.
 fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
 
-Installing nushell...
-/bin/nu
-Installing Witchcraft Candy Colors...
-Cloning into '.'...
-remote: Enumerating objects: 420, done.
-remote: Counting objects: 100% (11/11), done.
-remote: Compressing objects: 100% (9/9), done.
-remote: Total 420 (delta 3), reused 9 (delta 2), pack-reused 409
-Receiving objects: 100% (420/420), 249.57 KiB | 906.00 KiB/s, done.
-Resolving deltas: 100% (211/211), done.
-Your branch is up to date with 'origin/main'.
-./install.sh: 4: declare: not found
-./install.sh: 5: Syntax error: "(" unexpected
-Installing Starship...
 
-Errors were encountered while processing:
- balena-etcher-electron
-Installing Audacity (12.0 MB download; 52.2 MB installed)...
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-You might want to run 'apt --fix-broken install' to correct these.
 
 Installing ethgas...
 sudo: unable to resolve host cubic: Temporary failure in name resolution
@@ -221,6 +214,8 @@ sudo: unable to resolve host cubic: Temporary failure in name resolution
 sudo: unable to resolve host cubic: Temporary failure in name resolution
 parse error: Invalid numeric literal at line 1, column 3
 Installation has failed.
+
+attempt 36:
 
 rename system monitor to task manager (pt, pt-br, en, es)
 
@@ -494,31 +489,7 @@ Installing to-merge.sh...
 logname: no login name
 Installing neofetch...
 
-Installing Money Manager Ex...
-error: cannot communicate with server: Post http://localhost/v2/snaps/mmex: dial unix /run/snapd.socket: connect: no such file or directory
-Money Manager Ex doesn't works, yet.
-Installing Openshot video editor...
-gpg: Warning: using insecure memory!
-gpg: Warning: using insecure memory!
-Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease      
-
-Installing branding...
-Installing img...
-mkdir: cannot create directory '/usr/share/backgrounds/ubuntu': File exists
-cp: cannot stat '/usr/share/backgrounds/warty-final-ubuntu.png': No such file or directory
-Installing avatars...
-mv: cannot stat '/usr/share/cinnamon/faces/0_cars.jpg': No such file or directory
-
-Installing Cinnamon 4.8...
- 
- More info: https://launchpad.net/~wasta-linux/+archive/ubuntu/cinnamon-4-8
-Press [ENTER] to continue or Ctrl-c to cancel adding it.
-
-gpg: Warning: using insecure memory!
-gpg: Warning: using insecure memory!
-Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]                             
-
-0 upgraded, 0 newly installed, 0 to remove and 575 not upgraded.
+                            0 upgraded, 0 newly installed, 0 to remove and 575 not upgraded.
 Installing Cinnamon applets, desklets and extensions...###########################################.]  
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
@@ -540,9 +511,11 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 
 up-to-date OS data (build)
 
-attempt 35:
+attempt 37:
 
 new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
+
+- fix sound issue in next builds
 
 Firedoge replaces Firefox
 Update include/ubiquity-slideshow.tar.gz
@@ -703,7 +676,7 @@ sudo apt-get install gdebi-core
 sudo gdebi 
 sudo dpkg -i 
 
-attempt 36:
+attempt 38:
 
 feature to upgrade layers; Grass layer
 
@@ -747,7 +720,7 @@ Divide to-merge.sh into steps, while asking to proceed (makes output more organi
 /usr/share/icons/Floflis/.git.sh enables to re-download the icons' git
 full icon de-duplication (Floflis ands Yaru)
 
-attempt 37:
+attempt 39:
 
 e-ink theme/mode
 sudo apt install edid-decode
@@ -758,24 +731,24 @@ implement Web3Updater (with branches support, and Floflis branch is of its previ
 
 Web3Updater if arm*/riscv64: use rust-ipfs
 
-attempt 38: apt-on-ipfs
+attempt 40: apt-on-ipfs
 
-attempt 39:
+attempt 41:
 
 frst bld
 
 import geth seed on ethereal
 user profile from CLI
 
-attempt 40: Plugz build normal and lite versions of Floflis DNA
+attempt 42: Plugz build normal and lite versions of Floflis DNA
 
-attempt 41:
+attempt 43:
 
 support Ledger hardware wallet when creating/importing ETH address
 support migrating to Ledger
 annotate planned support for Trezor and Keycard
 
-attempt 42:
+attempt 44:
 
 After ETH address is created/imported, the first login will be required. Signing the login message with date/nonce, this msg is sent to Floflis srv using POST request, and it sends back that user is logged.
 
@@ -785,7 +758,7 @@ Verify with sybil, send this request, srv registers in profile, and sends back t
 
 after logging with ETH address and signing this login, will start syncing things such as "git config --global user.name" and "git config --global user.email"
 
-attempt 43:
+attempt 45:
 
 UI:
 - First logon wizard
@@ -793,7 +766,7 @@ UI:
 - Mouse course (offer achivement badges and FLOF)
 - Typing course (read its data and offer achivement badges and FLOF)
 
-attempt 44:
+attempt 46:
 
 upgrade packages again after upgrading distro
 
