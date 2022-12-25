@@ -25,6 +25,7 @@ attempt 34:
 - run "apt --fix-broken install" after installing Etcher
 - fix installing git-lfs
 - Floflis DNA installer: fix calling dna_ascii
+- improve installing backgrounds: move ubuntu-default-greyscale-wallpaper.png symlink to ubuntu folder
 
 - /usr/share/cups/data/default-testpage.pdf use SVG floflis logotype
 - rename shortcuts as "shortcuts" instead of "icons"
