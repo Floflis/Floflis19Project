@@ -26,9 +26,14 @@ attempt 34:
 - fix installing git-lfs
 - Floflis DNA installer: fix calling dna_ascii
 - improve installing backgrounds: move ubuntu-default-greyscale-wallpaper.png symlink to ubuntu folder
+- fix calling floapps installer
+- hide nu-script-handler and floflis-application-handler from displaying
 
-- /usr/share/cups/data/default-testpage.pdf use SVG floflis logotype
 - rename shortcuts as "shortcuts" instead of "icons"
+- fix: duplicate entry for Music and Rythmbox
+- separate script to install Internet shortcuts, and another to install Floflis' custom shortcuts
+
+/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
 /home/daniella/Desktop/Floflis-to-merge
 /media/daniella/B/git
@@ -39,17 +44,6 @@ Installing floapps...
 Cloning into '.'...
 Your branch is up to date with 'origin/main'.
 logname: no login name
-./install.sh: 7: [[: not found
-
-Creating HTML5 games directory...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-Creating html5 directory...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-Adding Color Converter.html5...
-cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
-Installing mimetypes and their icons...
-
-floapps:
 Creating HTML5 games directory...
 sudo: unable to resolve host cubic: Temporary failure in name resolution
 Creating html5 directory...
@@ -75,12 +69,6 @@ detect cubic mode and confirm /home have no subfolder.
 then know what to install at cubic or at firstlogon from live ISO!
 
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
-
-/usr/share/plymouth/themes/ubuntucinnamon-spinner
-
-duplicate entry for Music and Rythmbox
-
-hide nu-script-handler and floflis-application-handler from displaying
 
 ubuntu@ubuntu:~$ nu
 No environment config file found at /home/ubuntu/.config/nushell/env.nu
@@ -241,6 +229,8 @@ Update Gitoxide from 0.10.0 to v0.20.0 https://github.com/Byron/gitoxide/release
 cryptovoxels svg icon
 
 install openshot/mmex from a different source
+
+- /usr/share/cups/data/default-testpage.pdf use SVG floflis logotype
 
 - possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
 - fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
