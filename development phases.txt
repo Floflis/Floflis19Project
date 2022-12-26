@@ -32,6 +32,7 @@ attempt 34:
 - attempt to fix break issues
 - attempt to enable the Finance app menu category
 
+- restart my linux, test taskbar context, settings central and settings user avatar symlink
 
 list default desktop background at .xml file
 
