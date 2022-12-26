@@ -30,6 +30,21 @@ attempt 34:
 - hide nu-script-handler and floflis-application-handler from displaying
 - fix issues of wrongly calling sh instead of bash when openning layers' installers
 - attempt to fix break issues
+- attempt to enable the Finance app menu category
+
+
+list default desktop background at .xml file
+
+own repo for Floflis weblink apps
+
+/media/daniella/B/git/Floflis/cinnamon-patch
+add to Tasks.txt: has GH issues https://github.com/Floflis/cinnamon-patch/issues
+https://github.com/Floflis/cinnamon-patch
+
+floflis fork of cinnamon's show desktop applet, with smaller icon
+floflis fork of cinnamon settings
+
+/usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 
 ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
 /usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
@@ -106,7 +121,7 @@ Error in file "/usr/share/applications/floflis-application-handler.desktop": "ap
 
 
 
-/home/daniella/Desktop/Floflis-to-merge
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
 /media/daniella/B/git
 /media/daniella/Main Linux/usr/share/icons/Floflis
 - install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
@@ -140,6 +155,16 @@ detect cubic mode and confirm /home have no subfolder.
 then know what to install at cubic or at firstlogon from live ISO!
 
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+
+floflis first logon:
+- copy clock applet settings
+- copy weather applet settings
+- copy showdesktop applet settings
+- remove cinnamon's own menu and install that menu that supports emojis
+- temporarily disable setting "Floflis" as default icons, set "Yaru-cinnamon" instead
+- temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
+- temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
+- install include-firstlogon/home-daniella-Templates
 
 ubuntu@ubuntu:~$ nu
 No environment config file found at /home/ubuntu/.config/nushell/env.nu
