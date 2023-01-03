@@ -1,0 +1,145 @@
+- run "apt --fix-broken install" after installing Etcher
+- fix installing git-lfs
+- Floflis DNA installer: fix calling dna_ascii
+- improve installing backgrounds: move ubuntu-default-greyscale-wallpaper.png symlink to ubuntu folder
+- fix calling floapps installer
+- hide nu-script-handler and floflis-application-handler from displaying
+- fix issues of wrongly calling sh instead of bash when openning layers' installers
+- attempt to fix break issues
+- attempt to enable the Finance app menu category
+
+- restart my linux, test taskbar context, settings central and settings user avatar symlink
+
+list default desktop background at .xml file
+
+own repo for Floflis weblink apps, also test 01's init on it about git-meta /media/daniella/B/git/Floflis/WeblinkApps
+
+/usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
+
+don't anymore symlink yaru icon. change default icon pack at logon
+
+ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
+/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
+
+- rename shortcuts as "shortcuts" instead of "icons"
+- fix: duplicate entry for Music and Rythmbox
+- separate script to install Internet shortcuts, and another to install Floflis' custom shortcuts
+
+floapps:
+Adding Color Converter.html5...
+cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
+-
+linux-icons-builder file location errors (possibly quoting issues)
+-
+tar (child): include/node_modules.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+-
+Installing C2 common libs...
+tar (child): include/Floflis_libs_game-engines_c2.tar.gz: Cannot open: No such file or directory
+
+nu-post-install also have issues with linux-icons-builder:
+identify-im6.q16: unable to open image `/media/daniella/B/bkp/ST500LM012': No such file or directory @ error/blob.c/OpenBlob/2924.
+identify-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/575.
+identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
+identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
+
+Installing Cinnamon applets, desklets and extensions...
+tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
+tar: Exiting with failure status due to previous errors
+
+Testing if Pijul works:
+pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
+
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
+mv: cannot stat '*.ttf': No such file or directory
+mv: cannot stat '*.TTF': No such file or directory
+to-merge.sh: line 1179:  fc-cache: command not found
+Installing Sh it...
+to-merge.sh: line 1183: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+
+Installing Witchcraft Candy Colors...
+(UNLIKE THE PREVIOUS, IT WORKS!)
+
+after installing Hugo:
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
+/media/daniella/B/git
+/media/daniella/Main Linux/usr/share/icons/Floflis
+- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
+
+Installing floapps...
+Cloning into '.'...
+Your branch is up to date with 'origin/main'.
+logname: no login name
+Creating HTML5 games directory...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Creating html5 directory...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Adding Color Converter.html5...
+cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
+Installing mimetypes and their icons...
+
+then:
+Installing Floflis Central...
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
+-
+Installing Sh it...
+./to-merge.sh: line 1158: cd: include/Tools/shexec: No such file or directory
+
+./to-merge.sh: line 1067: break: only meaningful in a `for', `while', or `until' loop
+
+rewriteup of Floflis install scripts:
+detect cubic mode and confirm /home have no subfolder.
+then know what to install at cubic or at firstlogon from live ISO!
+
+include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+
+floflis first logon:
+- copy clock applet settings
+- copy weather applet settings
+- copy showdesktop applet settings
+- remove cinnamon's own menu and install that menu that supports emojis
+- temporarily disable setting "Floflis" as default icons, set "Yaru-cinnamon" instead
+- temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
+- temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
+- install include-firstlogon/home-daniella-Templates
+
+ubuntu@ubuntu:~$ nu
+No environment config file found at /home/ubuntu/.config/nushell/env.nu
+Would you like to create one with defaults (Y/n):
+
+New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
