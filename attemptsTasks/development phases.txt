@@ -21,140 +21,7 @@ builds:
 52. stable? first build
 After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
-attempt 35:
 
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
-
-/usr/share/plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
--
-https://www.turnkeylinux.org/docs/chroot-to-repair-system
-
-on every logon, floflis will register user's IPFS peer ID
--
-jq /home/daniell/.ipfs/config
-"Identity": {
-    "PeerID"
--
-
-Floflis Central repaginate:
-- new font
-- New design for navbar (transparent or blur)+hover+selected (FMWK will differ vertical and horizontal tabs)
-- navbar right shadow (using updated FMWK)
-- collapsible navbar from topbar/header
-- SVG logotype for header
-- SVG FLOF token logo/icon
-- SVG token logos
-- use the not-png floflis 2014 logo
-- more details about CPU architecture
-- integration with Alertz (Profile>Inventory>Backgrounds)
-- integrate IPFS (also display peerid)
-
-/media/daniella/B/git/Floflis/cinnamon-patch
-add to Tasks.txt: has GH issues https://github.com/Floflis/cinnamon-patch/issues
-https://github.com/Floflis/cinnamon-patch
-
-floflis fork of cinnamon's show desktop applet, with smaller icon
-floflis fork of cinnamon settings
-
-davidExplorer
-- if floflis detect user is pokefan, add easter egg .folderdata when accessing "/", showing a great tusk with "a wild dngrs thing appeared" with SV south battle music (get from external URL). only enable it if user is detected as pokefan and it have bgfxmusic mode activated
-- replace native file dialog (open, save)
-
-cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
-identify-im6.q16: unable to open image `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-apps.png': No such file or directory @ error/blob.c/OpenBlob/2924.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-
-identify-im6.q16: unable to open image `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-game.png': No such file or directory @ error/blob.c/OpenBlob/2924.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-
-identify-im6.q16: unable to open image `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps/include/icons/application-x-html5.png': No such file or directory @ error/blob.c/OpenBlob/2924.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-
-logname: no login name
-Installing floflis-application-handler...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-Installing shortcut in /usr/share/applications...
-Turning floflis-application-handler into the default program (to user ) for .apps and .game applications...
-install.sh: line 24: /home//.config/mimeapps.list: No such file or directory
-- Turning floflis-application-handler into an executable...
-
-tar (child): include/node_modules.tar.gz: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-
-Installing C2 common libs...
-tar (child): include/Floflis_libs_game-engines_c2.tar.gz: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
-Having common libs, C2 games/apps will be smaller to download (also to store locally)!
-Protecting (read-only) C2 common libs...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-chmod: cannot access '/1/Floflis/libs/game-engines/c2': No such file or directory
-
-logname: no login name
-Installing mimetypes for .nu files...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-gtk-update-icon-cache: Cache file created successfully.
-Installing icons for .nu files...
-Cloning into 'linux-icon-builder'...
-
-identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-Installing handler for .nu files...
-Installing nu-script-handler...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-Installing shortcut in /usr/share/applications...
-Turning nu-script-handler into the default program (to user ) for .nu scripts...
-./install.sh: 58: cannot create /home//.config/mimeapps.list: Directory nonexistent
-
-Proceeding with the install of Floflis icons...
-de-duplicing some icons in Yaru...
-de-duplicing some icons in Yaru/apps...
-Error: no IPFS repo found in /root/.ipfs.
-please run: 'ipfs init'
-
-Installing sounds...
-Installing Cinnamon applets, desklets and extensions...
-tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
-tar: Exiting with failure status due to previous errors
-sending incremental file list
-
-Installing git-LFS...
-./to-merge.sh: line 1045: gdebi: command not found
-Testing if git-LFS works:
-git: 'lfs' is not a git command. See 'git --help'.
-
-Installing Floflis Central...
-cp: cannot stat 'to-merge/central': No such file or directory
-chmod: cannot access '/usr/bin/central': No such file or directory
-Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
-unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
-
-Installing Sh it...
-./to-merge.sh: line 1136: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
-
-
-
-Installing ethgas...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-- Turning ethgas into an executable...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-parse error: Invalid numeric literal at line 1, column 3
-Installation has failed.
 
 attempt 36:
 
@@ -250,60 +117,11 @@ could not make way for new symlink: Floflis/.git
 
 Floflis icons were reset
 
-Installing Cinnamon applets, desklets and extensions...
-tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
-tar: Exiting with failure status due to previous errors
-
-- test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
-- fix adding Z-root (core's install.sh)
-
-Installing icons for .nu files...
-Cloning into 'linux-icon-builder'...
-remote: Enumerating objects: 50, done.
-remote: Counting objects: 100% (50/50), done.
-remote: Compressing objects: 100% (33/33), done.
-remote: Total 50 (delta 15), reused 48 (delta 13), pack-reused 0
-Unpacking objects: 100% (50/50), 7.83 KiB | 56.00 KiB/s, done.
-Welcome to another awesome autistic art by Daniella Mesquita.
-
-identify identify: Unable to open file (/media/daniell/B/bkp/ST500LM012) [No such file or directory].
-identify identify: Unable to open file (HN-M500MBB) [No such file or directory].
-identify identify: Unable to open file (Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png) [No such file or directory].
-identify identify: Request did not return an image.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-Installing handler for .nu files...
-Installing nu-script-handler...
-
-
-
-
-Installing sounds...
-ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
-
-
-Installing Witchcraft Candy Colors...
-Your branch is up to date with 'origin/master'.
-./install.sh: 4: declare: not found
-./install.sh: 5: Syntax error: "(" unexpected
 
 
 
 
 
-! cp: '/usr/share/backgrounds/warty-final-ubuntu.png' and '/usr/share/backgrounds/ubuntu/warty-final-ubuntu.png' are the same file (use ipfs check CID)
-! there will also be a cp/mv error for if [ -f /usr/share/cinnamon/faces/user-generic.png ]; then $maysudo mv -f /usr/share/cinnamon/faces/user-generic.png /usr/share/cinnamon/faces/cinnamon; fi (use ipfs check CID)
-! Updating default background...
-ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
-
-- fix issue with .html5, .nu, .apps and .game icons
-Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
-Error in file "/usr/share/applications/org.kde.kdeconnect_open.desktop": "*/*" is an invalid MIME type ("*" is an unregistered media type)
-Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
-Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
 
 - Electron apps still not working
 
@@ -406,51 +224,7 @@ Floflis Fixer: option to re-do the firstlogon script (required by Floflis Centra
 
 /1/Floflis/system pertaining to root only
 
-DNA:
-- Turning flo command into a executable...
-install.sh: line 122: break: only meaningful in a `for', `while', or `until' loop
 
-Core:
-./install.sh: 29: [[: not found
-
-- Installing Floflis Core as init program...
-Failed to enable unit, unit flo-init.service does not exist.
-flo-init.service is not a native service, redirecting to systemd-sysv-install.
-Executing: /lib/systemd/systemd-sysv-install enable flo-init
-Excess arguments.
-- Installing Floflis' first boot script...
-Failed to enable unit, unit firstboot.service does not exist.
-firstboot.service is not a native service, redirecting to systemd-sysv-install.
-Executing: /lib/systemd/systemd-sysv-install enable firstboot
-Excess arguments.
-
-
-Soil:
-./install.sh: 28: [[: not found
-
-Installing to-merge.sh...
-logname: no login name
-Installing neofetch...
-
-                            0 upgraded, 0 newly installed, 0 to remove and 575 not upgraded.
-Installing Cinnamon applets, desklets and extensions...###########################################.]  
-tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
-tar: Exiting with failure status due to previous errors
-sending incremental file list
-./
-applets/
-applets/CinnVIIStarkMenu@NikoKrause/
-
-Installing Floflis Central...
-Updating default background...
-mkdir: cannot create directory '/usr/share/wallpapers/FuturePrototype/debian': File exists
-mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No such file or directory
-------------------------------------------------------------------------------------------
-[ON FIRST INSTALL, THESE TWO MSGS ARENT SHOWN]
-------------------------------------------------------------------------------------------
 
 up-to-date OS data (build)
 
