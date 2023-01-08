@@ -7,12 +7,45 @@
 - fix issues of wrongly calling sh instead of bash when openning layers' installers
 - attempt to fix break issues
 - attempt to enable the Finance app menu category
-
-- restart my linux, test taskbar context, settings central and settings user avatar symlink
+- Update CinnVIIStarkMenu@NikoKrause
+- Include Cinnamenu@json (so user have options for app menus)
 
 list default desktop background at .xml file
 
+fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+
+fl icons get recursively (explorer, term, desktop btn); git icon
+fl new way of installing icons
+fl icons find another git icon
+
+fl Calendar/Weather applet data
+fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
+move /1/sounds to /1/Floflis/system
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
+replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
+
+transparentpanel is an extension that is a example at doing actions when showing/not showing the desktop
+play music at dektop if setting, detect background color
+
+fl rename shortcut to "Character Map" (add to missing crowdin list)
+
+fl build move tools such as online, to Core layer
+fl build update all of include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz addons
+fl build add /media/daniella/Main Linux/home/daniell/.local/share/cinnamon/applets/Cinnamenu@json to include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz
+fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"
+
+zombie spices:
+- install host spice (check if it isn't already existing, before)
+- install zombie spice and its data
+
 own repo for Floflis weblink apps, also test 01's init on it about git-meta /media/daniella/B/git/Floflis/WeblinkApps
+
+FilePeace as a suite installed at syswide
+echo 15:00 - 5:00 | timecalc-linux | head -n1 | sed 's,^>>> ,,'
+/media/daniella/Seagate Expansion Drive/rc sh tst/include
+/media/daniella/B/git/FilePeace
+-
+git-meta detect error then fallback to FilePeace's folderstamp /media/daniella/B/git/01VCS/git-meta
 
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 

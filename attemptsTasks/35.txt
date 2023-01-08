@@ -1,3 +1,8 @@
+sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop
+-
+- Upgrade Cinnamon from 5.4.12 to 5.6.5
+- Reinstall Floflis Icons with some fixes and temporary limitations
+
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
 
 /usr/share/plymouth
@@ -176,13 +181,6 @@ Error in file "/usr/share/applications/org.kde.kdeconnect_open.desktop": "*/*" i
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
 
-DNA:
-- Turning flo command into a executable...
-install.sh: line 122: break: only meaningful in a `for', `while', or `until' loop
-
-Core:
-./install.sh: 29: [[: not found
-
 - Installing Floflis Core as init program...
 Failed to enable unit, unit flo-init.service does not exist.
 flo-init.service is not a native service, redirecting to systemd-sysv-install.
@@ -195,8 +193,7 @@ Executing: /lib/systemd/systemd-sysv-install enable firstboot
 Excess arguments.
 
 
-Soil:
-./install.sh: 28: [[: not found
+
 
 Installing to-merge.sh...
 logname: no login name
@@ -221,3 +218,5 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 ------------------------------------------------------------------------------------------
 [ON FIRST INSTALL, THESE TWO MSGS ARENT SHOWN]
 ------------------------------------------------------------------------------------------
+
+- restart my linux, test taskbar context, settings central and settings user avatar symlink
