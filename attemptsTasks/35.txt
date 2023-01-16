@@ -219,6 +219,22 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 [ON FIRST INSTALL, THESE TWO MSGS ARENT SHOWN]
 ------------------------------------------------------------------------------------------
 
+
+
+
+
+
+
+
 use cyan color on floflis logos, as in default-testpage.pdf (also update in its press site)
 
+new network icons, for OP, Arbitrum and zSync (reflect these changes in central and its listed networks)
+new renamed icon for Gnosis Chain (reflect these changes in central)
+
 - restart my linux, test taskbar context, settings central and settings user avatar symlink
+
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/logo.png and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/token.png as SVG images (also reflect these changes in the explore menu btn and central)
+
+New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
+
+up-to-date OS info in config

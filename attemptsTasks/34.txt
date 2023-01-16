@@ -12,12 +12,17 @@
 - use quotes for build codename!
 - updated default-testpage.pdf, now with fixed SVG logo
 
+Soil: run include/img/watermarkmaker before installing watermark.png (but wait until /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/watermark.png is found)
 also install OSlogotype.svg and ubuntu-logo.svg
+
+own custom explore menu icon
 
 ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
 /usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+-
+/home/daniella/Desktop/fl sounds
 
 update all applets, desklets and extensions
 
@@ -65,6 +70,10 @@ don't anymore symlink yaru icon. change default icon pack at logon
 - rename shortcuts as "shortcuts" instead of "icons"
 - fix: duplicate entry for Music and Rythmbox
 - separate script to install Internet shortcuts, and another to install Floflis' custom shortcuts
+
+---------------------------------------------------------------------------------------------
+at current project folder, test locating files; after fixing these issues, open fresh project
+---------------------------------------------------------------------------------------------
 
 floapps:
 Adding Color Converter.html5...
@@ -166,6 +175,7 @@ Installing Sh it...
 rewriteup of Floflis install scripts:
 detect cubic mode and confirm /home have no subfolder.
 then know what to install at cubic or at firstlogon from live ISO!
+take a look at these leftovers: /media/daniella/Main Linux/home
 
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
 
@@ -179,8 +189,15 @@ floflis first logon:
 - temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
 - install include-firstlogon/home-daniella-Templates
 
+
 ubuntu@ubuntu:~$ nu
 No environment config file found at /home/ubuntu/.config/nushell/env.nu
 Would you like to create one with defaults (Y/n):
 
-New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
+
+find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
+
+new tree folder structure /home/daniella/Desktop/fl tree
+then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
+
+up-to-date OS info in config
