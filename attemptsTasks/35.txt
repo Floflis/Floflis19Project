@@ -219,4 +219,6 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 [ON FIRST INSTALL, THESE TWO MSGS ARENT SHOWN]
 ------------------------------------------------------------------------------------------
 
+use cyan color on floflis logos, as in default-testpage.pdf (also update in its press site)
+
 - restart my linux, test taskbar context, settings central and settings user avatar symlink

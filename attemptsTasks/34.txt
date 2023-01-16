@@ -12,6 +12,8 @@
 - use quotes for build codename!
 - updated default-testpage.pdf, now with fixed SVG logo
 
+also install OSlogotype.svg and ubuntu-logo.svg
+
 ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
 /usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
@@ -39,6 +41,8 @@ transparentpanel is an extension that is a example at doing actions when showing
 play music at dektop if setting, detect background color
 
 fl rename shortcut to "Character Map" (add to missing crowdin list)
+
+OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central; also update on floflis press site
 
 fl build move tools such as online, to Core layer
 fl build update all of include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz addons
