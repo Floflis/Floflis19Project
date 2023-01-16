@@ -9,12 +9,22 @@
 - attempt to enable the Finance app menu category
 - Update CinnVIIStarkMenu@NikoKrause
 - Include Cinnamenu@json (so user have options for app menus)
+- use quotes for build codename!
 
-list default desktop background at .xml file
+ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
+/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 
-fl icons get recursively (explorer, term, desktop btn); git icon
+update all applets, desklets and extensions
+
+zombie spices:
+- install host spice (check if it isn't already existing, before)
+- install zombie spice and its data
+
+list default desktop background at .xml file
+
+fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
 fl new way of installing icons
 fl icons find another git icon
 
@@ -34,10 +44,6 @@ fl build update all of include/home-daniell-.local-share-cinnamon_usr-share-cinn
 fl build add /media/daniella/Main Linux/home/daniell/.local/share/cinnamon/applets/Cinnamenu@json to include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"
 
-zombie spices:
-- install host spice (check if it isn't already existing, before)
-- install zombie spice and its data
-
 own repo for Floflis weblink apps, also test 01's init on it about git-meta /media/daniella/B/git/Floflis/WeblinkApps
 
 FilePeace as a suite installed at syswide
@@ -50,9 +56,6 @@ git-meta detect error then fallback to FilePeace's folderstamp /media/daniella/B
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 
 don't anymore symlink yaru icon. change default icon pack at logon
-
-ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
-/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
 - rename shortcuts as "shortcuts" instead of "icons"
 - fix: duplicate entry for Music and Rythmbox
