@@ -10,6 +10,7 @@
 - Update CinnVIIStarkMenu@NikoKrause
 - Include Cinnamenu@json (so user have options for app menus)
 - use quotes for build codename!
+- updated default-testpage.pdf, now with fixed SVG logo
 
 ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
 /usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
