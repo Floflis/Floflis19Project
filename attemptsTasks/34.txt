@@ -178,6 +178,7 @@ then know what to install at cubic or at firstlogon from live ISO!
 take a look at these leftovers: /media/daniella/Main Linux/home
 
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+install /home/daniella/Templates
 
 floflis first logon:
 - copy clock applet settings
