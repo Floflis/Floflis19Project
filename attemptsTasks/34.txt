@@ -11,11 +11,19 @@
 - Include Cinnamenu@json (so user have options for app menus)
 - use quotes for build codename!
 - updated default-testpage.pdf, now with fixed SVG logo
+- Soil to-merge: run include/img/watermarkmaker before installing watermark.png
+- also install OSlogotype.svg and ubuntu-logo.svg
+- fix installing dependencies from git (which also solve issues with nu-application-handler and floapps)
+- run apt upgrade in this current version
 
-fl fix /home/~/.nu_history, now pointing to .config/nushell/history.txt
 
-Soil: run include/img/watermarkmaker before installing watermark.png (but wait until /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/watermark.png is found)
-also install OSlogotype.svg and ubuntu-logo.svg
+Installing Cinnamon applets, desklets and extensions...
+tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
+tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
+tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
+tar: Exiting with failure status due to previous errors
+
 
 /media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
 - filepeace suite, including rc with timecalc
@@ -23,10 +31,6 @@ also install OSlogotype.svg and ubuntu-logo.svg
 -
 - gipfs will come as suite and will tell its not ready yet. insp on 01's git wrapper
 - ipfs wrapper: make cid (ipfs add -q --only-hash packages.tar.gz >> packages.tar.gz.cid)
-fs wrapper blcklist such as the poke nft bgs!
-
-ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
-/usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
 
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 -
@@ -84,13 +88,7 @@ at current project folder, test locating files; after fixing these issues, open 
 ---------------------------------------------------------------------------------------------
 
 floapps:
-Adding Color Converter.html5...
-cp: cannot stat 'include/html5/Color Converter.html5': No such file or directory
--
 linux-icons-builder file location errors (possibly quoting issues)
--
-tar (child): include/node_modules.tar.gz: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
 -
 Installing C2 common libs...
 tar (child): include/Floflis_libs_game-engines_c2.tar.gz: Cannot open: No such file or directory
@@ -100,13 +98,6 @@ identify-im6.q16: unable to open image `/media/daniella/B/bkp/ST500LM012': No su
 identify-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/575.
 identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
 identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
-
-Installing Cinnamon applets, desklets and extensions...
-tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
-tar: Exiting with failure status due to previous errors
 
 Testing if Pijul works:
 pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
@@ -125,9 +116,6 @@ to-merge.sh: line 1183: cd: include/Tools/shexec: No such file or directory
 fatal: destination path '.' already exists and is not an empty directory.
 fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
-
-Installing Witchcraft Candy Colors...
-(UNLIKE THE PREVIOUS, IT WORKS!)
 
 after installing Hugo:
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
@@ -197,6 +185,8 @@ floflis first logon:
 - temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
 - temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
 - install include-firstlogon/home-daniella-Templates
+
+fl fix /home/~/.nu_history, now pointing to .config/nushell/history.txt
 
 
 ubuntu@ubuntu:~$ nu

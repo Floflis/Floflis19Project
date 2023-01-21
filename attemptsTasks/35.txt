@@ -260,4 +260,16 @@ central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd8
 
 sudo snap install kolourpaint
 
+gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
+
+/usr/share/plymouth/themes/ubuntucinnamon-spinner/watermark.png (from repo; then symlink)
+
+fl central script hash the background. if it is any of these:
+QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
+QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
+QmYkAC1gTaBj7Ynxa7csumKbve6iVS7VhVk1Tfzru8MnQ6
+Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
+QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
+then assign NFT both at user settings/unistore and mark as pokefan personality
+
 up-to-date OS info in config
