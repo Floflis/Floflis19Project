@@ -12,10 +12,18 @@
 - use quotes for build codename!
 - updated default-testpage.pdf, now with fixed SVG logo
 
+fl fix /home/~/.nu_history, now pointing to .config/nushell/history.txt
+
 Soil: run include/img/watermarkmaker before installing watermark.png (but wait until /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/watermark.png is found)
 also install OSlogotype.svg and ubuntu-logo.svg
 
-own custom explore menu icon
+/media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
+- filepeace suite, including rc with timecalc
+/media/daniella/B/git/01VCS/git-meta issue ask for hlp
+-
+- gipfs will come as suite and will tell its not ready yet. insp on 01's git wrapper
+- ipfs wrapper: make cid (ipfs add -q --only-hash packages.tar.gz >> packages.tar.gz.cid)
+fs wrapper blcklist such as the poke nft bgs!
 
 ln: failed to create symbolic link '/usr/share/plymouth/ubuntucinnamon-logo.png': File exists
 /usr/share/plymouth/themes/ubuntucinnamon-spinner (from repo; then symlink)
@@ -197,6 +205,10 @@ Would you like to create one with defaults (Y/n):
 
 
 find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
+
+soil on  main [!+⇡] 
+❯ ethgas
+parse error: Invalid numeric literal at line 1, column 3
 
 new tree folder structure /home/daniella/Desktop/fl tree
 then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data

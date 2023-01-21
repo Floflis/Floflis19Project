@@ -226,7 +226,9 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 
 
 
-use cyan color on floflis logos, as in default-testpage.pdf (also update in its press site)
+use cyan color on floflis logos, do the same in default-testpage.pdf (also update in its press site)
+
+fl both the ISO's and user's first logon will have the Firedoge install (firedoge install will detect if ISO user or normal user, and install will only open firedoge when ISO logged)
 
 new network icons, for OP, Arbitrum and zSync (reflect these changes in central and its listed networks)
 new renamed icon for Gnosis Chain (reflect these changes in central)
@@ -236,5 +238,26 @@ new renamed icon for Gnosis Chain (reflect these changes in central)
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/logo.png and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/token.png as SVG images (also reflect these changes in the explore menu btn and central)
 
 New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
+
+Floflis propose to split assets by using multiple wallets (include option to import ronin address)
+floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
+insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
+use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
+
+NeTVision first PoC: this app is a screen to open DTube or Lenstube
+
+fl deactivate current monitor's desktop auto-arrange
+
+fl employment opportunities:
+- make gel nails and even sell them as NFTs!
+- turn client's tattoos into NFTs!
+
+fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
+fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
+insp for FLOF grants programme https://app.optimism.io/retropgf
+
+central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other Cs)
+
+sudo snap install kolourpaint
 
 up-to-date OS info in config
