@@ -14,9 +14,7 @@
 - also install OSlogotype.svg and ubuntu-logo.svg
 - fix installing dependencies from git (which also solve issues with nu-application-handler and floapps)
 - run apt upgrade in this current version
-
-
-download some applets, desklets and extensions from https://cinnamon-spices.linuxmint.com, so they should come always up-to-date
+- download some applets, desklets and extensions from https://cinnamon-spices.linuxmint.com, so they should come always up-to-date
 
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
