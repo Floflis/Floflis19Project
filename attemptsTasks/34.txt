@@ -7,7 +7,6 @@
 - fix issues of wrongly calling sh instead of bash when openning layers' installers
 - attempt to fix break issues
 - attempt to enable the Finance app menu category
-- Update CinnVIIStarkMenu@NikoKrause
 - Include Cinnamenu@json (so user have options for app menus)
 - use quotes for build codename!
 - updated default-testpage.pdf, now with fixed SVG logo
@@ -17,7 +16,11 @@
 - run apt upgrade in this current version
 
 
-download applets, desklets and extensions from https://cinnamon-spices.linuxmint.com
+zombie spices:
+- install host spice (check if it isn't already existing, before)
+- install zombie spice and its data
+
+download applets, desklets and extensions from https://cinnamon-spices.linuxmint.com, so they should come always up-to-date
 
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
@@ -25,6 +28,8 @@ tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
 tar: Exiting with failure status due to previous errors
+
+
 
 
 /media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
@@ -37,10 +42,6 @@ tar: Exiting with failure status due to previous errors
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 -
 /home/daniella/Desktop/fl sounds
-
-zombie spices:
-- install host spice (check if it isn't already existing, before)
-- install zombie spice and its data
 
 list default desktop background at .xml file
 
@@ -121,6 +122,8 @@ after installing Hugo:
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
+
+firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean-personality-pack assigned)
 
 
 
