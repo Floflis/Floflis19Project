@@ -17,7 +17,7 @@
 - run apt upgrade in this current version
 
 
-update all applets, desklets and extensions
+download applets, desklets and extensions from https://cinnamon-spices.linuxmint.com
 
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
