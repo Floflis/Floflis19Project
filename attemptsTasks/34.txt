@@ -17,6 +17,8 @@
 - run apt upgrade in this current version
 
 
+update all applets, desklets and extensions
+
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
@@ -35,8 +37,6 @@ tar: Exiting with failure status due to previous errors
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 -
 /home/daniella/Desktop/fl sounds
-
-update all applets, desklets and extensions
 
 zombie spices:
 - install host spice (check if it isn't already existing, before)
