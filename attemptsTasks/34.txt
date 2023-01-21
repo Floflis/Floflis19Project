@@ -16,11 +16,7 @@
 - run apt upgrade in this current version
 
 
-zombie spices:
-- install host spice (check if it isn't already existing, before)
-- install zombie spice and its data
-
-download applets, desklets and extensions from https://cinnamon-spices.linuxmint.com, so they should come always up-to-date
+download some applets, desklets and extensions from https://cinnamon-spices.linuxmint.com, so they should come always up-to-date
 
 Installing Cinnamon applets, desklets and extensions...
 tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
@@ -28,6 +24,10 @@ tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
 tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
 tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
 tar: Exiting with failure status due to previous errors
+
+zombie spices:
+- install host spice (check if it isn't already existing, before)
+- install zombie spice and its data
 
 
 
