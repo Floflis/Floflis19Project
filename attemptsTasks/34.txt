@@ -10,18 +10,17 @@
 - Include Cinnamenu@json (so user have options for app menus)
 - use quotes for build codename!
 - updated default-testpage.pdf, now with fixed SVG logo
-- Soil to-merge: run include/img/watermarkmaker before installing watermark.png
+- Soil to-merge: run include/img/watermarkmaker before installing watermark.png (now the watermark.png generation is automated instead of manual via MS PowerPoint)
 - also install OSlogotype.svg and ubuntu-logo.svg
 - fix installing dependencies from git (which also solve issues with nu-application-handler and floapps)
 - run apt upgrade in this current version
 - download some applets, desklets and extensions from https://cinnamon-spices.linuxmint.com, so they should come always up-to-date
-
-Installing Cinnamon applets, desklets and extensions...
-tar: cinnamon/extensions/nftmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/po: Cannot open: File exists
-tar: cinnamon/extensions/nftmark@floflis/icons: Cannot open: File exists
-tar: cinnamon/extensions/buildmark@floflis/icons: Cannot open: File exists
-tar: Exiting with failure status due to previous errors
+- Soil: git add all texty files from 'include' and 'to-merge' dependency folders
+- upgrade git-lfs from 2.9.2 to 3.0.2-1
+- Backgrounds as a git repo!
+- add some .weborigin.txt files!
+- install Cinnamon spices' settings from folder instead of zippy file
+- Installing Templates of the 'New File' context menu
 
 zombie spices:
 - install host spice (check if it isn't already existing, before)
