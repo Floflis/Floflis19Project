@@ -25,6 +25,7 @@
 - install the zombie spices handler/installer ("zombiespices")
 - install buildmark@floflis and nftmark@floflis as zombie extensions
 
+- fix ethg
 - install ethgas@floflis as zombie applet+desklet (using zombiespices' brand new "multi" feature)
 - fl mkdocs dev tell about zombie spices
 
