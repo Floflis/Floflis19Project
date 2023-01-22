@@ -25,13 +25,18 @@
 - install the zombie spices handler/installer ("zombiespices")
 - install buildmark@floflis and nftmark@floflis as zombie extensions
 - install ethgas@floflis as zombie applet+desklet
+- update/fix ethgas' API URL
 
-- fix ethg
-- fl mkdocs dev tell about zombie spices
+fl mkdocs dev tell about zombie spices
+- new tree folder structure
+fl mkdocs updt abt tree folder structure
 
 
 
 
+mkdir: cannot create directory ‘/tmp/zombiespices’: File exists
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler
+FLIC installs and opens cbc
 /media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
 - filepeace suite, including rc with timecalc
 /media/daniella/B/git/01VCS/git-meta issue ask for hlp

@@ -274,4 +274,6 @@ Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
 QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
 then assign NFT both at user settings/unistore and mark as pokefan personality
 
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge/queue (floapps icons now are SVG; usv-tools installs .svg svg icon)
+
 up-to-date OS info in config
