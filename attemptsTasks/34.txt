@@ -22,9 +22,9 @@
 - install Cinnamon spices' settings from folder instead of zippy file
 - Installing Templates of the 'New File' context menu
 - settings for Weather and Calendar-DateTime applets
-
 - install the zombie spices handler/installer ("zombiespices")
 - install buildmark@floflis and nftmark@floflis as zombie extensions
+
 - install ethgas@floflis as zombie applet+desklet (using zombiespices' brand new "multi" feature)
 
 
