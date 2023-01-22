@@ -21,10 +21,11 @@
 - add some .weborigin.txt files!
 - install Cinnamon spices' settings from folder instead of zippy file
 - Installing Templates of the 'New File' context menu
+- settings for Weather and Calendar-DateTime applets
 
-zombie spices:
-- install host spice (check if it isn't already existing, before)
-- install zombie spice and its data
+- install the zombie spices handler/installer ("zombiespices")
+- install buildmark@floflis and nftmark@floflis as zombie extensions
+- install ethgas@floflis as zombie applet+desklet (using zombiespices' brand new "multi" feature)
 
 
 
