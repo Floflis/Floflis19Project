@@ -226,6 +226,8 @@ mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No
 
 
 
+install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
+
 add .weborigin for /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages/hugo, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/nerdyfonts and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps
 
 use cyan color on floflis logos, do the same in default-testpage.pdf (also update in its press site)

@@ -27,15 +27,17 @@
 - install ethgas@floflis as zombie applet+desklet
 - update/fix ethgas' API URL
 
+
 fl mkdocs dev tell about zombie spices
 - new tree folder structure
 fl mkdocs updt abt tree folder structure
 
+list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
 
+install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
-
-mkdir: cannot create directory ‘/tmp/zombiespices’: File exists
-same for floflis-packager, floapps, floflis-application-handler and nu-script-handler
+mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 FLIC installs and opens cbc
 /media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
 - filepeace suite, including rc with timecalc
@@ -48,20 +50,18 @@ fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stere
 -
 /home/daniella/Desktop/fl sounds
 
-list default desktop background at .xml file
-
 fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
 fl new way of installing icons
 fl icons find another git icon
+recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
 
-fl Calendar/Weather applet data
 fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
 move /1/sounds to /1/Floflis/system
 /1/Floflis/system/os.json up-to-date build info and, now add distrobase
 replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
 
 transparentpanel is an extension that is a example at doing actions when showing/not showing the desktop
-play music at dektop if setting, detect background color
+play music at desktop if setting, detect background color
 
 fl rename shortcut to "Character Map" (add to missing crowdin list)
 
@@ -210,5 +210,17 @@ parse error: Invalid numeric literal at line 1, column 3
 
 new tree folder structure /home/daniella/Desktop/fl tree
 then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
+
+Floflis branding:
+/usr/share/icons/Humanity/places@2/64/start-here.svg
+/usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
+/usr/share/pixmaps/ubuntu-logo.svg
+/usr/share/pixmaps/ubuntu-logo-dark.png
+/usr/share/pixmaps/ubuntu-logo-icon.png
+/usr/share/pixmaps/ubuntu-logo-text.png
+/usr/share/pixmaps/ubuntu-logo-text-dark.png
+/usr/share/icons/Humanity/places@2/64/distributor-logo.svg
+
+symlink with cinnamon: /usr/share/pixmaps/faces
 
 up-to-date OS info in config
