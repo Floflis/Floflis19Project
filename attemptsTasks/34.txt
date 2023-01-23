@@ -26,6 +26,7 @@
 - install buildmark@floflis and nftmark@floflis as zombie extensions
 - install ethgas@floflis as zombie applet+desklet
 - update/fix ethgas' API URL
+- install the windowlist@cobinja.de applet
 
 
 fl mkdocs dev tell about zombie spices
@@ -34,10 +35,12 @@ fl mkdocs updt abt tree folder structure
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
 
+data for the windowlist@cobinja.de applet
+
 install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
-same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
 FLIC installs and opens cbc
 /media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
 - filepeace suite, including rc with timecalc
@@ -220,6 +223,12 @@ Floflis branding:
 /usr/share/pixmaps/ubuntu-logo-text.png
 /usr/share/pixmaps/ubuntu-logo-text-dark.png
 /usr/share/icons/Humanity/places@2/64/distributor-logo.svg
+https://askubuntu.com/questions/194062/how-can-i-replace-ubuntu-branding-with-my-own
+https://askubuntu.com/questions/1017305/how-do-i-remove-any-ubuntu-brand-and-trademark-from-my-ubuntu-install
+https://askubuntu.com/questions/1107620/how-do-i-remove-ubuntu-branding-from-livecd
+https://askubuntu.com/questions/1106645/how-to-change-ubuntu-18-name-and-logo-in-details
+https://askubuntu.com/questions/83521/where-do-i-need-to-change-ubuntu-when-naming-my-own-custom-distribution
+https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-marks-in-custom-distro
 
 symlink with cinnamon: /usr/share/pixmaps/faces
 
