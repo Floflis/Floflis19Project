@@ -1,3 +1,9 @@
 Help Plasmmer and its sub-DAOs expand on L2 by deploying Aragon to Optimism, Arbitrum and Ronin (https://docs.roninchain.com/docs/intro/mainnet) (and their testnets as well)
 On Mainnet, the DAOs like UniOS (UNI+FLOF) and Firedoge (WEB3+DOG) will have their Uniswap v3 pools that will use https://fractional.art/ before coming to a Balancer token
 FLOFLIS SHOULDN'T COME TO OTHER PLATFORMS IMMEDIATELY; THAT WOULD PREJUDICE ITS PRICING REALIZATION IN LONG TERM. 1. ETH MAINNET; 2. RONIN; 3. OPTIMISM; 4. ARBITRUM; 5. ZKSYNC (not because of privacy, but bc Argent will depend on it and so Floflis should depend on account abstraction)
+
+https://github.com/aragon/client
+https://github.com/Plasmmer/aragon
+https://client.aragon.org/#/
+https://aragon.idchain.one/#/
+https://github.com/Plasmmer/aragon/issues
