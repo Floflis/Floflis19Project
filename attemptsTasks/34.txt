@@ -41,9 +41,6 @@ FLIC installs and opens cbc
 /media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
 - filepeace suite, including rc with timecalc
 /media/daniella/B/git/01VCS/git-meta issue ask for hlp
--
-- gipfs will come as suite and will tell its not ready yet. insp on 01's git wrapper
-- ipfs wrapper: make cid (ipfs add -q --only-hash packages.tar.gz >> packages.tar.gz.cid)
 
 fl mkdocs dev tell about zombie spices
 - new tree folder structure
@@ -73,8 +70,9 @@ transparentpanel is an extension that is a example at doing actions when showing
 play music at desktop if setting, detect background color
 
 fl rename shortcut to "Character Map" (add to missing crowdin list)
+better method for renaming shortcuts; don't overwrite a whole file but a part of it
 
-OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central; also update on floflis press site
+OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
 
 fl build move tools such as online, to Core layer
 fl build update all of include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz addons
