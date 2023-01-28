@@ -27,17 +27,13 @@
 - install ethgas@floflis as zombie applet+desklet
 - update/fix ethgas' API URL
 - install the windowlist@cobinja.de applet
+- Soil: Update Nushell from 0.73.0 to 0.74.0 https://github.com/nushell/nushell/releases/tag/0.74.0
+- FantasqueSansMono font, nushell, Witchcraft Candy Colors and Starship as part of the single "Starshell" package
+- Soil: Update balenaEtcher from v1.10.11 to v1.14.3 https://github.com/balena-io/etcher/releases/tag/v1.14.3
+- Soil: Update Hugo non-32bit variants from 0.89.2 to 0.110.0 https://github.com/gohugoio/hugo/releases/tag/v0.89.2
+- Core: Update go-ipfs/Kubo from v0.18.0-rc1 to v0.18.0 https://github.com/ipfs/kubo/releases/tag/v0.18.0 and re-activate 32bit support
+- Core: Update IPFS' ipget from v0.6.0 to v0.9.1 (since May 2021 without being updated in Floflis) https://dist.ipfs.tech/#ipget
 
-
-fl mkdocs dev tell about zombie spices
-- new tree folder structure
-fl mkdocs updt abt tree folder structure
-
-list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
-
-data for the windowlist@cobinja.de applet
-
-install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
 same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
@@ -49,9 +45,19 @@ FLIC installs and opens cbc
 - gipfs will come as suite and will tell its not ready yet. insp on 01's git wrapper
 - ipfs wrapper: make cid (ipfs add -q --only-hash packages.tar.gz >> packages.tar.gz.cid)
 
+fl mkdocs dev tell about zombie spices
+- new tree folder structure
+fl mkdocs updt abt tree folder structure
+
+install /media/daniella/B/git/Floflis/Utilities/scripts-common
+
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 -
 /home/daniella/Desktop/fl sounds
+
+list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
+
+data for the windowlist@cobinja.de applet
 
 fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
 fl new way of installing icons
