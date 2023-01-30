@@ -1,5 +1,10 @@
 
 
+data for the windowlist@cobinja.de applet
+
+fl mkdocs dev tell about zombie spices
+fl mkdocs updt abt tree folder structure
+
 Floflis branding:
 /usr/share/icons/Humanity/places@2/64/start-here.svg
 /usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg

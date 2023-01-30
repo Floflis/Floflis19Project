@@ -44,12 +44,10 @@ both will receive floapps, cinnamon configs, home templates and nu-post-install.
 both will receive aragon, hop and uniswap
 
 
-fl mkdocs dev tell about zombie spices
--
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
-
+new tree folder structure /home/daniella/Desktop/fl tree
 -
-fl mkdocs updt abt tree folder structure
+then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
 
 git installed by 01 instead of floflis core
 
@@ -110,13 +108,6 @@ Installing shortcut in /usr/share/applications...
 Turning floflis-application-handler into the default program (to user daniella) for .apps and .game applications...
 - Turning floflis-application-handler into an executable...
 
-Installing branding...
-Installing img...
-Already up to date.
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-
 Updating default background...
 mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
 ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
@@ -152,12 +143,6 @@ to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
 fatal: destination path '.' already exists and is not an empty directory.
 fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
-
-Installing the "Starshell" package...
-Already up to date.
-Your branch is up to date with 'origin/main'.
-./install.sh: 17: [[: not found
-Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
 
 Unpacking objects: 100% (33/33), 5.25 KiB | 145.00 KiB/s, done.
 From https://github.com/Floflis/ethgas
@@ -203,8 +188,6 @@ fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stere
 /home/daniella/Desktop/fl sounds
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
-
-data for the windowlist@cobinja.de applet
 
 fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
 fl new way of installing icons
@@ -318,8 +301,5 @@ floflis first logon:
 - install include-firstlogon/home-daniella-Templates
 
 fl fix /home/~/.nu_history, now pointing to .config/nushell/history.txt
-
-new tree folder structure /home/daniella/Desktop/fl tree
-then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
 
 up-to-date OS info in config
