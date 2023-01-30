@@ -45,7 +45,10 @@ both will receive aragon, hop and uniswap
 
 
 fl mkdocs dev tell about zombie spices
-- new tree folder structure
+-
+- new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
+
+-
 fl mkdocs updt abt tree folder structure
 
 git installed by 01 instead of floflis core
@@ -227,13 +230,6 @@ fl build add /media/daniella/Main Linux/home/daniell/.local/share/cinnamon/apple
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"
 
 own repo for Floflis weblink apps, also test 01's init on it about git-meta /media/daniella/B/git/Floflis/WeblinkApps
-
-FilePeace as a suite installed at syswide
-echo 15:00 - 5:00 | timecalc-linux | head -n1 | sed 's,^>>> ,,'
-/media/daniella/Seagate Expansion Drive/rc sh tst/include
-/media/daniella/B/git/FilePeace
--
-git-meta detect error then fallback to FilePeace's folderstamp /media/daniella/B/git/01VCS/git-meta
 
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 
