@@ -37,18 +37,16 @@
 - Core: install GIPFS (includes go-ipfs, ipget, etc.) + FilePeace suite (includes webpresent, folderstamp, etc.)
 
 
-mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
-same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
-FLIC installs and opens cbc
-/media/daniella/B/git/FilePeace/folderstamp as sys lib (install from filepeace suite, insp from 01)
-- filepeace suite, including rc with timecalc
-/media/daniella/B/git/01VCS/git-meta issue ask for hlp
-
 fl mkdocs dev tell about zombie spices
 - new tree folder structure
 fl mkdocs updt abt tree folder structure
 
 git installed by 01 instead of floflis core
+
+
+mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
+
 
 two types of include-firstlogon content: iso and user
 
@@ -58,6 +56,7 @@ both will receive aragon, hop and uniswap
 ----
 
 - floflis-packager c2 projects will have a file containing git files for c2export, HTML and scripts (FMWK2C2 will be the template)
+- FLIC installs and opens cbc
 - firedoge working install
 
 - Look at all from-git Floflis dependencies, and init.sh on all

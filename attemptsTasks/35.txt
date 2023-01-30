@@ -1,0 +1,36 @@
+
+
+- Reinstall Floflis Icons with some fixes and temporary limitations
+
+/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
+
+/usr/share/plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
+-
+https://www.turnkeylinux.org/docs/chroot-to-repair-system
+
+on every logon, floflis will register user's IPFS peer ID
+-
+jq /home/daniell/.ipfs/config
+"Identity": {
+    "PeerID"
+-
+
+Floflis Central repaginate:
+- new font
+- New design for navbar (transparent or blur)+hover+selected (FMWK will differ vertical and horizontal tabs)
+- navbar right shadow (using updated FMWK)
+- collapsible navbar from topbar/header
+- SVG logotype for header
+- SVG FLOF token logo/icon
+- SVG token logos
+- use the not-png floflis 2014 logo
+- more details about CPU architecture
+- integration with Alertz (Profile>Inventory>Backgrounds)
+- integrate IPFS (also display peerid)
+
+/media/daniella/B/git/Floflis/cinnamon-patch
+add to Tasks.txt: has GH issues https://github.com/Floflis/cinnamon-patch/issues
+https://github.com/Floflis/cinnamon-patch
