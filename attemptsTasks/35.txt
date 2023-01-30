@@ -1,6 +1,37 @@
 
 
+Floflis branding:
+/usr/share/icons/Humanity/places@2/64/start-here.svg
+/usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
+/usr/share/pixmaps/ubuntu-logo.svg
+/usr/share/pixmaps/ubuntu-logo-dark.png
+/usr/share/pixmaps/ubuntu-logo-icon.png
+/usr/share/pixmaps/ubuntu-logo-text.png
+/usr/share/pixmaps/ubuntu-logo-text-dark.png
+/usr/share/icons/Humanity/places@2/64/distributor-logo.svg
+https://askubuntu.com/questions/194062/how-can-i-replace-ubuntu-branding-with-my-own
+https://askubuntu.com/questions/1017305/how-do-i-remove-any-ubuntu-brand-and-trademark-from-my-ubuntu-install
+https://askubuntu.com/questions/1107620/how-do-i-remove-ubuntu-branding-from-livecd
+https://askubuntu.com/questions/1106645/how-to-change-ubuntu-18-name-and-logo-in-details
+https://askubuntu.com/questions/83521/where-do-i-need-to-change-ubuntu-when-naming-my-own-custom-distribution
+https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-marks-in-custom-distro
+-
+symlink with cinnamon: /usr/share/pixmaps/faces
+
+
+find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
+
+ubuntu@ubuntu:~$ nu
+No environment config file found at /home/ubuntu/.config/nushell/env.nu
+Would you like to create one with defaults (Y/n):
+
+
 - Reinstall Floflis Icons with some fixes and temporary limitations
+-
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
+/media/daniella/B/git
+/media/daniella/Main Linux/usr/share/icons/Floflis
+- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
 
 install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
@@ -18,6 +49,14 @@ jq /home/daniell/.ipfs/config
 "Identity": {
     "PeerID"
 -
+
+after installing Hugo:
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
+
+Testing if Pijul works:
+pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
 
 /media/daniella/B/git/Floflis/cinnamon-patch
 add to Tasks.txt: has GH issues https://github.com/Floflis/cinnamon-patch/issues

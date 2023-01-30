@@ -34,7 +34,8 @@
 - Core: Update go-ipfs/Kubo from v0.18.0-rc1 to v0.18.0 https://github.com/ipfs/kubo/releases/tag/v0.18.0 and re-activate 32bit support
 - Core: Update IPFS' ipget from v0.6.0 to v0.9.1 (since May 2021 without being updated in Floflis) https://dist.ipfs.tech/#ipget
 - Move 01 VCS (now with git-meta being initialized automatically) from Soil to Core layer
-- Core: install GIPFS (includes go-ipfs, ipget, etc.) + FilePeace suite (includes webpresent, folderstamp, etc.)
+- Core: install GIPFS (includes go-ipfs, ipget, etc.)
+- Core: install FilePeace suite (includes webpresent, folderstamp, etc.)
 
 
 two types of include-firstlogon content: iso and user
@@ -139,32 +140,6 @@ Installing main theme...
 tar: Adapta/gtk-3.22/assets/window-unmaximize-ssd-eta-active@2.png: Cannot open: No space left on device
 tar: Adapta/gtk-2.0/Check-Radio/check-off-menuitem.png: Cannot open: No space left on device
 
-Fixing Music's name...
-----------------------------------------------------------------------
-DEBUG:
-Script path: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
-Current directory: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
-ls:
-build	       include		  README.md		  to-merge.sh
-firstboot      init.sh		  Tasks.txt		  update.json
-firstlogon.sh  install-node.sh	  to-merge		  updates.sh
-fixer	       install.sh	  to-merge_firstboot.sh
-floflis        new_patch_at.json  to-merge_firstlogon.sh
-flo-init       presentation	  to-mergenewTest.sh
-----------------------------------------------------------------------
-Adding bulbasaur.json...
-----------------------------------------------------------------------
-DEBUG:
-Script path: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
-Current directory: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
-ls:
-build	       include		  README.md		  to-merge.sh
-firstboot      init.sh		  Tasks.txt		  update.json
-firstlogon.sh  install-node.sh	  to-merge		  updates.sh
-fixer	       install.sh	  to-merge_firstboot.sh
-floflis        new_patch_at.json  to-merge_firstlogon.sh
-flo-init       presentation	  to-mergenewTest.sh
-----------------------------------------------------------------------
 Installing Floflis Central...
 mkdir: cannot create directory ‘/1/apps/central’: File exists
 cp: cannot stat 'to-merge/central': No such file or directory
@@ -211,6 +186,10 @@ mkdir: cannot create directory ‘/home//.cinnamon/configs/ethgas-applet@floflis
 cp: cannot create regular file '/home//.cinnamon/configs/ethgas-applet@floflis/': No such file or directory
 Welcome to zombiespices
 Preparing to install zombie-desklet 'ETH Gas' (ethgas-desklet@floflis)...
+
+
+
+
 
 
 
@@ -268,21 +247,6 @@ don't anymore symlink yaru icon. change default icon pack at logon
 at current project folder, test locating files; after fixing these issues, open fresh project
 ---------------------------------------------------------------------------------------------
 
-floapps:
-linux-icons-builder file location errors (possibly quoting issues)
--
-Installing C2 common libs...
-tar (child): include/Floflis_libs_game-engines_c2.tar.gz: Cannot open: No such file or directory
-
-nu-post-install also have issues with linux-icons-builder:
-identify-im6.q16: unable to open image `/media/daniella/B/bkp/ST500LM012': No such file or directory @ error/blob.c/OpenBlob/2924.
-identify-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/575.
-identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
-identify-im6.q16: unable to open image `HN-M500MBB': No such file or directory @ error/blob.c/OpenBlob/2924.
-
-Testing if Pijul works:
-pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
-
 Installing Floflis Central...
 mkdir: cannot create directory ‘/1/apps/central’: File exists
 cp: cannot stat 'to-merge/central': No such file or directory
@@ -297,11 +261,6 @@ to-merge.sh: line 1183: cd: include/Tools/shexec: No such file or directory
 fatal: destination path '.' already exists and is not an empty directory.
 fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
-
-after installing Hugo:
-Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
-Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
-Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
 
 firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean-personality-pack assigned)
 
@@ -322,10 +281,7 @@ firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean
 
 
 
-/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
-/media/daniella/B/git
-/media/daniella/Main Linux/usr/share/icons/Floflis
-- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
+
 
 Installing floapps...
 Cloning into '.'...
@@ -346,10 +302,6 @@ chmod: cannot access '/usr/bin/central': No such file or directory
 Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
 unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
 -
-Installing Sh it...
-./to-merge.sh: line 1158: cd: include/Tools/shexec: No such file or directory
-
-./to-merge.sh: line 1067: break: only meaningful in a `for', `while', or `until' loop
 
 rewriteup of Floflis install scripts:
 detect cubic mode and confirm /home have no subfolder.
@@ -371,37 +323,7 @@ floflis first logon:
 
 fl fix /home/~/.nu_history, now pointing to .config/nushell/history.txt
 
-
-ubuntu@ubuntu:~$ nu
-No environment config file found at /home/ubuntu/.config/nushell/env.nu
-Would you like to create one with defaults (Y/n):
-
-
-find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
-
-soil on  main [!+⇡] 
-❯ ethgas
-parse error: Invalid numeric literal at line 1, column 3
-
 new tree folder structure /home/daniella/Desktop/fl tree
 then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
-
-Floflis branding:
-/usr/share/icons/Humanity/places@2/64/start-here.svg
-/usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
-/usr/share/pixmaps/ubuntu-logo.svg
-/usr/share/pixmaps/ubuntu-logo-dark.png
-/usr/share/pixmaps/ubuntu-logo-icon.png
-/usr/share/pixmaps/ubuntu-logo-text.png
-/usr/share/pixmaps/ubuntu-logo-text-dark.png
-/usr/share/icons/Humanity/places@2/64/distributor-logo.svg
-https://askubuntu.com/questions/194062/how-can-i-replace-ubuntu-branding-with-my-own
-https://askubuntu.com/questions/1017305/how-do-i-remove-any-ubuntu-brand-and-trademark-from-my-ubuntu-install
-https://askubuntu.com/questions/1107620/how-do-i-remove-ubuntu-branding-from-livecd
-https://askubuntu.com/questions/1106645/how-to-change-ubuntu-18-name-and-logo-in-details
-https://askubuntu.com/questions/83521/where-do-i-need-to-change-ubuntu-when-naming-my-own-custom-distribution
-https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-marks-in-custom-distro
-
-symlink with cinnamon: /usr/share/pixmaps/faces
 
 up-to-date OS info in config
