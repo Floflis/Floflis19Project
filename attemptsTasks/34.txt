@@ -48,6 +48,172 @@ fl mkdocs dev tell about zombie spices
 - new tree folder structure
 fl mkdocs updt abt tree folder structure
 
+git installed by 01 instead of floflis core
+
+two types of include-firstlogon content: iso and user
+
+both will receive floapps, cinnamon configs, home templates and nu-post-install.
+both will receive aragon, hop and uniswap
+
+----
+
+- floflis-packager c2 projects will have a file containing git files for c2export, HTML and scripts (FMWK2C2 will be the template)
+- firedoge working install
+
+- Look at all from-git Floflis dependencies, and init.sh on all
+- All Floflis layers should take use of init.sh
+- Floflis DNA build lite or normal (without depending on Plugz to be launched first)
+- Floflis layers postinstall.sh which can be used by UniOS
+
+- init.sh (with webpresent) in dss, floflis and its include/ git scripts
+
+core:
+
+install.sh: line 121: break: only meaningful in a `for', `while', or `until' loop
+- Installing Floflis DNA as init program...
+
+- Turning recordings-trimmer into an executable...
+Installing recordings-hashing...
+./install.sh: 20: cd: can't cd to include/recordings-hashing
+Already up to date.
+
+Installing gipfs (includes IPFS, ipget, etc)...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 18 (delta 11), reused 18 (delta 11), pack-reused 0
+Unpacking objects: 100% (18/18), 2.28 KiB | 291.00 KiB/s, done.
+From https://github.com/Web3HQ/gipfs
+   424a636..8559c39  main       -> origin/main
+Updating 424a636..8559c39
+error: Your local changes to the following files would be overwritten by merge:
+	Tasks.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Installing IPFS...
+
+soil's to-merge:
+
+Installing Floflis Packager...
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
+Done! Run 'floflis-packager' command to use it.
+Installing floflis-application-handler...
+cp: cannot stat 'floflis-application-handler': No such file or directory
+Installing shortcut in /usr/share/applications...
+Turning floflis-application-handler into the default program (to user daniella) for .apps and .game applications...
+- Turning floflis-application-handler into an executable...
+
+Installing branding...
+Installing img...
+Already up to date.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+
+Updating default background...
+mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
+Installing avatars...
+
+Installing 'zombiespices'...
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+    git pull <remote> <branch>
+If you wish to set tracking information for this branch you can do so with:
+    git branch --set-upstream-to=<remote>/<branch> main
+Installing 'zombiespices' syswide...
+
+(Sym)Linking from host extension...
+ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/po': File exists
+ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/3.8': File exists
+parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 48, column 9
+Installing NFTmark's presets...
+mkdir: cannot create directory ‘/home//.cinnamon/configs/nftmark@floflis’: No such file or directory
+cp: cannot create regular file '/home//.cinnamon/configs/nftmark@floflis/': No such file or directory
+Installing main theme...
+
+tar: Adapta/gtk-3.22/assets/window-unmaximize-ssd-eta-active@2.png: Cannot open: No space left on device
+tar: Adapta/gtk-2.0/Check-Radio/check-off-menuitem.png: Cannot open: No space left on device
+
+Fixing Music's name...
+----------------------------------------------------------------------
+DEBUG:
+Script path: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
+Current directory: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
+ls:
+build	       include		  README.md		  to-merge.sh
+firstboot      init.sh		  Tasks.txt		  update.json
+firstlogon.sh  install-node.sh	  to-merge		  updates.sh
+fixer	       install.sh	  to-merge_firstboot.sh
+floflis        new_patch_at.json  to-merge_firstlogon.sh
+flo-init       presentation	  to-mergenewTest.sh
+----------------------------------------------------------------------
+Adding bulbasaur.json...
+----------------------------------------------------------------------
+DEBUG:
+Script path: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
+Current directory: /media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/flshdrive/0.Floflis-DNA/layers/soil
+ls:
+build	       include		  README.md		  to-merge.sh
+firstboot      init.sh		  Tasks.txt		  update.json
+firstlogon.sh  install-node.sh	  to-merge		  updates.sh
+fixer	       install.sh	  to-merge_firstboot.sh
+floflis        new_patch_at.json  to-merge_firstlogon.sh
+flo-init       presentation	  to-mergenewTest.sh
+----------------------------------------------------------------------
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing Sh it...
+to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+
+Installing the "Starshell" package...
+Already up to date.
+Your branch is up to date with 'origin/main'.
+./install.sh: 17: [[: not found
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+
+Unpacking objects: 100% (33/33), 5.25 KiB | 145.00 KiB/s, done.
+From https://github.com/Floflis/ethgas
+   791afe9..f9fcde8  main       -> origin/main
+Updating 791afe9..f9fcde8
+error: The following untracked working tree files would be overwritten by merge:
+	spice/ethgas-applet@floflis/content/icon.svg
+	spice/ethgas-applet@floflis/content/metadata.json
+	spice/ethgas-applet@floflis/include/data/ethgas-applet@floflis.json
+	spice/ethgas-applet@floflis/manifest.json
+	spice/ethgas-applet@floflis/symlink.txt
+	spice/ethgas-desklet@floflis/content/icon.svg
+	spice/ethgas-desklet@floflis/content/metadata.json
+	spice/ethgas-desklet@floflis/include/data/ethgas@floflis.json
+	spice/ethgas-desklet@floflis/manifest.json
+	spice/ethgas-desklet@floflis/symlink.txt
+Please move or remove them before you merge.
+Aborting
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Installing ethgas...
+- Turning ethgas into an executable...
+parse error: Invalid numeric literal at line 1, column 3
+Installation has failed.
+Installing ethgas' Cinnamon spice...
+
+Installing ETH Gas's presets...
+mkdir: cannot create directory ‘/home//.cinnamon/configs/ethgas-applet@floflis’: No such file or directory
+cp: cannot create regular file '/home//.cinnamon/configs/ethgas-applet@floflis/': No such file or directory
+Welcome to zombiespices
+Preparing to install zombie-desklet 'ETH Gas' (ethgas-desklet@floflis)...
+
+
+
 install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
