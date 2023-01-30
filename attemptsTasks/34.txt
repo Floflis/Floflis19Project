@@ -33,6 +33,8 @@
 - Soil: Update Hugo non-32bit variants from 0.89.2 to 0.110.0 https://github.com/gohugoio/hugo/releases/tag/v0.89.2
 - Core: Update go-ipfs/Kubo from v0.18.0-rc1 to v0.18.0 https://github.com/ipfs/kubo/releases/tag/v0.18.0 and re-activate 32bit support
 - Core: Update IPFS' ipget from v0.6.0 to v0.9.1 (since May 2021 without being updated in Floflis) https://dist.ipfs.tech/#ipget
+- Move 01 VCS (now with git-meta being initialized automatically) from Soil to Core layer
+- Core: install GIPFS (includes go-ipfs, ipget, etc.) + FilePeace suite (includes webpresent, folderstamp, etc.)
 
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
