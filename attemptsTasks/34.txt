@@ -37,6 +37,12 @@
 - Core: install GIPFS (includes go-ipfs, ipget, etc.) + FilePeace suite (includes webpresent, folderstamp, etc.)
 
 
+two types of include-firstlogon content: iso and user
+
+both will receive floapps, cinnamon configs, home templates and nu-post-install.
+both will receive aragon, hop and uniswap
+
+
 fl mkdocs dev tell about zombie spices
 - new tree folder structure
 fl mkdocs updt abt tree folder structure
@@ -47,11 +53,6 @@ git installed by 01 instead of floflis core
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
 same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
 
-
-two types of include-firstlogon content: iso and user
-
-both will receive floapps, cinnamon configs, home templates and nu-post-install.
-both will receive aragon, hop and uniswap
 
 ----
 

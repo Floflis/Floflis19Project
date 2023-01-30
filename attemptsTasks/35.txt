@@ -2,6 +2,7 @@
 
 - Reinstall Floflis Icons with some fixes and temporary limitations
 
+install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
 
 /usr/share/plymouth
@@ -18,19 +19,58 @@ jq /home/daniell/.ipfs/config
     "PeerID"
 -
 
-Floflis Central repaginate:
-- new font
-- New design for navbar (transparent or blur)+hover+selected (FMWK will differ vertical and horizontal tabs)
-- navbar right shadow (using updated FMWK)
-- collapsible navbar from topbar/header
-- SVG logotype for header
-- SVG FLOF token logo/icon
-- SVG token logos
-- use the not-png floflis 2014 logo
-- more details about CPU architecture
-- integration with Alertz (Profile>Inventory>Backgrounds)
-- integrate IPFS (also display peerid)
-
 /media/daniella/B/git/Floflis/cinnamon-patch
 add to Tasks.txt: has GH issues https://github.com/Floflis/cinnamon-patch/issues
 https://github.com/Floflis/cinnamon-patch
+
+add .weborigin for /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages/hugo, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/nerdyfonts and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps
+
+use cyan color on floflis logos, do the same in default-testpage.pdf (also update in its press site)
+
+fl both the ISO's and user's first logon will have the Firedoge install (firedoge install will detect if ISO user or normal user, and install will only open firedoge when ISO logged)
+
+new network icons, for OP, Arbitrum and zSync (reflect these changes in central and its listed networks)
+new renamed icon for Gnosis Chain (reflect these changes in central)
+
+- restart my linux, test taskbar context, settings central and settings user avatar symlink
+
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/logo.png and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/token.png as SVG images (also reflect these changes in the explore menu btn and central)
+
+New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
+
+Floflis propose to split assets by using multiple wallets (include option to import ronin address)
+floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
+insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
+use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
+
+NeTVision first PoC: this app is a screen to open DTube or Lenstube
+
+fl deactivate current monitor's desktop auto-arrange
+
+fl employment opportunities:
+- make gel nails and even sell them as NFTs!
+- turn client's tattoos into NFTs!
+
+fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
+fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
+insp for FLOF grants programme https://app.optimism.io/retropgf
+
+central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other Cs)
+
+sudo snap install kolourpaint
+
+gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
+
+/usr/share/plymouth/themes/ubuntucinnamon-spinner/watermark.png (from repo; then symlink)
+
+fl central script hash the background. if it is any of these:
+QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
+QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
+QmYkAC1gTaBj7Ynxa7csumKbve6iVS7VhVk1Tfzru8MnQ6
+Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
+QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
+then assign NFT both at user settings/unistore and mark as pokefan personality
+
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge/queue (floapps icons now are SVG; usv-tools installs .svg svg icon)
+
+up-to-date OS info in config
