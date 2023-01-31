@@ -39,6 +39,21 @@ Installing shortcut in /usr/share/applications...
 Turning nu-script-handler into the default program (to user ) for .nu scripts...
 
 
+Installing img...
+Already up to date.
+Your branch is up to date with 'origin/main'.
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+Installing backgrounds...
+Already up to date.
+Updating files: 100% (25/25), done.
+Your branch is up to date with 'origin/main'.
+-
+This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting '.git/hooks/post-checkout'.
+
+
+
 run "apt update" then 01 to install git
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
