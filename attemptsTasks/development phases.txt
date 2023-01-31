@@ -1,6 +1,5 @@
 steps:
 builds:
-34. polishing: fix issues of previous build;
 35. polishing: fix issues of previous build;
 36. polishing: fix issues of previous build;
 37. polishing: fix issues of previous build;

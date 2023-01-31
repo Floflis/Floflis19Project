@@ -3,6 +3,8 @@
 
 core:
 
+run "apt update" then 01 to install git
+
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
 
 git installed by 01 instead of floflis
