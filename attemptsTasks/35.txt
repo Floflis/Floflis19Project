@@ -3,6 +3,42 @@
 
 core:
 
+Installing webpresent's dependencies...
+./install.sh: 4: pip: not found
+
+Webpresent file found: ./include/elcid.webpresent
+This is a GoogleDrive or IPFS file!
+/usr/bin/webpresent: line 12: gdown: command not found
+/usr/bin/webpresent: line 15: ipfs: command not found
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
+Installing IPFS...
+
+Installing mimetypes for .nu files...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+gtk-update-icon-cache: Cache file created successfully.
+Installing icons for .nu files...
+Already up to date.
+Your branch is up to date with 'github/main'.
+Welcome to another awesome autistic art by Daniella Mesquita.
+-
+identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
+Installing handler for .nu files...
+Installing nu-script-handler...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Installing shortcut in /usr/share/applications...
+Turning nu-script-handler into the default program (to user ) for .nu scripts...
+
+
 run "apt update" then 01 to install git
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
