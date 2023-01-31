@@ -1,6 +1,24 @@
 
 
 
+core:
+
+fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
+
+git installed by 01 instead of floflis
+
+soil's to-merge:
+
+OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
+
+core:
+
+- Turning recordings-trimmer into an executable...
+Installing recordings-hashing...
+./install.sh: 20: cd: can't cd to include/recordings-hashing
+Already up to date.
+SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
+
 soil's to-merge:
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
@@ -8,6 +26,10 @@ list default desktop background at .xml file /media/daniella/B/git/Floflis/Flofl
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 -
 /home/daniella/Desktop/fl sounds
+-
+pastebin alarm
+
+fl build move tools such as online, to Core layer
 
 fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
 move /1/sounds to /1/Floflis/system
@@ -98,8 +120,6 @@ install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
-
-OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
 -
 /usr/share/icons/Humanity/places@2/64/start-here.svg
 /usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg

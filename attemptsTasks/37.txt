@@ -116,4 +116,6 @@ up-to-date OS info in config
 transparentpanel is an extension that is a example at doing actions when showing/not showing the desktop
 play music at desktop if setting, detect background color
 
+/media/daniella/Main Linux/home/daniell/Desktop/PJs/Incubator/not-on-github/Floflis ppl - Feofle
+
 /media/daniella/B/git/01VCS/git-meta issue ask for hlp
