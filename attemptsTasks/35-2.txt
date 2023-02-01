@@ -1,37 +1,12 @@
 
 
 
-- temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
-- another temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
-
-- restored our custom Ubiquity Slideshow!
-- full personalization
-- detect ISO/installed user
-- return of Floflis Icons (FloflisPNG and Floflis)
-- Firedoge web browser
-
+- temporary measure to fix issues: deactivate all extensions and zombiespices
 - installer will tell less details, by using .log files!
-- restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
+- restore Ubiquity Slideshow!
 - git repos as .webpresent files (webpresent app have to identify)
 
-daniella@daniella-Aspire-A315-23:/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RX8NB03P31B/Internal storage/SmartMob/SmartRecorder$ ipfs add -Qr '20230116-1127_Recording 1411.wav Prtct'
-Error: no IPFS repo found in /home/daniella/.ipfs.
-please run: 'ipfs init'
-daniella@daniella-Aspire-A315-23:/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RX8NB03P31B/Internal storage/SmartMob/SmartRecorder$ ipfs init
-generating ED25519 keypair...done
-peer identity: 12D3KooWLNpkLX2ddB2DihaXT6bmMU8PsrZLmPgaSUDbcYA9XHeZ
-initializing IPFS node at /home/daniella/.ipfs
-to get started, enter:
-
-	ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme
-	
-webpresent wget set timeout before cancelling
-
 GH cinnamon suggest support for SVG icons on spices (even for themes)
-git installed by 01 instead of floflis
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
--
-gipfs install ipfs in the first place
 
 fl use variables when installing nushell so no repetitions
 fl layers update all readme.mds
@@ -118,6 +93,8 @@ sudo: unable to resolve host cubic: Temporary failure in name resolution
 run "apt update" then 01 to install git
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
+
+git installed by 01 instead of floflis
 
 soil's to-merge:
 

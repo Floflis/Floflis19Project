@@ -1,6 +1,20 @@
 
 
 
+- temporary measure to fix issues: deactivate all extensions and zombiespices
+- installer will tell less details, by using .log files!
+- restore Ubiquity Slideshow!
+
+GH cinnamon suggest support for SVG icons on spices (even for themes)
+
+fl use variables when installing nushell so no repetitions
+fl layers update all readme.mds
+
+turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engines_c2.tar.gz into a repo/folder
+
+- work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
+- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
+
 core:
 
 Installing webpresent's dependencies...
@@ -52,6 +66,27 @@ Your branch is up to date with 'origin/main'.
 -
 This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting '.git/hooks/post-checkout'.
 
+
+rsync: [Receiver] mkdir "/usr/share/cinnamon/extensions/watermark@germanfr" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(780) [Receiver=3.2.5]
+Installing zombie-extension 'NFTmark' (nftmark@floflis)...
+mkdir: cannot create directory ‘/usr/share/cinnamon/extensions/nftmark@floflis’: No such file or directory
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sending incremental file list
+rsync: [Receiver] mkdir "/usr/share/cinnamon/extensions/nftmark@floflis" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(780) [Receiver=3.2.5]
+(Sym)Linking from host extension...
+ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/': No such file or directory
+ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/': No such file or directory
+Installing main theme...
+
+
+Installing Sh it...
+./to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+sudo: unable to resolve host cubic: Temporary failure in name resolution
 
 
 run "apt update" then 01 to install git
