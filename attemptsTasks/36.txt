@@ -1,9 +1,28 @@
 - temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
 - deactivate installing supertux
 - attempt to fix installing /usr/bin/central
+- re-activate firstboot scripts and detecting user+setup, now diffing between ISO/installed user
+- install the Starshell pack (includes Starship) at firstlogon
+- don't run ETH address setup at ISO user
+- don't attempt to pin Uniswap/Hop/Aragon at ISO user
+- fix ~/.nu_history, now pointing to ~/.config/nushell/history.txt
+- temporarily disable symlinking user avatar, use default avatar now by copying
 
 
-- detect ISO/installed user (move features from firstboot to firstlogon.sh)
+include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+also include Home Animals video
+install /home/daniella/Templates
+
+floflis first logon:
+- copy clock applet settings
+- copy weather applet settings
+- copy showdesktop applet settings
+- remove cinnamon's own menu and install that menu that supports emojis
+- temporarily disable setting "Floflis" as default icons, set "Yaru-cinnamon" instead
+- temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
+- temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
+- install include-firstlogon/home-daniella-Templates
+
 - temporary measure to fix issues: deactivate installing gimp (GIMP is being the default app for opening images)
 - deactivate installing apps that should come in personality-packs
 - install wine
@@ -14,6 +33,7 @@
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
 cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push
+- submit Floflis/UCR pull request to neofetch
 
 - return of Floflis Icons (FloflisPNG and Floflis)
 -
@@ -44,7 +64,7 @@ to get started, enter:
 	
 webpresent wget set timeout before cancelling
 
-GH cinnamon suggest support for SVG icons on spices (even for themes)
+GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 git installed by 01 instead of floflis
 fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
 -
@@ -286,31 +306,6 @@ data for the windowlist@cobinja.de applet (or cinnamon's default one)
 
 
 
-
-two types of include-firstlogon content: iso and user
-both will receive floapps, cinnamon configs, home templates and nu-post-install.
-both will receive aragon, hop and uniswap
--
-rewriteup of Floflis install scripts:
-detect cubic mode and confirm /home have no subfolder.
-then know what to install at cubic or at firstlogon from live ISO!
-take a look at these leftovers: /media/daniella/Main Linux/home
-
-include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
-also include Home Animals video
-install /home/daniella/Templates
-
-floflis first logon:
-- copy clock applet settings
-- copy weather applet settings
-- copy showdesktop applet settings
-- remove cinnamon's own menu and install that menu that supports emojis
-- temporarily disable setting "Floflis" as default icons, set "Yaru-cinnamon" instead
-- temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
-- temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
-- install include-firstlogon/home-daniella-Templates
-
-fl fix ~/.nu_history, now pointing to ~/.config/nushell/history.txt
 
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
 new tree folder structure /home/daniella/Desktop/fl tree
