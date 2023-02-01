@@ -2,10 +2,10 @@
 - deactivate installing supertux
 
 
+- detect ISO/installed user
 - temporary measure to fix issues: deactivate installing gimp (GIMP is being the default app for opening images)
 - deactivate installing apps that should come in personality-packs
 - install wine
-- detect ISO/installed user
 - fix issue of "central" not opening
 - Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 
