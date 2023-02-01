@@ -2,12 +2,24 @@
 - deactivate installing supertux
 
 
+- temporary measure to fix issues: deactivate installing gimp (GIMP is being the default app for opening images)
 - restored our custom Ubiquity Slideshow!
 - full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
 - detect ISO/installed user
 - return of Floflis Icons (FloflisPNG and Floflis)
-- Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+- Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 - install wine
+
+fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
+
+Floflis Backup diff between a sync backup and a full backup
+-
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push
+
+hone up these:
+/media/daniella/B/git/Floflis/HTML5/floapps
+/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
+/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
 - installer will tell less details, by using .log files!
 - restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
@@ -279,6 +291,7 @@ then know what to install at cubic or at firstlogon from live ISO!
 take a look at these leftovers: /media/daniella/Main Linux/home
 
 include/img/Pictures/Phabulous Pabllo Vittar 💞.jpeg
+also include Home Animals video
 install /home/daniella/Templates
 
 floflis first logon:

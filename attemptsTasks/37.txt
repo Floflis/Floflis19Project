@@ -6,8 +6,11 @@
 fl mkdocs dev tell about zombie spices
 fl mkdocs updt abt tree folder structure
 
+filepeace's handler for sum files (gipfs will be a plugin to handle .cid files)
+-
+HTML5Player as mime default app for .html5 files (these files can either be texty or .tar.gz, and updt abt this on Floflis Docs Dev)
+
 - FLIC installs and opens cbc
-- firedoge working install
 
 own repo for Floflis weblink apps /media/daniella/B/git/Floflis/Utilities/WeblinkApps
 -
