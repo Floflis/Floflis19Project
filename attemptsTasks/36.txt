@@ -6,7 +6,8 @@
 - full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
 - detect ISO/installed user
 - return of Floflis Icons (FloflisPNG and Floflis)
-- Firedoge web browser
+- Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+- install wine
 
 - installer will tell less details, by using .log files!
 - restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
