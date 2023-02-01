@@ -1,13 +1,15 @@
 - temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
 - deactivate installing supertux
+- attempt to fix installing /usr/bin/central
 
 
-- detect ISO/installed user
+- detect ISO/installed user (move features from firstboot to firstlogon.sh)
 - temporary measure to fix issues: deactivate installing gimp (GIMP is being the default app for opening images)
 - deactivate installing apps that should come in personality-packs
 - install wine
 - fix issue of "central" not opening
 - Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+- back installing IPFS Desktop
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
@@ -312,5 +314,6 @@ fl fix ~/.nu_history, now pointing to ~/.config/nushell/history.txt
 
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
 new tree folder structure /home/daniella/Desktop/fl tree
+but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge
 -
 then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data

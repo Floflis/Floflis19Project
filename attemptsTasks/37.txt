@@ -9,6 +9,12 @@ fl mkdocs updt abt tree folder structure
 filepeace's handler for sum files (gipfs will be a plugin to handle .cid files)
 -
 HTML5Player as mime default app for .html5 files (these files can either be texty or .tar.gz, and updt abt this on Floflis Docs Dev)
+-
+floapps use reverse domain on application/package IDs
+fl install central in /1/apps/eth.floflis.central
+floapps run post-install.sh or pre-install.sh when installing a .apps or .game, but user will have to open it on notepad and review first! or better: floflis-packager will offer to include a bash "binary" to be installed in /usr/bin, .desktop shortcuts and icons (svg for linux and png for electron)
+-
+pre-installed HTML5 apps (also the HTML5Apps Platform)!
 
 - FLIC installs and opens cbc
 
