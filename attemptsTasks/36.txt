@@ -1,8 +1,9 @@
 - temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
+- deactivate installing supertux
 
 
 - restored our custom Ubiquity Slideshow!
-- full personalization
+- full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
 - detect ISO/installed user
 - return of Floflis Icons (FloflisPNG and Floflis)
 - Firedoge web browser
