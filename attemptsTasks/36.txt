@@ -8,9 +8,10 @@
 - fix ~/.nu_history, now pointing to ~/.config/nushell/history.txt
 - temporarily disable symlinking user avatar, use default avatar now by copying
 - install Sample Media, starting with a photo and a video
+- Move nu-post-install (includes nu-script-handler) to the Starshell pack
 
 
-- Install nu-script-handler and floapps at firstlogon
+- Install floapps at firstlogon
 floflis first logon:
 - temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
 - temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
@@ -29,7 +30,7 @@ floflis first logon:
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push
 - submit Floflis/UCR pull request to neofetch
 -
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
