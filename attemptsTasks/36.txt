@@ -3,18 +3,22 @@
 
 
 - temporary measure to fix issues: deactivate installing gimp (GIMP is being the default app for opening images)
-- restored our custom Ubiquity Slideshow!
-- full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
-- detect ISO/installed user
-- return of Floflis Icons (FloflisPNG and Floflis)
-- Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+- deactivate installing apps that should come in personality-packs
 - install wine
+- detect ISO/installed user
+- fix issue of "central" not opening
+- Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 
-fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
-
-Floflis Backup diff between a sync backup and a full backup
+Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
 cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push
+
+- return of Floflis Icons (FloflisPNG and Floflis)
+-
+fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
+-
+- full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
+- restored our custom Ubiquity Slideshow!
 
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
