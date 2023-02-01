@@ -1,0 +1,88 @@
+chown icons to fix permissions (cryptovoxels and other icons/folders viewable only by root)
+
+not playing startup sound
+web3updater not installed yet
+
+New issue in FMWK for C2: if offline, it says "Uncaught ReferenceError: jQuery is not defined"
+
+
+
+Fix why firstlogon.desktop got added to autostart
+Move IPFS Desktop from Home > to-merge.sh
+
+load extension and addon data
+
+install almanah
+install obs
+install HandBrake
+sudo apt-get install easytag
+
+Floflis Cinnamon modification log:
+
+1
+- Move "show desktop" button to the right
+- Add Weather applet
+- Replace the default menu to CinnVIIStarkMenu
+2
+- New Icon and Cursor theme: Floflis
+- New GTK theme: Eleganse-Floflis
+3
+- Adapta theme
+4
+- Floflis backgrounds
+- Floflis sounds
+5
+- Transparent panels extension
+6
+- Move weather applet close to hour/date
+
+dconf dump /org/cinnamon/ > backup_of_my_cinnamon_settings_7
+dconf load /org/cinnamon/ < backup_of_my_cinnamon_settings_7
+
+- Disable auto-arrange for Desktop icons
+
+repo for backup_of_my_cinnamon_settings_*
+
+ubuntu
+
+/home/ubuntu
+
+             mkdir /home/ubuntu/.config
+             mkdir /home/ubuntu/.config/autostart
+             cd /home/ubuntu/.config/autostart
+             cat > /home/ubuntu/.config/autostart/firstlogon.sh << ENDOFFILE
+[Desktop Entry]
+Type=Application
+Exec=gnome-terminal --tab --title="Welcome to Floflis!" -- /bin/sh -c 'cd /home; sudo sh ./firstlogon.sh; exec bash'
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=FirstLogon
+Name=FirstLogon
+Comment[en_US]=
+Comment=
+Icon=utilities-terminal
+StartupNotify=true
+Terminal=false
+
+ENDOFFILE
+             sudo chmod -R a+rwX .config/autostart && sudo chown ${D//./}:${D//./} .config/autostart
+             sudo chown ${D//./}:${D//./} .local/share/gvfs-metadata/home*
+             sudo chmod +x firstlogon.sh
+             sudo chown ${D//./}:${D//./} .config/autostart/firstlogon.sh
+             cd .config/autostart
+             sudo mv firstlogon.sh firstlogon.desktop
+             sudo chown ${D//./}:${D//./} firstlogon.desktop
+             cd ..
+             cd ..
+             echo "- Cleanning install..."
+             sudo rm -rf .config/autostart/firstlogon.sh
+             sudo rm -rf /usr/lib/floflis/layers/core/firstlogon.sh
+             sudo rm -rf /usr/lib/floflis/layers/core/firstlogonroot.sh
+             #sudo rm -rf /etc/init.d/firstboot
+             sudo chmod -R a+rwX ${D} && sudo chown ${D//./}:${D//./} ${D}
+             
+lsb-release
+os-release
+
+/usr/lib/ubiquity
