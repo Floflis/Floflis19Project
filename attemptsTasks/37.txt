@@ -1,6 +1,8 @@
 
 
 
+- another temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
+
 fl mkdocs dev tell about zombie spices
 fl mkdocs updt abt tree folder structure
 

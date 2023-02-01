@@ -1,8 +1,5 @@
+- temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
 
-
-
-- temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
-- another temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
 
 - restored our custom Ubiquity Slideshow!
 - full personalization

@@ -1,482 +1,112 @@
-This folder: /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks
+This folder: /usr/bin
 
-  File: ./.folderstamp
-  Size: 68        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029561     Links: 1
+  File: ./35-2.txt
+  Size: 13941     	Blocks: 32         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 1005875     Links: 1
 Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:58:02.952111600 -0300
-Modify: 2023-01-07 18:58:02.958591200 -0300
-Change: 2023-01-07 18:58:02.958591200 -0300
+Access: 2023-01-31 17:43:12.219766800 -0300
+Modify: 2023-01-31 17:43:12.219766800 -0300
+Change: 2023-01-31 17:43:12.219766800 -0300
  Birth: -
-IPFS hash: QmVkNxA8SqUfuswiHQrLfRaBinRXSxpzbkoeoPGw9U81cw
+IPFS hash: 
 ------------------------------
-  File: ./34.txt
-  Size: 6696      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1203370     Links: 1
+  File: ./35-3.txt
+  Size: 14096     	Blocks: 32         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 1084720     Links: 1
 Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-03 00:57:11.439161800 -0300
-Modify: 2023-01-03 00:56:38.809965700 -0300
-Change: 2023-01-03 00:56:38.852254400 -0300
+Access: 2023-02-01 12:09:51.159060400 -0300
+Modify: 2023-01-31 22:18:48.966419200 -0300
+Change: 2023-01-31 22:18:49.266749300 -0300
  Birth: -
-IPFS hash: QmUdUkE7GyYZo9fQyxqybHpNARHMepCswh9F5N3zXdpT5U
+IPFS hash: 
 ------------------------------
   File: ./35.txt
-  Size: 11561     	Blocks: 24         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1005874     Links: 1
+  Size: 13874     	Blocks: 32         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 1438963     Links: 1
 Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:51:18.601043300 -0300
-Modify: 2023-01-07 18:51:18.660430800 -0300
-Change: 2023-01-07 18:51:18.704203200 -0300
+Access: 2023-01-31 21:14:32.313237700 -0300
+Modify: 2023-01-31 11:34:22.608664600 -0300
+Change: 2023-01-31 11:34:22.943736500 -0300
  Birth: -
-IPFS hash: QmeUxMYK4j2hG3mu6LPh9FJN5BPE42ZK1RBEzgWzVW8mpx
+IPFS hash: 
+------------------------------
+  File: ./36.txt
+  Size: 15163     	Blocks: 32         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 4067048     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:06:13.732170500 -0300
+Modify: 2023-02-01 11:59:41.059055300 -0300
+Change: 2023-02-01 11:59:41.101106100 -0300
+ Birth: -
+IPFS hash: 
+------------------------------
+  File: ./37.txt
+  Size: 5997      	Blocks: 16         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 1460385     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-01-31 22:32:07.112715200 -0300
+Modify: 2023-01-30 16:53:01.534854100 -0300
+Change: 2023-01-31 22:31:16.842349700 -0300
+ Birth: -
+IPFS hash: 
+------------------------------
+  File: ./38.txt
+  Size: 6347      	Blocks: 16         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 1084737     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 11:38:15.303550600 -0300
+Modify: 2023-02-01 11:38:15.202456500 -0300
+Change: 2023-02-01 11:38:15.257513900 -0300
+ Birth: -
+IPFS hash: 
+------------------------------
+  File: ./39.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 804h/2052d	Inode: 1441568     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-01-30 21:43:15.365322600 -0300
+Modify: 2023-01-30 21:43:15.365322600 -0300
+Change: 2023-01-31 22:31:07.145368900 -0300
+ Birth: -
+IPFS hash: 
+------------------------------
+  File: ./40.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 804h/2052d	Inode: 1441601     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-01-30 21:43:21.887559400 -0300
+Modify: 2023-01-30 21:43:21.887559400 -0300
+Change: 2023-01-31 22:31:04.009111500 -0300
+ Birth: -
+IPFS hash: 
 ------------------------------
   File: ./development phases.txt
-  Size: 21730     	Blocks: 48         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1005875     Links: 1
+  Size: 21685     	Blocks: 48         IO Block: 4096   regular file
+Device: 804h/2052d	Inode: 1443877     Links: 1
 Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:51:20.699099700 -0300
-Modify: 2023-01-07 18:51:20.765172700 -0300
-Change: 2023-01-07 18:51:20.827394200 -0300
+Access: 2023-01-30 22:36:46.422635700 -0300
+Modify: 2023-01-30 22:31:07.119425000 -0300
+Change: 2023-01-30 22:31:07.170329200 -0300
  Birth: -
-IPFS hash: QmVwGwRUu5hxbRMvobFk6WKSQMFQCWhrQrwr9vYVsnyt54
+IPFS hash: 
 ------------------------------
-  File: ./folderstamp_recursive.sh
-  Size: 2365      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029560     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:58:02.951607400 -0300
-Modify: 2022-11-22 18:45:33.375753300 -0300
-Change: 2023-01-07 18:57:54.581866100 -0300
+  File: ./use
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 804h/2052d	Inode: 1084744     Links: 1
+Access: (0777/drwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 10:04:57.231245200 -0300
+Modify: 2022-12-02 23:27:12.657997000 -0300
+Change: 2023-02-01 10:04:57.221891300 -0300
  Birth: -
-IPFS hash: QmRmYGZyeoWY4jHLex4didmsviDWE3BDhMjuRicfENGBm2
+IPFS hash: 
 ------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/content/icon.svg
-  Size: 3062      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029421     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.155939200 -0300
-Modify: 2021-11-29 00:28:06.738313000 -0300
-Change: 2023-01-07 18:56:24.164709600 -0300
+  File: ./-usr-share
+  Size: 0         	Blocks: 0          IO Block: 4096   directory
+Device: 804h/2052d	Inode: 153430      Links: 1
+Access: (0777/drwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 11:17:05.857278100 -0300
+Modify: 2023-02-01 11:16:51.520330100 -0300
+Change: 2023-02-01 11:16:51.520330100 -0300
  Birth: -
-IPFS hash: QmSkDiS2JGGAiCH8wZtNYcJty6ZKcAfiXTxsQUkRECjUDz
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/content/metadata.json
-  Size: 271       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029422     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 17:36:25.129415900 -0300
-Modify: 2023-01-01 17:36:24.795633500 -0300
-Change: 2023-01-07 18:56:24.175173700 -0300
- Birth: -
-IPFS hash: QmdesVFVgMJqiFs3ro18SZHFpEL1gYkcF5A21Dv6QAedeQ
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/host.txt
-  Size: 18        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029418     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 17:39:33.543252400 -0300
-Modify: 2023-01-01 16:15:13.597460900 -0300
-Change: 2023-01-07 18:56:24.033233100 -0300
- Birth: -
-IPFS hash: QmZfDKTt9QBoKAM5nGbaarw5er2TVeSPDf91M6VFnxu4eX
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/data/33.json
-  Size: 3358      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029417     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.987062300 -0300
-Modify: 2021-12-03 00:10:24.135935000 -0300
-Change: 2023-01-07 18:56:24.019699300 -0300
- Birth: -
-IPFS hash: QmZ825nztxxSTj9PxmPA78UsNy2Z6t1VLm6zv32BJB2CAt
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/applet.js
-  Size: 7273      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006008     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.263262700 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.272265800 -0300
- Birth: -
-IPFS hash: QmTfZCVerQ5T3QmjpwReBpNvjkAPPRL4KtwBP2W7DdVYgp
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/icon.png
-  Size: 3030      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006002     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:13:14.809253100 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.103957100 -0300
- Birth: -
-IPFS hash: QmNgTesY3xu9caiXPhogfHpvLu2DJafutkeuSJ4Xx7VdVJ
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/metadata.json
-  Size: 271       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006009     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:13:14.563103500 -0300
-Modify: 2021-11-28 23:31:10.600436100 -0300
-Change: 2023-01-07 18:56:23.298382600 -0300
- Birth: -
-IPFS hash: QmWkmNHipEjQosM5Ysn2HCeQ38hkxF1Jv8oLd7xDr7FHp5
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/bash-sensors@pkkk.pot
-  Size: 3465      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006055     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.408293000 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.453019900 -0300
- Birth: -
-IPFS hash: QmW6z4NLg4qgSGXHtTEhtnj53WT1mFXZoZckrDmJmnYubp
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/da.po
-  Size: 4573      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029411     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.618097800 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.631194800 -0300
- Birth: -
-IPFS hash: QmUXCVm8fEgnxMKa4KD2vJ7tRUuSCHLST2CajHmuehRYux
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/fr.po
-  Size: 4783      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029413     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.687722000 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.697664300 -0300
- Birth: -
-IPFS hash: QmVhnB8oEgAw61ch8Z6qE99pVk2iPhrM1dbj9XqzAAhtHb
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/hr.po
-  Size: 2601      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029412     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.637540200 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.672016000 -0300
- Birth: -
-IPFS hash: QmXTqTyySBNo4v6Nf9DQEfcgp2KE51dF8mQe8J2c2EYGah
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/hu.po
-  Size: 4738      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029414     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.741168500 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.867661800 -0300
- Birth: -
-IPFS hash: QmdWVD3GAZX63MrXW2z8kETjDSyzJRRuDCDJX4gGuGjuRi
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/it.po
-  Size: 4546      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006023     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.364898400 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.378030500 -0300
- Birth: -
-IPFS hash: QmQeD5cNj4mKbieXHbJdXHg4nbAWiW9UHzg2eM7XMKdEmE
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/ru.po
-  Size: 2907      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006031     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.382334100 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.397219100 -0300
- Birth: -
-IPFS hash: QmXpQLkbXVdbyBKQ6J8PxGEpZrU1DRGFQfMYECYz5EeXp6
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/sv.po
-  Size: 4803      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029415     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.893210700 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.945082900 -0300
- Birth: -
-IPFS hash: QmWV7TMvArnzsXsmsipbDhfLUyrzDkgMvraDmZD3aZ5EHA
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/tr.po
-  Size: 4700      	Blocks: 16         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029410     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.547480100 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.599179800 -0300
- Birth: -
-IPFS hash: QmUivpzgLC8HuTcX1PTJyKuUz85bWWQBCGHwEhLZwonVEq
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/po/zh_CN.po
-  Size: 2411      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029409     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.481645600 -0300
-Modify: 2021-11-28 23:31:10.488369800 -0300
-Change: 2023-01-07 18:56:23.507692600 -0300
- Birth: -
-IPFS hash: Qmc2somQroa4BY3iiFoys4uvsNauxZN8MVGJrdp4mJ9xBF
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/settings-schema.json
-  Size: 2501      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1006004     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:13:14.560478000 -0300
-Modify: 2021-11-28 23:31:10.492372100 -0300
-Change: 2023-01-07 18:56:23.204536600 -0300
- Birth: -
-IPFS hash: QmQnfHXraLZEvTDX9fMmdVHjfhL7GMsc3fM9jYYDEibSMN
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/include/host/stylesheet.css
-  Size: 266       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1005997     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:23.036827200 -0300
-Modify: 2021-11-28 23:31:10.492372100 -0300
-Change: 2023-01-07 18:56:23.040549600 -0300
- Birth: -
-IPFS hash: QmYfKZz88it1sYWdfCF4Vfa2AFoWpqJPpZQskWHQ3mKRWK
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/manifest.json
-  Size: 52        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029424     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:57:06.390398200 -0300
-Modify: 2023-01-01 17:40:09.365103500 -0300
-Change: 2023-01-07 18:56:24.213553900 -0300
- Birth: -
-IPFS hash: QmXBtymQC8dcDoYWdQFEN9sDwj1VZz7MscUSrktrrepZGD
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/symlink.txt
-  Size: 49        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029423     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:32:35.232880400 -0300
-Modify: 2023-01-01 16:32:28.143068400 -0300
-Change: 2023-01-07 18:56:24.196765300 -0300
- Birth: -
-IPFS hash: QmSoMnA1N3haPgVzT1Zxudotag6pXM6UvWVQPLbUWnRFsV
-------------------------------
-  File: ./Zmb Spices/List/Applets/ethgas@floflis/type.txt
-  Size: 7         	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029419     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 17:39:46.380085800 -0300
-Modify: 2023-01-01 16:26:44.387767900 -0300
-Change: 2023-01-07 18:56:24.040274500 -0300
- Birth: -
-IPFS hash: QmdhL7fNn56mC3ZbCZZGhWWLN5iDhwdQrBC7hJ35HM3XrP
-------------------------------
-  File: ./Zmb Spices/List/Applets/Other.txt
-  Size: 79        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1005970     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:57:04.125220700 -0300
-Modify: 2022-12-03 19:24:03.439765700 -0300
-Change: 2023-01-07 18:56:23.031823800 -0300
- Birth: -
-IPFS hash: QmPpr5sAsyQD3MH43EigCH9jb6GevYKXBBhWHaJ927Lqxr
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/content/icon.svg
-  Size: 3062      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029475     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 17:34:25.827216900 -0300
-Modify: 2021-11-29 00:28:06.738313000 -0300
-Change: 2023-01-07 18:56:24.606684700 -0300
- Birth: -
-IPFS hash: QmSkDiS2JGGAiCH8wZtNYcJty6ZKcAfiXTxsQUkRECjUDz
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/content/metadata.json
-  Size: 279       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029476     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 17:36:25.697106000 -0300
-Modify: 2023-01-01 17:36:25.641973300 -0300
-Change: 2023-01-07 18:56:24.618430000 -0300
- Birth: -
-IPFS hash: QmYvdWE68fuhYeLD8r8Pu2Ud77zZaR2voNKAg5qbmxp57x
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/host.txt
-  Size: 24        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029428     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:22:42.617230300 -0300
-Modify: 2023-01-01 16:20:08.524933300 -0300
-Change: 2023-01-07 18:56:24.235767500 -0300
- Birth: -
-IPFS hash: QmbU8ovqRuFpVJg2VE1wDYfZxj3xnEJoDqh1RG8QzM4gSE
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/data/commandResult@ZimiZones.json
-  Size: 3676      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029431     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.286960900 -0300
-Modify: 2022-11-01 19:35:55.810817000 -0300
-Change: 2023-01-07 18:56:24.299049500 -0300
- Birth: -
-IPFS hash: Qmdo3oQCLwHm15G4y4ByQqmRUxytT1epB83SBcttUQ3f5P
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/4.0/desklet.js
-  Size: 9317      	Blocks: 24         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029471     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.551222300 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.556309100 -0300
- Birth: -
-IPFS hash: QmWEGxjL9pusW4BuBrCDXp3CKrhsxYN8p4teJwr4RZGukE
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/4.0/icon.png
-  Size: 3347      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029469     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.486298400 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.494467200 -0300
- Birth: -
-IPFS hash: QmaVhkWHyiG9cZ9mRV7YANqKtYBweKgMdCWfmPw6VQ4h5K
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/4.0/metadata.json
-  Size: 217       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029472     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.557350300 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.563174800 -0300
- Birth: -
-IPFS hash: QmbEUhsqSKAPs2XoSQpGzpPyn4aw2jtySC3oKsQWTh9tg1
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/4.0/settings-schema.json
-  Size: 2935      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029470     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.512508300 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.527325400 -0300
- Birth: -
-IPFS hash: QmNwMJosGA8SkRaTXLtS7xuyyPLFimy7cu3BMyDseqHb8L
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/4.0/stylesheet.css
-  Size: 121       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029468     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.457337300 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.464899900 -0300
- Birth: -
-IPFS hash: QmYx96MnSQheThZ9Ckd8y5inyCBUqWrfWfFzvcwrQw64ks
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/desklet.js
-  Size: 9317      	Blocks: 24         IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029465     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.438396600 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.446229700 -0300
- Birth: -
-IPFS hash: QmWEGxjL9pusW4BuBrCDXp3CKrhsxYN8p4teJwr4RZGukE
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/icon.png
-  Size: 3347      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029434     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:22:36.597164700 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.385003800 -0300
- Birth: -
-IPFS hash: QmaVhkWHyiG9cZ9mRV7YANqKtYBweKgMdCWfmPw6VQ4h5K
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/metadata.json
-  Size: 292       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029466     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:22:36.352905800 -0300
-Modify: 2021-11-29 02:48:12.373067400 -0300
-Change: 2023-01-07 18:56:24.454448100 -0300
- Birth: -
-IPFS hash: QmXmRp5dDyCenTtQH8VUbB6GPm6Cn1YLmaLWR13KPh8E2j
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/settings-schema.json
-  Size: 2935      	Blocks: 8          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029435     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:22:36.350831400 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.423486300 -0300
- Birth: -
-IPFS hash: QmNwMJosGA8SkRaTXLtS7xuyyPLFimy7cu3BMyDseqHb8L
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/include/host/stylesheet.css
-  Size: 121       	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029433     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.314269500 -0300
-Modify: 2021-11-29 02:48:12.369065200 -0300
-Change: 2023-01-07 18:56:24.319939300 -0300
- Birth: -
-IPFS hash: QmYx96MnSQheThZ9Ckd8y5inyCBUqWrfWfFzvcwrQw64ks
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/manifest.json
-  Size: 59        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029478     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 17:46:26.562045800 -0300
-Modify: 2023-01-01 17:46:26.226768100 -0300
-Change: 2023-01-07 18:56:24.653031100 -0300
- Birth: -
-IPFS hash: QmVh8qaJaRDnBqD7ttV9hpmuj91E4iLRK7uqn3ZXxp7bcp
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/symlink.txt
-  Size: 47        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029477     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:56:24.627445300 -0300
-Modify: 2023-01-01 17:34:01.106835900 -0300
-Change: 2023-01-07 18:56:24.632048300 -0300
- Birth: -
-IPFS hash: QmRjxgqtTAwsbfTa3iK1hiLmNmkW1yf6rPyJiq5q3EBdKd
-------------------------------
-  File: ./Zmb Spices/List/Desklets/ethgas@floflis/type.txt
-  Size: 8         	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029473     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-01 16:26:56.907577100 -0300
-Modify: 2023-01-01 16:26:52.045155000 -0300
-Change: 2023-01-07 18:56:24.581122000 -0300
- Birth: -
-IPFS hash: QmW67AhawpttdnkvzJrV223P7QhpsBSUNYHqnMZBZw6sxS
-------------------------------
-  File: ./Zmb Spices/List/Desklets/Other.txt
-  Size: 79        	Blocks: 1          IO Block: 4096   regular file
-Device: 834h/2100d	Inode: 1029426     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-01-07 18:57:22.086708900 -0300
-Modify: 2022-12-03 19:24:13.939435300 -0300
-Change: 2023-01-07 18:56:24.228808700 -0300
- Birth: -
-IPFS hash: QmPpr5sAsyQD3MH43EigCH9jb6GevYKXBBhWHaJ927Lqxr
-------------------------------
-  File: ./Zmb Spices/List/Extensions/buildmark@floflis/noempty.txt
-  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
-Device: 834h/2100d	Inode: 1005945     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2022-11-24 19:47:19.824013200 -0300
-Modify: 2022-11-24 19:47:12.172468100 -0300
-Change: 2023-01-07 18:56:23.012247400 -0300
- Birth: -
-IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
-------------------------------
-  File: ./Zmb Spices/List/Extensions/nftmark@floflis/noempty.txt
-  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
-Device: 834h/2100d	Inode: 1005968     Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2022-11-24 19:47:19.824013000 -0300
-Modify: 2022-11-24 19:47:12.172468000 -0300
-Change: 2023-01-07 18:56:23.018880600 -0300
- Birth: -
-IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+IPFS hash: 
 ------------------------------
