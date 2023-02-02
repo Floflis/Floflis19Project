@@ -29,10 +29,61 @@
 - Fix default settings for the show-desktop applet
 
 
+Installing img...
+Already up to date.
+Your branch is up to date with 'origin/main'.
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
+Installing backgrounds...
+Already up to date.
+Updating files: 100% (25/25), done.
+Your branch is up to date with 'origin/main'.
+This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting '.git/hooks/post-checkout'.
+-
+SOLUTION: sudo apt install git-lfs
+
+OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
+
+core:
+
+webpresent wget set timeout before cancelling
+webpresent identify when a line nds with ".git" then work
+-
+Installing webpresent's dependencies...
+./install.sh: 4: pip: not found
+-
+SOLUTION: sudo apt install python3-pip
+-
+Webpresent file found: ./include/elcid.webpresent
+This is a GoogleDrive or IPFS file!
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
+Installing IPFS...
+
+run "apt update" then 01 to install git
+-
+git installed by 01 instead of floflis
+fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
+-
+gipfs install ipfs in the first place
+
 mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
 mkdocs add soon info abt witchlink files
 
 clicking a .apps or .game file isn't openning it (but .nu files are working!)
+
+- work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
+- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
+
+
+
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 -
@@ -115,52 +166,22 @@ fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/
 -
 - full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
 - restored our custom Ubiquity Slideshow!
+-
+- restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
+
+- installer will tell less details, by using .log files!
+- git repos as .webpresent files (webpresent app have to identify)
 
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
 /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
-- restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
-- installer will tell less details, by using .log files!
-- git repos as .webpresent files (webpresent app have to identify)
-	
+
 fl use variables when installing nushell so no repetitions
 fl layers update all readme.mds
 
-- work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
-- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
-
 core:
-
-run "apt update" then 01 to install git
--
-git installed by 01 instead of floflis
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
--
-gipfs install ipfs in the first place
-
-webpresent wget set timeout before cancelling
-webpresent identify when a line nds with ".git" then work
--
-Installing webpresent's dependencies...
-./install.sh: 4: pip: not found
--
-SOLUTION: sudo apt install python3-pip
--
-Webpresent file found: ./include/elcid.webpresent
-This is a GoogleDrive or IPFS file!
-/usr/bin/webpresent: line 12: gdown: command not found
-/usr/bin/webpresent: line 15: ipfs: command not found
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
-Installing IPFS...
 
 - Setting permissions on /1 (tree) folder...
 Testing write permissions on tree folder...
@@ -176,20 +197,6 @@ cp: cannot stat 'recordings-tools': No such file or directory
 - Turning recordings-tools into an executable...
 
 
-
-Installing img...
-Already up to date.
-Your branch is up to date with 'origin/main'.
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-Installing backgrounds...
-Already up to date.
-Updating files: 100% (25/25), done.
-Your branch is up to date with 'origin/main'.
-This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting '.git/hooks/post-checkout'.
--
-SOLUTION: sudo apt install git-lfs
 
 rsync: [Receiver] mkdir "/usr/share/cinnamon/extensions/watermark@germanfr" failed: No such file or directory (2)
 rsync error: error in file IO (code 11) at main.c(780) [Receiver=3.2.5]
@@ -214,10 +221,6 @@ sudo: unable to resolve host cubic: Temporary failure in name resolution
 
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
-
-soil's to-merge:
-
-OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
 
 core:
 
