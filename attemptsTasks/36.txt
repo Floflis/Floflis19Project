@@ -24,8 +24,13 @@
 - customShortcuts.sh: don't incentivize running sudo in cat
 - install weblink apps from their own separate repo
 - to-merge_firstlogon.sh: Install icons for Uniswap, Hop (doesn't work yet) and Aragon
+- own separate script to install Floflis Central
 
 
+mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
+mkdocs add soon info abt witchlink files
+
+clicking a .apps or .game file isn't openning it (but .nu files are working!)
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 -
@@ -85,7 +90,7 @@ https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push
 - GH submit Floflis/UCR pull request to neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
