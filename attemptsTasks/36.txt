@@ -26,7 +26,18 @@
 
 
 - back installing IPFS Desktop
+
 - fix installing /usr/bin/central
+-
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing Sh it...
+to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
 
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
@@ -102,28 +113,42 @@ hone up these:
 - installer will tell less details, by using .log files!
 - git repos as .webpresent files (webpresent app have to identify)
 	
-webpresent wget set timeout before cancelling
-webpresent identify when a line nds with ".git" then work
-
-git installed by 01 instead of floflis
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
--
-gipfs install ipfs in the first place
-
 fl use variables when installing nushell so no repetitions
 fl layers update all readme.mds
-
-turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engines_c2.tar.gz into a repo/folder
 
 - work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
 - the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
 
 core:
 
+run "apt update" then 01 to install git
+-
+git installed by 01 instead of floflis
+fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
+-
+gipfs install ipfs in the first place
+
+webpresent wget set timeout before cancelling
+webpresent identify when a line nds with ".git" then work
+-
 Installing webpresent's dependencies...
 ./install.sh: 4: pip: not found
 -
 SOLUTION: sudo apt install python3-pip
+-
+Webpresent file found: ./include/elcid.webpresent
+This is a GoogleDrive or IPFS file!
+/usr/bin/webpresent: line 12: gdown: command not found
+/usr/bin/webpresent: line 15: ipfs: command not found
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
+Installing IPFS...
 
 - Setting permissions on /1 (tree) folder...
 Testing write permissions on tree folder...
@@ -138,19 +163,6 @@ Installing recordings-tools...
 cp: cannot stat 'recordings-tools': No such file or directory
 - Turning recordings-tools into an executable...
 
-Webpresent file found: ./include/elcid.webpresent
-This is a GoogleDrive or IPFS file!
-/usr/bin/webpresent: line 12: gdown: command not found
-/usr/bin/webpresent: line 15: ipfs: command not found
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
-Installing IPFS...
 
 
 Installing img...
@@ -188,8 +200,6 @@ fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
 sudo: unable to resolve host cubic: Temporary failure in name resolution
 
-
-run "apt update" then 01 to install git
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
 
@@ -258,16 +268,6 @@ mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/
 ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 Installing avatars...
 
-Installing Floflis Central...
-mkdir: cannot create directory ‘/1/apps/central’: File exists
-cp: cannot stat 'to-merge/central': No such file or directory
-chmod: cannot access '/usr/bin/central': No such file or directory
-Installing Sh it...
-to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
-
 Unpacking objects: 100% (33/33), 5.25 KiB | 145.00 KiB/s, done.
 From https://github.com/Floflis/ethgas
    791afe9..f9fcde8  main       -> origin/main
@@ -298,8 +298,6 @@ mkdir: cannot create directory ‘/home//.cinnamon/configs/ethgas-applet@floflis
 cp: cannot create regular file '/home//.cinnamon/configs/ethgas-applet@floflis/': No such file or directory
 Welcome to zombiespices
 Preparing to install zombie-desklet 'ETH Gas' (ethgas-desklet@floflis)...
-
-install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 
 

@@ -5,6 +5,10 @@
 
 -? another temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
 
+turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engines_c2.tar.gz into a repo/folder
+
+install /media/daniella/B/git/Floflis/Utilities/scripts-common
+
 floflis first logon:
 -? copy clock applet settings
 -? copy weather applet settings
