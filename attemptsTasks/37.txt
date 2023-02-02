@@ -61,27 +61,6 @@ firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean
 
 find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
 
-ubuntu@ubuntu:~$ nu
-No environment config file found at /home/ubuntu/.config/nushell/env.nu
-Would you like to create one with defaults (Y/n):
-
-install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
-
-/usr/share/plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
--
-https://www.turnkeylinux.org/docs/chroot-to-repair-system
-
-on every logon, floflis will register user's IPFS peer ID
--
-jq /home/daniell/.ipfs/config
-"Identity": {
-    "PeerID"
--
-
 after installing Hugo:
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)

@@ -25,13 +25,13 @@
 - customShortcuts.sh: don't incentivize running sudo in cat
 - install weblink apps from their own separate repo
 - to-merge_firstlogon.sh: Install icons for Uniswap, Hop (doesn't work yet) and Aragon
-- own separate script to install Floflis Central
+- own separate script to install Floflis Central (Floflis Central icon is back, now with SVG instead of PNG)
 - Fix default settings for the show-desktop applet
-- 
-- 
-- 
-- 
-- 
+- floapps .apps, .game and .html5 files are now in SVG instead of PNG
+- mimetype icons for IPFS' .cid checksum files (introduced by GIPFS)
+- mimetype for .md5 and .sha256 checksum files (by FilePeace)
+- mimetype for FilePeace's Webpresent .weborigin and .webpresent
+- FilePeace, 01 and GIPFS now install their own icons
 - 
 - 
 - 
@@ -47,7 +47,22 @@
 - 
 
 
-fl build move basic CLI tools (online, mlq, shexec), to Core layer
+fl build move basic CLI tools (online, mlq, shexec) from Soil to Core layer
+
+install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
+/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
+
+/usr/share/plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
+
+on every logon, floflis will register user's IPFS peer ID
+-
+jq /home/daniell/.ipfs/config
+"Identity": {
+    "PeerID"
+-
 
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
