@@ -47,19 +47,14 @@
 - 
 
 
-Installing img...
-Already up to date.
-Your branch is up to date with 'origin/main'.
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-convert-im6.q16: unable to read font `Arial' @ warning/annotate.c/RenderType/949.
-Installing backgrounds...
-Already up to date.
-Updating files: 100% (25/25), done.
-Your branch is up to date with 'origin/main'.
-This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting '.git/hooks/post-checkout'.
+fl build move tools such as online, to Core layer
+
+run "apt update" then 01 to install git; sudo apt install git-lfs
 -
-SOLUTION: sudo apt install git-lfs
+git installed by 01 instead of floflis
+fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
+-
+gipfs install ipfs in the first place
 
 OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
 
@@ -84,13 +79,6 @@ Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
 Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
 /usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
 Installing IPFS...
-
-run "apt update" then 01 to install git
--
-git installed by 01 instead of floflis
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
--
-gipfs install ipfs in the first place
 
 mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
 mkdocs add soon info abt witchlink files
@@ -122,12 +110,7 @@ https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-m
 -
 symlink with cinnamon: /usr/share/pixmaps/faces
 
-- fix installing /usr/bin/central
--
-Installing Floflis Central...
-mkdir: cannot create directory ‘/1/apps/central’: File exists
-cp: cannot stat 'to-merge/central': No such file or directory
-chmod: cannot access '/usr/bin/central': No such file or directory
+
 Installing Sh it...
 to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
 fatal: destination path '.' already exists and is not an empty directory.
@@ -257,8 +240,6 @@ fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stere
 /home/daniella/Desktop/fl sounds
 -
 pastebin alarm
-
-fl build move tools such as online, to Core layer
 
 fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
 move /1/sounds to /1/Floflis/system
