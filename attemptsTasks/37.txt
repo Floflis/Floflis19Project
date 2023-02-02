@@ -1,7 +1,23 @@
 
 
 
-- another temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
+/media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
+
+-? another temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
+
+floflis first logon:
+-? copy clock applet settings
+-? copy weather applet settings
+-? copy showdesktop applet settings
+-? remove cinnamon's own menu and install that menu that supports emojis
+
+- bug: gimp is being the default app for opening images
+
+replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
+/usr/share/applications/org.gnome.TwentyFortyEight.desktop
+/media/daniella/B/git/FloflisPull/2048
+
+to-merge.sh: move "Installing Floflis Central..." functions to include/HTML5Apps/central/install.sh (also move central.apps)
 
 fl mkdocs dev tell about zombie spices
 fl mkdocs updt abt tree folder structure

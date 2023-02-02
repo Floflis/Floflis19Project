@@ -1,6 +1,5 @@
-- temporary measure to fix issues: deactivate "attempt to enable the Finance app menu category"
+- temporary measure to fix Cinnamon issues: deactivate "attempt to enable the Finance app menu category"
 - deactivate installing supertux
-- attempt to fix installing /usr/bin/central
 - re-activate firstboot scripts and detecting user+setup, now diffing between ISO/installed user
 - install the Starshell pack (includes Starship) at firstlogon
 - don't run ETH address setup at ISO user
@@ -10,22 +9,61 @@
 - install Sample Media, starting with a photo and a video
 - Move nu-post-install (includes nu-script-handler) to the Starshell pack
 - Install floapps at firstlogon
-
-
-floflis first logon:
+- to-merge_firstlogon.sh: fixes and prioritization
+- temporarily disable "Eleganse-Floflis" as default desktop theme, set "Yaru-cinnamon-dark" instead
 - temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
-- temporarily disable "Eleganse-Floflis" as desktop theme, set "Yaru-cinnamon-dark" instead
--? copy clock applet settings
--? copy weather applet settings
--? copy showdesktop applet settings
--? remove cinnamon's own menu and install that menu that supports emojis
--? temporarily disable setting "Floflis" as default icons, set "Yaru-cinnamon" instead
+- officialize installing neofetch as part of Soil layer
+- to-merge.sh: quality updates"
+- deactivate installing apps that should come in personality-packs (balenaEtcher, Audacity and OBS Studio)
+- install Wine
+- install cheese (why it was removed on Ubuntu 21+?)
+- install customShortcuts (Witchcraft, Cam, Music, etc.) from external script
+- Detect CPU arch/platform directly from DNA layer!
+- Core firstlogon: run layers' firstlogon with bash instead of sh
 
-- temporary measure to fix issues: deactivate installing gimp (GIMP is being the default app for opening images)
-- deactivate installing apps that should come in personality-packs
-- install wine
-- Firedoge mimetype handler; firedoge up-to-date material+vivaldi; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+
+- add svg version of cinnamon default avatar (also reflect update in to-merge_firstlogon.sh)
 - back installing IPFS Desktop
+- fix installing /usr/bin/central
+
+Floflis branding:
+/usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
+-
+/usr/share/icons/Humanity/places@2/64/start-here.svg
+/usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
+/usr/share/pixmaps/ubuntu-logo.svg
+/usr/share/pixmaps/ubuntu-logo-dark.png
+/usr/share/pixmaps/ubuntu-logo-icon.png
+/usr/share/pixmaps/ubuntu-logo-text.png
+/usr/share/pixmaps/ubuntu-logo-text-dark.png
+/usr/share/icons/Humanity/places@2/64/distributor-logo.svg
+https://askubuntu.com/questions/194062/how-can-i-replace-ubuntu-branding-with-my-own
+https://askubuntu.com/questions/1017305/how-do-i-remove-any-ubuntu-brand-and-trademark-from-my-ubuntu-install
+https://askubuntu.com/questions/1107620/how-do-i-remove-ubuntu-branding-from-livecd
+https://askubuntu.com/questions/1106645/how-to-change-ubuntu-18-name-and-logo-in-details
+https://askubuntu.com/questions/83521/where-do-i-need-to-change-ubuntu-when-naming-my-own-custom-distribution
+https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-marks-in-custom-distro
+-
+symlink with cinnamon: /usr/share/pixmaps/faces
+
+don't anymore symlink yaru icon. change default icon pack at logon
+- Reinstall Floflis Icons with some fixes and temporary limitations
+-
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
+/media/daniella/B/git
+/media/daniella/Main Linux/usr/share/icons/Floflis
+- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
+-
+fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
+fl new way of installing icons
+fl icons find another git icon
+recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
+-
+/media/daniella/B/git/Floflis/Utilities/guppy
+-
+data for the windowlist@cobinja.de applet (or cinnamon's default one)
+
+- Firedoge mimetype handler; firedoge up-to-date material+vivaldi; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
@@ -56,20 +94,9 @@ hone up these:
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
 /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
-- installer will tell less details, by using .log files!
 - restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
+- installer will tell less details, by using .log files!
 - git repos as .webpresent files (webpresent app have to identify)
-
-daniella@daniella-Aspire-A315-23:/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RX8NB03P31B/Internal storage/SmartMob/SmartRecorder$ ipfs add -Qr '20230116-1127_Recording 1411.wav Prtct'
-Error: no IPFS repo found in /home/daniella/.ipfs.
-please run: 'ipfs init'
-daniella@daniella-Aspire-A315-23:/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RX8NB03P31B/Internal storage/SmartMob/SmartRecorder$ ipfs init
-generating ED25519 keypair...done
-peer identity: 12D3KooWLNpkLX2ddB2DihaXT6bmMU8PsrZLmPgaSUDbcYA9XHeZ
-initializing IPFS node at /home/daniella/.ipfs
-to get started, enter:
-
-	ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme
 	
 webpresent wget set timeout before cancelling
 
@@ -91,6 +118,21 @@ core:
 
 Installing webpresent's dependencies...
 ./install.sh: 4: pip: not found
+-
+SOLUTION: sudo apt install python3-pip
+
+- Setting permissions on /1 (tree) folder...
+Testing write permissions on tree folder...
+
+- Turning recordings-trimmer into an executable...
+Installing recordings-hashing...
+./install.sh: 20: cd: can't cd to include/recordings-hashing
+Already up to date.
+-
+Installing recordings-tools...
+- Installing recordings-tools command in /usr/bin...
+cp: cannot stat 'recordings-tools': No such file or directory
+- Turning recordings-tools into an executable...
 
 Webpresent file found: ./include/elcid.webpresent
 This is a GoogleDrive or IPFS file!
@@ -106,24 +148,6 @@ Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
 /usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
 Installing IPFS...
 
-Installing mimetypes for .nu files...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-gtk-update-icon-cache: Cache file created successfully.
-Installing icons for .nu files...
-Already up to date.
-Your branch is up to date with 'github/main'.
-Welcome to another awesome autistic art by Daniella Mesquita.
--
-identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-Installing handler for .nu files...
-Installing nu-script-handler...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-Installing shortcut in /usr/share/applications...
-Turning nu-script-handler into the default program (to user ) for .nu scripts...
-
 
 Installing img...
 Already up to date.
@@ -135,9 +159,9 @@ Installing backgrounds...
 Already up to date.
 Updating files: 100% (25/25), done.
 Your branch is up to date with 'origin/main'.
--
 This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting '.git/hooks/post-checkout'.
-
+-
+SOLUTION: sudo apt install git-lfs
 
 rsync: [Receiver] mkdir "/usr/share/cinnamon/extensions/watermark@germanfr" failed: No such file or directory (2)
 rsync error: error in file IO (code 11) at main.c(780) [Receiver=3.2.5]
@@ -276,42 +300,7 @@ install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 
 
-Floflis branding:
-/usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
--
-/usr/share/icons/Humanity/places@2/64/start-here.svg
-/usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
-/usr/share/pixmaps/ubuntu-logo.svg
-/usr/share/pixmaps/ubuntu-logo-dark.png
-/usr/share/pixmaps/ubuntu-logo-icon.png
-/usr/share/pixmaps/ubuntu-logo-text.png
-/usr/share/pixmaps/ubuntu-logo-text-dark.png
-/usr/share/icons/Humanity/places@2/64/distributor-logo.svg
-https://askubuntu.com/questions/194062/how-can-i-replace-ubuntu-branding-with-my-own
-https://askubuntu.com/questions/1017305/how-do-i-remove-any-ubuntu-brand-and-trademark-from-my-ubuntu-install
-https://askubuntu.com/questions/1107620/how-do-i-remove-ubuntu-branding-from-livecd
-https://askubuntu.com/questions/1106645/how-to-change-ubuntu-18-name-and-logo-in-details
-https://askubuntu.com/questions/83521/where-do-i-need-to-change-ubuntu-when-naming-my-own-custom-distribution
-https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-marks-in-custom-distro
--
-symlink with cinnamon: /usr/share/pixmaps/faces
 
-don't anymore symlink yaru icon. change default icon pack at logon
-- Reinstall Floflis Icons with some fixes and temporary limitations
--
-/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
-/media/daniella/B/git
-/media/daniella/Main Linux/usr/share/icons/Floflis
-- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
--
-fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
-fl new way of installing icons
-fl icons find another git icon
-recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
--
-/media/daniella/B/git/Floflis/Utilities/guppy
--
-data for the windowlist@cobinja.de applet (or cinnamon's default one)
 
 
 
