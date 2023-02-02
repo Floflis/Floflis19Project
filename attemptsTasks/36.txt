@@ -20,9 +20,11 @@
 - install customShortcuts (Witchcraft, Cam, Music, etc.) from external script
 - Detect CPU arch/platform directly from DNA layer!
 - Core firstlogon: run layers' firstlogon with bash instead of sh
+- customShortcuts.sh: only modify shortcuts when existing files
+- customShortcuts.sh: don't incentivize running sudo in cat
+- install weblink apps from their own separate repo
 
 
-- add svg version of cinnamon default avatar (also reflect update in to-merge_firstlogon.sh)
 - back installing IPFS Desktop
 - fix installing /usr/bin/central
 
@@ -63,12 +65,14 @@ recursively restore old icons and separate with the new icons. /media/daniella/B
 -
 data for the windowlist@cobinja.de applet (or cinnamon's default one)
 
-- Firedoge mimetype handler; firedoge up-to-date material+vivaldi; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+- firedoge up-to-date material+vivaldi; Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
 cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push
-- submit Floflis/UCR pull request to neofetch
+- GH submit Floflis/UCR pull request to neofetch
+- GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
+- need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
 -
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
@@ -99,8 +103,8 @@ hone up these:
 - git repos as .webpresent files (webpresent app have to identify)
 	
 webpresent wget set timeout before cancelling
+webpresent identify when a line nds with ".git" then work
 
-GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 git installed by 01 instead of floflis
 fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
 -
