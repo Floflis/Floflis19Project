@@ -47,22 +47,19 @@
 - 
 
 
+token.svg installed alongside its PNG counterpart
+
 fl build move basic CLI tools (online, mlq, shexec) from Soil to Core layer
 
 install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
 
-/usr/share/plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
 
-on every logon, floflis will register user's IPFS peer ID
--
-jq /home/daniell/.ipfs/config
-"Identity": {
-    "PeerID"
--
+
+register IPFS ID
+jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
+
+Floflis Central display IPFS ID
 
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
@@ -72,6 +69,11 @@ fl core do the first thing: "apt update" + install 01 (and 01's first thing shou
 gipfs install ipfs in the first place
 
 OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
+-
+/usr/share/plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
+/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
 
 core:
 
