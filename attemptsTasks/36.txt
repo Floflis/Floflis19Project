@@ -21,12 +21,30 @@
 - Detect CPU arch/platform directly from DNA layer!
 - Core firstlogon: run layers' firstlogon with bash instead of sh
 - customShortcuts.sh: only modify shortcuts when existing files
-
+-
 - customShortcuts.sh: don't incentivize running sudo in cat
 - install weblink apps from their own separate repo
 - to-merge_firstlogon.sh: Install icons for Uniswap, Hop (doesn't work yet) and Aragon
 - own separate script to install Floflis Central
 - Fix default settings for the show-desktop applet
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 
 Installing img...
