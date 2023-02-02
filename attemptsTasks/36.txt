@@ -47,7 +47,7 @@
 - 
 
 
-fl build move tools such as online, to Core layer
+fl build move basic CLI tools (online, mlq, shexec), to Core layer
 
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
