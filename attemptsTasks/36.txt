@@ -23,21 +23,8 @@
 - customShortcuts.sh: only modify shortcuts when existing files
 - customShortcuts.sh: don't incentivize running sudo in cat
 - install weblink apps from their own separate repo
+- to-merge_firstlogon.sh: Install icons for Uniswap, Hop (doesn't work yet) and Aragon
 
-
-- back installing IPFS Desktop
-
-- fix installing /usr/bin/central
--
-Installing Floflis Central...
-mkdir: cannot create directory ‘/1/apps/central’: File exists
-cp: cannot stat 'to-merge/central': No such file or directory
-chmod: cannot access '/usr/bin/central': No such file or directory
-Installing Sh it...
-to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
 
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
@@ -59,6 +46,18 @@ https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-m
 -
 symlink with cinnamon: /usr/share/pixmaps/faces
 
+- fix installing /usr/bin/central
+-
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing Sh it...
+to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+
 don't anymore symlink yaru icon. change default icon pack at logon
 - Reinstall Floflis Icons with some fixes and temporary limitations
 -
@@ -77,10 +76,16 @@ recursively restore old icons and separate with the new icons. /media/daniella/B
 data for the windowlist@cobinja.de applet (or cinnamon's default one)
 
 - firedoge up-to-date material+vivaldi; Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+https://github.com/muckSponge/MaterialFox
+https://github.com/muckSponge/MaterialFox/issues/326
+https://github.com/typeling1578/MaterialFox-Plus
+https://github.com/muckSponge/MaterialFox/pulls
+https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
+https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push
 - GH submit Floflis/UCR pull request to neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -312,3 +317,8 @@ new tree folder structure /home/daniella/Desktop/fl tree
 but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge
 -
 then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
+
+- back installing IPFS Desktop
+- install Frame
+- install Frame Canary
+- sync settings of Frame and Frame Canary

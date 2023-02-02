@@ -9,6 +9,8 @@ turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engin
 
 install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
+- firstboot runs firstboot-userstasks (this supports running layers), which echoes a log that will be read+rm by firstlogon. this prevents users from closing essential settings
+
 floflis first logon:
 -? copy clock applet settings
 -? copy weather applet settings
