@@ -21,10 +21,12 @@
 - Detect CPU arch/platform directly from DNA layer!
 - Core firstlogon: run layers' firstlogon with bash instead of sh
 - customShortcuts.sh: only modify shortcuts when existing files
+
 - customShortcuts.sh: don't incentivize running sudo in cat
 - install weblink apps from their own separate repo
 - to-merge_firstlogon.sh: Install icons for Uniswap, Hop (doesn't work yet) and Aragon
 - own separate script to install Floflis Central
+- Fix default settings for the show-desktop applet
 
 
 mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
