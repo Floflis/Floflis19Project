@@ -32,10 +32,10 @@
 - mimetype for .md5 and .sha256 checksum files (by FilePeace)
 - mimetype for FilePeace's Webpresent .weborigin and .webpresent
 - FilePeace, 01 and GIPFS now install their own icons
-- 
-- 
-- 
-- 
+- test printing page (default-testpage.pdf) now with cyan floflis logo
+- updated, cyan OSlogotype
+- Floflis' token.svg installed alongside its PNG counterpart
+- Floflis Central's FLOF token img now in SVG instead of PNG; OSlogotype now in SVG instead of PNG; Floflis logo now in SVG instead of PNG
 - 
 - 
 - 
@@ -47,9 +47,10 @@
 - 
 
 
-token.svg installed alongside its PNG counterpart
-
+Updated icon for XDai, now renamed to GnosisChain (change also reflected in Floflis Central)
+New EVM blockchain networks: Optimism and Ronin (support also reflected in Floflis Central)
 fl build move basic CLI tools (online, mlq, shexec) from Soil to Core layer
+/media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
 
 install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
