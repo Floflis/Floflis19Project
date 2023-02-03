@@ -262,8 +262,6 @@ ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@flofl
 Installing main theme...
 
 
-fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
-
 core:
 
 soil's to-merge:
@@ -279,7 +277,7 @@ Installing 'zombiespices' syswide...
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
 same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
-
+-
 Installing Floflis Packager...
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
 mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
@@ -298,18 +296,7 @@ Installing avatars...
 
 
 
-fl use variables when installing nushell so no repetitions
-fl layers update all readme.mds
-
 - back installing IPFS Desktop
 - install Frame
 - install Frame Canary
 - sync settings of Frame and Frame Canary
-
-mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
-mkdocs add soon info abt witchlink files
-
-- Framework4C2 merge with FMWK r3
-- Framework4C2 uses webpresent to get git out of c2export/HTML+scripts
-- Framework4C2 detecting if HTML dont exist/is empty, then displaying error. Also enable apps to tell they can run only in specific platforms.
-- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file

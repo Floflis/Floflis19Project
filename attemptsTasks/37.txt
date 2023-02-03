@@ -6,6 +6,8 @@ hone up these:
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
 /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
+fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
+
 soil's to-merge:
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
@@ -43,12 +45,6 @@ install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 - firstboot runs firstboot-userstasks (this supports running layers), which echoes a log that will be read+rm by firstlogon. this prevents users from closing essential settings
 
-floflis first logon:
--? copy clock applet settings
--? copy weather applet settings
--? copy showdesktop applet settings
--? remove cinnamon's own menu and install that menu that supports emojis
-
 - bug: gimp is being the default app for opening images
 
 replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
@@ -57,8 +53,17 @@ replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that inst
 
 to-merge.sh: move "Installing Floflis Central..." functions to include/HTML5Apps/central/install.sh (also move central.apps)
 
+mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
+mkdocs add soon info abt witchlink files
 fl mkdocs dev tell about zombie spices
 fl mkdocs updt abt tree folder structure
+
+- Framework4C2 merge with FMWK r3
+- Framework4C2 uses webpresent to get git out of c2export/HTML+scripts
+- Framework4C2 detecting if HTML dont exist/is empty, then displaying error. Also enable apps to tell they can run only in specific platforms.
+- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
+
+fl layers update all readme.mds
 
 filepeace's handler for sum files (gipfs will be a plugin to handle .cid files)
 -
