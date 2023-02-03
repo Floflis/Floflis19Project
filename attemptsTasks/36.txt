@@ -73,12 +73,7 @@
 - 
 
 
-register IPFS ID
-jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
-
-Floflis Central display IPFS ID
 new screenshots for Central
-/media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
 
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
@@ -86,13 +81,6 @@ git installed by 01 instead of floflis
 fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
 -
 gipfs install ipfs in the first place
-
-OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version
--
-/usr/share/plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/usr-share-plymouth
-/media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/done
 
 core:
 
