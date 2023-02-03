@@ -1,6 +1,21 @@
 
 
 
+soil's to-merge:
+
+list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
+
+-? fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+-
+/home/daniella/Desktop/fl sounds
+-
+pastebin alarm
+-
+fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
+move /1/sounds to /1/Floflis/system
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
+replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
+
 Floflis firstlogon wait for Floflis Sync/Backup before running tasks for SSH/IPFS ID
 
 /media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3

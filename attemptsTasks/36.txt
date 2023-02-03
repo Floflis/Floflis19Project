@@ -46,6 +46,31 @@
 - back installing zombiespices
 - back installing ethgas (and its zombiespices)
 - Working Floflis logotype at bootscreen
+- attempt to fix duplicate symlink issue in /usr/share/sounds/Yaru/stereo/ubuntu
+-
+- move pre-installed avatars' functions to own external script
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 
 register IPFS ID
@@ -242,20 +267,6 @@ Already up to date.
 SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
 
 soil's to-merge:
-
-list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
-
-fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
-SOLUTION: dont move file to /ubuntu if it is a symlink
--
-/home/daniella/Desktop/fl sounds
--
-pastebin alarm
-
-fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
-move /1/sounds to /1/Floflis/system
-/1/Floflis/system/os.json up-to-date build info and, now add distrobase
-replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
 
 Installing 'zombiespices'...
 There is no tracking information for the current branch.
