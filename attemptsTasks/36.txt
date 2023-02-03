@@ -73,45 +73,6 @@
 - 
 
 
-(Sym)Linking from host extension...
-ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/po': File exists
-ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/3.8': File exists
-parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 48, column 9
-
-git init
-/usr/bin/git: line 28: gix: command not found
--
-run "apt update" then 01 to install git; sudo apt install git-lfs
--
-git installed by 01 instead of floflis
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
--
-gipfs install ipfs in the first place
-
-core:
-
-webpresent wget set timeout before cancelling
-webpresent identify when a line nds with ".git" then work
--
-Installing webpresent's dependencies...
-./install.sh: 4: pip: not found
--
-SOLUTION: sudo apt install python3-pip
--
-Webpresent file found: ./include/elcid.webpresent
-This is a GoogleDrive or IPFS file!
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
-Installing IPFS...
-
-
-
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 -
@@ -163,6 +124,40 @@ fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/
 - git repos as .webpresent files (webpresent app have to identify)
 -
 new screenshots for Central
+
+webpresent wget set timeout before cancelling
+webpresent identify when a line nds with ".git" then work
+-
+Installing webpresent's dependencies...
+./install.sh: 4: pip: not found
+-
+SOLUTION: sudo apt install python3-pip
+-
+Webpresent file found: ./include/elcid.webpresent
+This is a GoogleDrive or IPFS file!
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
+Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
+/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
+Installing IPFS...
+-
+possibleSOLUTION: rocketlaunch_dir
+
+git init
+/usr/bin/git: line 28: gix: command not found
+-
+possibleSOLUTION: rocketlaunch_dir
+-
+run "apt update" then 01 to install git; sudo apt install git-lfs
+-
+git installed by 01 instead of floflis
+fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
+-
+gipfs install ipfs in the first place
 
 Installing Floflis Central...
 tar (child): central.apps: Cannot open: No such file or directory
@@ -220,7 +215,7 @@ then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push
 - GH submit Floflis/UCR pull request to neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -246,8 +241,6 @@ https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
 https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 
-core:
-
 rsync: [Receiver] mkdir "/usr/share/cinnamon/extensions/watermark@germanfr" failed: No such file or directory (2)
 rsync error: error in file IO (code 11) at main.c(780) [Receiver=3.2.5]
 Installing zombie-extension 'NFTmark' (nftmark@floflis)...
@@ -261,10 +254,6 @@ ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@flofl
 ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/': No such file or directory
 Installing main theme...
 
-
-core:
-
-soil's to-merge:
 
 Installing 'zombiespices'...
 There is no tracking information for the current branch.
@@ -287,13 +276,6 @@ Updating default background...
 mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
 ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 Installing avatars...
-
-
-
-
-
-
-
 
 
 - back installing IPFS Desktop

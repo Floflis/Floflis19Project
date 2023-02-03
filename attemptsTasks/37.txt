@@ -8,6 +8,8 @@ hone up these:
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
 
+Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior)
+
 soil's to-merge:
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
