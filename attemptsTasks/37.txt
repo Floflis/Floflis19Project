@@ -1,6 +1,11 @@
 
 
 
+hone up these:
+/media/daniella/B/git/Floflis/HTML5/floapps
+/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
+/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
+
 soil's to-merge:
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
@@ -17,6 +22,7 @@ move /1/sounds to /1/Floflis/system
 replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
 
 Floflis firstlogon wait for Floflis Sync/Backup before running tasks for SSH/IPFS ID
+firstlogon wizard: ask if user want Explore menu label. and seconds in calendar applet; also if user want the "/" format
 
 register IPFS ID
 jq -r '.Identity.PeerID' /home/daniella/.ipfs/config

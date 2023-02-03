@@ -50,10 +50,10 @@
 -
 - move pre-installed avatars' functions to own external script
 -? HTML5 experience: floapps (includes floflis-application-handler) and Floflis Central now fully working (also with their mimetypes)
-- 
-- 
-- 
-- 
+- Install ethgas at firstlogon (at user side)
+- If not existing, create these folders: /usr/share/cinnamon/ applets, desklets and extensions
+- firstlogon: fill 'New File' context menu Webpresent templates, now displaying mimetype icons
+- Install buildmark and nftmark zombie extensions at firstlogon (at user side)
 - 
 - 
 - 
@@ -73,10 +73,10 @@
 - 
 
 
-hone up these:
-/media/daniella/B/git/Floflis/HTML5/floapps
-/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
-/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
+(Sym)Linking from host extension...
+ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/po': File exists
+ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/3.8': File exists
+parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 48, column 9
 
 git init
 /usr/bin/git: line 28: gix: command not found
@@ -87,17 +87,6 @@ git installed by 01 instead of floflis
 fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
 -
 gipfs install ipfs in the first place
-
-Installing Floflis Central...
-tar (child): central.apps: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
-mkdir: cannot create directory ‘/1/apps/central’: File exists
-mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
-include/HTML5Apps/central/install.sh: line 12: cd: /1/apps/application/central: No such file or directory
--
-possibleSOLUTION: rocketlaunch_dir
 
 core:
 
@@ -121,11 +110,6 @@ Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
 /usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
 Installing IPFS...
 
-mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
-mkdocs add soon info abt witchlink files
-
-- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
-
 
 
 Floflis branding:
@@ -148,12 +132,6 @@ https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-m
 -
 symlink with cinnamon: /usr/share/pixmaps/faces
 
-
-Installing Sh it...
-to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
 
 don't anymore symlink yaru icon. change default icon pack at logon
 - Reinstall Floflis Icons with some fixes and temporary limitations
@@ -186,6 +164,60 @@ fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/
 -
 new screenshots for Central
 
+Installing Floflis Central...
+tar (child): central.apps: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
+include/HTML5Apps/central/install.sh: line 12: cd: /1/apps/application/central: No such file or directory
+-
+possibleSOLUTION: rocketlaunch_dir
+
+Installing Sh it...
+to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+-
+possibleSOLUTION: rocketlaunch_dir
+
+- Turning recordings-trimmer into an executable...
+Installing recordings-hashing...
+./install.sh: 20: cd: can't cd to include/recordings-hashing
+Already up to date.
+-
+possibleSOLUTION: rocketlaunch_dir
+-
+Installing recordings-tools...
+- Installing recordings-tools command in /usr/bin...
+cp: cannot stat 'recordings-tools': No such file or directory
+- Turning recordings-tools into an executable...
+-
+possibleSOLUTION: rocketlaunch_dir
+
+Installing Sh it...
+./to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+-
+possibleSOLUTION: rocketlaunch_dir
+
+- Turning recordings-trimmer into an executable...
+Installing recordings-hashing...
+./install.sh: 20: cd: can't cd to include/recordings-hashing
+Already up to date.
+SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
+
+- new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
+new tree folder structure /home/daniella/Desktop/fl tree
+but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge
+-
+then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
+-
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
 cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push
@@ -214,25 +246,7 @@ https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
 https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 
-fl use variables when installing nushell so no repetitions
-fl layers update all readme.mds
-
 core:
-
-- Setting permissions on /1 (tree) folder...
-Testing write permissions on tree folder...
-
-- Turning recordings-trimmer into an executable...
-Installing recordings-hashing...
-./install.sh: 20: cd: can't cd to include/recordings-hashing
-Already up to date.
--
-Installing recordings-tools...
-- Installing recordings-tools command in /usr/bin...
-cp: cannot stat 'recordings-tools': No such file or directory
-- Turning recordings-tools into an executable...
-
-
 
 rsync: [Receiver] mkdir "/usr/share/cinnamon/extensions/watermark@germanfr" failed: No such file or directory (2)
 rsync error: error in file IO (code 11) at main.c(780) [Receiver=3.2.5]
@@ -248,23 +262,9 @@ ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@flofl
 Installing main theme...
 
 
-Installing Sh it...
-./to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-
-
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
 
 core:
-
-- Turning recordings-trimmer into an executable...
-Installing recordings-hashing...
-./install.sh: 20: cd: can't cd to include/recordings-hashing
-Already up to date.
-SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
 
 soil's to-merge:
 
@@ -277,15 +277,6 @@ If you wish to set tracking information for this branch you can do so with:
     git branch --set-upstream-to=<remote>/<branch> main
 Installing 'zombiespices' syswide...
 
-(Sym)Linking from host extension...
-ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/po': File exists
-ln: failed to create symbolic link '/usr/share/cinnamon/extensions/nftmark@floflis/3.8': File exists
-parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 48, column 9
-Installing NFTmark's presets...
-mkdir: cannot create directory ‘/home//.cinnamon/configs/nftmark@floflis’: No such file or directory
-cp: cannot create regular file '/home//.cinnamon/configs/nftmark@floflis/': No such file or directory
-Installing main theme...
-
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
 same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
 
@@ -293,47 +284,12 @@ Installing Floflis Packager...
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
 mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
 Done! Run 'floflis-packager' command to use it.
-Installing floflis-application-handler...
-cp: cannot stat 'floflis-application-handler': No such file or directory
-Installing shortcut in /usr/share/applications...
-Turning floflis-application-handler into the default program (to user daniella) for .apps and .game applications...
-- Turning floflis-application-handler into an executable...
 
 Updating default background...
 mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
 ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 Installing avatars...
 
-Unpacking objects: 100% (33/33), 5.25 KiB | 145.00 KiB/s, done.
-From https://github.com/Floflis/ethgas
-   791afe9..f9fcde8  main       -> origin/main
-Updating 791afe9..f9fcde8
-error: The following untracked working tree files would be overwritten by merge:
-	spice/ethgas-applet@floflis/content/icon.svg
-	spice/ethgas-applet@floflis/content/metadata.json
-	spice/ethgas-applet@floflis/include/data/ethgas-applet@floflis.json
-	spice/ethgas-applet@floflis/manifest.json
-	spice/ethgas-applet@floflis/symlink.txt
-	spice/ethgas-desklet@floflis/content/icon.svg
-	spice/ethgas-desklet@floflis/content/metadata.json
-	spice/ethgas-desklet@floflis/include/data/ethgas@floflis.json
-	spice/ethgas-desklet@floflis/manifest.json
-	spice/ethgas-desklet@floflis/symlink.txt
-Please move or remove them before you merge.
-Aborting
-Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-Installing ethgas...
-- Turning ethgas into an executable...
-parse error: Invalid numeric literal at line 1, column 3
-Installation has failed.
-Installing ethgas' Cinnamon spice...
-
-Installing ETH Gas's presets...
-mkdir: cannot create directory ‘/home//.cinnamon/configs/ethgas-applet@floflis’: No such file or directory
-cp: cannot create regular file '/home//.cinnamon/configs/ethgas-applet@floflis/': No such file or directory
-Welcome to zombiespices
-Preparing to install zombie-desklet 'ETH Gas' (ethgas-desklet@floflis)...
 
 
 
@@ -342,14 +298,18 @@ Preparing to install zombie-desklet 'ETH Gas' (ethgas-desklet@floflis)...
 
 
 
-
-- new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
-new tree folder structure /home/daniella/Desktop/fl tree
-but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge
--
-then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
+fl use variables when installing nushell so no repetitions
+fl layers update all readme.mds
 
 - back installing IPFS Desktop
 - install Frame
 - install Frame Canary
 - sync settings of Frame and Frame Canary
+
+mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
+mkdocs add soon info abt witchlink files
+
+- Framework4C2 merge with FMWK r3
+- Framework4C2 uses webpresent to get git out of c2export/HTML+scripts
+- Framework4C2 detecting if HTML dont exist/is empty, then displaying error. Also enable apps to tell they can run only in specific platforms.
+- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
