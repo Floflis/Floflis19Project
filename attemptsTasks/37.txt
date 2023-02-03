@@ -1,18 +1,7 @@
 
 
 
-list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
-
--? fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
--
-/home/daniella/Desktop/fl sounds
--
-pastebin alarm
--
-fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
-move /1/sounds to /1/Floflis/system
-/1/Floflis/system/os.json up-to-date build info and, now add distrobase
-replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
+/media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
 
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
@@ -20,10 +9,6 @@ hone up these:
 /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
-
-https://www.edivaldobrito.com.br/como-ativar-o-proton-para-jogar-jogos-do-windows-no-linux/
-https://diolinux.com.br/tutoriais/como-instalar-o-winetricks-e.html
-https://www.edivaldobrito.com.br/como-instalar-o-sysdvr-qt-no-linux-via-flatpak/
 
 Floflis firstlogon wait for Floflis Sync/Backup before running tasks for SSH/IPFS ID
 firstlogon wizard: ask if user want Explore menu label. and seconds in calendar applet; also if user want the "/" format. ask if user want the water applet to display in C or F and if want to display details such as "Clouds"
@@ -35,15 +20,9 @@ Floflis Central display IPFS ID
 /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
 new screenshots for Central
 
-/media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
-
 - work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
 
--? another temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
-
 turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engines_c2.tar.gz into a repo/folder
-
-install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 - firstboot runs firstboot-userstasks (this supports running layers), which echoes a log that will be read+rm by firstlogon. this prevents users from closing essential settings
 
@@ -78,9 +57,6 @@ pre-installed HTML5 apps (also the HTML5Apps Platform)!
 - FLIC installs and opens cbc
 
 
-fl rename shortcut to "Character Map" (add to missing crowdin list)
-- fix: duplicate entry for Music and Rythmbox
-
 all floflis dependencies (git repos) using webpresent
 make Floflis include/ in all layers reproducible
 
@@ -111,9 +87,7 @@ https://github.com/Floflis/cinnamon-patch.git
 
 add .weborigin for /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages/hugo, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/nerdyfonts and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps
 
-use cyan color on floflis logos, do the same in default-testpage.pdf (also update in its press site)
-
-fl both the ISO's and user's first logon will have the Firedoge install (firedoge install will detect if ISO user or normal user, and install will only open firedoge when ISO logged)
+use cyan color on floflis logos, do the same in default-testpage.pdf (also reflect this update in its press site)
 
 new network icons, for OP, Arbitrum and zSync (reflect these changes in central and its listed networks)
 new renamed icon for Gnosis Chain (reflect these changes in central)
@@ -127,26 +101,19 @@ New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/
 Floflis propose to split assets by using multiple wallets (include option to import ronin address)
 floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
 insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
-use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
 
-NeTVision first PoC: this app is a screen to open DTube or Lenstube
-
-fl deactivate current monitor's desktop auto-arrange
-
-fl employment opportunities:
-- make gel nails and even sell them as NFTs!
-- turn client's tattoos into NFTs!
+fl deactivate current monitor's desktop auto-arrange (find in gconf)
 
 fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
 fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
 insp for FLOF grants programme https://app.optimism.io/retropgf
 
-central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other Cs)
-
-sudo snap install kolourpaint # 10,1 MB disk space
+central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other chains)
 
 gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
 
+use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
+-
 fl central script hash the background. if it is any of these:
 QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
 QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
@@ -155,6 +122,22 @@ Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
 QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
 then assign NFT both at user settings/unistore and mark as pokefan personality
 
-usv-tools installs .svg mimetype icon
+Gamer personality pack:
+https://www.edivaldobrito.com.br/como-ativar-o-proton-para-jogar-jogos-do-windows-no-linux/
+https://diolinux.com.br/tutoriais/como-instalar-o-winetricks-e.html
+https://www.edivaldobrito.com.br/como-instalar-o-sysdvr-qt-no-linux-via-flatpak/
+
+usv-tools installs .svg mimetype icon and feature to pack .usv videos (should be leveraged by OmniPackager!)
+NeTVision first PoC: this app is a screen to open DTube or Lenstube
+USV PoC player first MVP
+
+Come with UniOS' default pinky theme as option
+
+fl employment opportunities:
+- make gel nails and even sell them as NFTs!
+- turn client's tattoos into NFTs!
+
+notifications .sh API. use Floflis Screens (Electron) transparent overlay or fallback to notifsend. support important notifications with different sound
+communicator display bigger toast notif if from favorite contact
 
 up-to-date OS info in config

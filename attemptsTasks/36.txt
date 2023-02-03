@@ -55,7 +55,7 @@
 - firstlogon: fill 'New File' context menu Webpresent templates, now displaying mimetype icons
 - Install buildmark and nftmark zombie extensions at firstlogon (at user side)
 - Install winetricks + playonlinux
-- 
+- Install kolourpaint
 - 
 - 
 - 
@@ -72,6 +72,25 @@
 - 
 - 
 
+
+- fix: duplicate entry for Music and Rythmbox
+rename shortcut of Kolourpaint to "Paint"
+rename shortcut to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
+
+list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
+
+-? fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+-
+/home/daniella/Desktop/fl sounds
+-
+pastebin alarm
+-
+fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
+move /1/sounds to /1/Floflis/system
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
+replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
+
+install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
