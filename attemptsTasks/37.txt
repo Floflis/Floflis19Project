@@ -1,17 +1,6 @@
 
 
 
-hone up these:
-/media/daniella/B/git/Floflis/HTML5/floapps
-/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
-/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
-
-fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
-
-Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior)
-
-soil's to-merge:
-
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
 
 -? fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
@@ -25,8 +14,19 @@ move /1/sounds to /1/Floflis/system
 /1/Floflis/system/os.json up-to-date build info and, now add distrobase
 replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
 
+hone up these:
+/media/daniella/B/git/Floflis/HTML5/floapps
+/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
+/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
+
+fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
+
+https://www.edivaldobrito.com.br/como-ativar-o-proton-para-jogar-jogos-do-windows-no-linux/
+https://diolinux.com.br/tutoriais/como-instalar-o-winetricks-e.html
+https://www.edivaldobrito.com.br/como-instalar-o-sysdvr-qt-no-linux-via-flatpak/
+
 Floflis firstlogon wait for Floflis Sync/Backup before running tasks for SSH/IPFS ID
-firstlogon wizard: ask if user want Explore menu label. and seconds in calendar applet; also if user want the "/" format
+firstlogon wizard: ask if user want Explore menu label. and seconds in calendar applet; also if user want the "/" format. ask if user want the water applet to display in C or F and if want to display details such as "Clouds"
 
 register IPFS ID
 jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
@@ -53,8 +53,6 @@ replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that inst
 /usr/share/applications/org.gnome.TwentyFortyEight.desktop
 /media/daniella/B/git/FloflisPull/2048
 
-to-merge.sh: move "Installing Floflis Central..." functions to include/HTML5Apps/central/install.sh (also move central.apps)
-
 mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
 mkdocs add soon info abt witchlink files
 fl mkdocs dev tell about zombie spices
@@ -79,14 +77,14 @@ pre-installed HTML5 apps (also the HTML5Apps Platform)!
 
 - FLIC installs and opens cbc
 
-own repo for Floflis weblink apps /media/daniella/B/git/Floflis/Utilities/WeblinkApps
--
+
 fl rename shortcut to "Character Map" (add to missing crowdin list)
-better method for renaming shortcuts; don't overwrite a whole file but a part of it
--
-- rename shortcuts as "shortcuts" instead of "icons"
 - fix: duplicate entry for Music and Rythmbox
-- separate script to install Internet shortcuts, and another to install Floflis' custom shortcuts
+
+all floflis dependencies (git repos) using webpresent
+make Floflis include/ in all layers reproducible
+
+better method for renaming shortcuts; don't overwrite a whole file but a part of it
 
 - floflis-packager c2 projects will have a file containing git files for c2export, HTML and scripts (FMWK2C2 will be the template)
 
@@ -109,8 +107,7 @@ Testing if Pijul works:
 pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
 
 /media/daniella/B/git/Floflis/cinnamon-patch
-add to Tasks.txt: has GH issues https://github.com/Floflis/cinnamon-patch/issues
-https://github.com/Floflis/cinnamon-patch
+https://github.com/Floflis/cinnamon-patch.git
 
 add .weborigin for /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages/hugo, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/nerdyfonts and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps
 
@@ -146,7 +143,7 @@ insp for FLOF grants programme https://app.optimism.io/retropgf
 
 central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other Cs)
 
-sudo snap install kolourpaint
+sudo snap install kolourpaint # 10,1 MB disk space
 
 gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
 
@@ -158,6 +155,6 @@ Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
 QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
 then assign NFT both at user settings/unistore and mark as pokefan personality
 
-/media/daniella/B/git/Floflis/Branding/Floflis-to-merge/queue (floapps icons now are SVG; usv-tools installs .svg svg icon)
+usv-tools installs .svg mimetype icon
 
 up-to-date OS info in config
