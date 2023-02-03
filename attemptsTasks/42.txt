@@ -7,6 +7,8 @@ sudo apt install edid-decode
 for file in `ls -1 /sys/class/drm/*/edid`; do text=$(tr -d '\0' <"$file"); if [ -n "$text" ]; then edid-decode "$file" | grep -e Manufacturer: -e Product; sleep 0.0001; fi done
 https://unix.stackexchange.com/a/594100
 
+TestLab applet for enabling things such as the e-ink mode
+
 implement Web3Updater (with branches support, and Floflis branch is of its preview builds before it upgrades into stable branch - also, upgrading from Floflis 19 to an upgrade also changes its branch)
 
 Web3Updater if arm*/riscv64: use rust-ipfs

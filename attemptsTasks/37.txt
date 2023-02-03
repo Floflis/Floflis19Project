@@ -5,6 +5,8 @@ Floflis firstlogon wait for Floflis Sync/Backup before running tasks for SSH/IPF
 
 /media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
 
+- work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
+
 -? another temporary measure to fix issues: deactivate "hide nu-script-handler and floflis-application-handler from displaying"
 
 turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engines_c2.tar.gz into a repo/folder

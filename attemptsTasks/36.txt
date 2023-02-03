@@ -13,7 +13,7 @@
 - temporarily disable "Eleganse-Floflis" as default desktop theme, set "Yaru-cinnamon-dark" instead
 - temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
 - officialize installing neofetch as part of Soil layer
-- to-merge.sh: quality updates"
+- to-merge.sh: quality updates
 - deactivate installing apps that should come in personality-packs (balenaEtcher, Audacity and OBS Studio)
 - install Wine
 - install cheese (why it was removed on Ubuntu 21+?)
@@ -36,24 +36,24 @@
 - updated, cyan OSlogotype
 - Floflis' token.svg installed alongside its PNG counterpart
 - Floflis Central's FLOF token img now in SVG instead of PNG; OSlogotype now in SVG instead of PNG; Floflis logo now in SVG instead of PNG
-- 
-- 
-- 
-- 
-- 
+- Updated icon for XDai, now renamed to GnosisChain (change also reflected in Floflis Central)
+- New EVM blockchain networks' icons: Optimism and Ronin
+- remove PNG versions for FLOF token and OSlogotype
+- fix data for ethgas-desklet
+- Floflis default settings for both CinnVIIStarkMenu, Cinnamenu and menu@cinnamon.org
 - 
 - 
 - 
 - 
 
 
-Updated icon for XDai, now renamed to GnosisChain (change also reflected in Floflis Central)
-New EVM blockchain networks: Optimism and Ronin (support also reflected in Floflis Central)
 fl build move basic CLI tools (online, mlq, shexec) from Soil to Core layer
 /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
 
 install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/NFC/Untitled Folder/It works - requires restart
+
+back installing zombiespices
+new screenshots for Central 
 
 
 
@@ -103,7 +103,6 @@ mkdocs add soon info abt witchlink files
 
 clicking a .apps or .game file isn't openning it (but .nu files are working!)
 
-- work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
 - the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
 
 
