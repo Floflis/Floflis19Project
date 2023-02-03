@@ -41,27 +41,19 @@
 - remove PNG versions for FLOF token and OSlogotype
 - fix data for ethgas-desklet
 - Floflis default settings for both CinnVIIStarkMenu, Cinnamenu and menu@cinnamon.org
-- 
-- 
-- 
-- 
-
-
-install NFC support
-
-fl build move basic CLI tools (online, mlq, shexec) from Soil to Core layer
-/media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
-back installing zombiespices
-
-/usr/share/plymouth/themes/ubuntucinnamon-spinner/watermark.png (from repo; then symlink)
+- install out-of-the-box🐈📦 NFC support
+- move basic CLI tools (online, mlq, shexec) from Soil to Core layer
+- back installing zombiespices
+- back installing ethgas (and its zombiespices)
+- Working Floflis logotype at bootscreen
 
 
 register IPFS ID
 jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
 
 Floflis Central display IPFS ID
-
 new screenshots for Central
+/media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
 
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
@@ -162,7 +154,7 @@ https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push
 - GH submit Floflis/UCR pull request to neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -254,6 +246,7 @@ soil's to-merge:
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
 
 fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+SOLUTION: dont move file to /ubuntu if it is a symlink
 -
 /home/daniella/Desktop/fl sounds
 -
