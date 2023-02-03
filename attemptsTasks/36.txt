@@ -49,7 +49,7 @@
 - attempt to fix duplicate symlink issue in /usr/share/sounds/Yaru/stereo/ubuntu
 -
 - move pre-installed avatars' functions to own external script
-- 
+-? HTML5 experience: floapps (includes floflis-application-handler) and Floflis Central now fully working (also with their mimetypes)
 - 
 - 
 - 
@@ -73,14 +73,31 @@
 - 
 
 
-new screenshots for Central
+hone up these:
+/media/daniella/B/git/Floflis/HTML5/floapps
+/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
+/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
+git init
+/usr/bin/git: line 28: gix: command not found
+-
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
 git installed by 01 instead of floflis
 fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
 -
 gipfs install ipfs in the first place
+
+Installing Floflis Central...
+tar (child): central.apps: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
+include/HTML5Apps/central/install.sh: line 12: cd: /1/apps/application/central: No such file or directory
+-
+possibleSOLUTION: rocketlaunch_dir
 
 core:
 
@@ -106,8 +123,6 @@ Installing IPFS...
 
 mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
 mkdocs add soon info abt witchlink files
-
-clicking a .apps or .game file isn't openning it (but .nu files are working!)
 
 - the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
 
@@ -156,18 +171,24 @@ recursively restore old icons and separate with the new icons. /media/daniella/B
 /media/daniella/B/git/Floflis/Utilities/guppy
 -
 data for the windowlist@cobinja.de applet (or cinnamon's default one)
+-
+- return of Floflis Icons (FloflisPNG and Floflis)
+-
+fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
+-
+- full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
+- restored our custom Ubiquity Slideshow!
+-
+- restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
 
-- firedoge up-to-date material+vivaldi; Firedoge mimetype handler; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
-https://github.com/muckSponge/MaterialFox
-https://github.com/muckSponge/MaterialFox/issues/326
-https://github.com/typeling1578/MaterialFox-Plus
-https://github.com/muckSponge/MaterialFox/pulls
-https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
-https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
+- installer will tell less details, by using .log files!
+- git repos as .webpresent files (webpresent app have to identify)
+-
+new screenshots for Central
 
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push
 - GH submit Floflis/UCR pull request to neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -184,22 +205,13 @@ https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
 
-- return of Floflis Icons (FloflisPNG and Floflis)
--
-fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
--
-- full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
-- restored our custom Ubiquity Slideshow!
--
-- restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
-
-- installer will tell less details, by using .log files!
-- git repos as .webpresent files (webpresent app have to identify)
-
-hone up these:
-/media/daniella/B/git/Floflis/HTML5/floapps
-/media/daniella/B/git/Floflis/HTML5/floflis-application-handler
-/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
+- firedoge up-to-date material-theme; Firedoge mimetype handler; vivaldi addon; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+https://github.com/muckSponge/MaterialFox
+https://github.com/muckSponge/MaterialFox/issues/326
+https://github.com/typeling1578/MaterialFox-Plus
+https://github.com/muckSponge/MaterialFox/pulls
+https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
+https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 
 fl use variables when installing nushell so no repetitions
