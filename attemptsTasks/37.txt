@@ -115,8 +115,6 @@ sudo snap install kolourpaint
 
 gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
 
-/usr/share/plymouth/themes/ubuntucinnamon-spinner/watermark.png (from repo; then symlink)
-
 fl central script hash the background. if it is any of these:
 QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
 QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6

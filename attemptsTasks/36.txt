@@ -47,20 +47,21 @@
 - 
 
 
+install NFC support
+
 fl build move basic CLI tools (online, mlq, shexec) from Soil to Core layer
 /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
-
-install NFC support /media/daniella/B/git/Floflis/Utilities/nfc-setup
-
 back installing zombiespices
-new screenshots for Central 
 
+/usr/share/plymouth/themes/ubuntucinnamon-spinner/watermark.png (from repo; then symlink)
 
 
 register IPFS ID
 jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
 
 Floflis Central display IPFS ID
+
+new screenshots for Central
 
 run "apt update" then 01 to install git; sudo apt install git-lfs
 -
@@ -69,7 +70,7 @@ fl core do the first thing: "apt update" + install 01 (and 01's first thing shou
 -
 gipfs install ipfs in the first place
 
-OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version; same for Floflis Central
+OSlogotype.svg and ubuntu-logo.svg are now installed, right? set plymouth to use the SVG version
 -
 /usr/share/plymouth
 /media/daniell/Windows 10 main2/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Central
