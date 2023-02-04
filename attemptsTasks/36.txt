@@ -98,6 +98,9 @@
 
 
 
+ETHGas: temporarily disable installing zombieApplet
+Install MS Teams
+firstlogon: ask to install MS Edge
 rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
 rename shortcut of Kolourpaint to "Paint"
 https://github.com/bobwya/wine-desktop-common
