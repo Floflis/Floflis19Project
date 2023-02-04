@@ -97,11 +97,11 @@
 - 
 
 
-Install gnomeMaps
-Install gnomeContacts
-
-ETHGas: temporarily disable installing zombieApplet
 Install MS Teams
+Install gnomeMaps gnome-maps
+Install gnomeContacts gnome-contacts
+Install gnomeSoundRec gnome-sound-recorder
+ETHGas: temporarily disable installing zombieApplet
 Floflis default settings for both CobiWindowList and window-list@cinnamon.org
 firstlogon: ask to install MS Edge
 user.json personalities field
