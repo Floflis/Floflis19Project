@@ -11,6 +11,9 @@ hone up these:
 replace logoff sound /home/daniella/Desktop/fl sounds
 
 MS Teams with custom shortcut+icon
+firstlogon: ask user to confirm autostart apps
+
+shared location settings for gnomeMaps, gnomeWeather and Weather applet/desklet
 
 working ETHGas applet
 
@@ -21,6 +24,8 @@ Firedoge: tell that DogeAds are coming
 
 -? https://wiki.gnome.org/Apps/Documents
 -? sudo apt install evolution
+
+deep integration with gnome online accounts on next builds
 
 - fix: duplicate entry for Music and Rythmbox (search on UCR ISO if it also have the duplicates, then search in to-merge.sh where's the cause of the issue)
 

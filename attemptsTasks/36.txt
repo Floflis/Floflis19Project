@@ -72,12 +72,12 @@
 - rename "ubuntu-logo" to "floflis-logo"
 - move floflis-logo.svg to /1/img/ instead of /usr/share/plymouth/
 - resize ubuntu-logo.png while writing it to /usr/share/plymouth/ (so its bigger size issue is fixed)
-- 
-- 
-- 
-- 
-- 
-- 
+- Install MS Teams
+- Install gnomeMaps
+- Install gnomeContacts
+- MS Teams as an autostart app
+- autoconfirm installing important apps
+- move deactivated functions to own separate external script
 - 
 - 
 - 
@@ -97,11 +97,8 @@
 - 
 
 
-Install MS Teams
-Install gnomeMaps gnome-maps
-Install gnomeContacts gnome-contacts
-Install gnomeSoundRec gnome-sound-recorder
 ETHGas: temporarily disable installing zombieApplet
+autoconfirm installing important programs
 Floflis default settings for both CobiWindowList and window-list@cinnamon.org
 firstlogon: ask to install MS Edge
 user.json personalities field
