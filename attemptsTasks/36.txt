@@ -61,8 +61,8 @@
 - update ETHGas' applet's default data
 - fix ETHGas' zombieapplet by using its own settings-schema.json
 - install FliipeTorres' clean-show-desktop applet
-- 
-- 
+- Core: updating apt now is a priority
+- Core: upgrade packages and distro packages
 - 
 - 
 - 
@@ -73,10 +73,39 @@
 - 
 
 
+install gnome-characters https://www.google.com/search?client=firefox-b-d&q=gnome-characters
+rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
 rename shortcut of Kolourpaint to "Paint"
-rename shortcut to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
+https://github.com/bobwya/wine-desktop-common
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
+
+
+-
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
 
 -? fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
 -
@@ -144,9 +173,6 @@ fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/
 new screenshots for Central
 
 Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
-
-https://github.com/bobwya/wine-desktop-common
-https://www.google.com/search?client=firefox-b-d&q=gnome-characters
 
 webpresent wget set timeout before cancelling
 webpresent identify when a line nds with ".git" then work
