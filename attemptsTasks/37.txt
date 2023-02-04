@@ -10,6 +10,18 @@ hone up these:
 
 replace logoff sound /home/daniella/Desktop/fl sounds
 
+MS Teams with custom shortcut+icon
+
+working ETHGas applet
+
+Bing as default search engine for both CinnVIIStarkMenu, Cinnamenu and menu@cinnamon.org
+
+Firedoge: Bing as default search engine
+Firedoge: tell that DogeAds are coming
+
+-? https://wiki.gnome.org/Apps/Documents
+-? sudo apt install evolution
+
 - fix: duplicate entry for Music and Rythmbox (search on UCR ISO if it also have the duplicates, then search in to-merge.sh where's the cause of the issue)
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help

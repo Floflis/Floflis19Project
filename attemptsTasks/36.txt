@@ -69,9 +69,9 @@
 - make the "Manipulating windows.ogg"'s appearances less annoying
 - install gnome-characters
 -
-- 
-- 
-- 
+- rename "ubuntu-logo" to "floflis-logo"
+- move floflis-logo.svg to /1/img/ instead of /usr/share/plymouth/
+- resize ubuntu-logo.png while writing it to /usr/share/plymouth/ (so its bigger size issue is fixed)
 - 
 - 
 - 
@@ -97,15 +97,23 @@
 - 
 
 
+Install gnomeMaps
+Install gnomeContacts
 
 ETHGas: temporarily disable installing zombieApplet
 Install MS Teams
+Floflis default settings for both CobiWindowList and window-list@cinnamon.org
 firstlogon: ask to install MS Edge
+user.json personalities field
+firstlogon ask first questions
 rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
 rename shortcut of Kolourpaint to "Paint"
 https://github.com/bobwya/wine-desktop-common
+camera icon for /usr/share/applications/org.gnome.Cheese.desktop app
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
+make its svg version /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/lockscreen.png
+use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
 
 install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
@@ -115,6 +123,7 @@ install /media/daniella/B/git/Floflis/Utilities/scripts-common
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
 -
+/usr/share/plymouth/themes/ubuntucinnamon-spinner/bgrt-fallback.png
 /usr/share/icons/Humanity/places@2/64/start-here.svg
 /usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
 /usr/share/pixmaps/ubuntu-logo.svg
@@ -262,8 +271,8 @@ then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push
-- GH submit Floflis/UCR pull request to neofetch
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push
+- GH submit Floflis pull request to neofetch /media/daniella/B/git/Floflis/FORKS TO MERGE/neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
 -
