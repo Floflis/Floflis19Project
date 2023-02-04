@@ -36,8 +36,8 @@ Floflis Cinnamon modification log:
 6
 - Move weather applet close to hour/date
 
-dconf dump /org/cinnamon/ > backup_of_my_cinnamon_settings_7
-dconf load /org/cinnamon/ < backup_of_my_cinnamon_settings_7
+dconf dump /org/cinnamon/ > backup_of_my_cinnamon_settings_9
+dconf load /org/cinnamon/ < backup_of_my_cinnamon_settings_9
 
 - Disable auto-arrange for Desktop icons
 

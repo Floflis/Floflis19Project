@@ -64,60 +64,50 @@
 - Core: updating apt now is a priority
 - Core: upgrade packages and distro packages
 - fix issue of wrong login sound, also use correct .oga format for some sounds
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-
-- fix issue of repeated symlink /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+- replace alarm clock sound
+- fully working Floflis Sounds including logon sound
+- make the "Manipulating windows.ogg"'s appearances less annoying
+- install gnome-characters
 -
-/home/daniella/Desktop/fl sounds
--
-replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
-move /1/sounds to /1/Floflis/system
 
-/1/Floflis/system/os.json up-to-date build info and, now add distrobase
 
-install gnome-characters https://www.google.com/search?client=firefox-b-d&q=gnome-characters
 rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
 rename shortcut of Kolourpaint to "Paint"
 https://github.com/bobwya/wine-desktop-common
 
 list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
 
-
--
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-
 install /media/daniella/B/git/Floflis/Utilities/scripts-common
+
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
+
 
 Floflis branding:
 /usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
@@ -258,6 +248,12 @@ SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPAT
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
 new tree folder structure /home/daniella/Desktop/fl tree
 but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge
+-
+move /1/sounds to /1/Floflis/system
+-
+install floflis sounds at firstboot (then echo log at firstlogon)
+-
+cinnamon desktop experience installed at firstboot
 -
 then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
 -

@@ -8,6 +8,8 @@ hone up these:
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
 /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install
 
+replace logoff sound /home/daniella/Desktop/fl sounds
+
 - fix: duplicate entry for Music and Rythmbox (search on UCR ISO if it also have the duplicates, then search in to-merge.sh where's the cause of the issue)
 
 fl fixer: run "w" and detect current display, then run "cinnamon --replace --display=:{number-id}"; document this on --help
