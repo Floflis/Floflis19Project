@@ -290,15 +290,6 @@ https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
 https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 
-Installing 'zombiespices'...
-There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details.
-    git pull <remote> <branch>
-If you wish to set tracking information for this branch you can do so with:
-    git branch --set-upstream-to=<remote>/<branch> main
-Installing 'zombiespices' syswide...
-
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
 same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
 -
@@ -339,9 +330,6 @@ Welcome to another awesome autistic art by Daniella Mesquita.
 identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
 ./linux-icon-builder: 43: [: -ge: unexpected operator
 Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-
-ln: failed to create symbolic link '.nu_history': File exists
-Installing Sample Media...
 
 mv: cannot move 'uniswap' to '/1/apps/uniswap': Directory not empty (same for Hop and Aragon)
 -
