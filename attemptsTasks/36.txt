@@ -63,7 +63,7 @@
 - install FliipeTorres' clean-show-desktop applet
 - Core: updating apt now is a priority
 - Core: upgrade packages and distro packages
-- 
+- fix issue of wrong login sound, also use correct .oga format for some sounds
 - 
 - 
 - 
@@ -72,6 +72,16 @@
 - 
 - 
 
+
+- fix issue of repeated symlink /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
+-
+/home/daniella/Desktop/fl sounds
+-
+replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
+
+move /1/sounds to /1/Floflis/system
+
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
 
 install gnome-characters https://www.google.com/search?client=firefox-b-d&q=gnome-characters
 rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
@@ -106,17 +116,6 @@ list default desktop background at .xml file /media/daniella/B/git/Floflis/Flofl
 - 
 - 
 
-
--? fix issue of repeated symlink and wrong login sound /usr/share/sounds/Yaru/stereo /usr/share/sounds/Yaru/stereo/ubuntu
--
-/home/daniella/Desktop/fl sounds
--
-pastebin alarm
--
-fix /1/sounds /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds (ogg/oga issue)
-move /1/sounds to /1/Floflis/system
-/1/Floflis/system/os.json up-to-date build info and, now add distrobase
-replace alarm clock and logoff sounds /home/daniella/Desktop/fl sounds
 
 install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
