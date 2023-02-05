@@ -3,6 +3,8 @@
 
 /media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
 
+firstlogon ask first questions
+
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
@@ -14,6 +16,8 @@ MS Teams with custom shortcut+icon
 firstlogon: ask user to confirm autostart apps
 
 shared location settings for gnomeMaps, gnomeWeather and Weather applet/desklet
+
+microsoflis fledge package, that installs MS Edge with Firedoge's addons with even the new tab
 
 working ETHGas applet
 

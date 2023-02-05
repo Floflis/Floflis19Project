@@ -78,10 +78,10 @@
 - MS Teams as an autostart app
 - autoconfirm installing important apps
 - move deactivated functions to own separate external script
-- 
-- 
-- 
-- 
+- ETHGas: temporarily disable installing zombieApplet
+- Floflis default settings for both CobiWindowList and grouped-window-list@cinnamon.org
+- firstlogon: ask to install MS Edge
+- autoconfirm installing important programs
 - 
 - 
 - 
@@ -97,12 +97,10 @@
 - 
 
 
-ETHGas: temporarily disable installing zombieApplet
-autoconfirm installing important programs
-Floflis default settings for both CobiWindowList and window-list@cinnamon.org
-firstlogon: ask to install MS Edge
-user.json personalities field
-firstlogon ask first questions
+
+Floflis Central: organize functions in separate event-sheets
+Floflis Central: support being opened with a flag
+Floflis Central basic redesign
 rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
 rename shortcut of Kolourpaint to "Paint"
 https://github.com/bobwya/wine-desktop-common
@@ -171,6 +169,8 @@ fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/
 new screenshots for Central
 
 Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
+
+user.json personalities field
 
 webpresent wget set timeout before cancelling
 webpresent identify when a line nds with ".git" then work
