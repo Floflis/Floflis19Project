@@ -48,11 +48,10 @@ tar (child): central.apps: Cannot open: No such file or directory
 tar (child): Error is not recoverable: exiting now
 tar: Child returned status 2
 tar: Error is not recoverable: exiting now
-mkdir: cannot create directory ‘/1/apps/central’: File exists
-mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
-include/HTML5Apps/central/install.sh: line 12: cd: /1/apps/application/central: No such file or directory
 -
 possibleSOLUTION: rocketlaunch_dir
+-
+mkdir: cannot create directory ‘/1/apps/central’: File exists
 
 Installing Sh it...
 to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
