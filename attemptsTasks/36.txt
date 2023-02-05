@@ -33,6 +33,14 @@
 Installing recordings-hashing...
 ./install.sh: 20: cd: can't cd to include/recordings-hashing
 Already up to date.
+-
+SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
+-
+Installing recordings-tools...
+- Installing recordings-tools command in /usr/bin...
+cp: cannot stat 'recordings-tools': No such file or directory
+- Turning recordings-tools into an executable...
+-
 SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
 
 Installing Floflis Central...
@@ -51,20 +59,6 @@ to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
 fatal: destination path '.' already exists and is not an empty directory.
 fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
--
-possibleSOLUTION: rocketlaunch_dir
-
-- Turning recordings-trimmer into an executable...
-Installing recordings-hashing...
-./install.sh: 20: cd: can't cd to include/recordings-hashing
-Already up to date.
--
-possibleSOLUTION: rocketlaunch_dir
--
-Installing recordings-tools...
-- Installing recordings-tools command in /usr/bin...
-cp: cannot stat 'recordings-tools': No such file or directory
-- Turning recordings-tools into an executable...
 -
 possibleSOLUTION: rocketlaunch_dir
 
