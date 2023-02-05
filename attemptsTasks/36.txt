@@ -8,7 +8,7 @@
 - simplify debugging and debug Floflis Avatars
 - FilePeace's webpresent: fix issue of pip not found
 - FilePeace's webpresent: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
-- 
+- 01 VCS: fix issue of gix cmd not found (by using rocketlaunch_dir)
 - 
 - 
 - 
@@ -60,16 +60,10 @@ Floflis Central issue with user.json when running from Floflis shortcut (same do
 user.json personalities field
 
 
-git init
-/usr/bin/git: line 28: gix: command not found
--
-possibleSOLUTION: rocketlaunch_dir
--
-run "apt update" then 01 to install git; sudo apt install git-lfs
--
 git installed by 01 instead of floflis
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
 -
+fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
+
 gipfs install ipfs in the first place
 
 Installing Floflis Central...
