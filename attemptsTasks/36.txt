@@ -98,9 +98,6 @@
 
 
 
-Floflis Central: organize functions in separate event-sheets
-Floflis Central: support being opened with a flag
-Floflis Central basic redesign
 rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
 rename shortcut of Kolourpaint to "Paint"
 https://github.com/bobwya/wine-desktop-common

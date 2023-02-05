@@ -5,6 +5,19 @@
 
 firstlogon ask first questions
 
+Floflis Central: organize functions in separate event-sheets
+Floflis Central fix card hovering freeze, also attention to the ETHGas badge in topbar
+Floflis Central frameless window with window buttons on topbar (inspiration by Framlr)
+Floflis Central: support being opened with a flag (useful for the Explore menu opening Floflis Central directly in the "More Settings" tab
+Floflis Central basic redesign in the vertical menu, also not using capital letters for menu items
+Floflis Central updated "Open classical settings" button in the "More settings" tab
+Floflis Central Profile>Wallet tab: replace "ETH" by "Gas" and display breakdown of blockchains' native tokens; then right after this item, display "Stablecoins" then its breakdown
+Floflis Central fix the "Play with" tab's items. display OBS/supertux/audacity/etcher item only if it is detected installed
+Floflis Central deactivate "Lockscreen" card (but add placeholder img) and "Change both at once" in the Personalization tab
+Floflis Central Personalization>change look-and-feel tab: dark theme activated by default. when deactivated, change theme to yaru-cinnamon light
+Floflis Central enable to set Profile/Inventory/Metaverse Stuff/Paintings as NFT desktop background
+Floflis Central turn Home+About tab's "up-to-date" into linkish to open the Update tab, which will tell implemented soon
+
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
