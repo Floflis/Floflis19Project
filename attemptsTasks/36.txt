@@ -29,6 +29,13 @@
 - 
 
 
+Installing the "Starshell" package...
+Already up to date.
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+./install.sh: 17: [[: not found
+
+
 - Turning recordings-trimmer into an executable...
 Installing recordings-hashing...
 ./install.sh: 20: cd: can't cd to include/recordings-hashing
@@ -42,16 +49,6 @@ cp: cannot stat 'recordings-tools': No such file or directory
 - Turning recordings-tools into an executable...
 -
 SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
-
-Installing Floflis Central...
-tar (child): central.apps: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
--
-possibleSOLUTION: rocketlaunch_dir
--
-mkdir: cannot create directory ‘/1/apps/central’: File exists
 
 Installing Sh it...
 to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
@@ -69,6 +66,19 @@ chmod: cannot access 'install.sh': No such file or directory
 sudo: unable to resolve host cubic: Temporary failure in name resolution
 -
 possibleSOLUTION: rocketlaunch_dir
+
+Installing avatars...
+tar (child): Avatars.tar.gz: Cannot open: No such file or directory
+-
+Installing Floflis Central...
+tar (child): central.apps: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+-
+possibleSOLUTION: rocketlaunch_dir
+-
+mkdir: cannot create directory ‘/1/apps/central’: File exists
 
 
 don't anymore symlink yaru icon. change default icon pack at logon
@@ -154,24 +164,23 @@ Installing Floflis Packager...
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
 mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
 Done! Run 'floflis-packager' command to use it.
-
-Updating default background...
-mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
-ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
-Installing avatars...
 -
-Installing avatars...
-tar (child): Avatars.tar.gz: Cannot open: No such file or directory
-
 (Sym)Linking from host extension...
 Installing Buildmark's presets...
 mkdir: cannot create directory ‘/home/daniella/.cinnamon/configs/buildmark@floflis’: File exists
 
-Installing the "Starshell" package...
-Already up to date.
-Your branch is ahead of 'origin/main' by 4 commits.
-  (use "git push" to publish your local commits)
-./install.sh: 17: [[: not found
+
+mv: cannot move 'uniswap' to '/1/apps/uniswap': Directory not empty (same for Hop and Aragon)
+-
+SOLUTION: replace mv by rsync
+-
+Updating default background...
+mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
+-
+SOLUTION: replace mv by rsync
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
+Installing avatars...
+
 
 Installing icons for .nu files...
 fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
@@ -187,10 +196,6 @@ Welcome to another awesome autistic art by Daniella Mesquita.
 identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
 ./linux-icon-builder: 43: [: -ge: unexpected operator
 Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-
-mv: cannot move 'uniswap' to '/1/apps/uniswap': Directory not empty (same for Hop and Aragon)
--
-SOLUTION: replace mv by rsync
 
 to-merge_firstlogon.sh: line 207: /usr/bin/uniswap: Permission denied (same for Hop and Aragon)
 to-merge_firstlogon.sh: line 214: /usr/share/applications/uniswap.desktop: Permi (same for Hop and Aragon)
