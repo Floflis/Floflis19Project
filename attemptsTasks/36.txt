@@ -9,8 +9,8 @@
 - FilePeace's webpresent: fix issue of pip not found
 - FilePeace's webpresent: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
 - 01 VCS: fix issue of gix cmd not found (by using rocketlaunch_dir)
-- 
-- 
+- git installed by 01 instead of floflis
+- Core: as the first thing, do "apt update" + install 01 (and 01's first thing should be installing git)
 - 
 - 
 - 
@@ -29,42 +29,11 @@
 - 
 
 
-don't anymore symlink yaru icon. change default icon pack at logon
-- Reinstall Floflis Icons with some fixes and temporary limitations
--
-/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
-/media/daniella/B/git
-/media/daniella/Main Linux/usr/share/icons/Floflis
-- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
--
-fl icons get recursively (places folder, explorer app, term, desktop btn, computer); git icon
-fl new way of installing icons
-fl icons find another git icon
-recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
--
-/media/daniella/B/git/Floflis/Utilities/guppy
--
-- return of Floflis Icons (FloflisPNG and Floflis)
--
-fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
--
-- WINDOWS: full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
-
-- installer will tell less details, by using .log files!
-- git repos as .webpresent files (webpresent app have to identify)
--
-new screenshots for Central
-
-Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
-
-user.json personalities field
-
-
-git installed by 01 instead of floflis
--
-fl core do the first thing: "apt update" + install 01 (and 01's first thing should be installing git)
-
-gipfs install ipfs in the first place
+- Turning recordings-trimmer into an executable...
+Installing recordings-hashing...
+./install.sh: 20: cd: can't cd to include/recordings-hashing
+Already up to date.
+SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
 
 Installing Floflis Central...
 tar (child): central.apps: Cannot open: No such file or directory
@@ -108,11 +77,37 @@ sudo: unable to resolve host cubic: Temporary failure in name resolution
 -
 possibleSOLUTION: rocketlaunch_dir
 
-- Turning recordings-trimmer into an executable...
-Installing recordings-hashing...
-./install.sh: 20: cd: can't cd to include/recordings-hashing
-Already up to date.
-SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
+
+don't anymore symlink yaru icon. change default icon pack at logon
+- Reinstall Floflis Icons with some fixes and temporary limitations
+-
+/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
+/media/daniella/B/git
+/media/daniella/Main Linux/usr/share/icons/Floflis
+- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
+-
+fl icons get recursively (places folder, explorer app, term, desktop btn, computer); git icon
+fl new way of installing icons
+fl icons find another git icon
+recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
+-
+/media/daniella/B/git/Floflis/Utilities/guppy
+-
+- return of Floflis Icons (FloflisPNG and Floflis)
+-
+fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
+-
+- WINDOWS: full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
+
+- installer will tell less details, by using .log files!
+- git repos as .webpresent files (webpresent app have to identify)
+-
+new screenshots for Central
+
+Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
+
+user.json personalities field
+
 
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
 new tree folder structure /home/daniella/Desktop/fl tree
