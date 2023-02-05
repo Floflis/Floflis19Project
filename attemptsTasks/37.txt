@@ -23,6 +23,8 @@ multiaddress: import hardware wallet, ronin and argent
 
 add firedoge to cinnamon's sound applet as a player. but how to?
 
+re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
+
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler

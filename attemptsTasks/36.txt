@@ -11,9 +11,9 @@
 - 01 VCS: fix issue of gix cmd not found (by using rocketlaunch_dir)
 - git installed by 01 instead of floflis
 - Core: as the first thing, do "apt update" + install 01 (and 01's first thing should be installing git)
-- 
-- 
-- 
+- Starshell: fix issue of "./install.sh: 17: [[: not found" and replace SCRIPTPATH by rocketlaunch_dir
+- FilePeace: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
+- FilePeace's recordings-tools: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
 - 
 - 
 - 
@@ -28,42 +28,12 @@
 - 
 - 
 
-
-Installing the "Starshell" package...
-Already up to date.
-Your branch is ahead of 'origin/main' by 4 commits.
-  (use "git push" to publish your local commits)
-./install.sh: 17: [[: not found
-
-
-- Turning recordings-trimmer into an executable...
-Installing recordings-hashing...
-./install.sh: 20: cd: can't cd to include/recordings-hashing
-Already up to date.
--
-SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
--
-Installing recordings-tools...
-- Installing recordings-tools command in /usr/bin...
-cp: cannot stat 'recordings-tools': No such file or directory
-- Turning recordings-tools into an executable...
--
-SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPATH instead of $rocketlaunch_dir
 
 Installing Sh it...
 to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
 fatal: destination path '.' already exists and is not an empty directory.
 fatal: not a git repository (or any of the parent directories): .git
 chmod: cannot access 'install.sh': No such file or directory
--
-possibleSOLUTION: rocketlaunch_dir
-
-Installing Sh it...
-./to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
-sudo: unable to resolve host cubic: Temporary failure in name resolution
 -
 possibleSOLUTION: rocketlaunch_dir
 
