@@ -194,4 +194,6 @@ https://www.google.com/search?client=firefox-b-d&q=nushell+history+remove+limit
 
 PoolTogether WebLink app
 
+use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
+
 up-to-date OS info in config

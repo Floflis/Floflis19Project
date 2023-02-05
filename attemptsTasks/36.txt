@@ -82,10 +82,10 @@
 - Floflis default settings for both CobiWindowList and grouped-window-list@cinnamon.org
 - firstlogon: ask to install MS Edge
 - autoconfirm installing important programs
-- 
-- 
-- 
-- 
+- rename shortcut of Kolourpaint to "Paint"
+- camera icon for gnome-cheese (Cam) app
+- rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR)
+- list default desktop (and lockscreen) background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
 - 
 - 
 - 
@@ -96,18 +96,6 @@
 - 
 - 
 
-
-
-rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR) (add to missing crowdin list)
-rename shortcut of Kolourpaint to "Paint"
-https://github.com/bobwya/wine-desktop-common
-camera icon for /usr/share/applications/org.gnome.Cheese.desktop app
-
-list default desktop background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
-make its svg version /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/lockscreen.png
-use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
-
-install /media/daniella/B/git/Floflis/Utilities/scripts-common
 
 /1/Floflis/system/os.json up-to-date build info and, now add distrobase
 
@@ -265,7 +253,7 @@ then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push
 - GH submit Floflis pull request to neofetch /media/daniella/B/git/Floflis/FORKS TO MERGE/neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -281,6 +269,9 @@ https://soundcloud.com/limujii/limujii-feel
 https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
+
+https://github.com/bobwya/wine-desktop-common
+install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 
 - firedoge up-to-date material-theme; Firedoge mimetype handler; vivaldi addon; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 https://github.com/muckSponge/MaterialFox
