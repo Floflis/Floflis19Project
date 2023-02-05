@@ -18,6 +18,11 @@ Floflis Central Personalization>change look-and-feel tab: dark theme activated b
 Floflis Central enable to set Profile/Inventory/Metaverse Stuff/Paintings as NFT desktop background
 Floflis Central turn Home+About tab's "up-to-date" into linkish to open the Update tab, which will tell implemented soon
 
+anbox
+multiaddress: import hardware wallet, ronin and argent
+
+add firedoge to cinnamon's sound applet as a player. but how to?
+
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
@@ -193,6 +198,8 @@ https://www.google.com/search?client=firefox-b-d&q=nushell+history+remove+limit
 -? nushell history: support for prioritizing favorite lines
 
 PoolTogether WebLink app
+
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
 
 use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
 

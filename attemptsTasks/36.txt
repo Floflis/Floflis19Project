@@ -1,91 +1,13 @@
-- temporary measure to fix Cinnamon issues: deactivate "attempt to enable the Finance app menu category"
-- deactivate installing supertux
-- re-activate firstboot scripts and detecting user+setup, now diffing between ISO/installed user
-- install the Starshell pack (includes Starship) at firstlogon
-- don't run ETH address setup at ISO user
-- don't attempt to pin Uniswap/Hop/Aragon at ISO user
-- fix ~/.nu_history, now pointing to ~/.config/nushell/history.txt
-- temporarily disable symlinking user avatar, use default avatar now by copying
-- install Sample Media, starting with a photo and a video
-- Move nu-post-install (includes nu-script-handler) to the Starshell pack
-- Install floapps at firstlogon
-- to-merge_firstlogon.sh: fixes and prioritization
-- temporarily disable "Eleganse-Floflis" as default desktop theme, set "Yaru-cinnamon-dark" instead
-- temporarily disable "Adapta" as default app theme, set "Yaru-cinnamon-dark" instead
-- officialize installing neofetch as part of Soil layer
-- to-merge.sh: quality updates
-- deactivate installing apps that should come in personality-packs (balenaEtcher, Audacity and OBS Studio)
-- install Wine
-- install cheese (why it was removed on Ubuntu 21+?)
-- install customShortcuts (Witchcraft, Cam, Music, etc.) from external script
-- Detect CPU arch/platform directly from DNA layer!
-- Core firstlogon: run layers' firstlogon with bash instead of sh
-- customShortcuts.sh: only modify shortcuts when existing files
--
-- customShortcuts.sh: don't incentivize running sudo in cat
-- install weblink apps from their own separate repo
-- to-merge_firstlogon.sh: Install icons for Uniswap, Hop (doesn't work yet) and Aragon
-- own separate script to install Floflis Central (Floflis Central icon is back, now with SVG instead of PNG)
-- Fix default settings for the show-desktop applet
-- floapps .apps, .game and .html5 files are now in SVG instead of PNG
-- mimetype icons for IPFS' .cid checksum files (introduced by GIPFS)
-- mimetype for .md5 and .sha256 checksum files (by FilePeace)
-- mimetype for FilePeace's Webpresent .weborigin and .webpresent
-- FilePeace, 01 and GIPFS now install their own icons
-- test printing page (default-testpage.pdf) now with cyan floflis logo
-- updated, cyan OSlogotype
-- Floflis' token.svg installed alongside its PNG counterpart
-- Floflis Central's FLOF token img now in SVG instead of PNG; OSlogotype now in SVG instead of PNG; Floflis logo now in SVG instead of PNG
-- Updated icon for XDai, now renamed to GnosisChain (change also reflected in Floflis Central)
-- New EVM blockchain networks' icons: Optimism and Ronin
-- remove PNG versions for FLOF token and OSlogotype
-- fix data for ethgas-desklet
-- Floflis default settings for both CinnVIIStarkMenu, Cinnamenu and menu@cinnamon.org
-- install out-of-the-box🐈📦 NFC support
-- move basic CLI tools (online, mlq, shexec) from Soil to Core layer
-- back installing zombiespices
-- back installing ethgas (and its zombiespices)
-- Working Floflis logotype at bootscreen
-- attempt to fix duplicate symlink issue in /usr/share/sounds/Yaru/stereo/ubuntu
--
-- move pre-installed avatars' functions to own external script
--? HTML5 experience: floapps (includes floflis-application-handler) and Floflis Central now fully working (also with their mimetypes)
-- Install ethgas at firstlogon (at user side)
-- If not existing, create these folders: /usr/share/cinnamon/ applets, desklets and extensions
-- firstlogon: fill 'New File' context menu Webpresent templates, now displaying mimetype icons
-- Install buildmark and nftmark zombie extensions at firstlogon (at user side)
-- Install winetricks + playonlinux
-- Install kolourpaint
-- re-activate the buildmark extension
-- install zombiespices before setting-up desktop experience
-- update ETHGas' applet's default data
-- fix ETHGas' zombieapplet by using its own settings-schema.json
-- install FliipeTorres' clean-show-desktop applet
-- Core: updating apt now is a priority
-- Core: upgrade packages and distro packages
-- fix issue of wrong login sound, also use correct .oga format for some sounds
-- replace alarm clock sound
-- fully working Floflis Sounds including logon sound
-- make the "Manipulating windows.ogg"'s appearances less annoying
-- install gnome-characters
--
-- rename "ubuntu-logo" to "floflis-logo"
-- move floflis-logo.svg to /1/img/ instead of /usr/share/plymouth/
-- resize ubuntu-logo.png while writing it to /usr/share/plymouth/ (so its bigger size issue is fixed)
-- Install MS Teams
-- Install gnomeMaps
-- Install gnomeContacts
-- MS Teams as an autostart app
-- autoconfirm installing important apps
-- move deactivated functions to own separate external script
-- ETHGas: temporarily disable installing zombieApplet
-- Floflis default settings for both CobiWindowList and grouped-window-list@cinnamon.org
-- firstlogon: ask to install MS Edge
-- autoconfirm installing important programs
-- rename shortcut of Kolourpaint to "Paint"
-- camera icon for gnome-cheese (Cam) app
-- rename shortcut of gnome-characters to "Character Map" (in EN, ES and PT/PT-BR)
-- list default desktop (and lockscreen) background at .xml file /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/floflis-backgrounds.xml
+- restored our custom Ubiquity Slideshow!
+- own separate installer for Ubiquity Slideshow
+- firstlogon's ethgenerate.sh: updates, fixes + better security warnings
+- Avatars: move /usr/share/pixmaps/faces/ content to the ubuntu/ folder
+- Move Floflis' Avatars to /usr/share/pixmaps/faces and symlink in /usr/share/cinnamon/faces
+- symlink Cinnamon's avatars from /usr/share/pixmaps/faces (I dislike duplication, even if it is just kBs. Why dont Linux Mint team feel the true fun of programming by checking if pixmaps exists then symlinking duplicates?)
+- fix issue of moving user-generic avatar
+- simplify debugging and debug Floflis Avatars
+- FilePeace's webpresent: fix issue of pip not found
+- FilePeace's webpresent: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
 - 
 - 
 - 
@@ -95,31 +17,16 @@
 - 
 - 
 - 
-
-
-/1/Floflis/system/os.json up-to-date build info and, now add distrobase
-
-
-Floflis branding:
-/usr/share/cinnamon/faces/cinnamon have floflis own user-generic instead of cinnamon's own
--
-/usr/share/plymouth/themes/ubuntucinnamon-spinner/bgrt-fallback.png
-/usr/share/icons/Humanity/places@2/64/start-here.svg
-/usr/share/icons/Yaru/scalable/places/start-here-symbolic.svg
-/usr/share/pixmaps/ubuntu-logo.svg
-/usr/share/pixmaps/ubuntu-logo-dark.png
-/usr/share/pixmaps/ubuntu-logo-icon.png
-/usr/share/pixmaps/ubuntu-logo-text.png
-/usr/share/pixmaps/ubuntu-logo-text-dark.png
-/usr/share/icons/Humanity/places@2/64/distributor-logo.svg
-https://askubuntu.com/questions/194062/how-can-i-replace-ubuntu-branding-with-my-own
-https://askubuntu.com/questions/1017305/how-do-i-remove-any-ubuntu-brand-and-trademark-from-my-ubuntu-install
-https://askubuntu.com/questions/1107620/how-do-i-remove-ubuntu-branding-from-livecd
-https://askubuntu.com/questions/1106645/how-to-change-ubuntu-18-name-and-logo-in-details
-https://askubuntu.com/questions/83521/where-do-i-need-to-change-ubuntu-when-naming-my-own-custom-distribution
-https://stackoverflow.com/questions/19630967/how-to-replace-ubuntu-logos-brand-marks-in-custom-distro
--
-symlink with cinnamon: /usr/share/pixmaps/faces
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 
 don't anymore symlink yaru icon. change default icon pack at logon
@@ -130,23 +37,18 @@ don't anymore symlink yaru icon. change default icon pack at logon
 /media/daniella/Main Linux/usr/share/icons/Floflis
 - install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
 -
-fl icons get recursively (places folder, explorer app, term, desktop btn); git icon
+fl icons get recursively (places folder, explorer app, term, desktop btn, computer); git icon
 fl new way of installing icons
 fl icons find another git icon
 recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
 -
 /media/daniella/B/git/Floflis/Utilities/guppy
 -
-data for the windowlist@cobinja.de applet (or cinnamon's default one)
--
 - return of Floflis Icons (FloflisPNG and Floflis)
 -
 fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
 -
-- full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
-- restored our custom Ubiquity Slideshow!
--
-- restore Ubiquity Slideshow! /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow
+- WINDOWS: full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
 
 - installer will tell less details, by using .log files!
 - git repos as .webpresent files (webpresent app have to identify)
@@ -157,27 +59,6 @@ Floflis Central issue with user.json when running from Floflis shortcut (same do
 
 user.json personalities field
 
-webpresent wget set timeout before cancelling
-webpresent identify when a line nds with ".git" then work
--
-Installing webpresent's dependencies...
-./install.sh: 4: pip: not found
--
-SOLUTION: sudo apt install python3-pip
--
-Webpresent file found: ./include/elcid.webpresent
-This is a GoogleDrive or IPFS file!
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-386.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-amd64.tar.gz.weborigin: No such file or directory
-Webpresent file found: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin
-/usr/bin/webpresent: line 5: ./include/ipget/ipget_v0.9.1_linux-arm64.tar.gz.weborigin: No such file or directory
-Installing IPFS...
--
-possibleSOLUTION: rocketlaunch_dir
 
 git init
 /usr/bin/git: line 28: gix: command not found
@@ -241,7 +122,7 @@ SOLUTION: this happens because recordings-tools's install.sh is using $SCRIPTPAT
 
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
 new tree folder structure /home/daniella/Desktop/fl tree
-but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge
+but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge, /media/daniella/B/git/Floflis/Branding/Floflis/scalable/places
 -
 move /1/sounds to /1/Floflis/system
 -
@@ -253,7 +134,7 @@ then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push
 - GH submit Floflis pull request to neofetch /media/daniella/B/git/Floflis/FORKS TO MERGE/neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -269,6 +150,8 @@ https://soundcloud.com/limujii/limujii-feel
 https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
+
+custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
 
 https://github.com/bobwya/wine-desktop-common
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
@@ -335,6 +218,5 @@ possibleSOLUTION: move these installers to firstlogon root
 
 
 - back installing IPFS Desktop
-- install Frame
-- install Frame Canary
+- install Frame + Frame Canary
 - sync settings of Frame and Frame Canary
