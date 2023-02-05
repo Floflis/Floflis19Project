@@ -14,6 +14,7 @@
 - Starshell: fix issue of "./install.sh: 17: [[: not found" and replace SCRIPTPATH by rocketlaunch_dir
 - FilePeace: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
 - FilePeace's recordings-tools: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
+- debug Floflis Central installer and replace SCRIPTPATH by rocketlaunch_dir
 - 
 - 
 - 
@@ -26,29 +27,6 @@
 - 
 - 
 - 
-- 
-
-
-Installing Sh it...
-to-merge.sh: line 1222: cd: include/Tools/shexec: No such file or directory
-fatal: destination path '.' already exists and is not an empty directory.
-fatal: not a git repository (or any of the parent directories): .git
-chmod: cannot access 'install.sh': No such file or directory
--
-possibleSOLUTION: rocketlaunch_dir
-
-Installing avatars...
-tar (child): Avatars.tar.gz: Cannot open: No such file or directory
--
-Installing Floflis Central...
-tar (child): central.apps: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
--
-possibleSOLUTION: rocketlaunch_dir
--
-mkdir: cannot create directory ‘/1/apps/central’: File exists
 
 
 don't anymore symlink yaru icon. change default icon pack at logon
@@ -77,6 +55,21 @@ fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/
 -
 new screenshots for Central
 
+
+Installing avatars...
+tar (child): Avatars.tar.gz: Cannot open: No such file or directory
+-
+Installing Floflis Central...
+tar (child): central.apps: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+-
+possibleSOLUTION: rocketlaunch_dir
+-
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+
+
 Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
 
 user.json personalities field
@@ -96,7 +89,7 @@ then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/FilePeace/recordings-tools' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push
 - GH submit Floflis pull request to neofetch /media/daniella/B/git/Floflis/FORKS TO MERGE/neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
