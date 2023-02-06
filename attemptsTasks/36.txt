@@ -1,8 +1,8 @@
 - firstlogon: move Term font installer from Core to Soil
 - install custom Ubiquity Pixmaps
-- 
-- 
-- 
+- install Stacer
+- back installing IPFS Desktop (and ipfs-handler)
+- install Frame + Frame Canary
 - 
 - 
 - 
@@ -31,8 +31,7 @@
 - 
 
 
-back installing IPFS Desktop
-install Frame + Frame Canary
+fix path issue in /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/witchcraft-candy-colors
 
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices

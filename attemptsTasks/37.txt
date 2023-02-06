@@ -27,6 +27,13 @@ open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and Ne
 
 Floflis' ~/Templates files owned by root
 
+up-to-date Stacer
+
+new switch workspace sound
+new logout sound
+
+on every logon, Floflis Update will update git dependencies (pull + run install.sh) if they dont have w3u files. this behavior will be shown in Floflis Central. --update flag will open Central on this tab; also will have a shortcut just as frnds
+
 anbox
 multiaddress: import hardware wallet, ronin and argent
 
