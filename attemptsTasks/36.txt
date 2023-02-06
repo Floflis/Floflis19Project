@@ -31,24 +31,28 @@
 - 
 
 
+back installing IPFS Desktop
+install Frame + Frame Canary
+
+
+mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
+-
+Installing Floflis Packager...
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
+Done! Run 'floflis-packager' command to use it.
+-
+(Sym)Linking from host extension...
+Installing Buildmark's presets...
+mkdir: cannot create directory ‘/home/daniella/.cinnamon/configs/buildmark@floflis’: File exists
+
+
 Installing the "Starshell" package...
 fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
 Your branch is ahead of 'origin/main' by 5 commits.
   (use "git push" to publish your local commits)
 ./install.sh: 17: [: -eq: unexpected operator
-
-
-identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
-./linux-icon-builder: 43: [: -ge: unexpected operator
-Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-gtk-update-icon-cache: Cache file created successfully.
-
-
-full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
-
-- firedoge Firedoge mimetype handler; vivaldi addon /media/daniella/B/git/Web3HQ/firedoge
-https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
-https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 
 ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
@@ -64,6 +68,11 @@ Floflis Central issue with user.json when running from Floflis shortcut (same do
 user.json personalities field
 
 
+- firedoge Firedoge mimetype handler; vivaldi addon /media/daniella/B/git/Web3HQ/firedoge
+https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
+https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
+
+
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
 new tree folder structure /home/daniella/Desktop/fl tree
 but have to update this new structure in all Floflis layers scripts, Floflis Central and its scripts, Firedoge, /media/daniella/B/git/Floflis/Branding/Floflis/scalable/places
@@ -73,8 +82,8 @@ move /1/sounds to /1/Floflis/system
 install floflis sounds at firstboot (then echo log at firstlogon)
 -
 cinnamon desktop experience installed at firstboot
--
-then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
+
+after tree re-work, then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
@@ -97,12 +106,12 @@ https://soundcloud.com/limujii/limujii-feel
 https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
-
+-
 custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
-
+-
 https://github.com/bobwya/wine-desktop-common
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
-
+-
 - firedoge up-to-date material-theme; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 https://github.com/muckSponge/MaterialFox
 https://github.com/muckSponge/MaterialFox/issues/326
@@ -111,17 +120,7 @@ https://github.com/muckSponge/MaterialFox/pulls
 
 
 
-mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
-same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
--
-Installing Floflis Packager...
-mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
-mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
-Done! Run 'floflis-packager' command to use it.
--
-(Sym)Linking from host extension...
-Installing Buildmark's presets...
-mkdir: cannot create directory ‘/home/daniella/.cinnamon/configs/buildmark@floflis’: File exists
+
 
 
 mv: cannot move 'uniswap' to '/1/apps/uniswap': Directory not empty (same for Hop and Aragon)
@@ -134,6 +133,11 @@ mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/
 SOLUTION: replace mv by rsync
 ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 Installing avatars...
+-
+to-merge_firstlogon.sh: line 207: /usr/bin/uniswap: Permission denied (same for Hop and Aragon)
+to-merge_firstlogon.sh: line 214: /usr/share/applications/uniswap.desktop: Permi (same for Hop and Aragon)
+-
+possibleSOLUTION: move these installers to firstlogon root
 
 
 Installing icons for .nu files...
@@ -150,16 +154,10 @@ Welcome to another awesome autistic art by Daniella Mesquita.
 identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
 ./linux-icon-builder: 43: [: -ge: unexpected operator
 Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
-
-to-merge_firstlogon.sh: line 207: /usr/bin/uniswap: Permission denied (same for Hop and Aragon)
-to-merge_firstlogon.sh: line 214: /usr/share/applications/uniswap.desktop: Permi (same for Hop and Aragon)
--
-possibleSOLUTION: move these installers to firstlogon root
+gtk-update-icon-cache: Cache file created successfully.
 
 rm boot flag from my side then test if firstlogon-root is working
 
 
 
-- back installing IPFS Desktop
-- install Frame + Frame Canary
 - sync settings of Frame and Frame Canary
