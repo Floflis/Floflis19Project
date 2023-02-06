@@ -22,8 +22,10 @@ customShortcuts: use sed instead of overwritting; use variables to deduplicate t
 
 open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png (wider), New screenshot for music.png)
 
-- installer will tell less details, by using .log files!
+- installer will tell less details, by using .log files (start with Floflis Icons)!
 - git repos as .webpresent files (webpresent app have to identify)
+
+Floflis' ~/Templates files owned by root
 
 anbox
 multiaddress: import hardware wallet, ronin and argent

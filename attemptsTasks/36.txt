@@ -1,24 +1,26 @@
-- restored our custom Ubiquity Slideshow!
-- own separate installer for Ubiquity Slideshow
-- firstlogon's ethgenerate.sh: updates, fixes + better security warnings
-- Avatars: move /usr/share/pixmaps/faces/ content to the ubuntu/ folder
-- Move Floflis' Avatars to /usr/share/pixmaps/faces and symlink in /usr/share/cinnamon/faces
-- symlink Cinnamon's avatars from /usr/share/pixmaps/faces (I dislike duplication, even if it is just kBs. Why dont Linux Mint team feel the true fun of programming by checking if pixmaps exists then symlinking duplicates?)
-- fix issue of moving user-generic avatar
-- simplify debugging and debug Floflis Avatars
-- FilePeace's webpresent: fix issue of pip not found
-- FilePeace's webpresent: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
-- 01 VCS: fix issue of gix cmd not found (by using rocketlaunch_dir)
-- git installed by 01 instead of floflis
-- Core: as the first thing, do "apt update" + install 01 (and 01's first thing should be installing git)
-- Starshell: fix issue of "./install.sh: 17: [[: not found" and replace SCRIPTPATH by rocketlaunch_dir
-- FilePeace: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
-- FilePeace's recordings-tools: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
-- debug Floflis Central installer and replace SCRIPTPATH by rocketlaunch_dir
-- fix path issues of installing Central/Avatars by cd'ing from main script
-- upgrade Cinnamon
-- Floflis Icons are back! (FloflisPNG and Floflis icon packs)
-- fix installing Music shortcut, and use custom icon
+- firstlogon: move Term font installer from Core to Soil
+- install custom Ubiquity Pixmaps
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 
@@ -29,7 +31,24 @@
 - 
 
 
-- WINDOWS: full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
+Installing the "Starshell" package...
+fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+./install.sh: 17: [: -eq: unexpected operator
+
+
+identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
+gtk-update-icon-cache: Cache file created successfully.
+
+
+full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
+
+- firedoge Firedoge mimetype handler; vivaldi addon /media/daniella/B/git/Web3HQ/firedoge
+https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
+https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
 
 
 ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
@@ -84,13 +103,12 @@ custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plym
 https://github.com/bobwya/wine-desktop-common
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 
-- firedoge up-to-date material-theme; Firedoge mimetype handler; vivaldi addon; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
+- firedoge up-to-date material-theme; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
 https://github.com/muckSponge/MaterialFox
 https://github.com/muckSponge/MaterialFox/issues/326
 https://github.com/typeling1578/MaterialFox-Plus
 https://github.com/muckSponge/MaterialFox/pulls
-https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
-https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
+
 
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
