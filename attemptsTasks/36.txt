@@ -15,10 +15,10 @@
 - FilePeace: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
 - FilePeace's recordings-tools: fix caller script's path issues by replacing SCRIPTPATH by rocketlaunch_dir
 - debug Floflis Central installer and replace SCRIPTPATH by rocketlaunch_dir
-- 
-- 
-- 
-- 
+- fix path issues of installing Central/Avatars by cd'ing from main script
+- upgrade Cinnamon
+- Floflis Icons are back! (FloflisPNG and Floflis icon packs)
+- fix installing Music shortcut, and use custom icon
 - 
 - 
 - 
@@ -29,49 +29,19 @@
 - 
 
 
-don't anymore symlink yaru icon. change default icon pack at logon
-- Reinstall Floflis Icons with some fixes and temporary limitations
--
-/media/daniella/B/git/Floflis/Branding/Floflis-to-merge
-/media/daniella/B/git
-/media/daniella/Main Linux/usr/share/icons/Floflis
-- install /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/icons/Floflis-to-merge
--
-fl icons get recursively (places folder, explorer app, term, desktop btn, computer); git icon
-fl new way of installing icons
-fl icons find another git icon
-recursively restore old icons and separate with the new icons. /media/daniella/B/git/Floflis/Branding/Floflis-to-merge
--
-/media/daniella/B/git/Floflis/Utilities/guppy
--
-- return of Floflis Icons (FloflisPNG and Floflis)
--
-fix installing Music shortcut, then open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and New screenshot for photos.png, wider, New screenshot for music.png)
--
 - WINDOWS: full personalization /media/daniella/B/git/Floflis/Floflis 19/attemptsTasks/-usr-share/ubiquity
 
-- installer will tell less details, by using .log files!
-- git repos as .webpresent files (webpresent app have to identify)
--
-new screenshots for Central
 
-
-Installing avatars...
-tar (child): Avatars.tar.gz: Cannot open: No such file or directory
+ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
 -
 Installing Floflis Central...
-tar (child): central.apps: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
--
-possibleSOLUTION: rocketlaunch_dir
--
 mkdir: cannot create directory ‘/1/apps/central’: File exists
+-
+git-lfs not in path issue
 
 
 Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
-
+-
 user.json personalities field
 
 
@@ -89,7 +59,10 @@ then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/
 -
 Floflis Backup diff between a sync backup and a full backup /media/daniella/Seagate Expansion Drive/floflis-backup-sync
 -
-cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/FilePeace/recordings-tools' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push
+/media/daniella/B/git/Floflis/Utilities/guppy
+-
+cd '/media/daniella/B/git/01VCS/git-meta' && git push && cd '/media/daniella/B/git/Web3HQ/firedoge' && git push && cd '/media/daniella/Main Linux/home/daniell/Desktop' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push && cd '/media/daniella/B/git/Floflis/HTML5/WFS' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floapps' && git push && cd '/media/daniella/B/git/Floflis/HTML5/floflis-application-handler' && git push && cd '/media/daniella/B/git/Floflis/Rust/nushell/nu-post-install' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/Web3HQ/gipfs' && git push && cd '/media/daniella/B/git/Floflis/Utilities/witchlink' && git push && cd '/media/daniella/B/git/FilePeace/filepeace' && git push && cd '/media/daniella/B/git/USVformat/&meta' && git push && cd '/media/daniella/B/git/Floflis/Utilities/ethgas' && git push && cd '/media/daniella/B/git/Floflis/HTML5/Floflis Packager' && git push && cd '/media/daniella/B/git/01VCS/01' && git push && cd '/media/daniella/B/git/Floflis/Utilities/zombiespices' && git push && cd '/media/daniella/B/git/Floflis/cinnamon-patch' && git push && cd '/media/daniella/Windows 10 main/Users/Daniell/Desktop' && git push && cd '/media/daniella/B/git/Floflis/HTML5/davidApps/davidExplorer' && git push && cd '/media/daniella/B/git/These Difficult Times/&meta' && git push && cd '/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds' && git push && cd '/media/daniella/B/git/FilePeace/webpresent' && git push && cd '/media/daniella/B/git/FilePeace/recordings-tools' && git push && cd '/media/daniella/B/git/Floflis/Utilities/starshell' && git push cd '/media/daniella/B/git/Floflis/Utilities/guppy' && git push
+- GH fixes for Floflis Icons' repos
 - GH submit Floflis pull request to neofetch /media/daniella/B/git/Floflis/FORKS TO MERGE/neofetch
 - GH cinnamon suggest support for SVG icons on spices (even for themes), and also to remove /home/${flouser}/.face instead of overwriting so it is useful for symlink
 - need git repo: /media/daniella/B/git/Floflis/Utilities/WeblinkApps
@@ -164,6 +137,8 @@ to-merge_firstlogon.sh: line 207: /usr/bin/uniswap: Permission denied (same for 
 to-merge_firstlogon.sh: line 214: /usr/share/applications/uniswap.desktop: Permi (same for Hop and Aragon)
 -
 possibleSOLUTION: move these installers to firstlogon root
+
+rm boot flag from my side then test if firstlogon-root is working
 
 
 
