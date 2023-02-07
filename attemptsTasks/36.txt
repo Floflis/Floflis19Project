@@ -10,3 +10,4 @@ install alpha version of Floflis' Feofle
 install alpha version of UniStore
 install Web3Updater v2
 install alpha version of flo-bkp-sync
+install beta version of firedoge web browser
