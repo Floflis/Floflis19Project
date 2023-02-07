@@ -3,6 +3,16 @@
 
 /media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
 
+exactly Floflis like: " %H:%M:%S%n%e-%b-%y"
+exactly WindOS like: "%H:%M%n%d/%m/%Y"
+
+upgrade firedoge bin to the latest
+firedoge fix issue of deactivating newtab-addon
+
+https://github.com/4ian/GDevelop/releases/tag/v5.1.157
+
+upgrade all of Floflis' dependencies and programs/apps
+
 fix path issue in /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/witchcraft-candy-colors
 
 
