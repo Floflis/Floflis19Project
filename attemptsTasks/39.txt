@@ -77,22 +77,7 @@ Installing 01 VCS...
 install.sh: line 120: break: only meaningful in a `for', `while', or `until' loop
 - Installing Floflis DNA as init program...
 
-- Openning Floflis Core installer...
-./install.sh: 27: [[: not found
--. .-.   .-. .-.   .-. .-.   .
 
-- Openning Floflis Soil installer...
-./install.sh: 26: [[: not found
--. .-.   .-. .-.   .-. .-.   .
-
-Installing icons...
-Updating files: 100% (7363/7363), done.
-Your branch is up to date with 'origin/master'.
-sending incremental file list
-cannot delete non-empty directory: Floflis/.git
-could not make way for new symlink: Floflis/.git
-
-Floflis icons were reset
 
 
 
@@ -106,9 +91,6 @@ fix floapps installer
 
 If Cubic mode, don't ask before installing important programs such as git (also git lfs)
 Soil: don't install autoconf elinks ceni gdebi udftools nodejs
-
-include/home-daniell-.local-share-cinnamon_usr-share-cinnamon.tar.gz
-Use git repos for Spices whenever possible
 
 2048 pre-installed
 include/BeepBox_4_0_1.zip ? futurely convert to .apps

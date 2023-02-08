@@ -5,24 +5,17 @@
 - fix symlinking go-ipfs in IPFS Desktop
 - back at installing Money Manager Ex (MMEX)!
 - reflect custom bootscreen changes also on ISO boot (through update-initramfs)
+- Core: Better way of installing jq, now with webpresent
+- Core: upgrade ethereal from 2.8.5 to 2.8.7
+- Soil: upgrade geth from 1.10.11 to 1.10.26
 
 
+Floflis Icons - fix cryptovoxels icon issue
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
 
 as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
-watermark not installed
-cryptovoxels-symbolic in Floflis icons still overhiding cryptovoxels icon in /usr/share/icons/hicolor/scalable/apps
-floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
-floflis boot logo didnt appeared at ISO boot
-
-Need .webpresent on repos:
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Cinnamon/usr-share-cinnamon/extensions/buildmark
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Cinnamon/usr-share-cinnamon/extensions/nftmark
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps (need to be fully reproducible as well, and have init.sh callable to upper scripts)
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/System/firedoge (need to be fully reproducible as well, and have init.sh callable to upper scripts)
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell (need to be fully reproducible as well, and have init.sh callable to upper scripts)
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Tools/ethgas (need to be fully reproducible as well, and have init.sh callable to upper scripts)
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Shortcuts/WeblinkApps
+-? buildmark and nftmark are being installed but not installing their dependence: watermark
+-? floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
 
 
@@ -433,9 +426,6 @@ pre-installed HTML5 apps (also the HTML5Apps Platform)!
 - FLIC installs and opens cbc
 
 
-all floflis dependencies (git repos) using webpresent
-make Floflis include/ in all layers reproducible
-
 better method for renaming shortcuts; don't overwrite a whole file but a part of it
 
 - floflis-packager c2 projects will have a file containing git files for c2export, HTML and scripts (FMWK2C2 will be the template)
@@ -461,7 +451,35 @@ pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared o
 /media/daniella/B/git/Floflis/cinnamon-patch
 https://github.com/Floflis/cinnamon-patch.git
 
+all floflis dependencies (git repos) using webpresent
+make Floflis include/ in all layers reproducible
+-
 add .weborigin for /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/deb packages/hugo, /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/nerdyfonts and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps
+-
+Need .webpresent on repos:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Cinnamon/usr-share-cinnamon/extensions/buildmark
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Cinnamon/usr-share-cinnamon/extensions/nftmark
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/System/firedoge (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Tools/ethgas (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Shortcuts/WeblinkApps
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Terminal/neofetch (if guppy: need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core/include/01 (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core/include/filepeace (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core/include/gipfs (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core/include/Tools/mlq
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core/include/Tools/online
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core/include/Tools/shexec
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/feofle
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/flo-bkp-sync
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/nfc-setup (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/SharedChain
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity-slideshow
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/unistore-core
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/Web3Updater
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/winapps
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/zombiespices
 
 use cyan color on floflis logos, do the same in default-testpage.pdf (also reflect this update in its press site)
 

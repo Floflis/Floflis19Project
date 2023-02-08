@@ -10,6 +10,23 @@ sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-
 
 verify CPU architecture before installing debs
 
+check this duplicate:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/img/Pictures
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Pictures/Sample Photos
+
+webpresent ggl drv:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Videos/Sample Videos/Home Life - Animals.3gp
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity/pixmaps
+
+new method of installing gdevelop, insp from nfc, from .appimage
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps/GDevelop-5-5.1.157.AppImage
+
+back at installing Eleganse-Floflis and Adapta themes
+instead of installing eleganse from Eleganse-Floflis.tar.gz, install from git folder
+rmv Eleganse-Floflis.tar.gz, Adapta.tar.gz and Adapta-Nokto.tar.gz; install https://cinnamon-spices.linuxmint.com/themes/view/Adapta and https://cinnamon-spices.linuxmint.com/themes/view/Adapta-Nokto as normal spices
+
 floflis fork of cinnamon's show desktop applet, with smaller icon
 floflis fork of cinnamon settings
 
