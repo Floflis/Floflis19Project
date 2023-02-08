@@ -1,7 +1,7 @@
 
 
 
-/media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/4
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/4
 
 - replace Cinnamon
 sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop

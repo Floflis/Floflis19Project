@@ -1,7 +1,7 @@
 
 
 
-/media/daniella/Seagate Expansion Drive/floflis-backup-sync/full/daniella/Desktop/fl/fl voxels icons timeline/3
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
 
 exactly Floflis like: " %H:%M:%S%n%e-%b-%y"
 exactly WindOS like: "%H:%M%n%d/%m/%Y"
@@ -24,6 +24,10 @@ https://github.com/Floflis/iconsPNG
 https://github.com/Floflis/iconsPNG/tree/master
 /media/daniella/B/git/Floflis/Branding/FloflisPNG
 
+Core's git dependencies: only install icons if icons folder detected existing
+
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG
+Floflis new sounds https://pastebin.com/JJgBSgN5
 
 Installing the "Starshell" package...
 fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
@@ -61,8 +65,6 @@ install floflis sounds at firstboot (then echo log at firstlogon)
 cinnamon desktop experience installed at firstboot
 
 after tree re-work, then work on this: /media/daniella/78CFABD670741B23/floflis-backup-sync, /media/daniella/Main Linux/1/personal/data
--
-/media/daniella/B/git/Floflis/Utilities/guppy
 -
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
