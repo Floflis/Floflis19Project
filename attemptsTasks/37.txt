@@ -1,7 +1,50 @@
-
+- add .webpresent/.weborigin files to more dependencies
+- upgrade Stacer after installing from .deb
+- upgrade Frame Canary from 0.5.0.12 to 0.5.0.13
+- upgrade IPFS Desktop from 0.25.0 to 0.26.0
+- fix symlinking go-ipfs in IPFS Desktop
+- back at installing Money Manager Ex (MMEX)!
+- reflect custom bootscreen changes also on ISO boot (through update-initramfs)
 
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
+
+as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
+watermark not installed
+cryptovoxels-symbolic in Floflis icons still overhiding cryptovoxels icon in /usr/share/icons/hicolor/scalable/apps
+floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
+floflis boot logo didnt appeared at ISO boot
+
+Need .webpresent on repos:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Cinnamon/usr-share-cinnamon/extensions/buildmark
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Cinnamon/usr-share-cinnamon/extensions/nftmark
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/floapps (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/System/firedoge (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Tools/ethgas (need to be fully reproducible as well, and have init.sh callable to upper scripts)
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/Shortcuts/WeblinkApps
+
+
+
+ubuntu@ubuntu:~$ web3updater
+web3updater: command not found
+(but unistore and feofle found)
+-
+ubuntu@ubuntu:~$ sharedchain
+sharedchain: command not found
+-
+ubuntu@ubuntu:~$ flo-bkp-sync
+flo-bkp-sync: command not found
+-
+firedoge didnt installed
+
+/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
+
+Ubuntu 23: rebase ISO from Ubuntu Cinnamon Remix to Ubuntu 23, and run UCR scripts
+
+change ISO boot logo
+
+Floflis DNA: if Core is found
 
 exactly Floflis like: " %H:%M:%S%n%e-%b-%y"
 exactly WindOS like: "%H:%M%n%d/%m/%Y"
