@@ -6,12 +6,143 @@
 exactly Floflis like: " %H:%M:%S%n%e-%b-%y"
 exactly WindOS like: "%H:%M%n%d/%m/%Y"
 
+firstlogon-user and firstlogon-IT-technician
+
+Installing MS Teams...
+Selecting previously unselected package teams.
+(Reading database ... 289946 files and directories currently installed.)
+Preparing to unpack .../teams_1.5.00.23861_amd64.deb ...
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+ teams depends on libgdk-pixbuf2.0-0 (>= 2.22.0); however:
+  Package libgdk-pixbuf2.0-0 is not installed.
+
+dpkg: error processing package teams (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for bamfdaemon (0.5.6+22.04.20220217-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu4) ...
+Errors were encountered while processing:
+ teams
+Installing Gnome GAMES app (465 kB download; 2,745 kB installed)...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ gnome-games-app : Depends: libretro-gtk-1-0 (>= 1.0.0) but it is not going to be installed
+                   Recommends: grilo-plugins-0.3 but it is not going to be installed
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Installing Minetest...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ minetest : Depends: minetest-data (= 5.5.0+dfsg+~1.9.0mt4+dfsg-2) but it is not going to be installed
+            Depends: libjsoncpp25 (>= 1.9.5) but it is not going to be installed
+            Depends: libleveldb1d (>= 1.23) but it is not going to be installed
+            Depends: libluajit-5.1-2 (>= 2.0.4+dfsg) but it is not going to be installed or
+                     libluajit2-5.1-2 (>= 2.1~) but it is not going to be installed
+            Depends: libpq5 (>= 9.1~) but it is not going to be installed
+            Depends: libspatialindex6 (>= 1.8.5) but it is not going to be installed
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Installing gbrainy...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ gbrainy : Depends: mono-runtime (>= 3.0~) but it is not going to be installed
+           Depends: libcairo1.10-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libgdk3.0-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libglib3.0-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libgtk3.0-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libmono-corlib4.5-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libmono-csharp4.0c-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libmono-posix4.0-cil (>= 4.6.1.3) but it is not going to be installed
+           Depends: libmono-system-core4.0-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libmono-system-xml4.0-cil (>= 4.6.1.3) but it is not going to be installed
+           Depends: libmono-system4.0-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libpango3.0-cil (>= 2.99.3) but it is not going to be installed
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Installing ipfs-handle...
+Installing IPFS Desktop...
+Selecting previously unselected package ipfs-desktop.
+(Reading database ... 290345 files and directories currently installed.)
+Preparing to unpack .../ipfs-desktop-0.25.0-linux-amd64.deb ...
+Unpacking ipfs-desktop (0.25.0) ...
+Setting up ipfs-desktop (0.25.0) ...
+
+
+sudo: unable to resolve host cubic: Name or service not known
+ln: failed to create symbolic link './go-ipfs': File exists
+Installing Frame + Frame Canary
+
+unlike from Teams, Frame works w/o dependency issues
+
+
+Upgrading Cinnamon...
+sudo: unable to resolve host cubic: Name or service not known
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Installing icons:
+
+
+Firedoge Tasks.txt
 upgrade firedoge bin to the latest
 firedoge fix issue of deactivating newtab-addon
 
 https://github.com/4ian/GDevelop/releases/tag/v5.1.157
 
 upgrade all of Floflis' dependencies and programs/apps
+
+upgrade linux kernel
+
+cubic: issue of soil installer not opening to-merge.sh; neofetch not installed
+
+updt distro pretty-name to "Floflis 19" (but get it from config/json)
+
+
+Installing Floflis Central...
+----------------------------------------------------------------------
+DEBUG:
+Script path: /root/0.Floflis-DNA/layers/soil/include/HTML5Apps/central
+Current directory: /root/0.Floflis-DNA/layers/soil/include/HTML5Apps/central
+ls:
+central  central.apps  central.apps.webpresent	central.svg  install.sh
+----------------------------------------------------------------------
+tar: /1/apps: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+mkdir: cannot create directory ‘/1/apps/central’: No such file or directory
+mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
+install.sh: line 17: cd: /1/apps/application/central: No such file or directory
+cp: cannot create directory '/1/apps/central/': No such file or directory
+Installing icon for Central...
+sudo: unable to resolve host cubic: Name or service not known
+gtk-update-icon-cache: Cache file created successfully.
+Installing Clock...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libgnome-desktop-4-2
+  
+  
+Installing Paint...
+error: cannot communicate with server: Post "http://localhost/v2/snaps/kolourpaint": dial unix /run/snapd.socket: connect: no such file or directory
+Installing Photos...
+
 
 https://github.com/Floflis/neofetch
 https://github.com/Floflis/unifetch

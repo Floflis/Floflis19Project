@@ -4,9 +4,11 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/4
 
 - replace Cinnamon
-sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop
+sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt update && sudo apt upgrade cinnamon-desktop-environment
 -
-- Upgrade Cinnamon from 5.4.12 to 5.6.5
+sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop cinnamon-desktop-environment
+-
+- Upgrade Cinnamon from 5.4.12 to 5.6+
 
 floflis fork of cinnamon's show desktop applet, with smaller icon
 floflis fork of cinnamon settings
