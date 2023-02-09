@@ -9,6 +9,8 @@
 
 if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
 
+webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
+
 
 Installing Floflis' flo-bkp-sync...
 fatal: destination path '.' already exists and is not an empty directory.
