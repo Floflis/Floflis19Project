@@ -1,188 +1,146 @@
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/5
-
-include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its personality-pack), almanah
-
-rename system monitor to task manager (pt, pt-br, en, es)
-
-https://github.com/awslabs/git-secrets
-https://github.com/liuchengxu/git-commit-emoji-cn
-https://github.com/streamich/git-cz
-https://github.com/sickill/git-dude
-https://github.com/tj/git-extras
-
-- copy desktop applet settings, with peek enabled by default
-
-Core:
-- Update ipget from v0.6.0 to  https://github.com/ipfs/ipget/tags
-Soil:
-Update Gitoxide from 0.10.0 to v0.20.0 https://github.com/Byron/gitoxide/releases/tag/v0.20.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
-- Update GDevelop from 5.0.0-beta72 to 5.1.153 https://github.com/4ian/GDevelop/releases/tag/v5.1.153
-- Update Hugo from 0.89.2 to v0.109.0 https://github.com/gohugoio/hugo/releases/tag/v0.109.0
-- Update geth from 1.10.11 to v1.10.26 https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26
-- Update git-lfs from 2.9.2 to v3.3.0 https://github.com/git-lfs/git-lfs/releases/tag/v3.3.0
-- Update Pijul from 1.0.0-alpha.56 to 
-
-cryptovoxels svg icon
-
-install openshot/mmex from a different source
-
-- /usr/share/cups/data/default-testpage.pdf use SVG floflis logotype
-
-- possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
-- fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
-possible workaround: disable firstboot on both Core/Soil and re-enable slowly
-
---------------------------------------------------------------------------------------------
-COLORS INSP:
-<pre><font color="#8BE9FD"><b>ubuntu-gdm-set-background</b></font> on <font color="#FF5555"><b> main</b></font> 
-<font color="#50FA7B"><b>❯</b></font> sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
-[sudo] password for daniell: 
-
-😀 <font color="#50FA7B"><b>Seems &apos;background change is successful&apos;</b></font>
-Changes will be effective after a Reboot (<font color="#FFB86C"><b>CTRL+ALT+F1</b></font> may show the changes immediately)
-If something went wrong, log on to tty and run the below command
-<font color="#FFB86C"><b>$ sudo update-alternatives --quiet --set gdm3-theme.gresource /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource</b></font></pre>
-(use at DeFi Central)
---------------------------------------------------------------------------------------------
-include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
-
-replace .git symlink, to "git clone --no-checkout <repo_url> ."
-include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
-https://github.com/Floflis/Eleganse-Floflis.git
-
-floflis core energy module:
-systemctl reboot --firmware-setup
-#-credits: https://superuser.com/a/1083166
-(only if UEFI is detected. if true, also implement to Central)
-
-floflis central personalization: detect when user background is Pokemon_Scarlet_Violet_Terastal_Wallpaper_(*).jpg and add to list of NFTs,then put message at UniStore and mark as owned
-wallet: display nintendo silver/gold coins!
-
-https://www.omgubuntu.co.uk/2022/08/install-webp-image-support-ubuntu-22-04
-https://www.omgubuntu.co.uk/2022/01/spicetify-change-spotify-app-theme
-
-Explore menu: merge two sources using foldmerger; add applet context menu with power menu including option to reboot to UEFI firmware (only if UEFI is detected)
-(also merge git folders for the other applet)
-
-study about rainbowallet (twitter) storing a bkp of seed at dropbox; fl integrate geth with ethereal+frame
-
-begin with the pre-installed IPFS apps/sites
-include: rpidtables, json lint
-
-to-merge.sh: line 1024: break: only meaningful in a `for', `while', or `until' loop
-Installing 01 VCS...
-
-- Installing flo command in /usr/bin...
-- Turning flo command into a executable...
-install.sh: line 120: break: only meaningful in a `for', `while', or `until' loop
-- Installing Floflis DNA as init program...
 
 
 
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/4
+
+- replace Cinnamon
+sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop cinnamon-desktop-environment
+-
+- Upgrade Cinnamon from 5.4.12 to 5.6+
+
+verify CPU architecture before installing debs
+
+check this duplicate:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/img/Pictures
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Pictures/Sample Photos
+
+webpresent ggl drv:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Videos/Sample Videos/Home Life - Animals.3gp
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity/pixmaps
+
+new method of installing gdevelop, insp from nfc, from .appimage
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/HTML5Apps/GDevelop-5-5.1.157.AppImage
+
+back at installing Eleganse-Floflis and Adapta themes
+instead of installing eleganse from Eleganse-Floflis.tar.gz, install from git folder
+rmv Eleganse-Floflis.tar.gz, Adapta.tar.gz and Adapta-Nokto.tar.gz; install https://cinnamon-spices.linuxmint.com/themes/view/Adapta and https://cinnamon-spices.linuxmint.com/themes/view/Adapta-Nokto as normal spices
+
+floflis fork of cinnamon's show desktop applet, with smaller icon
+floflis fork of cinnamon settings
+
+davidExplorer
+- if floflis detect user is pokefan, add easter egg .folderdata when accessing "/", showing a great tusk with "a wild dngrs thing appeared" with SV south battle music (get from external URL). only enable it if user is detected as pokefan and it have bgfxmusic mode activated
+- replace native file dialog (open, save)
+
+logname: no login name
+Installing floflis-application-handler...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Installing shortcut in /usr/share/applications...
+Turning floflis-application-handler into the default program (to user ) for .apps and .game applications...
+install.sh: line 24: /home//.config/mimeapps.list: No such file or directory
+- Turning floflis-application-handler into an executable...
+
+logname: no login name
+Installing mimetypes for .nu files...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+gtk-update-icon-cache: Cache file created successfully.
+Installing icons for .nu files...
+Cloning into 'linux-icon-builder'...
+
+identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
+./linux-icon-builder: 43: [: -ge: unexpected operator
+Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
+Installing handler for .nu files...
+Installing nu-script-handler...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+Installing shortcut in /usr/share/applications...
+Turning nu-script-handler into the default program (to user ) for .nu scripts...
+./install.sh: 58: cannot create /home//.config/mimeapps.list: Directory nonexistent
+
+Proceeding with the install of Floflis icons...
+de-duplicing some icons in Yaru...
+de-duplicing some icons in Yaru/apps...
+Error: no IPFS repo found in /root/.ipfs.
+please run: 'ipfs init'
+
+Installing Floflis Central...
+cp: cannot stat 'to-merge/central': No such file or directory
+chmod: cannot access '/usr/bin/central': No such file or directory
+Installing FantasqueSansMono font (ComicSans haters gonna hate but its cute <3)...
+unzip:  cannot find or open include/Terminal/nerdyfonts/FantasqueSansMono.zip, include/Terminal/nerdyfonts/FantasqueSansMono.zip.zip or include/Terminal/nerdyfonts/FantasqueSansMono.zip.ZIP.
+
+Installing Sh it...
+./to-merge.sh: line 1136: cd: include/Tools/shexec: No such file or directory
+fatal: destination path '.' already exists and is not an empty directory.
+fatal: not a git repository (or any of the parent directories): .git
+chmod: cannot access 'install.sh': No such file or directory
+
+
+
+Installing ethgas...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+- Turning ethgas into an executable...
+sudo: unable to resolve host cubic: Temporary failure in name resolution
+parse error: Invalid numeric literal at line 1, column 3
+Installation has failed.
+
+- test if if [ -f /1/Z-root ]; then echo "Found symlink as file!"; fi works
+- fix adding Z-root (core's install.sh)
 
 
 
 
+Installing sounds...
+ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
 
+! there will also be a cp/mv error for if [ -f /usr/share/cinnamon/faces/user-generic.png ]; then $maysudo mv -f /usr/share/cinnamon/faces/user-generic.png /usr/share/cinnamon/faces/cinnamon; fi (use ipfs check CID)
+! Updating default background...
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
 
-- Electron apps still not working
+- fix issue with .html5, .nu, .apps and .game icons
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/org.kde.kdeconnect_open.desktop": "*/*" is an invalid MIME type ("*" is an unregistered media type)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
 
-fix floapps installer
-
-If Cubic mode, don't ask before installing important programs such as git (also git lfs)
-Soil: don't install autoconf elinks ceni gdebi udftools nodejs
-
-2048 pre-installed
-include/BeepBox_4_0_1.zip ? futurely convert to .apps
-include/HTML5Apps/central.tar.gz convert to .apps
-
-Soil: replace include/img/logo.png to svg
-
-only prepare to build if Floflis Central tasks are done
-
-up-to-date OS data (build)
-
-Core:
-- Update go-ipfs from v0.9.0-rc1 to 
-- Update ipget from v0.6.0 to 
-- Update jq from jq-1.6 to 
-Soil:
-- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
-- Update Nushell from 0.44.0 to 0.72.0 https://github.com/nushell/nushell/releases/tag/0.72.0
-- Update Starship from v1.0.0 to v1.11.0 https://github.com/starship/starship/releases/tag/v1.11.0
-- Update Gitoxide from 0.10.0 to v0.19.0 https://github.com/Byron/gitoxide/releases/tag/v0.19.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
-- Update balenaEtcher from 1.6.0 to 
-- Update Hugo from 0.89.2 to 
-- Update GDevelop from  to 
-- Update geth from 1.10.11 to 
-- Update git-lfs from 2.9.2 to 
-- Update Pijul from 1.0.0-alpha.56 to 
-
-sounds are still incomplete
-dconf dump /org/cinnamon/ > org-cinnamon.txt
-
-- guppy cmd uses neofetch
-/media/daniell/B/git/Floflis/Utilities/guppy
-
-don't install cinnamon 4.8 if a greater-or-equal than 4.9 version is found
-
-add Floflis Packager and other tools
-add httb to server layer
-Floflis Central tasks /media/daniell/Seagate Expansion Drive/Windows/Floflis/Floflis Settings
-Update Floflis Central, now installed from .apps file
-add these pre-installed apps: David Explorer, David Text, Personal Issues?, Internet Boat, Internet Cat, 2048, FrameworkJS, nt1m mediaplayer. Use Framlr r1 on these except mediaplayer, FrameworkJS (already have), 2048 (focus issue)
-
-up-to-date OS data (build)
-
-if required: put "telemetry" in firstboot, into a log file so we can understand what happen at boot. remove functions that are potentially interfering in Desktop/ubiquity.desktop
-
-organize Eleganse-Floflis.tar.gz, Adapta.tar.gz, Adapta-Nokto.tar.gz at own folder at include/
-
-- update the settings for all extensions/applets
-- Change thumbnail of Eleganse-Floflis theme
-
-create common-user-iso_installed.sh and install floapps, nu-post-install, aragon.tar.gz, hop.tar.gz, uniswap.tar.gz, home-daniella-.cinnamon-configs.tar.gz at both ISO and installation user. avatar.png and avatar-iso.png
-
-Ubuntu Cinnamon Remix
-- detect, differ from normal ubuntu
-- rework Floflis Yaru icon theme, symlink all dupliced, support to Cinnamon Remix/Ubuntu 22 colors in folders
-- replace gnome 2048 for .apps version, if floapps is installed (floapps require node.js)
-
-superProductivity pre-installed
-
--zmb applets/desklets/extensions (these special spices depends on their own bash script. they come pre-loaded with their settings)
-- Central lists spices (integrated with UniStore to permit downloads, on next builds)
-
-- new icons for BuildMark and NFTMark
-- system spices (such as ethgas applet, calendar applet, BuildMark/NFTMark extensions) are root protected
-
-- second logon script: ask for some personalizations such as if user want the ethgas applet, weather applet, screen dimmer and bluelight filter, show desktop button, desktop icons, left or center explore btn+icons, autohide taskbar/dock, select icon for firedoge (default or spacecat from newtab), workspaces (and its switcher applet)
-- better background apps drawer
-- bottom panel: dock mode, with top panel
-
-Floflis move apt to apt-original, and nala as apt (falling back to apt-original in out-of-range commands)
-https://diolinux.com.br/tecnologia/nala-uma-bela-interface-para-o-apt.html
-the same for git, using 01
-
-new temporary HTML5 apps:
-https://github.com/FloflisPull/pdf-editor
-https://github.com/FloflisPull/jspaint/
-https://github.com/FloflisPull/webamp/
-https://github.com/FloflisPull/minesweeper
-https://github.com/FloflisPull/js-solitaire/
-https://github.com/FloflisPull/win95-media-player
-https://github.com/FloflisPull/pipes
-https://github.com/1j01?tab=repositories&q=&type=&language=&sort=
-https://98.js.org/
-https://github.com/FloflisPull/SpaceCadetPinball/tree/gh-pages
-https://github.com/FloflisPull/Ultimate-TicTacToe
+- Installing Floflis Core as init program...
+Failed to enable unit, unit flo-init.service does not exist.
+flo-init.service is not a native service, redirecting to systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable flo-init
+Excess arguments.
+- Installing Floflis' first boot script...
+Failed to enable unit, unit firstboot.service does not exist.
+firstboot.service is not a native service, redirecting to systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable firstboot
+Excess arguments.
 
 
 
-Floflis Fixer: option to re-do the firstlogon script (required by Floflis Central when validating)
 
-/1/Floflis/system pertaining to root only
+Installing to-merge.sh...
+logname: no login name
+Installing neofetch...
+
+Installing Floflis Central...
+Updating default background...
+mkdir: cannot create directory '/usr/share/wallpapers/FuturePrototype/debian': File exists
+mv: cannot stat '/usr/share/wallpapers/FuturePrototype/gnome-background.xml': No such file or directory
+------------------------------------------------------------------------------------------
+[ON FIRST INSTALL, THIS MSG ISNT SHOWN]
+------------------------------------------------------------------------------------------
 
 
+up-to-date OS info in config
 
-up-to-date OS data (build)
+transparentpanel is an extension that is a example at doing actions when showing/not showing the desktop
+play music at desktop if setting, detect background color
+
+/media/daniella/Main Linux/home/daniell/Desktop/PJs/Incubator/not-on-github/Floflis ppl - Feofle
+
+/media/daniella/B/git/01VCS/git-meta issue ask for hlp

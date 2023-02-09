@@ -1,33 +1,17 @@
-attempt 46:
+attempt 44:
 
-upgrade packages again after upgrading distro
+After ETH address is created/imported, the first login will be required. Signing the login message with date/nonce, this msg is sent to Floflis srv using POST request, and it sends back that user is logged.
 
-------------------------------------------------------------------------------------------------------------------------
-sudo add-apt-repository ppa:ubuntu-x-swat/updates
-sudo apt-get update
-sudo apt-get dist-upgrade
+Floflis Sync: public (git config) and private (Firedoge tabs/history/addon list/bookmarks) data.
 
-sudo add-apt-repository ppa:oibaf/graphics-drivers
-sudo apt update && sudo apt -y upgrade
+Verify with sybil, send this request, srv registers in profile, and sends back that user is verified
 
-------------------------------------------------------------------------------------------------------------------------
-sudo apt install update-manager-core
-do-release-upgrade -c
-------------------------------------------------------------------------------------------------------------------------
+after logging with ETH address and signing this login, will start syncing things such as "git config --global user.name" and "git config --global user.email"
 
-Floflis ISO/Floflis ppl/
+attempt 45:
 
-get user fullname and store in json (Floflis Central already does it)
-
-Floflis icons:
-remove non-custom icons because their own apps will install icons at hicolor
-merge with captiva-icon-theme
-
-geth/MetaMask/Frame: add XDai and Polygon
-
-sudo apt-get remove --auto-remove ubuntu-gnome-desktop
-sudo apt-get purge --auto-remove ubuntu-gnome-desktop
-sudo dpkg-reconfigure gdm
-echo "Then select lightdm from the options. After that you can remove gdm with"
-sudo apt-get remove gdm
-# special thanks: https://askubuntu.com/questions/767577/how-can-i-remove-gnome-desktop-environment-without-messing-unity-de-ubuntu-16 https://askubuntu.com/a/767582/1255788
+UI:
+- First logon wizard
+- Ask which size use for font, size for taskbar icons, etc (know age)
+- Mouse course (offer achivement badges and FLOF)
+- Typing course (read its data and offer achivement badges and FLOF)
