@@ -10,6 +10,20 @@
 
 no delay in the desktop applet
 
+Installing 01 VCS...
+install.sh: line 91: git: command not found
+install.sh: line 92: git: command not found
+SOLUTION: install git also before 01
+-
+Webpresent file found: ./include/elcid.webpresent
+This is a GoogleDrive or IPFS file!
+Downloading...
+From: https://drive.google.com/uc?id=1tnr-ZsWU9qC5VT-OaVn3WCVlGJN-zb2b
+To: /usr/lib/floflis/layers/core/include/gipfs/include/elcid
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 2.52M/2.52M [00:00<00:00, 3.81MB/s]
+/usr/bin/webpresent: line 15: ipfs: command not found
+SOLUTION: same as above
+
 
 
 Installing Floflis Central...
