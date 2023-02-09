@@ -1,4 +1,4 @@
-
+- another attempt to fix broken apt issues
 
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
@@ -6,7 +6,41 @@
 -? as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
 -? buildmark and nftmark are being installed but not installing their dependence: watermark
 -? floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
--? cubic: issue of soil installer not opening to-merge.sh
+
+
+Upgrading Cinnamon...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+
+
+Installing Floflis' flo-bkp-sync...
+fatal: destination path '.' already exists and is not an empty directory.
+Updating files: 100% (102/102), done.
+Your branch is ahead of 'build/main' by 173 commits.
+  (use "git push" to publish your local commits)
+bash: /install.sh: No such file or directory
+Testing if flo-bkp-sync works:
+./to-merge.sh: line 533: flo-bkp-sync: command not found
+Installing Web3Updater...
+Already up to date.
+Your branch is up to date with 'origin/main'.
+bash: /install.sh: No such file or directory
+Testing if Web3Updater works:
+./to-merge.sh: line 543: web3updater: command not found
+Installing SharedChain...
+From https://github.com/Plasmmer/SharedChain
+ * [new branch]      nostalgit  -> origin/nostalgit
+Already up to date.
+Your branch is up to date with 'origin/main'.
+bash: /install.sh: No such file or directory
+Testing if SharedChain works:
+./to-merge.sh: line 553: sharedchain: command not found
+
 
 no delay in the desktop applet
 
@@ -23,6 +57,13 @@ To: /usr/lib/floflis/layers/core/include/gipfs/include/elcid
 100%|██████████████████████████████████████████████████████████████████████████████████████████| 2.52M/2.52M [00:00<00:00, 3.81MB/s]
 /usr/bin/webpresent: line 15: ipfs: command not found
 SOLUTION: same as above
+
+
+This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting .git/hooks/post-checkout.
+
+
+mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/cd_in_tray.png': No such file or directory
+mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/ubuntu_installed.png': No such file or directory
 
 
 Installing Paint...
