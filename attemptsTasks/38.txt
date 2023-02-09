@@ -25,12 +25,87 @@ To: /usr/lib/floflis/layers/core/include/gipfs/include/elcid
 SOLUTION: same as above
 
 
+Installing Paint...
+error: cannot communicate with server: Post "http://localhost/v2/snaps/kolourpaint": dial unix /run/snapd.socket: connect: no such file or directory
 
+
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+ teams depends on libgdk-pixbuf2.0-0 (>= 2.22.0); however:
+  Package libgdk-pixbuf2.0-0 is not installed.
+
+dpkg: error processing package teams (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for bamfdaemon (0.5.6+22.04.20220217-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu4) ...
+Errors were encountered while processing:
+ teams
+Installing Gnome GAMES app (465 kB download; 2,745 kB installed)...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ gnome-games-app : Depends: libretro-gtk-1-0 (>= 1.0.0) but it is not going to be installed
+                   Recommends: grilo-plugins-0.3 but it is not going to be installed
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Installing Minetest...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ minetest : Depends: minetest-data (= 5.5.0+dfsg+~1.9.0mt4+dfsg-2) but it is not going to be installed
+            Depends: libjsoncpp25 (>= 1.9.5) but it is not going to be installed
+            Depends: libleveldb1d (>= 1.23) but it is not going to be installed
+            Depends: libluajit-5.1-2 (>= 2.0.4+dfsg) but it is not going to be installed or
+                     libluajit2-5.1-2 (>= 2.1~) but it is not going to be installed
+            Depends: libpq5 (>= 9.1~) but it is not going to be installed
+            Depends: libspatialindex6 (>= 1.8.5) but it is not going to be installed
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+Installing gbrainy...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ gbrainy : Depends: mono-runtime (>= 3.0~) but it is not going to be installed
+           Depends: libcairo1.10-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libgdk3.0-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libglib3.0-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libgtk3.0-cil (>= 2.99.3) but it is not going to be installed
+           Depends: libmono-corlib4.5-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libmono-csharp4.0c-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libmono-posix4.0-cil (>= 4.6.1.3) but it is not going to be installed
+           Depends: libmono-system-core4.0-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libmono-system-xml4.0-cil (>= 4.6.1.3) but it is not going to be installed
+           Depends: libmono-system4.0-cil (>= 5.18.0.240) but it is not going to be installed
+           Depends: libpango3.0-cil (>= 2.99.3) but it is not going to be installed
+ teams : Depends: libgdk-pixbuf2.0-0 (>= 2.22.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+
+
+
+
+Use "hugo [command] --help" for more information about a command.
+Installing important libs:
+Installing unzip...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+unzip is already the newest version (6.0-27ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Installing important apps:
 Installing Floflis Central...
 ----------------------------------------------------------------------
 DEBUG:
-Script path: /root/0.Floflis-DNA/layers/soil/include/HTML5Apps/central
-Current directory: /root/0.Floflis-DNA/layers/soil/include/HTML5Apps/central
+Script path: /usr/lib/floflis/layers/soil/include/HTML5Apps/central
+Current directory: /usr/lib/floflis/layers/soil/include/HTML5Apps/central
 ls:
 central  central.apps  central.apps.webpresent	central.svg  install.sh
 ----------------------------------------------------------------------
@@ -40,6 +115,7 @@ mkdir: cannot create directory ‘/1/apps/central’: No such file or directory
 mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
 install.sh: line 17: cd: /1/apps/application/central: No such file or directory
 cp: cannot create directory '/1/apps/central/': No such file or directory
+Installing icon for Central...
 -
 ubuntu@ubuntu:~$ web3updater
 web3updater: command not found
