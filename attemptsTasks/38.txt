@@ -1,19 +1,8 @@
-- rebase ISO, from Ubuntu Cinnamon Remix 22.10 to Ubuntu 23.04-dailybuild+UCR
-- another attempt to fix broken apt issues
-- no delay in the desktop applet
-- catch up that cinnamon spices home settings path has been changed! and replace show-desktop@cinnamon.org by cornerbar@cinnamon.org
-- better CPU architecture coverage for Wine
-- move "Setting up Cinnamon data" and "Building your desktop experience" from firstlogon to firstboot
-- fix issue of not installing flo-bkp-sync, web3updater and sharedchain
-- Core: install git also before 01
-- fix installing Floflis Central, by creating /1/apps before
-- Core: install ipfs also before gipfs
-- attempt to fix user/permissions issues in tree folder, which was also affecting firstlogon/user-side setup
 
 
-- as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
+-? as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
 - buildmark and nftmark are being installed but not installing their dependence: watermark
-- floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
+-? floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
 
 /etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
@@ -104,6 +93,11 @@ https://github.com/muckSponge/MaterialFox
 https://github.com/muckSponge/MaterialFox/issues/326
 https://github.com/typeling1578/MaterialFox-Plus
 https://github.com/muckSponge/MaterialFox/pulls
+
+git push:
+/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/
+/media/daniella/B/git/Floflis/Sites/Floflis.github.io/
+/media/daniella/B/git/Floflis/Utilities/WeblinkApps
 
 
 

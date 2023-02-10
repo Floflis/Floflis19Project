@@ -165,6 +165,8 @@ webpresent: dont run if a file is already existing (check file name by removing 
 
 firstlogon-user and firstlogon-IT-technician
 
+Floflis Lawthon: simulate your crypto was robbed inside Floflis, and write your fictional court case/thesis to accuse Floflis. This will help patch any legal hole.
+
 fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
 fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
 insp for FLOF grants programme https://app.optimism.io/retropgf
