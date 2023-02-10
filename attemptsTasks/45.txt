@@ -1,17 +1,18 @@
-attempt 44:
+After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
-After ETH address is created/imported, the first login will be required. Signing the login message with date/nonce, this msg is sent to Floflis srv using POST request, and it sends back that user is logged.
+attempt 40: apt-on-ipfs
 
-Floflis Sync: public (git config) and private (Firedoge tabs/history/addon list/bookmarks) data.
+attempt 41:
 
-Verify with sybil, send this request, srv registers in profile, and sends back that user is verified
+frst bld
 
-after logging with ETH address and signing this login, will start syncing things such as "git config --global user.name" and "git config --global user.email"
+import geth seed on ethereal
+user profile from CLI
 
-attempt 45:
+attempt 42: Plugz build normal and lite versions of Floflis DNA
 
-UI:
-- First logon wizard
-- Ask which size use for font, size for taskbar icons, etc (know age)
-- Mouse course (offer achivement badges and FLOF)
-- Typing course (read its data and offer achivement badges and FLOF)
+attempt 43:
+
+support Ledger hardware wallet when creating/importing ETH address
+support migrating to Ledger
+annotate planned support for Trezor and Keycard

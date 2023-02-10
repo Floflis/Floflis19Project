@@ -1,18 +1,14 @@
-After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
 
-attempt 40: apt-on-ipfs
+50. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
 
-attempt 41:
+e-ink theme/mode
+sudo apt install edid-decode
+for file in `ls -1 /sys/class/drm/*/edid`; do text=$(tr -d '\0' <"$file"); if [ -n "$text" ]; then edid-decode "$file" | grep -e Manufacturer: -e Product; sleep 0.0001; fi done
+https://unix.stackexchange.com/a/594100
 
-frst bld
+TestLab applet for enabling things such as the e-ink mode
 
-import geth seed on ethereal
-user profile from CLI
+implement Web3Updater (with branches support, and Floflis branch is of its preview builds before it upgrades into stable branch - also, upgrading from Floflis 19 to an upgrade also changes its branch)
 
-attempt 42: Plugz build normal and lite versions of Floflis DNA
-
-attempt 43:
-
-support Ledger hardware wallet when creating/importing ETH address
-support migrating to Ledger
-annotate planned support for Trezor and Keycard
+Web3Updater if arm*/riscv64: use rust-ipfs
