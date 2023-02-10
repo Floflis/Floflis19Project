@@ -1,6 +1,7 @@
 - another attempt to fix broken apt issues
 
 
+catch up that cinnamon spices home settings path has been changed! and replace show-desktop@cinnamon.org by cornerbar@cinnamon.org
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
 
 -? as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
@@ -10,8 +11,7 @@
 - move most of the firstlogon functions to the firstboot, in a separate file it will call
 
 - rebase ISO to Ubuntu 23+Ubuntu-Cinnamon-Remix. tell the steps to download Ubuntu 23 ISO, build.sh+remix.sh on it then use floflis on the result ISO to produce floflis' own ISO
-IMPORTANT NOTE: cinnamon spices home settings has been changed!
-- fl add separator between menu and grouped-window-list, and replace the desktop applet by the cornerbar@cinnamon.org applet and add default settings for it
+- fl add separator between menu and grouped-window-list
 
 if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
 
