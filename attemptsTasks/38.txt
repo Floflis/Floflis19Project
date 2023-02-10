@@ -5,6 +5,10 @@
 - better CPU architecture coverage for Wine
 - move "Setting up Cinnamon data" and "Building your desktop experience" from firstlogon to firstboot
 - fix issue of not installing flo-bkp-sync, web3updater and sharedchain
+- Core: install git also before 01
+- fix installing Floflis Central, by creating /1/apps before
+- Core: install ipfs also before gipfs
+- attempt to fix user/permissions issues in tree folder, which was also affecting firstlogon/user-side setup
 
 
 - as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
@@ -12,60 +16,7 @@
 - floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
 
-Installing 01 VCS...
-install.sh: line 91: git: command not found
-install.sh: line 92: git: command not found
-SOLUTION: install git also before 01
--
-Webpresent file found: ./include/elcid.webpresent
-This is a GoogleDrive or IPFS file!
-Downloading...
-From: https://drive.google.com/uc?id=1tnr-ZsWU9qC5VT-OaVn3WCVlGJN-zb2b
-To: /usr/lib/floflis/layers/core/include/gipfs/include/elcid
-100%|██████████████████████████████████████████████████████████████████████████████████████████| 2.52M/2.52M [00:00<00:00, 3.81MB/s]
-/usr/bin/webpresent: line 15: ipfs: command not found
-SOLUTION: same as above
-
-
-
-
-Installing important apps:
-Installing Floflis Central...
-----------------------------------------------------------------------
-DEBUG:
-Script path: /usr/lib/floflis/layers/soil/include/HTML5Apps/central
-Current directory: /usr/lib/floflis/layers/soil/include/HTML5Apps/central
-ls:
-central  central.apps  central.apps.webpresent	central.svg  install.sh
-----------------------------------------------------------------------
-tar: /1/apps: Cannot open: No such file or directory
-tar: Error is not recoverable: exiting now
-mkdir: cannot create directory ‘/1/apps/central’: No such file or directory
-mv: cannot stat '/1/apps/manifest.webapp': No such file or directory
-install.sh: line 17: cd: /1/apps/application/central: No such file or directory
-cp: cannot create directory '/1/apps/central/': No such file or directory
-Installing icon for Central...
--
-ubuntu@ubuntu:~$ web3updater
-web3updater: command not found
-(but unistore and feofle found)
--
-ubuntu@ubuntu:~$ sharedchain
-sharedchain: command not found
--
-ubuntu@ubuntu:~$ flo-bkp-sync
-flo-bkp-sync: command not found
--
-firedoge didnt installed
-
 /etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
-
-
-Floflis DNA: if Core is found after finishing install, ?
-
-
-
-firstlogon-user and firstlogon-IT-technician
 
 
 Firedoge Tasks.txt
@@ -75,14 +26,16 @@ firedoge fix issue of deactivating newtab-addon
 
 upgrade all of Floflis' dependencies and programs/apps
 
-upgrade linux kernel
-
 updt distro pretty-name to "Floflis 19" (but get it from config/json)
 
 
 https://github.com/Floflis/neofetch
 https://github.com/Floflis/unifetch
 /media/daniella/B/git/Floflis/Utilities/guppy
+-
+custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
+
+
 
 fix path issue in /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/witchcraft-candy-colors
 
@@ -142,8 +95,6 @@ https://soundcloud.com/limujii/limujii-feel
 https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
--
-custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
 -
 https://github.com/bobwya/wine-desktop-common
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
@@ -232,8 +183,6 @@ open /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/Tasks.txt (and Ne
 - git repos as .webpresent files (webpresent app have to identify)
 
 Floflis' ~/Templates files owned by root
-
-up-to-date Stacer
 
 new switch workspace sound
 new logout sound
@@ -338,7 +287,6 @@ firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean
 
 find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
 
-after installing Hugo:
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
 Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
@@ -395,6 +343,9 @@ floflis site insp adding "Developers" tab and simpler site divising the platform
 insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
 
 deactivate current monitor's desktop auto-arrange (find in gconf)
+
+
+Floflis DNA: if Core is found after finishing install, ?
 
 
 up-to-date OS info in config

@@ -163,6 +163,8 @@ exactly WindOS like: "%H:%M%n%d/%m/%Y"
 
 webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
 
+firstlogon-user and firstlogon-IT-technician
+
 fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
 fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
 insp for FLOF grants programme https://app.optimism.io/retropgf
