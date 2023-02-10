@@ -1,17 +1,16 @@
 - another attempt to fix broken apt issues
+- catch up that cinnamon spices home settings path has been changed! and replace show-desktop@cinnamon.org by cornerbar@cinnamon.org
 
 
-catch up that cinnamon spices home settings path has been changed! and replace show-desktop@cinnamon.org by cornerbar@cinnamon.org
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
+- rebase ISO to Ubuntu 23+Ubuntu-Cinnamon-Remix. tell the steps to download Ubuntu 23 ISO, build.sh+remix.sh on it then use floflis on the result ISO to produce floflis' own ISO
+-? add separator between menu and grouped-window-list
 
 -? as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
 -? buildmark and nftmark are being installed but not installing their dependence: watermark
 -? floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
 - move most of the firstlogon functions to the firstboot, in a separate file it will call
-
-- rebase ISO to Ubuntu 23+Ubuntu-Cinnamon-Remix. tell the steps to download Ubuntu 23 ISO, build.sh+remix.sh on it then use floflis on the result ISO to produce floflis' own ISO
-- fl add separator between menu and grouped-window-list
 
 if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
 
