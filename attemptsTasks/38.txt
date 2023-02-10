@@ -14,6 +14,10 @@ webpresent: dont run if a file is already existing (check file name by removing 
 except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart
 
 
+Floverse app will have shortcuts for Cryptovoxels, Decentraland and TheSandbox. Also for Minetest. Minecraft shortcut will ask to install it. Also Floflis Places.
+Floflis Places will have two tabs after opened by Floverse: "Shortcuts" and "Metaverse"; initially only Shortcuts available, such as Pooltogethers lottery. Floflis Shortcuts will be entirely replaced by the Floverse app!
+
+
 Installing Floflis' flo-bkp-sync...
 fatal: destination path '.' already exists and is not an empty directory.
 Updating files: 100% (102/102), done.
