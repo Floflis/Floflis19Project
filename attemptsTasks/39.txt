@@ -3,10 +3,17 @@
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/4
 
-- replace Cinnamon
-sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop cinnamon-desktop-environment
--
-- Upgrade Cinnamon from 5.4.12 to 5.6+
+
+This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting .git/hooks/post-checkout.
+
+
+mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/cd_in_tray.png': No such file or directory
+mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/ubuntu_installed.png': No such file or directory
+
+
+Installing Paint...
+error: cannot communicate with server: Post "http://localhost/v2/snaps/kolourpaint": dial unix /run/snapd.socket: connect: no such file or directory
+
 
 verify CPU architecture before installing debs
 
@@ -144,3 +151,13 @@ play music at desktop if setting, detect background color
 /media/daniella/Main Linux/home/daniell/Desktop/PJs/Incubator/not-on-github/Floflis ppl - Feofle
 
 /media/daniella/B/git/01VCS/git-meta issue ask for hlp
+
+
+if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
+
+exactly Floflis like: " %H:%M:%S%n%e-%b-%y"
+exactly WindOS like: "%H:%M%n%d/%m/%Y"
+
+webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
+
+except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart

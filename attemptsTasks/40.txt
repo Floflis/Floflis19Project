@@ -1,6 +1,11 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/5
 
-include/deb packages/pending: frame_0.4.4_amd64.deb, stacer.deb, sfxr-sdl_1.2.1-1_amd64.deb (add comment about its personality-pack), almanah
+include/deb packages/pending: sfxr-sdl_1.2.1-1_amd64.deb (add comment about its personality-pack), almanah
+
+- replace Cinnamon
+sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop cinnamon-desktop-environment
+-
+- Upgrade Cinnamon from 5.4.12 to 5.6+
 
 rename system monitor to task manager (pt, pt-br, en, es)
 
