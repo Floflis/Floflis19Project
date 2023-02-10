@@ -7,6 +7,12 @@
 -? buildmark and nftmark are being installed but not installing their dependence: watermark
 -? floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
+- move most of the firstlogon functions to the firstboot, in a separate file it will call
+
+- rebase ISO to Ubuntu 23+Ubuntu-Cinnamon-Remix. tell the steps to download Ubuntu 23 ISO, build.sh+remix.sh on it then use floflis on the result ISO to produce floflis' own ISO
+IMPORTANT NOTE: cinnamon spices home settings has been changed!
+- fl add separator between menu and grouped-window-list, and replace the desktop applet by the cornerbar@cinnamon.org applet and add default settings for it
+
 if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
 
 webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
