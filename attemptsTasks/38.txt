@@ -1,26 +1,25 @@
+- rebase ISO, from Ubuntu Cinnamon Remix 22.10 to Ubuntu 23.04-dailybuild+UCR
 - another attempt to fix broken apt issues
 - catch up that cinnamon spices home settings path has been changed! and replace show-desktop@cinnamon.org by cornerbar@cinnamon.org
+- better CPU architecture coverage for Wine
+- move "Setting up Cinnamon data" and "Building your desktop experience" from firstlogon to firstboot
 
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/3
-- rebase ISO to Ubuntu 23+Ubuntu-Cinnamon-Remix. tell the steps to download Ubuntu 23 ISO, build.sh+remix.sh on it then use floflis on the result ISO to produce floflis' own ISO
 -? add separator between menu and grouped-window-list
 
 -? as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
 -? buildmark and nftmark are being installed but not installing their dependence: watermark
 -? floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
-- move most of the firstlogon functions to the firstboot, in a separate file it will call
+firstlogon: get username from logname instead of json. fix issue of firstlogon_root
 
-if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
-
-webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
-
-except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart
-
-
-Floverse app will have shortcuts for Cryptovoxels, Decentraland and TheSandbox. Also for Minetest. Minecraft shortcut will ask to install it. Also Floflis Places.
-Floflis Places will have two tabs after opened by Floverse: "Shortcuts" and "Metaverse"; initially only Shortcuts available, such as Pooltogethers lottery. Floflis Shortcuts will be entirely replaced by the Floverse app!
+firstlogon_root:
+- all it displays is:
+jq: error: Could not open file /1/config/user.json: No such file or directory
+firstlogonroot.sh: line 5: /home//.config/autostart/IPFS.sh: No such file or directory
+chmod: cannot access '/home//.config/autostart': No such file or directory
+chown: cannot access '/home//.local/share/gvfs-metadata/home*': No such file or directory
+- Cleanning install...
 
 
 Installing Floflis' flo-bkp-sync...
@@ -509,5 +508,14 @@ PoolTogether WebLink app
 /1/Floflis/system/os.json up-to-date build info and, now add distrobase
 
 use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
+
+Floverse app will have shortcuts for Cryptovoxels, Decentraland and TheSandbox. Also for Minetest. Minecraft shortcut will ask to install it. Also Floflis Places.
+Floflis Places will have two tabs after opened by Floverse: "Shortcuts" and "Metaverse"; initially only Shortcuts available, such as Pooltogethers lottery. Floflis Shortcuts will be entirely replaced by the Floverse app!
+
+if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
+
+webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
+
+except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart
 
 up-to-date OS info in config
