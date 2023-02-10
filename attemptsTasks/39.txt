@@ -4,6 +4,9 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/4
 
 
+except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart
+
+
 This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting .git/hooks/post-checkout.
 
 
@@ -160,4 +163,20 @@ exactly WindOS like: "%H:%M%n%d/%m/%Y"
 
 webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
 
-except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart
+fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
+fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
+insp for FLOF grants programme https://app.optimism.io/retropgf
+
+central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other chains)
+
+gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
+
+use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
+-
+fl central script hash the background. if it is any of these:
+QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
+QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
+QmYkAC1gTaBj7Ynxa7csumKbve6iVS7VhVk1Tfzru8MnQ6
+Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
+QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
+then assign NFT both at user settings/unistore and mark as pokefan personality

@@ -1,50 +1,16 @@
 - rebase ISO, from Ubuntu Cinnamon Remix 22.10 to Ubuntu 23.04-dailybuild+UCR
 - another attempt to fix broken apt issues
+- no delay in the desktop applet
 - catch up that cinnamon spices home settings path has been changed! and replace show-desktop@cinnamon.org by cornerbar@cinnamon.org
 - better CPU architecture coverage for Wine
 - move "Setting up Cinnamon data" and "Building your desktop experience" from firstlogon to firstboot
+- fix issue of not installing flo-bkp-sync, web3updater and sharedchain
 
 
 - as in screenshots, issues with the two firstlogon scripts (such as user not found, no permissions for writing /1/config/user.json. user not found bc user.json not able to be written)
 - buildmark and nftmark are being installed but not installing their dependence: watermark
 - floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img; custom slides didnt appeared
 
-firstlogon: get username from logname instead of json. fix issue of firstlogon_root
-
-firstlogon_root:
-- all it displays is:
-jq: error: Could not open file /1/config/user.json: No such file or directory
-firstlogonroot.sh: line 5: /home//.config/autostart/IPFS.sh: No such file or directory
-chmod: cannot access '/home//.config/autostart': No such file or directory
-chown: cannot access '/home//.local/share/gvfs-metadata/home*': No such file or directory
-- Cleanning install...
-
-
-Installing Floflis' flo-bkp-sync...
-fatal: destination path '.' already exists and is not an empty directory.
-Updating files: 100% (102/102), done.
-Your branch is ahead of 'build/main' by 173 commits.
-  (use "git push" to publish your local commits)
-bash: /install.sh: No such file or directory
-Testing if flo-bkp-sync works:
-./to-merge.sh: line 533: flo-bkp-sync: command not found
-Installing Web3Updater...
-Already up to date.
-Your branch is up to date with 'origin/main'.
-bash: /install.sh: No such file or directory
-Testing if Web3Updater works:
-./to-merge.sh: line 543: web3updater: command not found
-Installing SharedChain...
-From https://github.com/Plasmmer/SharedChain
- * [new branch]      nostalgit  -> origin/nostalgit
-Already up to date.
-Your branch is up to date with 'origin/main'.
-bash: /install.sh: No such file or directory
-Testing if SharedChain works:
-./to-merge.sh: line 553: sharedchain: command not found
-
-
-no delay in the desktop applet
 
 Installing 01 VCS...
 install.sh: line 91: git: command not found
@@ -63,14 +29,6 @@ SOLUTION: same as above
 
 
 
-Use "hugo [command] --help" for more information about a command.
-Installing important libs:
-Installing unzip...
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-unzip is already the newest version (6.0-27ubuntu1).
-0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
 Installing important apps:
 Installing Floflis Central...
 ----------------------------------------------------------------------
@@ -151,14 +109,14 @@ Installing Floflis Central...
 mkdir: cannot create directory ‘/1/apps/central’: File exists
 
 
-Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
--
-user.json personalities field
-
-
 - firedoge Firedoge mimetype handler; vivaldi addon /media/daniella/B/git/Web3HQ/firedoge
 https://addons.mozilla.org/pt-BR/firefox/addon/vivaldifox/
 https://addons.mozilla.org/pt-BR/firefox/addon/devtools-prototyper/
+
+
+Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
+-
+user.json personalities field
 
 
 - new tree folder structure /media/daniella/78CFABD670741B23/Linux/Books
@@ -436,25 +394,7 @@ Floflis propose to split assets by using multiple wallets (include option to imp
 floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
 insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
 
-fl deactivate current monitor's desktop auto-arrange (find in gconf)
-
-fl study about allocations https://community.optimism.io/docs/governance/allocations/#ecosystem-fund
-fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
-insp for FLOF grants programme https://app.optimism.io/retropgf
-
-central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other chains)
-
-gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
-
-use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
--
-fl central script hash the background. if it is any of these:
-QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
-QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
-QmYkAC1gTaBj7Ynxa7csumKbve6iVS7VhVk1Tfzru8MnQ6
-Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
-QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
-then assign NFT both at user settings/unistore and mark as pokefan personality
+deactivate current monitor's desktop auto-arrange (find in gconf)
 
 
 up-to-date OS info in config
