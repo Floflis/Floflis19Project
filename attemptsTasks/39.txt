@@ -1,15 +1,25 @@
+- switch ISO compression algorithm from gzip to zstd
 - fix loading cornerbar@cinnamon.org default settings; desktop button open expose (workspaces mode) on middle-click
 - Update Voxels icon and improve weblink shortcuts' descriptions
+- add new Ubiquity icon
 
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/4
-
-
-
+default settings for starkmenu
+default settings for search applet and taskbar have it
+floflis dna's config file is extendable by other layers
+cat cinnamon dconf will be made by a variable, which will also accept variables
+cinnamon alpha mobile mode
 
 
 - buildmark and nftmark are being installed but not installing their dependence: watermark
 - floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img
+
+
+SVG icon for logo
+bring back old settings icon
+
+
+Floflis cinnamon applet: Show desklets. Borrow this feature from cornerbar applet
 
 
 Error: peer ID represented as CIDv1 require libp2p-key multicodec: retry with /ipns/bafzaad3bobyc45lonfzxoylqfzxxezy
@@ -20,10 +30,16 @@ firstlogon questions:
 cursor black or white (in UI, will have different background as example)
 ask to have label in Explore menu or not (default is not)
 
+new desktop background!
+updated Yaru-cinnamon desktop themes, with hover effects
+hover/clicked effects for the Explore menu (from theme side)
+Floflis Central light/dark theme toggle (affects cinnamon theme)
+-
 Desktop Background1, Desktop Background2, DesktopBackground3, DesktopBackground4
 
 
-cornerbar applet settings didnt applied
+before asking to create SSH and IPFS ID, check for flo-bkp-sync
+
 
 fix issue of dubious ownership in git repos
 
@@ -31,6 +47,14 @@ fix issue of dubious ownership in git repos
 FantasqueSans font not found by GnomeTerm
 
 smaller versions of floflisCentral icon
+
+mimetype for .accdb files
+/media/daniella/Windows 10 main/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Floflis New File Template
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-Templates
+
+icon for hop
+almanah icon
+app-player-electron installing its icon and interacting with floapps
 
 https://itsfoss.com/linux-mint-vs-ubuntu/
 
@@ -112,11 +136,6 @@ chmod: cannot access '/home/ubuntu/.config/autostart/teams.desktop': No such fil
 ubuntu@ubuntu:~$ central
 /usr/bin/central: line 4: npm: command not found
 
-
-new desktop background!
-updated Yaru-cinnamon desktop themes, with hover effects
-hover/clicked effects for the Explore menu (from theme side)
-Floflis Central light/dark theme toggle (affects cinnamon theme)
 
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 Floflis new sounds https://pastebin.com/JJgBSgN5
