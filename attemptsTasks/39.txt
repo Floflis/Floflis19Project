@@ -9,6 +9,15 @@ default settings for search applet and taskbar have it
 floflis dna's config file is extendable by other layers
 cat cinnamon dconf will be made by a variable, which will also accept variables
 cinnamon alpha mobile mode
+default favorited apps
+
+
+Testing features/Cinnamobile$ git init
+/usr/bin/git: line 28: gix: command not found
+
+
+need repo:
+/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
 
 
 - buildmark and nftmark are being installed but not installing their dependence: watermark
