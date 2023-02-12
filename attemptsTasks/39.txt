@@ -2,18 +2,29 @@
 - fix loading cornerbar@cinnamon.org default settings; desktop button open expose (workspaces mode) on middle-click
 - Update Voxels icon and improve weblink shortcuts' descriptions
 - add new Ubiquity icon
+- new and improved default settings for starkmenu
+- add search button after the Explore menu
+- add default data for mobile mode (Cinnamobile) in the calendar and weather applets
+- fix icon size in default settings for cinnamenu
+- don't anymore install clean-show-desktop@filipetorresbr
 
 
-default settings for starkmenu
-default settings for search applet and taskbar have it
-floflis dna's config file is extendable by other layers
-cat cinnamon dconf will be made by a variable, which will also accept variables
 cinnamon alpha mobile mode
 default favorited apps
+default settings for search applet
+come with some desklets open
 
 
 Testing features/Cinnamobile$ git init
 /usr/bin/git: line 28: gix: command not found
+
+
+floflis dna's config file is extendable by other layers
+cat cinnamon dconf will be made by a variable, which will also accept variables
+
+
+
+You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
 
 
 need repo:
@@ -90,6 +101,7 @@ report cinnamon:
 no "minimizing windows" sound, as this works also when un-minimizing
 "Changing the sound volume" doesnt work in the sound applet
 unlike the workspaces applet, expose mode isnt playing the change workspace sound
+support for text input in applet button (for example, in-panel internet search!)
 
 FloflisPNG icons: bring back old settings icon
 

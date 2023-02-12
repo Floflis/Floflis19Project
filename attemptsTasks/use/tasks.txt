@@ -17,31 +17,10 @@ install obs
 install HandBrake
 sudo apt-get install easytag
 
-Floflis Cinnamon modification log:
-
-1
-- Move "show desktop" button to the right
-- Add Weather applet
-- Replace the default menu to CinnVIIStarkMenu
-2
-- New Icon and Cursor theme: Floflis
-- New GTK theme: Eleganse-Floflis
-3
-- Adapta theme
-4
-- Floflis backgrounds
-- Floflis sounds
-5
-- Transparent panels extension
-6
-- Move weather applet close to hour/date
-
 dconf dump /org/cinnamon/ > backup_of_my_cinnamon_settings_9
 dconf load /org/cinnamon/ < backup_of_my_cinnamon_settings_9
 
 - Disable auto-arrange for Desktop icons
-
-repo for backup_of_my_cinnamon_settings_*
 
 ubuntu
 
