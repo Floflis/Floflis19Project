@@ -9,10 +9,37 @@
 - don't anymore install clean-show-desktop@filipetorresbr
 
 
-cinnamon alpha mobile mode
-default favorited apps
-default settings for search applet
+/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
+/media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
+/media/daniella/B/git/Floflis/CinnSpices/Applets/return@floflis
+/media/daniella/B/git/Floflis/CinnSpices/Applets/widgets@floflis
+-
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/bbcwx@oak-wood.co.uk
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/calendar@deeppradhan
+
+
+install Floflis default spice settings in a permanent place, and apply from it
+cinnamon alpha mobile mode (apply spices' default settings every time it toggles)
+install widgets@floflis applet and add it to taskbar
 come with some desklets open
+default favorited apps
+-? default settings for search applet
+-? default settings for power applet on mobile mode
+new icon for cs-desklets (both normal and symbolic)
+
+
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync
+/media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/flic/buildfiles/x86
+/media/daniella/B/git/Floflis/Floflis 19/attemptsTasks
+/media/daniella/B/git/Floflis/Floflis-DNA
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/core
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil
+/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/private/Plasmmer/orgs/Floflis/nostalgy/0- 1.1
+/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/private/Plasmmer/orgs/Floflis/nostalgy/1- 2012
+/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/private/Plasmmer/orgs/Floflis/nostalgy/3
+/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/private/Plasmmer/orgs/Floflis/nostalgy/4- P
+/media/daniella/B/bkp/ST500LM012 HN-M500MBB Dat/Recovered data/Recovered data 11-25 14_23_48/Desktop/PJ/private/Plasmmer/orgs/Floflis/nostalgy/7
+/media/daniella/B/git/UniOS/2. HumaneOS
 
 
 Testing features/Cinnamobile$ git init
@@ -62,6 +89,58 @@ before asking to create SSH and IPFS ID, check for flo-bkp-sync
 
 
 fix issue of dubious ownership in git repos
+-
+Installing the "Starshell" package...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell
+chmod: changing permissions of 'install.sh': Operation not permitted
+Installing floapps...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
+chmod: changing permissions of 'install.sh': Operation not permitted
+------------------------------
+Installing ethgas...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas
+chmod: changing permissions of 'install.sh': Operation not permitted
+Installing ethgas' Cinnamon spice...
+------------------------------
+Installing ETH Gas's presets...
+mkdir: cannot create directory ‘/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis’: No such file or directory
+cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis/': No such file or directory
+------------------------------
+Installing Firedoge browser...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge
+chmod: changing permissions of 'install.sh': Operation not permitted
+------------------------------
+Installing icons for .nu files...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
+To add an exception for this directory, call:
+------------------------------
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
+To add an exception for this directory, call:
+------------------------------
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder
+Welcome to another awesome autistic art by Daniella Mesquita.
+possibleSOLUTION: chown /usr/lib/floflis/layers/soil/to-merge/
 
 
 FantasqueSans font not found by GnomeTerm
@@ -102,6 +181,7 @@ no "minimizing windows" sound, as this works also when un-minimizing
 "Changing the sound volume" doesnt work in the sound applet
 unlike the workspaces applet, expose mode isnt playing the change workspace sound
 support for text input in applet button (for example, in-panel internet search!)
+when adding applet, it is loading settings on its own way instead of finding existing file. same for name@name.json settings which dont update
 
 FloflisPNG icons: bring back old settings icon
 
@@ -109,47 +189,6 @@ Ubiquity familiar.html slide: taskbar img is shrink in a standard. have to worka
 
 to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
-
-Installing the "Starshell" package...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell
-chmod: changing permissions of 'install.sh': Operation not permitted
-Installing floapps...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
-chmod: changing permissions of 'install.sh': Operation not permitted
-
-
-Installing ethgas...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas
-chmod: changing permissions of 'install.sh': Operation not permitted
-Installing ethgas' Cinnamon spice...
-
-Installing ETH Gas's presets...
-mkdir: cannot create directory ‘/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis’: No such file or directory
-cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis/': No such file or directory
-
-Installing Firedoge browser...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge
-chmod: changing permissions of 'install.sh': Operation not permitted
 
 Setting autostart apps...
 chmod: cannot access '/home/ubuntu/.config/autostart/teams.desktop': No such file or directory
@@ -313,18 +352,6 @@ identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/i
 ./linux-icon-builder: 43: [: -ge: unexpected operator
 Oh, error 🤷 Please review how you've wrote/copied the file name. Usage example video: https://youtu.be/0fiKLsBVmEk 📺
 gtk-update-icon-cache: Cache file created successfully.
-
-
-Installing icons for .nu files...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
-To add an exception for this directory, call:
-
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
-To add an exception for this directory, call:
-
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder
-Welcome to another awesome autistic art by Daniella Mesquita.
 
 
 mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices

@@ -4,6 +4,9 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/5
 
 
+remove widgets@floflis applet from taskbar's default
+
+
 except for ISO user, Floflis will install Linux kernel 6.1 on firstlogon after updating desktop xp and asking for restart
 
 
