@@ -151,6 +151,9 @@ mimetype for .accdb files
 /media/daniella/Windows 10 main/Users/Daniell/Desktop/Installer.txt.ok.not.installe/Floflis New File Template
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-Templates
 
+
+dont anymore support importing ETH privkey, but only generating a floflis-exclusive address
+
 icon for hop
 almanah icon
 app-player-electron installing its icon and interacting with floapps
