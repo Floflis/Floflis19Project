@@ -11,6 +11,8 @@
 
 reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Also never ask for privatekey, only enable floflis-exclusive address (and tell its not much safe) and walletconnect through frame
 
+dont anymore preinstall Uniswap (in order to respect UN sanctions)
+
 
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
 /media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
