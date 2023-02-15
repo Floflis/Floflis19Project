@@ -9,6 +9,9 @@
 - don't anymore install clean-show-desktop@filipetorresbr
 
 
+reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Also never ask for privatekey, only enable floflis-exclusive address (and tell its not much safe) and walletconnect through frame
+
+
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
 /media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
 /media/daniella/B/git/Floflis/CinnSpices/Applets/return@floflis
@@ -185,6 +188,7 @@ no "minimizing windows" sound, as this works also when un-minimizing
 unlike the workspaces applet, expose mode isnt playing the change workspace sound
 support for text input in applet button (for example, in-panel internet search!)
 when adding applet, it is loading settings on its own way instead of finding existing file. same for name@name.json settings which dont update
+ask if it is possible for an applet to load desklets inside it
 
 FloflisPNG icons: bring back old settings icon
 
