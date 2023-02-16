@@ -4,12 +4,9 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/6
 
 
-include/deb packages/pending: sfxr-sdl_1.2.1-1_amd64.deb (add comment about its personality-pack), almanah
+study about rainbowallet (twitter) storing a bkp of seed at dropbox; fl integrate geth with ethereal+frame
 
-- replace Cinnamon
-sudo add-apt-repository ppa:linuxmint-daily-build-team/daily-builds && sudo apt-get purge --auto-remove ubuntucinnamon-desktop --auto-remove && sudo apt update && sudo apt install cinnamon-desktop cinnamon-desktop-environment
--
-- Upgrade Cinnamon from 5.4.12 to 5.6+
+include/deb packages/pending: sfxr-sdl_1.2.1-1_amd64.deb (add comment about its personality-pack), almanah
 
 rename system monitor to task manager (pt, pt-br, en, es)
 
@@ -72,8 +69,6 @@ https://www.omgubuntu.co.uk/2022/01/spicetify-change-spotify-app-theme
 
 Explore menu: merge two sources using foldmerger; add applet context menu with power menu including option to reboot to UEFI firmware (only if UEFI is detected)
 (also merge git folders for the other applet)
-
-study about rainbowallet (twitter) storing a bkp of seed at dropbox; fl integrate geth with ethereal+frame
 
 begin with the pre-installed IPFS apps/sites
 include: rpidtables, json lint
@@ -155,11 +150,9 @@ create common-user-iso_installed.sh and install floapps, nu-post-install, aragon
 Ubuntu Cinnamon Remix
 - detect, differ from normal ubuntu
 - rework Floflis Yaru icon theme, symlink all dupliced, support to Cinnamon Remix/Ubuntu 22 colors in folders
-- replace gnome 2048 for .apps version, if floapps is installed (floapps require node.js)
 
 superProductivity pre-installed
 
--zmb applets/desklets/extensions (these special spices depends on their own bash script. they come pre-loaded with their settings)
 - Central lists spices (integrated with UniStore to permit downloads, on next builds)
 
 - new icons for BuildMark and NFTMark

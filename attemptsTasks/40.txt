@@ -1,6 +1,14 @@
 SVG icon for logo (also reflect this update in fl central)
 
 
+Floverse app will have shortcuts for Cryptovoxels, Decentraland and TheSandbox. Also for Minetest. Minecraft shortcut will ask to install it. Also Floflis Places.
+Floflis Places will have two tabs after opened by Floverse: "Shortcuts" and "Metaverse"; initially only Shortcuts available, such as Pooltogethers lottery. Floflis Shortcuts will be entirely replaced by the Floverse app!
+-
+- replace gnome 2048 for .apps version, if floapps is installed (floapps require node.js)
+-
+Communicator will have shortcuts for Pidgin/Ferdi/others (and Telegram desktop if it is found installed)
+
+
 firstlogon questions:
 cursor black or white (in UI, will have different background as example)
 ask to have label in Explore menu or not (default is not)
