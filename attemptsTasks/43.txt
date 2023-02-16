@@ -1,49 +1,170 @@
 
 
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
 
-49. upper layers
+install Firedoge (w blur effect and/or w/o NewTabHere) and others; NFC
 
-feature to upgrade layers; Grass layer
+new icon and title for Cryptovoxels -> Voxels /home/daniell/Desktop/Voxels.svg
 
-geth
+- fix sound issue in next builds
 
-replace Audacity with lighter solution already available; use it on Musician user pack
-replace OBS with lighter solution for screenrecording only, not streamming
-User Packs: Youtuber/Streammer ($maysudo apt install obs-studio), Gamedev (https://github.com/godotengine/godot/releases/tag/3.2.3-stable
-https://crates.io/crates/gdnative), Musician (sudo apt install audacity)
-want to seed it to shr with frnds?
+Firedoge replaces Firefox
+Update include/ubiquity-slideshow.tar.gz
 
-FLIC - Floflis ISO Creator
-Available for: Raspberry Pi 1/2/3/Zero (armhf), Raspberry Pi 4 (arm64), SiFive Unmatched (riscv64)
+- Floflis Central loops into every NFT of ETH address and pins their content
+- Detect DS4 gamepad and load its profile
+- Share app with OBS (triggered by gamepad btn)
 
-Nushell available to armhf
-Starship available to armhf
-Pijul available to armhf
-Other software available to armhf
+OS logo.png in SVG
 
-Nushell available to arm64
-Starship available to arm64
-Pijul available to arm64
-Other software available to arm64
+matroska: FloflisOS, UniOS (post-install - ONLY IN CUBIC MODE)
 
-Nushell available to riscv64
-Starship available to riscv64
-Pijul available to riscv64
-Other software available to riscv64
+reduce Floflis DNA size, by splitting into individual scripts when new layers are detected (floflis, install.sh), and by adding new functions to config via upper layers
 
-Floflis Grass and above layers purely in nu
-Floflis DNA purely POSIX compliant
-Floflis Soil purely in nu
+Correct chown at /1
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 
-Install mkdocs:
-sudo apt install python3-pip
-pip install mkdocs
-pip install mkdocs-material
-pip install mkdocs-minify-plugin
+sudo chown -R 65534:0 "/root/.npm"
 
-Divide to-merge.sh into steps, while asking to proceed (makes output more organized and digestible to user)
-/usr/share/icons/Floflis/.git.sh enables to re-download the icons' git
-full icon de-duplication (Floflis ands Yaru)
+/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Base/sound
+/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Home/sound
+/usr/share/sounds
+
+colored output
+-
+<pre><font color="#34E2E2"><b>nushell</b></font> on <font color="#AD7FA8"><b> main</b></font> is <font color="#FF8700"><b>📦 v0.39.0</b></font> via <font color="#EF2929"><b>🦀 v1.56.1 </b></font>
+<font color="#8AE234"><b>❯</b></font> cargo build
+<font color="#8AE234"><b>    Updating</b></font> crates.io index
+<font color="#8AE234"><b>  Downloaded</b></font> dirs-next v2.0.0
+<font color="#8AE234"><b>  Downloaded</b></font> dirs-sys-next v0.1.2
+<font color="#8AE234"><b>  Downloaded</b></font> nod</pre>
+<pre><font color="#34E2E2"><b>/1/Floflis/libs</b></font> is <font color="#FF8700"><b>📦 v1.0.0</b></font> via <font color="#8AE234"><b> v10.19.0 </b></font>took <font color="#FCE94F"><b>2s</b></font> </pre>
+
+restore ubuntu background: /usr/share/backgrounds/ubuntu
+restore: /usr/share/icons/ubuntu-mono-dark/actions/24/ubuntu/package-supported.svg
+
+replace Ubuntu branding
+/usr/share/plymouth
+/usr/share/icons/LoginIcons/apps/64
+/usr/share/icons/hicolor/256x256/apps
+/usr/share/icons/ubuntu-mono-dark/actions/24/
+
+install to-merge_firstlogon.sh's programs also for live ISO user
+install Uniswap, Aragon and Hop protocol in two steps: both in to-merge.sh and on firstlogon
+
+Floflis Central: manage applets and desklets; introduce zombie applets and desklets! (existing spices that are changed/managed by another)
+
+export data of nft bg extension
+
+UniStore and Central will support Cinnamon extensions, desklets and applets; including zombie spices.
+untitled lib will be used in the zombie spices editor; so it creates a untitled spice to be edited then renamed/packaged
+
+example of zombie desklets: "Command result desklet" fork as "ETHGas"
+example of zombie applets: "Bash Sensors" fork as "ETHGas"
+example of zombie extensions: "Watermark" forks as "NFTmark" and "Buildmark"
+When Floflis Central identifies you are adding a spice, its pre-set data overwrites.
+
+mimetypes for .nu files
+
+❯ cinnamon --version
+Cinnamon 4.8.6
+(ask to not install Cinnamon if already installed)
+
+unzip include/BeepBox_4_0_1.zip
+rm -rf __MACOSX
+ipfs add -r BeepBox_4_0_1
+ipfs pin add $(ipfs add -Qr --only-hash BeepBox_4_0_1)
+rm -rf BeepBox_4_0_1
+
+install default avatar on firstboot
+
+Install Almanah Diary, rename to Diary
+
+sudo apt install redshift
+redshift applet
+applets and settings from main (such as hour + date)
+
+Move Nushell to Floflis DNA (optional) and Floflis Core default (only install if detect not installed recently by DNA)
+
+Move Starship to Floflis Core (optional) and Floflis Soil default (only install if detect not installed recently by Core)
+
+full Floflis icon install; show CID of every icon file when verifying de-duplication
+
+- Turning flo command into a executable...
+./install.sh: line 122: break: only meaningful in a `for', `while', or `until' loop
+
+firstlogon.sh: line 55: break: only meaningful in a `for', `while', or `until' loop
+
+UniStore CLI
+
+- Play version's sound
+Move /1/img and /1/sounds to /1/Floflis/system
+
+uninstall libreoffice
+don't install onlyoffice
+
+mv: cannot stat '/usr/share/cinnamon/faces/0_cars.jpg': No such file or directory
+don't display this error when theres no need to
+
+Support to armhf, arm64 and riscv64 architectures
+only display "installing..." if supported arch
+
+if arm*/riscv64: install rust-ipfs instead of ipfs
+
+icons for weblink apps (Decentraland, The Sandbox, Cryptovoxels, Aragon, OpenSea)
+
+export environment variables so it dont have to use the same such as detecting arch
+
+Central: rndm tips banner (maintain your bin clean every time you rm a file, so you remember)
+recycle task (cron) there's days you dont clean your bin
+
+clean iso pj
+screenshots (floflis nft cinnamon extension, floflis central, floflis site firedoge, ethgas applet/desklet) made in sda new
+
+store username:
+/home
+/home/~/.cinnamon/backgrounds/user-folders.lst
+/home/daniell/.face
+-
+/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Base/sound
+/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Home/sound
+dconf dump /org/cinnamon/ > org-cinnamon (dev cmd; dev bin installs Cubic)
+dconf load /org/cinnamon/ < org-cinnamon
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj4mfe8z-PwAhXxpZUCHVnrDG4QFjADegQIChAD&url=https%3A%2F%2Fwww.cyberciti.biz%2Ffaq%2Flinux-logout-user-howto%2F&usg=AOvVaw1SQvVIMVAsj8kiqQcc-nod
+https://github.com/linuxmint/Cinnamon/wiki/Backing-up-and-restoring-your-cinnamon-settings-(dconf)
+/home/daniell/.cinnamon/configs
+-
+ipfs-desktop
+/usr/share/applications
+/home/daniell/.config/autostart
+-
+/home/daniell/.bash_logout
+ask to clear .bash_history
+new feature: add commands to favorites
+-
+/home/~/.themes
+install Floflis theme
+
+Peepeth app:
+ethereal contract send --contract=0xfa28eC7198028438514b49a3CF353BcA5541ce1d --abi=Peepeth.json --call='post("hashgoeshere")' --from=0xfe0836F7181b2D068E861853e0b225DD4b0e6762 --passphrase="test"
+/home/daniell/Peepeth.json
+
+Personal Issues app (now fully working, inspired by WFS' looping programming)
+
+Floflis Central: extension manager (available only in Cinnamon)
+remove Cinnamon Extensions app
+Own Watermark extension reserved for Floflis (the normal, available to user), hidden with NFTmark extension
+
+Check if there are more than 1 user folder, then ask which one pertains to main user. Then remove first boot from other folders then add to it.
+
+move obs and other custom icons' hicolor into Floflis icon folder; symlink hicolor's OBS icon into Floflis icons
+Floflis Central: OBS icon point into hicolor
+
+if Ubuntu use dpkg/if antix use gdebi
+sudo apt-get install gdebi-core
+-
+sudo gdebi 
+sudo dpkg -i 

@@ -1,15 +1,49 @@
 
 
 
-50. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
 
-e-ink theme/mode
-sudo apt install edid-decode
-for file in `ls -1 /sys/class/drm/*/edid`; do text=$(tr -d '\0' <"$file"); if [ -n "$text" ]; then edid-decode "$file" | grep -e Manufacturer: -e Product; sleep 0.0001; fi done
-https://unix.stackexchange.com/a/594100
 
-TestLab applet for enabling things such as the e-ink mode
+49. upper layers
 
-implement Web3Updater (with branches support, and Floflis branch is of its preview builds before it upgrades into stable branch - also, upgrading from Floflis 19 to an upgrade also changes its branch)
+feature to upgrade layers; Grass layer
 
-Web3Updater if arm*/riscv64: use rust-ipfs
+geth
+
+replace Audacity with lighter solution already available; use it on Musician user pack
+replace OBS with lighter solution for screenrecording only, not streamming
+User Packs: Youtuber/Streammer ($maysudo apt install obs-studio), Gamedev (https://github.com/godotengine/godot/releases/tag/3.2.3-stable
+https://crates.io/crates/gdnative), Musician (sudo apt install audacity)
+want to seed it to shr with frnds?
+
+FLIC - Floflis ISO Creator
+Available for: Raspberry Pi 1/2/3/Zero (armhf), Raspberry Pi 4 (arm64), SiFive Unmatched (riscv64)
+
+Nushell available to armhf
+Starship available to armhf
+Pijul available to armhf
+Other software available to armhf
+
+Nushell available to arm64
+Starship available to arm64
+Pijul available to arm64
+Other software available to arm64
+
+Nushell available to riscv64
+Starship available to riscv64
+Pijul available to riscv64
+Other software available to riscv64
+
+Floflis Grass and above layers purely in nu
+Floflis DNA purely POSIX compliant
+Floflis Soil purely in nu
+
+Install mkdocs:
+sudo apt install python3-pip
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-minify-plugin
+
+Divide to-merge.sh into steps, while asking to proceed (makes output more organized and digestible to user)
+/usr/share/icons/Floflis/.git.sh enables to re-download the icons' git
+full icon de-duplication (Floflis ands Yaru)
