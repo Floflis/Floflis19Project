@@ -7,7 +7,18 @@
 - add default data for mobile mode (Cinnamobile) in the calendar and weather applets
 - fix icon size in default settings for cinnamenu
 - don't anymore install clean-show-desktop@filipetorresbr
+- use initram cmd from UCR
 
+
+fl anbox
+snap install --devmode --beta anbox
+https://docs.anbox.io/userguide/install.html
+-
+anbox session-manager
+-
+anbox system-info | grep -l binder
+anbox system-info | grep binder
+anbox system-info | grep -1 binder
 
 fix ethgas display
 fix ethgas applet
