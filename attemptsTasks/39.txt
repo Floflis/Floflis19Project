@@ -10,6 +10,9 @@
 - use initram cmd from UCR
 
 
+install flatpak (but study its popularity, disk size and advantages over snap)
+install starship as a snap
+
 fl anbox
 snap install --devmode --beta anbox
 https://docs.anbox.io/userguide/install.html
