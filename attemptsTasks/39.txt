@@ -10,58 +10,23 @@
 - use initram cmd from UCR
 
 
-install flatpak (but study its popularity, disk size and advantages over snap)
+New Ubuntu 23 ISO base https://cdimage.ubuntu.com/daily-live/ (check if UCR builder did changed from February so reflect changes - or fork repo)
+
+update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
+
+fix snap installing issue on Cubic/chroot
+https://askubuntu.com/questions/1344916/how-to-install-snap-packages-in-cubic
+https://forum.snapcraft.io/t/ubuntu-cubic-install-snap-applications-from-chroot-in-customized-iso-fails/13541
+https://bugs.launchpad.net/cubic/+bug/1843257
+https://answers.launchpad.net/cubic/+question/697883
+
 install starship as a snap
-
-fl anbox
-snap install --devmode --beta anbox
-https://docs.anbox.io/userguide/install.html
 -
-anbox session-manager
--
-anbox system-info | grep -l binder
-anbox system-info | grep binder
-anbox system-info | grep -1 binder
-
-fix ethgas display
-fix ethgas applet
-
-FantasqueSans font not found by GnomeTerm
-
-Floflis cinnamon applet: Show desklets. Borrow this feature from cornerbar applet
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
-/media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
-/media/daniella/B/git/Floflis/CinnSpices/Applets/return@floflis
-/media/daniella/B/git/Floflis/CinnSpices/Applets/widgets@floflis
--
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/bbcwx@oak-wood.co.uk
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/calendar@deeppradhan
--
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
-https://github.com/Floflis/Cinnamobile.git
-install Floflis default spice settings in a permanent place, and apply from it
-cinnamon alpha mobile mode (apply spices' default settings every time it toggles)
-install widgets@floflis applet and add it to taskbar
-come with some desklets open
-default favorited apps
--? default settings for search applet
--? default settings for power applet on mobile mode
-new icon for cs-desklets (both normal and symbolic)
-
-Testing features/Cinnamobile$ git init
-/usr/bin/git: line 28: gix: command not found
-
-floflis dna's config file is extendable by other layers
-cat cinnamon dconf will be made by a variable, which will also accept variables
-
-You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
-
-- buildmark and nftmark are being installed but not installing their dependence: watermark
-- floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img
-
-Error: peer ID represented as CIDv1 require libp2p-key multicodec: retry with /ipns/bafzaad3bobyc45lonfzxoylqfzxxezy
-
-probably after installed, Floflis is using the same IPFS ID from the ISO
+Installing the "Starshell" package...
+fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+./install.sh: 17: [: -eq: unexpected operator
 
 fix issue of dubious ownership in git repos
 -
@@ -117,8 +82,6 @@ To add an exception for this directory, call:
 Welcome to another awesome autistic art by Daniella Mesquita.
 possibleSOLUTION: chown /usr/lib/floflis/layers/soil/to-merge/
 
-smaller versions of floflisCentral icon
-
 dont anymore support importing ETH privkey, but only generating a floflis-exclusive address
 -
 reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Also never ask for privatekey, only enable floflis-exclusive address (and tell its not much safe) and walletconnect through frame
@@ -126,6 +89,48 @@ reform on Floflis' Web3 things; make it optional, for the web3-personality-pack.
 Floflis propose to split assets by using multiple wallets (include option to import ronin address)
 floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
 insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
+
+fix ethgas display
+fix ethgas applet
+
+FantasqueSans font not found by GnomeTerm
+
+Floflis cinnamon applet: Show desklets. Borrow this feature from cornerbar applet
+/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
+/media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
+/media/daniella/B/git/Floflis/CinnSpices/Applets/return@floflis
+/media/daniella/B/git/Floflis/CinnSpices/Applets/widgets@floflis
+-
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/bbcwx@oak-wood.co.uk
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/calendar@deeppradhan
+-
+/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
+https://github.com/Floflis/Cinnamobile.git
+install Floflis default spice settings in a permanent place, and apply from it
+cinnamon alpha mobile mode (apply spices' default settings every time it toggles)
+install widgets@floflis applet and add it to taskbar
+come with some desklets open
+default favorited apps
+-? default settings for search applet
+-? default settings for power applet on mobile mode
+new icon for cs-desklets (both normal and symbolic)
+
+Testing features/Cinnamobile$ git init
+/usr/bin/git: line 28: gix: command not found
+
+floflis dna's config file is extendable by other layers
+cat cinnamon dconf will be made by a variable, which will also accept variables
+
+You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
+
+- buildmark and nftmark are being installed but not installing their dependence: watermark
+- floflis ubiquity not appearing buttons (this is because bullet and arrows are root only? gs.png and photos.png are also root, but gs.png is still visible); photos slide have no img
+
+Error: peer ID represented as CIDv1 require libp2p-key multicodec: retry with /ipns/bafzaad3bobyc45lonfzxoylqfzxxezy
+
+probably after installed, Floflis is using the same IPFS ID from the ISO
+
+smaller versions of floflisCentral icon
 
 FloflisPNG icons: bring back old settings icon
 
@@ -147,13 +152,6 @@ ubuntu_installed.svg
 ubuntu/
 ubuntu/logo.png
 
-snapd is already the newest version (2.58.2+23.04).
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-snapd: unrecognized service
-System has not been booted with systemd as init system (PID 1). Can't operate.
-Failed to connect to bus: Host is down
-Installing important programs:
-
 Package wine32 is not available, but is referred to by another package.
 This may mean that the package is missing, has been obsoleted, or
 is only available from another source
@@ -174,12 +172,6 @@ https://github.com/Floflis/iconsPNG/tree/master
 /media/daniella/B/git/Floflis/Branding/FloflisPNG
 
 Core's git dependencies: only install icons if icons folder detected existing
-
-Installing the "Starshell" package...
-fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
-Your branch is ahead of 'origin/main' by 5 commits.
-  (use "git push" to publish your local commits)
-./install.sh: 17: [: -eq: unexpected operator
 
 
 ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists

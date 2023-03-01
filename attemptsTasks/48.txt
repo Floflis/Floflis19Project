@@ -1,33 +1,18 @@
-attempt 46:
+After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
-upgrade packages again after upgrading distro
+attempt 40: apt-on-ipfs
 
-------------------------------------------------------------------------------------------------------------------------
-sudo add-apt-repository ppa:ubuntu-x-swat/updates
-sudo apt-get update
-sudo apt-get dist-upgrade
+attempt 41:
 
-sudo add-apt-repository ppa:oibaf/graphics-drivers
-sudo apt update && sudo apt -y upgrade
+frst bld
 
-------------------------------------------------------------------------------------------------------------------------
-sudo apt install update-manager-core
-do-release-upgrade -c
-------------------------------------------------------------------------------------------------------------------------
+import geth seed on ethereal
+user profile from CLI
 
-Floflis ISO/Floflis ppl/
+attempt 42: Plugz build normal and lite versions of Floflis DNA
 
-get user fullname and store in json (Floflis Central already does it)
+attempt 43:
 
-Floflis icons:
-remove non-custom icons because their own apps will install icons at hicolor
-merge with captiva-icon-theme
-
-geth/MetaMask/Frame: add XDai and Polygon
-
-sudo apt-get remove --auto-remove ubuntu-gnome-desktop
-sudo apt-get purge --auto-remove ubuntu-gnome-desktop
-sudo dpkg-reconfigure gdm
-echo "Then select lightdm from the options. After that you can remove gdm with"
-sudo apt-get remove gdm
-# special thanks: https://askubuntu.com/questions/767577/how-can-i-remove-gnome-desktop-environment-without-messing-unity-de-ubuntu-16 https://askubuntu.com/a/767582/1255788
+support Ledger hardware wallet when creating/importing ETH address
+support migrating to Ledger
+annotate planned support for Trezor and Keycard

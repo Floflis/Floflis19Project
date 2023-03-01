@@ -1,17 +1,15 @@
-attempt 44:
 
-After ETH address is created/imported, the first login will be required. Signing the login message with date/nonce, this msg is sent to Floflis srv using POST request, and it sends back that user is logged.
 
-Floflis Sync: public (git config) and private (Firedoge tabs/history/addon list/bookmarks) data.
 
-Verify with sybil, send this request, srv registers in profile, and sends back that user is verified
+50. stable? web3updater at upper layers. install web3updater. e-ink mode/theme
 
-after logging with ETH address and signing this login, will start syncing things such as "git config --global user.name" and "git config --global user.email"
+e-ink theme/mode
+sudo apt install edid-decode
+for file in `ls -1 /sys/class/drm/*/edid`; do text=$(tr -d '\0' <"$file"); if [ -n "$text" ]; then edid-decode "$file" | grep -e Manufacturer: -e Product; sleep 0.0001; fi done
+https://unix.stackexchange.com/a/594100
 
-attempt 45:
+TestLab applet for enabling things such as the e-ink mode
 
-UI:
-- First logon wizard
-- Ask which size use for font, size for taskbar icons, etc (know age)
-- Mouse course (offer achivement badges and FLOF)
-- Typing course (read its data and offer achivement badges and FLOF)
+implement Web3Updater (with branches support, and Floflis branch is of its preview builds before it upgrades into stable branch - also, upgrading from Floflis 19 to an upgrade also changes its branch)
+
+Web3Updater if arm*/riscv64: use rust-ipfs
