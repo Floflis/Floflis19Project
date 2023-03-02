@@ -20,13 +20,8 @@
 - Starshell: fix font installing path issues
 - move Starshell and Gnome Term's default settings from firstlogon to firstboot
 - fix issue of dubious ownership in git repos
+- dont anymore preinstall Uniswap (in order to respect UN sanctions)
 
-
-------------------------------
-Installing ETH Gas's presets...
-mkdir: cannot create directory ‘/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis’: No such file or directory
-cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis/': No such file or directory
-------------------------------
 
 dont anymore support importing ETH privkey, but only generating a floflis-exclusive address
 -
@@ -35,6 +30,12 @@ reform on Floflis' Web3 things; make it optional, for the web3-personality-pack.
 Floflis propose to split assets by using multiple wallets (include option to import ronin address)
 floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
 insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
+
+------------------------------
+Installing ETH Gas's presets...
+mkdir: cannot create directory ‘/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis’: No such file or directory
+cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis/': No such file or directory
+------------------------------
 
 fix ethgas display
 fix ethgas applet
@@ -141,8 +142,6 @@ to-merge_firstlogon.sh: line 214: /usr/share/applications/uniswap.desktop: Permi
 -
 possibleSOLUTION: move these installers to firstlogon root
 
-dont anymore preinstall Uniswap (in order to respect UN sanctions)
-
 
 identify-im6.q16: improper image header `/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/rsc/img/application-x-nu.png' @ error/png.c/ReadPNGImage/4107.
 ./linux-icon-builder: 43: [: -ge: unexpected operator
@@ -165,8 +164,5 @@ mkdir: cannot create directory ‘/home/daniella/.cinnamon/configs/buildmark@flo
 new switch workspace sound
 replace logoff sound
 /home/daniella/Desktop/fl sounds
-
-ubuntu@ubuntu:~$ central
-/usr/bin/central: line 4: npm: command not found
 
 up-to-date OS info in config

@@ -8,6 +8,8 @@ https://bugs.launchpad.net/cubic/+bug/2008949
 
 update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
 
+move more features out of firstlogon to firstboot (those that don't need user interaction, except Firedoge and Edge)
+
 IPFS has an updating tool that can be accessed through ipfs update. The tool is not installed alongside IPFS in order to keep that logic independent of the main codebase. To install ipfs-update tool, download it here.
 
 https://github.com/floating/frame/releases
