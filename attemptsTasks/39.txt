@@ -11,70 +11,22 @@
 - upgrade Edge browser from version 109 to 110
 - Soil: install geth from apt instead of local dependency
 - when installing snap on Cubic, also run "sudo snap install core"
-- Core's Starshell: upgrade Nu from 0.74.0 to 0.76.0 https://github.com/nushell/nushell/releases/0.76.0
-- Core's Starshell: upgrade Starship to v1.13.1
+- Starshell: upgrade Nu from 0.74.0 to 0.76.0 https://github.com/nushell/nushell/releases/0.76.0
+- Starshell: upgrade Starship to v1.13.1
 - nushell as default login shell in Gnome Term!
+- Starshell: back at installing FantasqueSans' original Nerd font!
+- Starshell: alongside FantasqueSans, install FiraCode font
+- Starshell: deduplicate txt by using var
+- Starshell: fix font installing path issues
+- move Starshell and Gnome Term's default settings from firstlogon to firstboot
+- fix issue of dubious ownership in git repos
 
 
-Installing the "Starshell" package...
-fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
-Your branch is ahead of 'origin/main' by 5 commits.
-  (use "git push" to publish your local commits)
-./install.sh: 17: [: -eq: unexpected operator
-
-fix issue of dubious ownership in git repos
--
-Installing the "Starshell" package...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell
-chmod: changing permissions of 'install.sh': Operation not permitted
-Installing floapps...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
-chmod: changing permissions of 'install.sh': Operation not permitted
-------------------------------
-Installing ethgas...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas
-chmod: changing permissions of 'install.sh': Operation not permitted
-Installing ethgas' Cinnamon spice...
 ------------------------------
 Installing ETH Gas's presets...
 mkdir: cannot create directory ‘/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis’: No such file or directory
 cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis/': No such file or directory
 ------------------------------
-Installing Firedoge browser...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge'
-To add an exception for this directory, call:
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/System/firedoge
-chmod: changing permissions of 'install.sh': Operation not permitted
-------------------------------
-Installing icons for .nu files...
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
-To add an exception for this directory, call:
-------------------------------
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder
-fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder'
-To add an exception for this directory, call:
-------------------------------
-	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/nu/nu-post-install/include/linux-icon-builder
-Welcome to another awesome autistic art by Daniella Mesquita.
-possibleSOLUTION: chown /usr/lib/floflis/layers/soil/to-merge/
 
 dont anymore support importing ETH privkey, but only generating a floflis-exclusive address
 -

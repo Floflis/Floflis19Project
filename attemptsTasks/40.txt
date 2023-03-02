@@ -10,6 +10,9 @@ update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter inst
 
 IPFS has an updating tool that can be accessed through ipfs update. The tool is not installed alongside IPFS in order to keep that logic independent of the main codebase. To install ipfs-update tool, download it here.
 
+https://github.com/floating/frame/releases
+https://github.com/frame-labs/frame-canary/releases
+
 fix snap installing issue on Cubic/chroot
 best answer: https://askubuntu.com/questions/1344916/how-to-install-snap-packages-in-cubic (will require FLIC as middleware assistant between host and Cubic chroot)
 https://forum.snapcraft.io/t/ubuntu-cubic-install-snap-applications-from-chroot-in-customized-iso-fails/13541
