@@ -16,12 +16,12 @@ https://forum.snapcraft.io/t/ubuntu-cubic-install-snap-applications-from-chroot-
 https://bugs.launchpad.net/cubic/+bug/1843257
 https://answers.launchpad.net/cubic/+question/697883
 
-sudo snap install hugo
-
-install starship as a snap
-sudo snap install starship
-
 sudo snap install uno-calculator
+
+replace current installer:
+sudo snap install starship
+sudo snap install hugo
+sudo snap install ipfs-desktop
 
 
 SVG icon for logo (also reflect this update in fl central)

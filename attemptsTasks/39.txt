@@ -13,6 +13,7 @@
 - when installing snap on Cubic, also run "sudo snap install core"
 - Core's Starshell: upgrade Nu from 0.74.0 to 0.76.0 https://github.com/nushell/nushell/releases/0.76.0
 - Core's Starshell: upgrade Starship to v1.13.1
+- nushell as default login shell in Gnome Term!
 
 
 Installing the "Starshell" package...
