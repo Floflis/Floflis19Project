@@ -10,18 +10,11 @@
 - use initram cmd from UCR
 - upgrade Edge browser from version 109 to 110
 - Soil: install geth from apt instead of local dependency
+- when installing snap on Cubic, also run "sudo snap install core"
+- Core's Starshell: upgrade Nu from 0.74.0 to 0.76.0 https://github.com/nushell/nushell/releases/0.76.0
+- Core's Starshell: upgrade Starship to v1.13.1
 
 
-update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
-
-fix snap installing issue on Cubic/chroot
-https://askubuntu.com/questions/1344916/how-to-install-snap-packages-in-cubic
-https://forum.snapcraft.io/t/ubuntu-cubic-install-snap-applications-from-chroot-in-customized-iso-fails/13541
-https://bugs.launchpad.net/cubic/+bug/1843257
-https://answers.launchpad.net/cubic/+question/697883
-
-install starship as a snap
--
 Installing the "Starshell" package...
 fatal: unable to access 'https://github.com/Floflis/starshell.git/': Could not resolve host: github.com
 Your branch is ahead of 'origin/main' by 5 commits.
