@@ -28,9 +28,16 @@
 - Core: upgrade Ubuntu release
 
 
-custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
+Core's GIPFS: upgrade IPFS to version 0.18.1
 
-https://github.com/bobwya/wine-desktop-common
+Core: upgrade Ethereal to version 2.8.7
+
+install wine-desktop-common
+
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update && sudo apt -y upgrade
+sudo apt-get dist-upgrade
+# from https://diolinux.com.br/sistemas-operacionais/oibaf-melhorar-desempenho-grafico-ubuntu.html
 
 dont anymore support importing ETH privkey; now only generating a floflis-exclusive address
 -
