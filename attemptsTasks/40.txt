@@ -3,6 +3,10 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/5
 
 
+-? New Ubuntu 23 ISO base https://cdimage.ubuntu.com/daily-live/
+https://bugs.launchpad.net/cubic/+bug/2008949
+
+
 SVG icon for logo (also reflect this update in fl central)
 
-install flatpak (but study its popularity, disk size and advantages over snap)
+install flatpak (but study its popularity, disk size and advantages over snap) https://www.edivaldobrito.com.br/instalar-o-suporte-flatpak-no-linux/

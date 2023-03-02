@@ -8,9 +8,9 @@
 - fix icon size in default settings for cinnamenu
 - don't anymore install clean-show-desktop@filipetorresbr
 - use initram cmd from UCR
+- upgrade Edge browser from version 109 to 110
+- Soil: install geth from apt instead of local dependency
 
-
-New Ubuntu 23 ISO base https://cdimage.ubuntu.com/daily-live/ (check if UCR builder did changed from February so reflect changes - or fork repo)
 
 update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
 
