@@ -27,6 +27,8 @@
 - new logoff sound
 
 
+https://github.com/bobwya/wine-desktop-common
+
 dont anymore support importing ETH privkey; now only generating a floflis-exclusive address
 -
 reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Also never ask for privatekey, only enable floflis-exclusive address (and tell its not much safe) and walletconnect through frame

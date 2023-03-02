@@ -3,6 +3,12 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/6
 
 
+re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
+/media/daniella/B/git/Floflis/cinnamon-patch
+https://github.com/Floflis/cinnamon-patch.git
+
+- sync settings of Frame and Frame Canary
+
 fl anbox
 https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944 (may also make Floflis' boot-compatible signed kernel images)
 snap install --devmode --beta anbox
@@ -28,12 +34,11 @@ firstlogon questions:
 cursor black or white (in UI, will have different background as example)
 ask to have label in Explore menu or not (default is not)
 
-new desktop background!
 updated Yaru-cinnamon desktop themes, with hover effects
 hover/clicked effects for the Explore menu (from theme side)
 Floflis Central light/dark theme toggle (affects cinnamon theme)
 -
-Desktop Background1, Desktop Background2, DesktopBackground3, DesktopBackground4
+-? Desktop Background1, Desktop Background2, DesktopBackground3, DesktopBackground4
 
 
 before asking to create SSH and IPFS ID, check for flo-bkp-sync
@@ -130,7 +135,6 @@ https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
 -
-https://github.com/bobwya/wine-desktop-common
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 -
 - firedoge up-to-date material-theme; Firedoge web browser /media/daniella/B/git/Web3HQ/firedoge
@@ -143,8 +147,6 @@ https://github.com/muckSponge/MaterialFox/pulls
 
 
 
-
-- sync settings of Frame and Frame Canary
 
 firstlogon ask first questions
 
@@ -177,8 +179,6 @@ multiaddress: import hardware wallet, ronin and argent
 
 add firedoge to cinnamon's sound applet as a player. but how to?
 
-re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
-
 hone up these:
 /media/daniella/B/git/Floflis/HTML5/floapps
 /media/daniella/B/git/Floflis/HTML5/floflis-application-handler
@@ -201,9 +201,6 @@ Firedoge: tell that DogeAds are coming
 turn /media/daniella/B/git/Floflis/HTML5/floapps/include/Floflis_libs_game-engines_c2.tar.gz into a repo/folder
 
 - firstboot runs firstboot-userstasks (this supports running layers), which echoes a log that will be read+rm by firstlogon. this prevents users from closing essential settings
-
--? bug: gimp is being the default app for opening images
--? fix: duplicate entry for Music and Rythmbox (search on UCR ISO if it also have the duplicates, then search in to-merge.sh where's the cause of the issue)
 
 
 -? https://wiki.gnome.org/Apps/Documents
@@ -252,9 +249,6 @@ Error in file "/usr/share/applications/floflis-application-handler.desktop": "ap
 
 Testing if Pijul works:
 pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
-
-/media/daniella/B/git/Floflis/cinnamon-patch
-https://github.com/Floflis/cinnamon-patch.git
 
 - Look at all from-git Floflis dependencies, and init.sh on all
 - All Floflis layers should take use of init.sh (also for UniOS)
