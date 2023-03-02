@@ -22,14 +22,12 @@
 - fix issue of dubious ownership in git repos
 - dont anymore preinstall Uniswap (in order to respect UN sanctions)
 - apply Starshell's candycolors manually to Gnome Term settings
+- Floflis' Ubiquity familiar.html slide: fix issue of taskbar img shrink in a standard
+- new desktop background (replace old one from since 2021)!
+- new logoff sound
 
 
-replace logoff sound
-/home/daniella/Desktop/fl sounds
-
-Ubiquity familiar.html slide: taskbar img is shrink in a standard. have to workaround
-
-dont anymore support importing ETH privkey, but only generating a floflis-exclusive address
+dont anymore support importing ETH privkey; now only generating a floflis-exclusive address
 -
 reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Also never ask for privatekey, only enable floflis-exclusive address (and tell its not much safe) and walletconnect through frame
 -
