@@ -96,8 +96,6 @@ https://github.com/Floflis/unifetch
 https://github.com/dylanaraps/neofetch/pull/2289
 https://github.com/Jin-Asanami/unifetch/commit/b6112754b627326bfe4c62fab3847d7a8e30e80f
 /media/daniella/B/git/Floflis/Utilities/guppy
--
-custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
 
 
 

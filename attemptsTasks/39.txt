@@ -25,7 +25,10 @@
 - Floflis' Ubiquity familiar.html slide: fix issue of taskbar img shrink in a standard
 - new desktop background (replace old one from since 2021)!
 - new logoff sound
+- Core: upgrade Ubuntu release
 
+
+custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
 
 https://github.com/bobwya/wine-desktop-common
 
