@@ -1,5 +1,12 @@
-ISO size reduction measures:
+FloflisPNG icons: bring back old settings icon
+
+smaller versions of floflisCentral icon
+
+/media/daniella/B/git/Floflis/cinnamon-patch
+
 firstlogon first ask if Internet is connected before proceeding.
+
+ISO size reduction measures:
 
 firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
@@ -12,9 +19,3 @@ don't install hexchat
 ------------------------------
 
 Cinnamon's default settings from firstboot now aligned with Cinnamobile's settings
-
-/media/daniella/B/git/Floflis/cinnamon-patch
-
-smaller versions of floflisCentral icon
-
-FloflisPNG icons: bring back old settings icon
