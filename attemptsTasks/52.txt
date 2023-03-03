@@ -1,0 +1,12 @@
+attempt 46:
+
+custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
+
+------------------------------------------------------------------------------------------------------------------------
+
+Floflis ISO/Floflis ppl/
+
+Floflis icons:
+merge with captiva-icon-theme
+
+geth/MetaMask/Frame: add XDai and Polygon

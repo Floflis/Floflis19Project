@@ -19,6 +19,12 @@ firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
 ?, https://packages.microsoft.com/repos/ms-teams/
 
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+-
+probably fixed after using Snap
+have to manipulate taskbar windows applet's data to pin or unpin teams
+
 firstlogon install Weather, Maps, KeePassXC
 don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
 don't install hexchat
@@ -26,3 +32,20 @@ don't install hexchat
 ------------------------------
 
 Cinnamon's default settings from firstboot now aligned with Cinnamobile's settings
+
+Command 'gix' not found, did you mean:
+
+For a listing of options, use jq --help.
+tar (child): include/gipfs/include/IPFS/kubo_v0.18.0_linux-amd64.tar.gz: Cannot open: No such file or directory
+chmod: cannot access '/usr/bin/ipfs': No such file or directory
+Testing if IPFS works:
+install.sh: line 152: ipfs: command not found
+
+Package wine32 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libwine
+E: Package 'wine32' has no installation candidate
+
+install the latest software directly from gh releases, prepare to later use unistore+shrdchn
