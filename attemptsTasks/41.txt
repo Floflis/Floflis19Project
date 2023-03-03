@@ -10,8 +10,6 @@ update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter inst
 
 to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
-sudo snap install ipfs-desktop (replace current installer - install at firstlogon)
-
 SVG icon for logo (also reflect this update in fl central)
 
 replace bash by cicada (but keep bashoriginal) in Starshell https://github.com/mitnk/cicada/releases/

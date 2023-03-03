@@ -31,7 +31,6 @@ Communicator will have shortcuts for Pidgin/Ferdi/others (and Telegram desktop i
 
 
 firstlogon questions:
-cursor black or white (in UI, will have different background as example)
 ask to have label in Explore menu or not (default is not)
 
 updated Yaru-cinnamon desktop themes, with hover effects

@@ -160,9 +160,6 @@ play music at desktop if setting, detect background color
 
 if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
 
-exactly Floflis like: " %H:%M:%S%n%e-%b-%y"
-exactly WindOS like: "%H:%M%n%d/%m/%Y"
-
 webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
 
 firstlogon-user and firstlogon-IT-technician

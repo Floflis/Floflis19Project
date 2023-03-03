@@ -26,16 +26,18 @@
 - new desktop background (replace old one from since 2021)!
 - new logoff sound
 - Core: upgrade Ubuntu release
+- first logon: ask user about preferred mouse cursor color!
+- first logon: ask to install the WindOS🪟 Calculator
 
 
 firstlogon questions such as:
-cursor color --- gsettings set org.cinnamon.desktop.interface cursor-theme 'DMZ-White' ------ gsettings set org.cinnamon.desktop.interface cursor-theme 'Yaru' #from https://askubuntu.com/a/72093
-"sudo snap install uno-calculator"
 dark or light theme --- gsettings set org.cinnamon.desktop.wm.preferences theme 'Yaru-cinnamon-dark' && gsettings set org.cinnamon.desktop.interface gtk-theme 'Yaru-cinnamon-dark' && gsettings set org.cinnamon.theme name 'Yaru-cinnamon-dark' ----------- gsettings set org.cinnamon.desktop.wm.preferences theme 'Yaru-cinnamon' && gsettings set org.cinnamon.desktop.interface gtk-theme 'Yaru-cinnamon' && gsettings set org.cinnamon.theme name 'Yaru-cinnamon' #from https://askubuntu.com/a/72093
 
 Core's GIPFS: upgrade IPFS to version 0.18.1
 
 Core: upgrade Ethereal to version 2.8.7
+
+sudo snap install ipfs-desktop (replace current installer - install at firstlogon)
 
 install wine-desktop-common
 
