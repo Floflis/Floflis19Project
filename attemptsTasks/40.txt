@@ -8,3 +8,7 @@ sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edg
 firstlogon install Weather, Maps, KeePassXC
 don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
 don't install hexchat
+
+------------------------------
+
+Cinnamon's default settings from firstboot now aligned with Cinnamobile's settings
