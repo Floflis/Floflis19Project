@@ -12,3 +12,9 @@ don't install hexchat
 ------------------------------
 
 Cinnamon's default settings from firstboot now aligned with Cinnamobile's settings
+
+/media/daniella/B/git/Floflis/cinnamon-patch
+
+smaller versions of floflisCentral icon
+
+FloflisPNG icons: bring back old settings icon

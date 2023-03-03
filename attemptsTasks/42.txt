@@ -9,6 +9,11 @@ https://github.com/Floflis/cinnamon-patch.git
 
 - sync settings of Frame and Frame Canary
 
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update && sudo apt -y upgrade
+sudo apt-get dist-upgrade
+# from https://diolinux.com.br/sistemas-operacionais/oibaf-melhorar-desempenho-grafico-ubuntu.html
+
 fl anbox
 https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944 (may also make Floflis' boot-compatible signed kernel images)
 snap install --devmode --beta anbox
