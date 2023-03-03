@@ -28,28 +28,21 @@
 - Core: upgrade Ubuntu release
 - first logon: ask user about preferred mouse cursor color!
 - first logon: ask to install the WindOS🪟 Calculator
+- first logon: ask if user prefer dark or light theme
+- first logon: dont anymore support importing ETH privkey; now only generating a floflis-exclusive address
 
-
-firstlogon questions such as:
-dark or light theme --- gsettings set org.cinnamon.desktop.wm.preferences theme 'Yaru-cinnamon-dark' && gsettings set org.cinnamon.desktop.interface gtk-theme 'Yaru-cinnamon-dark' && gsettings set org.cinnamon.theme name 'Yaru-cinnamon-dark' ----------- gsettings set org.cinnamon.desktop.wm.preferences theme 'Yaru-cinnamon' && gsettings set org.cinnamon.desktop.interface gtk-theme 'Yaru-cinnamon' && gsettings set org.cinnamon.theme name 'Yaru-cinnamon' #from https://askubuntu.com/a/72093
-
-Core's GIPFS: upgrade IPFS to version 0.18.1
-
-Core: upgrade Ethereal to version 2.8.7
 
 sudo snap install ipfs-desktop (replace current installer - install at firstlogon)
 
-install wine-desktop-common
+smaller versions of floflisCentral icon
+
+FloflisPNG icons: bring back old settings icon
 
 sudo add-apt-repository ppa:oibaf/graphics-drivers
 sudo apt update && sudo apt -y upgrade
 sudo apt-get dist-upgrade
 # from https://diolinux.com.br/sistemas-operacionais/oibaf-melhorar-desempenho-grafico-ubuntu.html
 
-dont anymore support importing ETH privkey; now only generating a floflis-exclusive address
--
-reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Also never ask for privatekey, only enable floflis-exclusive address (and tell its not much safe) and walletconnect through frame
--
-Floflis propose to split assets by using multiple wallets (include option to import ronin address)
-floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
-insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
+install wine-desktop-common https://github.com/bobwya/wine-desktop-common.git sudo make install
+
+Core's GIPFS: upgrade IPFS to version 0.18.1

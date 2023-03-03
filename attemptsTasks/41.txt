@@ -47,6 +47,8 @@ cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@fl
 fix ethgas display
 fix ethgas applet
 
+
+
 Floflis cinnamon applet: Show desklets. Borrow this feature from cornerbar applet
 /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
 /media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
@@ -79,9 +81,11 @@ Error: peer ID represented as CIDv1 require libp2p-key multicodec: retry with /i
 
 probably after installed, Floflis is using the same IPFS ID from the ISO
 
-smaller versions of floflisCentral icon
-
-FloflisPNG icons: bring back old settings icon
+reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Support importing address with walletconnect through frame
+-
+Floflis propose to split assets by using multiple wallets (include option to import ronin address)
+floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
+insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
 
 mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/cd_in_tray.png': No such file or directory
 mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/ubuntu_installed.png': No such file or directory

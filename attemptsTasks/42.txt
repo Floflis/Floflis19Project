@@ -32,6 +32,7 @@ Communicator will have shortcuts for Pidgin/Ferdi/others (and Telegram desktop i
 
 firstlogon questions:
 ask to have label in Explore menu or not (default is not)
+exactly Floflis like: " %H:%M:%S%n%e-%b-%y" ---- exactly WindOS like: "%H:%M%n%d/%m/%Y"
 
 updated Yaru-cinnamon desktop themes, with hover effects
 hover/clicked effects for the Explore menu (from theme side)
