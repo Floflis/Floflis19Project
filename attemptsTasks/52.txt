@@ -1,12 +1,41 @@
-attempt 46:
 
-custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
 
-------------------------------------------------------------------------------------------------------------------------
 
-Floflis ISO/Floflis ppl/
+Gamer personality pack:
+https://www.edivaldobrito.com.br/como-ativar-o-proton-para-jogar-jogos-do-windows-no-linux/
+https://diolinux.com.br/tutoriais/como-instalar-o-winetricks-e.html
+https://www.edivaldobrito.com.br/como-instalar-o-sysdvr-qt-no-linux-via-flatpak/
 
-Floflis icons:
-merge with captiva-icon-theme
+usv-tools installs .svg mimetype icon and feature to pack .usv videos (should be leveraged by OmniPackager!)
+NeTVision first PoC: this app is a screen to open DTube or Lenstube
+USV PoC player first MVP
 
-geth/MetaMask/Frame: add XDai and Polygon
+Come with UniOS' default pinky theme as option
+
+fl employment opportunities:
+- make gel nails and even sell them as NFTs!
+- turn client's tattoos into NFTs!
+
+notifications .sh API. use Floflis Screens (Electron) transparent overlay or fallback to notifsend. support important notifications with different sound
+communicator display bigger toast notif if from favorite contact
+-
+floflis own script for symlinking between folders that have duplicates. personally do it for my DCIM folders (requires incubators' rmv lib). check for duplicate files betweeen /media/daniella/Main Linux/home/daniell/kaiosrt-v2.5-ubuntu-20190925163557-n378 and /media/daniella/Main Linux/home/daniell/Kaiosrtv3.0_ubuntu.
+
+turn bulkfilemover into a bulk lib in incubator folder
+-
+develop most of the libs in incubator folder
+
+
+3D viewer. also leverage it for creating/previewing user's minecraft skin /media/daniella/Windows 10 main/Users/Daniell/Desktop/3b60a1f6d562f52aaebbf1434f1de147933a3affe0e764fa49ea057536623cd3.png
+
+https://www.google.com/search?client=firefox-b-d&q=.bash_history+remove+limit
+https://www.google.com/search?client=firefox-b-d&q=nushell+history+remove+limit
+-? remove limits on shell histories. every logon git commit then remove duplicate lines.
+-
+-? nushell history: support for prioritizing favorite lines
+
+PoolTogether WebLink app
+
+/1/Floflis/system/os.json up-to-date build info and, now add distrobase
+
+use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds

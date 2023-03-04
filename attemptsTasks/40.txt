@@ -1,19 +1,12 @@
+- fix installing wine32 alongside wine64
+- Updated Voxels icon!
 
 
-
-SVG icon for logo (also reflect this update in fl central)
-
-FloflisPNG icons: bring back old settings icon
-
-sudo apt install wine32:i386
+also install material themes
 
 new theme with hover effect
 
 firstlogon-root will fix root issues in /1
-
-also install material themes
-
-auto-arrange desktop setting
 
 pair cinnamon defaults with cinnamobile
 
@@ -35,17 +28,6 @@ gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
 
 makedir /home/daniella/Pictures/Screenshots, then:
 gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screenshots'
-
-fl study custom out-of-cinnamon notifications handler
-https://github.com/dunst-project/dunst
-https://github.com/phuhl/linux_notification_center
-https://github.com/phuhl/linux_notification_center/discussions/210
-https://github.com/phuhl/linux_notification_center/discussions/211
-gsettings set org.cinnamon allow-other-notification-handlers true
-
-Floflis Screens' davidLauncher as Desktop
-https://www.google.com/search?channel=fs&client=ubuntu&q=_NET_WM_WINDOW_TYPE_DESKTOP
-https://github.com/sidorares/node-x11/issues/106
 
 smaller versions of floflisCentral icon
 
@@ -77,23 +59,6 @@ ask to install winapps at firstlogon, and it will require Internet (be it target
 
 firstlogon first ask if Internet is connected before proceeding.
 
-ISO size reduction measures:
-
-firstlogon edge question: install edge from ms repo instead of from deb
-sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
-?, https://packages.microsoft.com/repos/ms-teams/
-sudo apt-add-repository ppa:cubic-wizard/release
-
-Unpacking teams (1.5.00.23861) ...
-dpkg: dependency problems prevent configuration of teams:
--
-probably fixed after using Snap
-have to manipulate taskbar windows applet's data to pin or unpin teams
-
-firstlogon install Weather, Maps, KeePassXC
-don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
-don't install hexchat
-
 ------------------------------
 
 Cinnamon's default settings from firstboot now aligned with Cinnamobile's settings
@@ -105,13 +70,6 @@ tar (child): include/gipfs/include/IPFS/kubo_v0.18.0_linux-amd64.tar.gz: Cannot 
 chmod: cannot access '/usr/bin/ipfs': No such file or directory
 Testing if IPFS works:
 install.sh: line 152: ipfs: command not found
-
-Package wine32 is not available, but is referred to by another package.
-This may mean that the package is missing, has been obsoleted, or
-is only available from another source
-However the following packages replace it:
-  libwine
-E: Package 'wine32' has no installation candidate
 
 install the latest software directly from gh releases, prepare to later use unistore+shrdchn
 
@@ -167,5 +125,3 @@ to-merge_firstlogon.sh: line 274: `      [2])'
 IPFS Desktop wasn't installed
 
 to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
-
-fl future feature: option to leave panel transparent
