@@ -3,11 +3,8 @@
 
 49. upper layers
 
-feature to upgrade layers; Grass layer
+feature to upgrade layers; Grass layer's to-merge
 
-geth
-
-replace Audacity with lighter solution already available; use it on Musician user pack
 replace OBS with lighter solution for screenrecording only, not streamming
 User Packs: Youtuber/Streammer ($maysudo apt install obs-studio), Gamedev (https://github.com/godotengine/godot/releases/tag/3.2.3-stable
 https://crates.io/crates/gdnative), Musician (sudo apt install audacity)
@@ -31,9 +28,9 @@ Starship available to riscv64
 Pijul available to riscv64
 Other software available to riscv64
 
-Floflis Grass and above layers purely in nu
-Floflis DNA purely POSIX compliant
-Floflis Soil purely in nu
+-? Floflis Grass and above layers purely in nu
+Floflis DNA purely POSIX compliant (know its limitations)
+-? Floflis Soil purely in nu
 
 Install mkdocs:
 sudo apt install python3-pip

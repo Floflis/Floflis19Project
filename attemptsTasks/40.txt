@@ -1,13 +1,77 @@
 
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/5
 
+SVG icon for logo (also reflect this update in fl central)
 
 FloflisPNG icons: bring back old settings icon
 
+sudo apt install wine32:i386
+
+new theme with hover effect
+
+firstlogon-root will fix root issues in /1
+
+also install material themes
+
+auto-arrange desktop setting
+
+pair cinnamon defaults with cinnamobile
+
+gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true
+
+gsettings set org.cinnamon.desktop.screensaver font-time 'Ubuntu Bold 64'
+
+gsettings set org.cinnamon.desktop.interface buttons-have-icons true
+
+gsettings set org.cinnamon system-icon 'distributor-logo'
+
+gsettings set org.cinnamon startup-icon-name 'distributor-logo'
+
+gsettings set org.cinnamon demands-attention-passthru-wm-classes "['gnome-screenshot', 'lxterminal', 'xfce4-terminal', 'firefox', 'firedoge', 'libreoffice', 'soffice']"
+
+gsettings set org.cinnamon app-menu-label 'Explore'
+
+gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
+
+makedir /home/daniella/Pictures/Screenshots, then:
+gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screenshots'
+
+fl study custom out-of-cinnamon notifications handler
+https://github.com/dunst-project/dunst
+https://github.com/phuhl/linux_notification_center
+https://github.com/phuhl/linux_notification_center/discussions/210
+https://github.com/phuhl/linux_notification_center/discussions/211
+gsettings set org.cinnamon allow-other-notification-handlers true
+
+Floflis Screens' davidLauncher as Desktop
+https://www.google.com/search?channel=fs&client=ubuntu&q=_NET_WM_WINDOW_TYPE_DESKTOP
+https://github.com/sidorares/node-x11/issues/106
+
 smaller versions of floflisCentral icon
 
-SVG icon for logo (also reflect this update in fl central)
+PoolTogether WebLink app
+
+new Yaru-Floflis theme, based off Yaru-cinnamon
+.menu {
+	background-color: rgba(0,0,0,0.0);
+	border-color: rgba(0,0,0,0.0);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(50,50,50,0.7);
+	background-gradient-end: rgba(0,0,0,0.7);
+	box-shadow: 1px 4px 10px 4px rgba(0,0,0,0.6);
+	padding: 2px 0px 0px 2px;
+	color: #ffffff;
+	font-size: 8pt;
+	min-width: 85px;
+	border-radius: 5px;
+	padding: 4px;
+}
+insp BlackMate theme also on exclusive explore menu hover/active effects. active effect will turn the applet yelow with #333 font
+https://htmlcolorcodes.com/color-chart/material-design-color-chart/
+
+pair Floflis' cinnamon settings with Cinnamobile's settings
+
+ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
 
 /media/daniella/B/git/Floflis/cinnamon-patch
 
@@ -18,6 +82,7 @@ ISO size reduction measures:
 firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
 ?, https://packages.microsoft.com/repos/ms-teams/
+sudo apt-add-repository ppa:cubic-wizard/release
 
 Unpacking teams (1.5.00.23861) ...
 dpkg: dependency problems prevent configuration of teams:
@@ -49,3 +114,58 @@ However the following packages replace it:
 E: Package 'wine32' has no installation candidate
 
 install the latest software directly from gh releases, prepare to later use unistore+shrdchn
+
+ubuntu@ubuntu:~$ central
+/usr/bin/central: line 4: npm: command not found
+
+fix cinnamon due-applet startup issue (buildmark and nftmark not compatible with current version of cinnamon; said that bc their host extension isn't being installed)
+
+taskbar search applet isn't loading its defaults
+
+/usr/share/ubiquity-slideshow is still owned by root
+
+ubiquity-slideshow: misalignment in the taskbar img; it should be separated. music img is too big. central slide displays off icon at header. Help & Support slide: dont mention "Dock", but Explore menu.
+
+pin the Help app on taskbar
+
+
+startup tab 2:
+jq: error: Could not open file /1/config/user.json: No such file or directory
+firstlogonroot.sh: line 5: /home//.config/autostart/IPFS.sh: No such file or directory
+chmod: cannot access '/home//.config/autostart': No such file or directory
+chown: cannot access '/home//.local/share/gvfs-metadata/home*': No such file or directory
+- Cleanning install...
+
+startup tab 1:
+Getting and storing username...
+./firstlogon.sh: 34: cannot create /1/config/user.json: Permission denied
+-
+jq: error: Could not open file /1/config/user.json: No such file or directory
+Installing Templates of the 'New File' context menu...
+sending incremental file list
+rsync: [Receiver] mkdir "/home//Templates" failed: Permission denied (13)
+rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
+rm: cannot remove '/home//Templates/New slidesPresentation.pptx.webpresent': No such file or directory
+rm: cannot remove '/home//Templates/New Spreadsheet.xlsx.webpresent': No such file or directory
+rm: cannot remove '/home//Templates/New WordWriter document.docx.webpresent': No such file or directory
+Installing floapps...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
+To add an exception for this directory, call:
+	git config --global --add safe.directory /usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps
+-
+Installing ethgas...
+fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
+- these issues of dubious ownership at ISO, is probably bc "ubuntu" usr wasnt found at firstboot
+-
+How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
+1. ⚫Black (like in "MecOS"🍎)
+2. ⚪White (like in "WindOS"🪟)
+2
+to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
+to-merge_firstlogon.sh: line 274: `      [2])'
+
+IPFS Desktop wasn't installed
+
+to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
+
+fl future feature: option to leave panel transparent

@@ -8,8 +8,6 @@ https://bugs.launchpad.net/cubic/+bug/2008949
 
 update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
 
-to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
-
 
 
 -? replace bash by cicada (but keep bashoriginal) in Starshell https://github.com/mitnk/cicada/releases/ CICADA DOESN'T SUPPORT BASH FALLBACK
