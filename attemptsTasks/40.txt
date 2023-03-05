@@ -4,6 +4,9 @@
 - PoolTogether WebLink app
 
 
+sudo apt install kolourpaint
+sudo apt install breeze && sudo apt autoremove qt5ct #from https://askubuntu.com/a/1302913 and https://askubuntu.com/questions/1302794/kolourpaint-missing-all-icons-on-ubuntu-20-10#comment2215417_1302913
+
 new Yaru-Floflis theme, based off Yaru-cinnamon
 https://github.com/Floflis/Yaru-floflis.git
 https://github.com/Floflis/Yaru-floflis-dark.git
@@ -12,12 +15,9 @@ https://github.com/Floflis/Yaru-floflis-light.git
 
 run /media/daniella/B/git/Floflis/cinnamon-patch
 
-sudo apt install kolourpaint
-sudo apt install breeze && sudo apt autoremove qt5ct #from https://askubuntu.com/a/1302913 and https://askubuntu.com/questions/1302794/kolourpaint-missing-all-icons-on-ubuntu-20-10#comment2215417_1302913
-
 firstlogon-root will fix root issues in /1
 
-pair cinnamon defaults with cinnamobile
+pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
 
 gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true
 
