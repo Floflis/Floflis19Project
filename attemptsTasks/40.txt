@@ -2,14 +2,13 @@
 - Updated Voxels icon!
 - brand new 'New File' content menu templates: Access Database, Compressed Folder and Publisher Document
 - PoolTogether WebLink app
+- 01VCS: fix issue of not installing git-lfs/pijul/gix; fix installing symlinks for icons
+- fix installing Kolourpaint!
 
-
-sudo apt install kolourpaint
-sudo apt install breeze && sudo apt autoremove qt5ct #from https://askubuntu.com/a/1302913 and https://askubuntu.com/questions/1302794/kolourpaint-missing-all-icons-on-ubuntu-20-10#comment2215417_1302913
 
 firstlogon-root will fix root issues in /1
 
-gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true
+gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-in-list-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true && gsettings set org.nemo.preferences tooltips-show-mod-date true
 
 gsettings set org.cinnamon.desktop.screensaver font-time 'Ubuntu Bold 64'
 
@@ -47,8 +46,6 @@ run /media/daniella/B/git/Floflis/cinnamon-patch
 firstlogon first ask if Internet is connected before proceeding.
 
 ------------------------------
-
-Command 'gix' not found, did you mean:
 
 For a listing of options, use jq --help.
 tar (child): include/gipfs/include/IPFS/kubo_v0.18.0_linux-amd64.tar.gz: Cannot open: No such file or directory

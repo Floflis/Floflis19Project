@@ -5,8 +5,6 @@
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
 
-explorer icon hover effect: type, size, date modified
-
 ISO size reduction measures:
 
 ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
