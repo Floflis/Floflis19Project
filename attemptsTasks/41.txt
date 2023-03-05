@@ -7,6 +7,8 @@ SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git
 
 ISO size reduction measures:
 
+ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
+
 firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
 ?, https://packages.microsoft.com/repos/ms-teams/

@@ -7,6 +7,35 @@
 sudo apt install kolourpaint
 sudo apt install breeze && sudo apt autoremove qt5ct #from https://askubuntu.com/a/1302913 and https://askubuntu.com/questions/1302794/kolourpaint-missing-all-icons-on-ubuntu-20-10#comment2215417_1302913
 
+firstlogon-root will fix root issues in /1
+
+gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true
+
+gsettings set org.cinnamon.desktop.screensaver font-time 'Ubuntu Bold 64'
+
+gsettings set org.cinnamon.desktop.interface buttons-have-icons true
+
+gsettings set org.cinnamon system-icon 'distributor-logo' && gsettings set org.cinnamon startup-icon-name 'distributor-logo'
+
+gsettings set org.cinnamon app-menu-label 'Explore' && gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
+
+gsettings set org.cinnamon demands-attention-passthru-wm-classes "['gnome-screenshot', 'lxterminal', 'xfce4-terminal', 'firefox', 'firedoge', 'libreoffice', 'soffice']"
+
+makedir /home/daniella/Pictures/Screenshots, then:
+gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screenshots'
+
+pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
+(also change theme from Yaru-cinnamon to Yaru-floflis)
+
+firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon
+
+How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
+1. ⚫Black (like in "MecOS"🍎)
+2. ⚪White (like in "WindOS"🪟)
+2
+to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
+to-merge_firstlogon.sh: line 274: `      [2])'
+
 new Yaru-Floflis theme, based off Yaru-cinnamon
 https://github.com/Floflis/Yaru-floflis.git
 https://github.com/Floflis/Yaru-floflis-dark.git
@@ -15,41 +44,9 @@ https://github.com/Floflis/Yaru-floflis-light.git
 
 run /media/daniella/B/git/Floflis/cinnamon-patch
 
-firstlogon-root will fix root issues in /1
-
-pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
-
-gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true
-
-gsettings set org.cinnamon.desktop.screensaver font-time 'Ubuntu Bold 64'
-
-gsettings set org.cinnamon.desktop.interface buttons-have-icons true
-
-gsettings set org.cinnamon system-icon 'distributor-logo'
-
-gsettings set org.cinnamon startup-icon-name 'distributor-logo'
-
-gsettings set org.cinnamon demands-attention-passthru-wm-classes "['gnome-screenshot', 'lxterminal', 'xfce4-terminal', 'firefox', 'firedoge', 'libreoffice', 'soffice']"
-
-gsettings set org.cinnamon app-menu-label 'Explore'
-
-gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
-
-makedir /home/daniella/Pictures/Screenshots, then:
-gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screenshots'
-
-
-pair Floflis' cinnamon settings with Cinnamobile's settings
-
-ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
-
-/media/daniella/B/git/Floflis/cinnamon-patch
-
 firstlogon first ask if Internet is connected before proceeding.
 
 ------------------------------
-
-Cinnamon's default settings from firstboot now aligned with Cinnamobile's settings
 
 Command 'gix' not found, did you mean:
 
@@ -102,13 +99,6 @@ To add an exception for this directory, call:
 Installing ethgas...
 fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/Tools/ethgas'
 - these issues of dubious ownership at ISO, is probably bc "ubuntu" usr wasnt found at firstboot
--
-How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
-1. ⚫Black (like in "MecOS"🍎)
-2. ⚪White (like in "WindOS"🪟)
-2
-to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
-to-merge_firstlogon.sh: line 274: `      [2])'
 
 IPFS Desktop wasn't installed
 
