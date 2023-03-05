@@ -5,4 +5,4 @@
 
 compile latest signed kernel with Android support
 
-install anbox snap using seed
+install anbox snap (user-side)
