@@ -3,4 +3,25 @@
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
-compile latest signed kernel with Android support
+SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+
+explorer icon hover effect: type, size, date modified
+
+ISO size reduction measures:
+
+ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
+
+firstlogon edge question: install edge from ms repo instead of from deb
+sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
+?, https://packages.microsoft.com/repos/ms-teams/
+sudo apt-add-repository ppa:cubic-wizard/release
+
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+-
+probably fixed after using Snap
+have to manipulate taskbar windows applet's data to pin or unpin teams
+
+firstlogon install Weather, Maps, KeePassXC
+don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
+don't install hexchat
