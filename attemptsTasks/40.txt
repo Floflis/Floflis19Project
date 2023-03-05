@@ -1,10 +1,19 @@
 - fix installing wine32 alongside wine64
 - Updated Voxels icon!
+- brand new 'New File' content menu templates: Access Database, Compressed Folder and Publisher Document
+- PoolTogether WebLink app
 
 
-also install material themes
+new Yaru-Floflis theme, based off Yaru-cinnamon
+https://github.com/Floflis/Yaru-floflis.git
+https://github.com/Floflis/Yaru-floflis-dark.git
+https://github.com/Floflis/Yaru-floflis-light.git
+/home/daniella/.themes
 
-new theme with hover effect
+run /media/daniella/B/git/Floflis/cinnamon-patch
+
+sudo apt install kolourpaint
+sudo apt install breeze && sudo apt autoremove qt5ct #from https://askubuntu.com/a/1302913 and https://askubuntu.com/questions/1302794/kolourpaint-missing-all-icons-on-ubuntu-20-10#comment2215417_1302913
 
 firstlogon-root will fix root issues in /1
 
@@ -29,27 +38,6 @@ gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
 makedir /home/daniella/Pictures/Screenshots, then:
 gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screenshots'
 
-smaller versions of floflisCentral icon
-
-PoolTogether WebLink app
-
-new Yaru-Floflis theme, based off Yaru-cinnamon
-.menu {
-	background-color: rgba(0,0,0,0.0);
-	border-color: rgba(0,0,0,0.0);
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(50,50,50,0.7);
-	background-gradient-end: rgba(0,0,0,0.7);
-	box-shadow: 1px 4px 10px 4px rgba(0,0,0,0.6);
-	padding: 2px 0px 0px 2px;
-	color: #ffffff;
-	font-size: 8pt;
-	min-width: 85px;
-	border-radius: 5px;
-	padding: 4px;
-}
-insp BlackMate theme also on exclusive explore menu hover/active effects. active effect will turn the applet yelow with #333 font
-https://htmlcolorcodes.com/color-chart/material-design-color-chart/
 
 pair Floflis' cinnamon settings with Cinnamobile's settings
 

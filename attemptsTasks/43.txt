@@ -11,6 +11,8 @@ https://bugs.launchpad.net/cubic/+bug/2008949
 
 update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
 
+smaller versions of floflisCentral icon
+
 
 
 -? replace bash by cicada (but keep bashoriginal) in Starshell https://github.com/mitnk/cicada/releases/ CICADA DOESN'T SUPPORT BASH FALLBACK
