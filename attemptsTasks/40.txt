@@ -32,9 +32,9 @@
 
 
 ubiquity-slideshow:
-misalignment in the taskbar img; it should be separated.
-music img is too big.
-Help & Support slide: dont mention "Dock", but Explore menu.
+familiar slide: misalignment in the taskbar img; it should be separated
+music slide: screenshot is too big
+gethelp: dont mention "Dock", but Explore menu
 
 
 
