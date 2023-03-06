@@ -13,10 +13,14 @@
 - add Firedoge to Cinnamon's 'demands-attention-passthru-wm-classes'
 - use chown recursive to fix root issues!
 - save screenshots in Pictures/Screenshots (now they're more organized!)
+- individually set background settings (without cat'ing a whole dconf file)
+- set Explore menu pinned apps/favorites
+- fix issue of not setting Witchcraft's defaults
 
 
-pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
-(also change theme from Yaru-cinnamon to Yaru-floflis)
+pair cinnamon defaults with cinnamobile
+
+install Cinnamobile as a lib
 
 How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
 1. ⚫Black (like in "MecOS"🍎)
@@ -25,13 +29,12 @@ How you prefer your mouse cursor color? [type the number according to your choic
 to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
 to-merge_firstlogon.sh: line 274: `      [2])'
 
+firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
+
 new Yaru-Floflis theme, based off Yaru-cinnamon
 https://github.com/Floflis/Yaru-floflis.git
 https://github.com/Floflis/Yaru-floflis-dark.git
 https://github.com/Floflis/Yaru-floflis-light.git
-/home/daniella/.themes
-
-firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon
 
 run /media/daniella/B/git/Floflis/cinnamon-patch
 
