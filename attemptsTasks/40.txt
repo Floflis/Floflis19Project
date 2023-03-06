@@ -27,21 +27,20 @@
 - firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
 - install the 'dialog' CLI tool
 - first logon's questions: use 'dialog' lib (probably not working yet)
+- Ubiquity central slide: attempt to fix Central icon off header
 
 
 
 ubiquity-slideshow:
 misalignment in the taskbar img; it should be separated.
 music img is too big.
-central slide displays off icon at header.
 Help & Support slide: dont mention "Dock", but Explore menu.
 
 
 
 install Cinnamobile as a lib
 
-set Cinnamon Desktop settings on firstboot directly from Cinnamobile!
-run /media/daniella/B/git/Floflis/cinnamon-patch
+set Cinnamon Desktop settings on firstboot directly from Cinnamobile (run set_desktop.sh)!, but do it before applet's default settings are installed
 
 fix issue of not installing nftmark/buildmark dependency
 fix cinnamon due-applet startup issue (buildmark and nftmark not compatible with current version of cinnamon; said that bc their host extension isn't being installed)
