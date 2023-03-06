@@ -12,6 +12,7 @@
 - Floflis' default settings for menu applet (Explore), now as default on Cinnamon side
 - add Firedoge to Cinnamon's 'demands-attention-passthru-wm-classes'
 - use chown recursive to fix root issues!
+- save screenshots in Pictures/Screenshots (now they're more organized!)
 
 
 pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
@@ -56,13 +57,6 @@ ubiquity-slideshow: misalignment in the taskbar img; it should be separated. mus
 
 pin the Help app on taskbar
 
-
-startup tab 2:
-jq: error: Could not open file /1/config/user.json: No such file or directory
-firstlogonroot.sh: line 5: /home//.config/autostart/IPFS.sh: No such file or directory
-chmod: cannot access '/home//.config/autostart': No such file or directory
-chown: cannot access '/home//.local/share/gvfs-metadata/home*': No such file or directory
-- Cleanning install...
 
 startup tab 1:
 Installing floapps...
