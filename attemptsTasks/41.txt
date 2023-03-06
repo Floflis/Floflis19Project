@@ -13,3 +13,7 @@ install anbox snap (user-side)
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
 taskbar search applet isn't loading its defaults
+
+fix issue of not installing nftmark/buildmark's dependency
+
+firstboot: change distro pretty-name and others
