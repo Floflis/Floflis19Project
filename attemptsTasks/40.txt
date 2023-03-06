@@ -24,20 +24,17 @@
 - fix issue of overwriting x-cinnamon-mimeapps.list
 - Core: fix installing ipfs before gipfs
 - pin the Help app on taskbar
-
-
-firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
-
-ubiquity-slideshow: misalignment in the taskbar img; it should be separated. music img is too big. central slide displays off icon at header. Help & Support slide: dont mention "Dock", but Explore menu.
+- firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
+- install the 'dialog' CLI tool
+- first logon's questions: use 'dialog' lib (probably not working yet)
 
 
 
-How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
-1. ⚫Black (like in "MecOS"🍎)
-2. ⚪White (like in "WindOS"🪟)
-2
-to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
-to-merge_firstlogon.sh: line 274: `      [2])'
+ubiquity-slideshow:
+misalignment in the taskbar img; it should be separated.
+music img is too big.
+central slide displays off icon at header.
+Help & Support slide: dont mention "Dock", but Explore menu.
 
 
 
