@@ -22,6 +22,8 @@ pair cinnamon defaults with cinnamobile
 
 install Cinnamobile as a lib
 
+fix issue of not installing nftmark/buildmark dependency
+
 How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
 1. ⚫Black (like in "MecOS"🍎)
 2. ⚪White (like in "WindOS"🪟)
