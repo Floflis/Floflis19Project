@@ -9,14 +9,10 @@
 - bolder font for lockscreen's clock
 - activate Cinnamon's buttons-have-icons
 - display Floflis logo on Cinnamon's About window and also in the desktop startup
+- Floflis' default settings for menu applet (Explore), now as default on Cinnamon side
+- add Firedoge to Cinnamon's 'demands-attention-passthru-wm-classes'
+- use chown recursive to fix root issues!
 
-
-gsettings set org.cinnamon app-menu-label 'Explore' && gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
-
-gsettings set org.cinnamon demands-attention-passthru-wm-classes "['gnome-screenshot', 'lxterminal', 'xfce4-terminal', 'firefox', 'firedoge', 'libreoffice', 'soffice']"
-
-makedir /home/daniella/Pictures/Screenshots, then:
-gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screenshots'
 
 pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
 (also change theme from Yaru-cinnamon to Yaru-floflis)
@@ -49,9 +45,6 @@ Testing if IPFS works:
 install.sh: line 152: ipfs: command not found
 
 install the latest software directly from gh releases, prepare to later use unistore+shrdchn
-
-ubuntu@ubuntu:~$ central
-/usr/bin/central: line 4: npm: command not found
 
 fix cinnamon due-applet startup issue (buildmark and nftmark not compatible with current version of cinnamon; said that bc their host extension isn't being installed)
 
