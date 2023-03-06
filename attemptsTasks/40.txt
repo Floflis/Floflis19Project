@@ -65,5 +65,3 @@ fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil
 - these issues of dubious ownership at ISO, is probably bc "ubuntu" usr wasnt found at firstboot
 
 IPFS Desktop wasn't installed
-
-to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
