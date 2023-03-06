@@ -11,6 +11,9 @@ ISO size reduction measures:
 
 install internet-related software from user-side
 
+sudo apt install sylpheed #8.544 kB of additional disk space will be used
+sudo apt purge thunderbird #242 MB disk space will be freed
+
 ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
 
 firstlogon edge question: install edge from ms repo instead of from deb
@@ -61,7 +64,7 @@ rm /var/lib/dbus/machine-id
 rm /sbin/initctl
 dpkg-divert --rename --remove /sbin/initctl
 
-apt purge drawing gnome-calculator hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy thunderbird warpinator webapp-manager
+apt purge drawing hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
 
 
 

@@ -20,6 +20,8 @@
 - clean apt after installing to-merge
 - move Starship install from firstboot to firstlogon
 - new Yaru-floflis theme, based off Yaru-cinnamon
+- add Firedoge in place of Chromium (and in front of Firefox) on IPFS-handler
+- fix issue of overwriting x-cinnamon-mimeapps.list
 
 
 firstlogon first ask if Internet is connected before proceeding.
