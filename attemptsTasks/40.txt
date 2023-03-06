@@ -4,17 +4,12 @@
 - PoolTogether WebLink app
 - 01VCS: fix issue of not installing git-lfs/pijul/gix; fix installing symlinks for icons
 - fix installing Kolourpaint!
+- another attempt to fix root issues in /1 tree folder
+- enable tooltips when hovering explorer files/folders
+- bolder font for lockscreen's clock
+- activate Cinnamon's buttons-have-icons
+- display Floflis logo on Cinnamon's About window and also in the desktop startup
 
-
-firstlogon-root will fix root issues in /1
-
-gsettings set org.nemo.preferences tooltips-in-icon-view true && gsettings set org.nemo.preferences tooltips-in-list-view true && gsettings set org.nemo.preferences tooltips-on-desktop true && gsettings set org.nemo.preferences tooltips-show-file-type true && gsettings set org.nemo.preferences tooltips-show-mod-date true
-
-gsettings set org.cinnamon.desktop.screensaver font-time 'Ubuntu Bold 64'
-
-gsettings set org.cinnamon.desktop.interface buttons-have-icons true
-
-gsettings set org.cinnamon system-icon 'distributor-logo' && gsettings set org.cinnamon startup-icon-name 'distributor-logo'
 
 gsettings set org.cinnamon app-menu-label 'Explore' && gsettings set org.cinnamon app-menu-icon-name 'distributor-logo'
 
@@ -25,8 +20,6 @@ gsettings set org.gnome.gnome-screenshot auto-save-directory '~/Pictures/Screens
 
 pair cinnamon defaults with cinnamobile /media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile/dconf
 (also change theme from Yaru-cinnamon to Yaru-floflis)
-
-firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon
 
 How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
 1. ⚫Black (like in "MecOS"🍎)
@@ -40,6 +33,8 @@ https://github.com/Floflis/Yaru-floflis.git
 https://github.com/Floflis/Yaru-floflis-dark.git
 https://github.com/Floflis/Yaru-floflis-light.git
 /home/daniella/.themes
+
+firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon
 
 run /media/daniella/B/git/Floflis/cinnamon-patch
 
@@ -77,17 +72,6 @@ chown: cannot access '/home//.local/share/gvfs-metadata/home*': No such file or 
 - Cleanning install...
 
 startup tab 1:
-Getting and storing username...
-./firstlogon.sh: 34: cannot create /1/config/user.json: Permission denied
--
-jq: error: Could not open file /1/config/user.json: No such file or directory
-Installing Templates of the 'New File' context menu...
-sending incremental file list
-rsync: [Receiver] mkdir "/home//Templates" failed: Permission denied (13)
-rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
-rm: cannot remove '/home//Templates/New slidesPresentation.pptx.webpresent': No such file or directory
-rm: cannot remove '/home//Templates/New Spreadsheet.xlsx.webpresent': No such file or directory
-rm: cannot remove '/home//Templates/New WordWriter document.docx.webpresent': No such file or directory
 Installing floapps...
 fatal: detected dubious ownership in repository at '/usr/lib/floflis/layers/soil/to-merge/include-firstlogon/floapps'
 To add an exception for this directory, call:
