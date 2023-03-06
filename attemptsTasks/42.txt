@@ -5,7 +5,11 @@
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
 
+install the latest software directly from gh releases, prepare to later use unistore+shrdchn
+
 ISO size reduction measures:
+
+install internet-related software from user-side
 
 ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
 

@@ -45,13 +45,9 @@ chmod: cannot access '/usr/bin/ipfs': No such file or directory
 Testing if IPFS works:
 install.sh: line 152: ipfs: command not found
 
-install the latest software directly from gh releases, prepare to later use unistore+shrdchn
-
 fix cinnamon due-applet startup issue (buildmark and nftmark not compatible with current version of cinnamon; said that bc their host extension isn't being installed)
 
 taskbar search applet isn't loading its defaults
-
-/usr/share/ubiquity-slideshow is still owned by root
 
 ubiquity-slideshow: misalignment in the taskbar img; it should be separated. music img is too big. central slide displays off icon at header. Help & Support slide: dont mention "Dock", but Explore menu.
 
