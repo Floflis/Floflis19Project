@@ -1,19 +1,10 @@
-chown icons to fix permissions (cryptovoxels and other icons/folders viewable only by root)
-
-not playing startup sound
-web3updater not installed yet
-
 New issue in FMWK for C2: if offline, it says "Uncaught ReferenceError: jQuery is not defined"
 
 
 
 Fix why firstlogon.desktop got added to autostart
-Move IPFS Desktop from Home > to-merge.sh
-
-load extension and addon data
 
 install almanah
-install obs
 install HandBrake
 sudo apt-get install easytag
 
@@ -21,8 +12,6 @@ dconf dump /org/cinnamon/ > backup_of_my_cinnamon_settings_9
 dconf load /org/cinnamon/ < backup_of_my_cinnamon_settings_9
 
 - Disable auto-arrange for Desktop icons
-
-ubuntu
 
 /home/ubuntu
 
@@ -60,8 +49,3 @@ ENDOFFILE
              sudo rm -rf /usr/lib/floflis/layers/core/firstlogonroot.sh
              #sudo rm -rf /etc/init.d/firstboot
              sudo chmod -R a+rwX ${D} && sudo chown ${D//./}:${D//./} ${D}
-             
-lsb-release
-os-release
-
-/usr/lib/ubiquity

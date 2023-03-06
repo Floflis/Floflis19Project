@@ -1,13 +1,6 @@
+- new icon for Voxels!
+- install oibaf's graphics-drivers!
 
-
-
-new icon for Voxels!
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/6
-
-sudo add-apt-repository ppa:oibaf/graphics-drivers
-sudo apt update && sudo apt -y upgrade
-sudo apt-get dist-upgrade
-# from https://diolinux.com.br/sistemas-operacionais/oibaf-melhorar-desempenho-grafico-ubuntu.html
 
 fl anbox
 https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944 (may also make Floflis' boot-compatible signed kernel images)
@@ -39,6 +32,8 @@ taskbar search applet isn't loading its defaults
 fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
 
 firstboot: change distro pretty-name and others
+lsb-release
+os-release
 
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
