@@ -3,6 +3,9 @@
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/6
 
+upgrade to Linux 6.3-rc1
+https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
+https://gloveboxes.github.io/Ubuntu-for-Azure-Developers/docs/signing-kernel-for-secure-boot.html
 compile latest signed kernel with Android support
 
 install anbox snap (user-side)

@@ -16,11 +16,18 @@
 - individually set background settings (without cat'ing a whole dconf file)
 - set Explore menu pinned apps/favorites
 - fix issue of not setting Witchcraft's defaults
+- Core: clean the install also in apt
+- clean apt after installing to-merge
 
 
-pair cinnamon defaults with cinnamobile
+new Yaru-Floflis theme, based off Yaru-cinnamon
+https://github.com/Floflis/Yaru-floflis.git
+https://github.com/Floflis/Yaru-floflis-dark.git
+https://github.com/Floflis/Yaru-floflis-light.git
 
 install Cinnamobile as a lib
+
+set Cinnamon Desktop settings on firstboot directly from Cinnamobile!
 
 fix issue of not installing nftmark/buildmark dependency
 
@@ -32,11 +39,6 @@ to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
 to-merge_firstlogon.sh: line 274: `      [2])'
 
 firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
-
-new Yaru-Floflis theme, based off Yaru-cinnamon
-https://github.com/Floflis/Yaru-floflis.git
-https://github.com/Floflis/Yaru-floflis-dark.git
-https://github.com/Floflis/Yaru-floflis-light.git
 
 run /media/daniella/B/git/Floflis/cinnamon-patch
 

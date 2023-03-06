@@ -27,3 +27,44 @@ have to manipulate taskbar windows applet's data to pin or unpin teams
 firstlogon install Weather, Maps, KeePassXC
 don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
 don't install hexchat
+
+Before exiting chroot
+
+Cleanup old kernel versions
+Find a list of all currently installed kernel versions. An easy way to do this is to list the config files in the /boot folder:
+
+ls -r /boot/config-*
+
+This will provide a list. For each instance make a note of that version number. Then, list all linux packages:
+
+dpkg --list | grep -i "linux-"
+
+Then purge all the packages with old version numbers. IconsPage/warning.png Do not purge packages with the most current kernel number:
+
+apt-get purge <packages>
+
+For example:
+
+apt-get purge linux-headers-5.15.0-43 linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
+
+
+
+
+apt-get autoremove
+
+apt clean
+apt-get clean
+
+rm -rf /tmp/* ~/.bash_history
+
+rm /var/lib/dbus/machine-id
+rm /sbin/initctl
+dpkg-divert --rename --remove /sbin/initctl
+
+apt purge drawing gnome-calculator hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy thunderbird warpinator webapp-manager
+
+
+
+
+
+https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+deduplicate+files
