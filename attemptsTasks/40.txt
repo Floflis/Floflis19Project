@@ -22,9 +22,15 @@
 - new Yaru-floflis theme, based off Yaru-cinnamon
 - add Firedoge in place of Chromium (and in front of Firefox) on IPFS-handler
 - fix issue of overwriting x-cinnamon-mimeapps.list
+- Core: fix installing ipfs before gipfs
+- pin the Help app on taskbar
 
 
-firstlogon first ask if Internet is connected before proceeding.
+firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
+
+ubiquity-slideshow: misalignment in the taskbar img; it should be separated. music img is too big. central slide displays off icon at header. Help & Support slide: dont mention "Dock", but Explore menu.
+
+
 
 How you prefer your mouse cursor color? [type the number according to your choice, then ENTER]
 1. ⚫Black (like in "MecOS"🍎)
@@ -33,36 +39,12 @@ How you prefer your mouse cursor color? [type the number according to your choic
 to-merge_firstlogon.sh: line 274: syntax error near unexpected token `)'
 to-merge_firstlogon.sh: line 274: `      [2])'
 
-firstlogon questions: also ask if user prefer light theme; use Yaru-floflis instead of Yaru-cinnamon-dark
-
 
 
 install Cinnamobile as a lib
 
 set Cinnamon Desktop settings on firstboot directly from Cinnamobile!
-
-fix issue of not installing nftmark/buildmark dependency
 run /media/daniella/B/git/Floflis/cinnamon-patch
 
-
-
-
-
-------------------------------
-
-For a listing of options, use jq --help.
-tar (child): include/gipfs/include/IPFS/kubo_v0.18.0_linux-amd64.tar.gz: Cannot open: No such file or directory
-chmod: cannot access '/usr/bin/ipfs': No such file or directory
-Testing if IPFS works:
-install.sh: line 152: ipfs: command not found
-
+fix issue of not installing nftmark/buildmark dependency
 fix cinnamon due-applet startup issue (buildmark and nftmark not compatible with current version of cinnamon; said that bc their host extension isn't being installed)
-
-taskbar search applet isn't loading its defaults
-
-ubiquity-slideshow: misalignment in the taskbar img; it should be separated. music img is too big. central slide displays off icon at header. Help & Support slide: dont mention "Dock", but Explore menu.
-
-pin the Help app on taskbar
-
-
-IPFS Desktop wasn't installed

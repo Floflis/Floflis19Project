@@ -14,6 +14,8 @@ install internet-related software from user-side
 sudo apt install sylpheed #8.544 kB of additional disk space will be used
 sudo apt purge thunderbird #242 MB disk space will be freed
 
+install IPFS-Desktop from snap
+
 ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
 
 firstlogon edge question: install edge from ms repo instead of from deb

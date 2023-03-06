@@ -35,3 +35,5 @@ Floflis WINE improvements
 https://gist.github.com/RobinCPC/9f42be23a1343600507aabdfecc5061d
 https://www.dedoimedo.com/computers/wine-dotnet-mono.html
 https://www.dedoimedo.com/computers/wine-apps-hd-display.html
+
+extend floflis icons, also for Paint https://www.pling.com/p/1331947/

@@ -11,3 +11,5 @@ compile latest signed kernel with Android support
 install anbox snap (user-side)
 
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
+
+taskbar search applet isn't loading its defaults
