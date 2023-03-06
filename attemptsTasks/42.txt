@@ -16,6 +16,26 @@ sudo apt purge thunderbird #242 MB disk space will be freed
 
 install IPFS-Desktop from snap
 
+Setting autostart apps...
+chmod: cannot access '/home/ubuntu/.config/autostart/teams.desktop': No such file or directory
+
+Floflis have:
+gnome games
+GIMP
+Inkscape
+gnomePhotos
+reminna
+hexchat
+Brasero
+SoundJuicer
+sudo apt remove gnome-games gimp inkscape gnome-photos remmina hexchat brasero sound-juicer
+0 upgraded, 0 newly installed, 11 to remove and 0 not upgraded.
+After this operation, 128 MB disk space will be freed.
+gnote too
+sudo apt remove gnote
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 20.4 MB disk space will be freed.
+
 ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
 
 firstlogon edge question: install edge from ms repo instead of from deb

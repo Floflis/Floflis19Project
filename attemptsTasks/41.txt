@@ -1,7 +1,26 @@
 
 
 
+new icon for Voxels!
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/6
+
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update && sudo apt -y upgrade
+sudo apt-get dist-upgrade
+# from https://diolinux.com.br/sistemas-operacionais/oibaf-melhorar-desempenho-grafico-ubuntu.html
+
+fl anbox
+https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944 (may also make Floflis' boot-compatible signed kernel images)
+snap install --devmode --beta anbox
+-? https://docs.anbox.io/userguide/install.html
+-
+anbox session-manager
+-
+anbox system-info | grep -l binder
+anbox system-info | grep binder
+anbox system-info | grep -1 binder
+-
+ls -1 /dev/{ashmem,binder}
 
 upgrade to Linux 6.3-rc1
 https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
@@ -10,10 +29,27 @@ compile latest signed kernel with Android support
 
 install anbox snap (user-side)
 
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG
+Floflis new sounds https://pastebin.com/JJgBSgN5
+
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
 taskbar search applet isn't loading its defaults
 
-fix issue of not installing nftmark/buildmark's dependency
+fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
 
 firstboot: change distro pretty-name and others
+
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
+https://soundcloud.com/vendrediduo/when-winter-rises-1
+https://www.toneden.io/vendredi-duo/post/when-winter-rises
+https://soundcloud.com/markvard/craving
+https://hypeddit.com/xuhxkq
+https://soundcloud.com/cykarl/nightfall
+https://soundcloud.com/extenz/kalon
+https://soundcloud.com/limujii/limujii-feel
+https://hypeddit.com/3fgi7h
+https://soundcloud.com/markvard/markvard-hold-on
+https://hypeddit.com/u1d9z7
+-
+install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
