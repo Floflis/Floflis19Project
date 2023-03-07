@@ -3,6 +3,11 @@ lsb-release
 os-release
 
 
+-? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
+
+Improve Cinnamobile's mobile mode
+only define desklets on firstboot, not on every Cinnamobile switch
+
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 -
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
@@ -46,3 +51,5 @@ Floflis new sounds https://pastebin.com/JJgBSgN5
 install spices' default settings in a permanent place, and install it every time Cinnamobile run
 
 run wine config at user firstlogon
+
+fix pooltogether icon

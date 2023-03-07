@@ -1,39 +1,20 @@
 - new icon for Voxels!
 - install oibaf's graphics-drivers!
+- fix issue of two Ubiquity icons; new icons for libreOffice; add floflis-logo icon; update Floflis icons (both SVG and PNG)
+- WeblinkApps: fix symlinking Voxels
+- fix settings issues by replacing gsettings to dconf
 build attempt 41 probably will surpass 8,3GB
 
 
--? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
-
-sudo apt install -y software-properties-common
-#sudo wget -nc https://dl.winehq.org/wine-builds/winehq.key
-#sudo apt-key add winehq.key && rm winehq.key
-#sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
-#sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ kinetic main'
-sudo apt update
-sudo dpkg --add-architecture i386
-sudo apt-get update
-sudo apt-get install wine32
-sudo apt -y install --install-recommends winehq-stable
-
-ln: failed to create symbolic link '/usr/share/icons/hicolor/scalable/apps/cryptovoxels.svg': File exists
-
-background, icons and theme settings weren't applied.
-probably an issue with gsettings being used instead of dconf!
-
-floflis icons add symlink to these icons:
-/usr/share/icons/hicolor/scalable/apps/libreoffice-base.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-basic.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-calc.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-chart.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-draw.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-impress.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-main.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-math.svg
-/usr/share/icons/hicolor/scalable/apps/libreoffice-writer.svg
--
-ubuntu-logo will be a symlink to floflis-logo
-
-fix pooltogether icon
+$maysudo apt install -y software-properties-common
+#$maysudo wget -nc https://dl.winehq.org/wine-builds/winehq.key
+#$maysudo apt-key add winehq.key && rm winehq.key
+#$maysudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
+#$maysudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ kinetic main'
+$maysudo apt update
+$maysudo dpkg --add-architecture i386
+$maysudo apt-get update
+$maysudo apt-get install wine32
+$maysudo apt -y install --install-recommends winehq-stable
 
 upgrade packages again before finalizing to-merge.sh
