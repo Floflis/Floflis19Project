@@ -1,14 +1,20 @@
 - new icon for Voxels!
 - install oibaf's graphics-drivers!
+build attempt 41 probably will surpass 8,3GB
 
 
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
-sudo apt-get dist-upgrade
+sudo apt install -y software-properties-common
+#sudo wget -nc https://dl.winehq.org/wine-builds/winehq.key
+#sudo apt-key add winehq.key && rm winehq.key
+#sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
+#sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ kinetic main'
+sudo apt update
 sudo dpkg --add-architecture i386
 sudo apt-get update
 sudo apt-get install wine32
-apt -y install --install-recommends winehq-stable
+sudo apt -y install --install-recommends winehq-stable
 
 ln: failed to create symbolic link '/usr/share/icons/hicolor/scalable/apps/cryptovoxels.svg': File exists
 
@@ -31,5 +37,3 @@ ubuntu-logo will be a symlink to floflis-logo
 fix pooltogether icon
 
 upgrade packages again before finalizing to-merge.sh
-
-build attempt 41 probably will surpass 8,3GB
