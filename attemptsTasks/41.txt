@@ -4,13 +4,16 @@
 
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
-firstboot: change distro pretty-name and others
+firstboot: change distro pretty-name and others. version now will include build and attempt
 lsb-release
 os-release
 
-Floflis Rust CLI tools https://pastebin.com/Tt912XAG
-Floflis new sounds https://pastebin.com/JJgBSgN5
 
+ubuntu-logo will be a symlink to floflis-logo. update it on /etc/os-release as well
+
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG
+-
+install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 
 upgrade to Linux 6.3-rc1
 compile latest signed kernel with Android support https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944
@@ -46,4 +49,4 @@ https://hypeddit.com/3fgi7h
 https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
 -
-install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
+Floflis new sounds https://pastebin.com/JJgBSgN5
