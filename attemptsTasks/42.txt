@@ -1,110 +1,50 @@
+firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
+lsb-release
+os-release
 
 
-
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
-
-SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
-
-install the latest software directly from gh releases, prepare to later use unistore+shrdchn
-
-ISO size reduction measures:
-
-install internet-related software from user-side
-
-sudo apt install sylpheed #8.544 kB of additional disk space will be used
-sudo apt purge thunderbird #242 MB disk space will be freed
-
-install IPFS-Desktop from snap
-
-Setting autostart apps...
-chmod: cannot access '/home/ubuntu/.config/autostart/teams.desktop': No such file or directory
-
-Floflis have:
-gnome games
-GIMP
-Inkscape
-gnomePhotos
-reminna
-hexchat
-Brasero
-SoundJuicer
-sudo apt remove gnome-games gimp inkscape gnome-photos remmina hexchat brasero sound-juicer
-0 upgraded, 0 newly installed, 11 to remove and 0 not upgraded.
-After this operation, 128 MB disk space will be freed.
-gnote too
-sudo apt remove gnote
-0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
-After this operation, 20.4 MB disk space will be freed.
-
-ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer
-
-firstlogon edge question: install edge from ms repo instead of from deb
-sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
-?, https://packages.microsoft.com/repos/ms-teams/
-sudo apt-add-repository ppa:cubic-wizard/release
-
-Unpacking teams (1.5.00.23861) ...
-dpkg: dependency problems prevent configuration of teams:
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 -
-probably fixed after using Snap
-have to manipulate taskbar windows applet's data to pin or unpin teams
+install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 
-firstlogon install Weather, Maps, KeePassXC
-don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
-don't install hexchat
+upgrade to Linux 6.3-rc1
+compile latest signed kernel with Android support https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944
+https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
+https://gloveboxes.github.io/Ubuntu-for-Azure-Developers/docs/signing-kernel-for-secure-boot.html
+-
+ls -1 /dev/{ashmem,binder}
 
-Before exiting chroot
-
-Cleanup old kernel versions
-Find a list of all currently installed kernel versions. An easy way to do this is to list the config files in the /boot folder:
-
-ls -r /boot/config-*
-
-This will provide a list. For each instance make a note of that version number. Then, list all linux packages:
-
-dpkg --list | grep -i "linux-"
-
-Then purge all the packages with old version numbers. IconsPage/warning.png Do not purge packages with the most current kernel number:
-
-apt-get purge <packages>
-
-For example:
-
-apt-get purge linux-headers-5.15.0-43 linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
+"snap install --devmode --beta anbox" (user-side)
+-? https://docs.anbox.io/userguide/install.html
+-
+anbox session-manager
+-
+anbox system-info | grep -l binder
+anbox system-info | grep binder
+anbox system-info | grep -1 binder
 
 
+taskbar search applet isn't loading its defaults
+-
+fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
 
 
-apt-get autoremove
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
+https://soundcloud.com/vendrediduo/when-winter-rises-1
+https://www.toneden.io/vendredi-duo/post/when-winter-rises
+https://soundcloud.com/markvard/craving
+https://hypeddit.com/xuhxkq
+https://soundcloud.com/cykarl/nightfall
+https://soundcloud.com/extenz/kalon
+https://soundcloud.com/limujii/limujii-feel
+https://hypeddit.com/3fgi7h
+https://soundcloud.com/markvard/markvard-hold-on
+https://hypeddit.com/u1d9z7
+-
+Floflis new sounds https://pastebin.com/JJgBSgN5
 
-apt clean
-apt-get clean
+install spices' default settings in a permanent place, and install it every time Cinnamobile run
 
-rm -rf /tmp/* ~/.bash_history
+run wine config at user firstlogon
 
-rm /var/lib/dbus/machine-id
-rm /sbin/initctl
-dpkg-divert --rename --remove /sbin/initctl
-
-apt-get autoremove -y --purge
-
-# Clean up
-update-initramfs -k all -u
-apt-get clean
-rm -f /var/lib/apt/lists/*_Packages
-rm -f /var/lib/apt/lists/*_Sources
-rm -f /var/lib/apt/lists/*_Translation-*
-rm -rf /tmp/* ~/.bash_history
-rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdiqs/cubic_ubuntu_iso_size_keeps_increasing/
-
-
-
-
-
-apt purge drawing hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
-
-
-
-
-
-https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+deduplicate+files
+upgrade packages again before finalizing to-merge.sh

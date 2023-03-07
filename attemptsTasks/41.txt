@@ -4,57 +4,26 @@
 
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
-firstboot: change distro pretty-name and others. version now will include build and attempt
-lsb-release
-os-release
-
-
-ubuntu-logo will be a symlink to floflis-logo. update it on /etc/os-release as well
-
-Floflis Rust CLI tools https://pastebin.com/Tt912XAG
--
-install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
-
-upgrade to Linux 6.3-rc1
-compile latest signed kernel with Android support https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944
-https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
-https://gloveboxes.github.io/Ubuntu-for-Azure-Developers/docs/signing-kernel-for-secure-boot.html
--
-ls -1 /dev/{ashmem,binder}
-
-"snap install --devmode --beta anbox" (user-side)
--? https://docs.anbox.io/userguide/install.html
--
-anbox session-manager
--
-anbox system-info | grep -l binder
-anbox system-info | grep binder
-anbox system-info | grep -1 binder
-
-
-taskbar search applet isn't loading its defaults
--
-fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
-
-
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
-https://soundcloud.com/vendrediduo/when-winter-rises-1
-https://www.toneden.io/vendredi-duo/post/when-winter-rises
-https://soundcloud.com/markvard/craving
-https://hypeddit.com/xuhxkq
-https://soundcloud.com/cykarl/nightfall
-https://soundcloud.com/extenz/kalon
-https://soundcloud.com/limujii/limujii-feel
-https://hypeddit.com/3fgi7h
-https://soundcloud.com/markvard/markvard-hold-on
-https://hypeddit.com/u1d9z7
--
-Floflis new sounds https://pastebin.com/JJgBSgN5
-
-install spices' default settings in a permanent place, and install it every time Cinnamobile run
-
 E: Unable to locate package wine32:i386
 
-run wine config at user firstlogon
+ln: failed to create symbolic link '/usr/share/icons/hicolor/scalable/apps/cryptovoxels.svg': File exists
 
-upgrade packages again before finalizing to-merge.sh
+background, icons and theme settings weren't applied.
+probably an issue with gsettings being used instead of dconf!
+
+floflis icons add symlink to these icons:
+/usr/share/icons/hicolor/scalable/apps/libreoffice-base.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-basic.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-calc.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-chart.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-draw.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-impress.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-main.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-math.svg
+/usr/share/icons/hicolor/scalable/apps/libreoffice-writer.svg
+-
+ubuntu-logo will be a symlink to floflis-logo
+
+fix pooltogether icon
+
+build attempt 41 probably will surpass 8,3GB
