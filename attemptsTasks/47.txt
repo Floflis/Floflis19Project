@@ -1,7 +1,5 @@
 
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/11
-
 
 study about rainbowallet (twitter) storing a bkp of seed at dropbox; fl integrate geth with ethereal+frame
 

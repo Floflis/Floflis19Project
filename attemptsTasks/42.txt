@@ -1,9 +1,15 @@
+
+
+
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
+
+-? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
+
+
 firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
 lsb-release
 os-release
 
-
--? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
 Improve Cinnamobile's mobile mode
 only define desklets on firstboot, not on every Cinnamobile switch
