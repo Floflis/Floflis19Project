@@ -86,6 +86,21 @@ rm /var/lib/dbus/machine-id
 rm /sbin/initctl
 dpkg-divert --rename --remove /sbin/initctl
 
+apt-get autoremove -y --purge
+
+# Clean up
+update-initramfs -k all -u
+apt-get clean
+rm -f /var/lib/apt/lists/*_Packages
+rm -f /var/lib/apt/lists/*_Sources
+rm -f /var/lib/apt/lists/*_Translation-*
+rm -rf /tmp/* ~/.bash_history
+rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdiqs/cubic_ubuntu_iso_size_keeps_increasing/
+
+
+
+
+
 apt purge drawing hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
 
 
