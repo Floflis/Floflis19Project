@@ -46,5 +46,3 @@ Floflis new sounds https://pastebin.com/JJgBSgN5
 install spices' default settings in a permanent place, and install it every time Cinnamobile run
 
 run wine config at user firstlogon
-
-upgrade packages again before finalizing to-merge.sh

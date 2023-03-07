@@ -4,7 +4,11 @@
 
 -? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
 
-E: Unable to locate package wine32:i386
+sudo apt-get dist-upgrade
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install wine32
+apt -y install --install-recommends winehq-stable
 
 ln: failed to create symbolic link '/usr/share/icons/hicolor/scalable/apps/cryptovoxels.svg': File exists
 
@@ -25,5 +29,7 @@ floflis icons add symlink to these icons:
 ubuntu-logo will be a symlink to floflis-logo
 
 fix pooltogether icon
+
+upgrade packages again before finalizing to-merge.sh
 
 build attempt 41 probably will surpass 8,3GB
