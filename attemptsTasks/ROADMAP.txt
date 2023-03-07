@@ -5,7 +5,7 @@ Phase W3U
 - Implement Web3Updater using Polygon+PNS
 - Reduce ISO size to 5GB or less
 - Support ARM and RISC-V
-- First Insiders build
+- First Insiders build (Pure edition without WINE)
 
 Phase Nutshell
 - Mouse and Keyboard courses with badge awards

@@ -14,6 +14,10 @@ os-release
 Improve Cinnamobile's mobile mode
 only define desklets on firstboot, not on every Cinnamobile switch
 
+E: Unable to locate package winehq-stable
+
+move "Keyboard" applet to left edge
+
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 -
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
