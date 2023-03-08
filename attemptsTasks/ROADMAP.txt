@@ -1,10 +1,15 @@
+Phase Fatning
+- Get ISO to its largest size ever (so new features/resources can be experimented), before taking measures to minify ISO size
+
 Phase W3U
 🔵 Make a resilient (future-proof) and modular structure that futurely will require minimal changes to its core
+- All of its dependencies using webpresent; init.sh fully working
+- Dev (including about building Floflis ISO) and all other documentations
 - Define a future-proof structure and philosophy for the Tree folder
 - Web3Updater v3 reaches a stable state and goes multichain
 - Implement Web3Updater using Polygon+PNS
 - Reduce ISO size to 5GB or less
-- Support ARM and RISC-V
+- Support ARM (RPI-ZW, OrangePi, 3DS https://github.com/linux-3ds/firm_linux_loader/issues/34) and RISC-V
 - First Insiders build (Pure edition without WINE)
 
 Phase Nutshell
