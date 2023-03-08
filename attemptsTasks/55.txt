@@ -39,3 +39,6 @@ https://www.dedoimedo.com/computers/wine-apps-hd-display.html
 extend floflis icons, also for Paint https://www.pling.com/p/1331947/
 
 pin a .exe file on taskbar and explore, as if it were a installed linux app
+
+option to position the left side of taskbar at the center
+when setting taskbar to autohide, also ask user to make it bigger
