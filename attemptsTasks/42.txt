@@ -3,7 +3,10 @@
 
 
 - taskbar icon order: teams, firedoge, firefox, email, explorer, gedit, office, store, term, help
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
+- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
+- web slide: add firefox as available software
+- office slide: update icons, get from Floflis icons
+- New icon for Voxels! /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
 [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
 
@@ -17,10 +20,6 @@
 -
 probably these "bugs" are bc ubiquity-slideshow is installed outdated
 
-- web slide: add firefox as available software
-- office slide: update icons, get from Floflis icons
-
-- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
 - fix FloflisPNG icon branch issues
 
 BUG ---->
