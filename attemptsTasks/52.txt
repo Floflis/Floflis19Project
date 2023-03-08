@@ -1,12 +1,18 @@
-attempt 46:
+After updating OS, replace logout sound to /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds/Base/Home/old/Starting.ogg then switch back after next login
 
-custom bootscreen theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme https://github.com/emanuele-scarsella/vortex-ubuntu-plymouth-theme/issues/2 https://www.gnome-look.org/p/1664671
+attempt 40: apt-on-ipfs
 
-------------------------------------------------------------------------------------------------------------------------
+attempt 41:
 
-Floflis ISO/Floflis ppl/
+frst bld
 
-Floflis icons:
-merge with captiva-icon-theme
+import geth seed on ethereal
+user profile from CLI
 
-geth/MetaMask/Frame: add XDai and Polygon
+attempt 42: Plugz build normal and lite versions of Floflis DNA
+
+attempt 43:
+
+support Ledger hardware wallet when creating/importing ETH address
+support migrating to Ledger
+annotate planned support for Trezor and Keycard
