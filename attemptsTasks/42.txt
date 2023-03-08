@@ -1,9 +1,39 @@
+- fix Explore menu pins/favorites
+- fix removing 'New Compressed (zipped) Folder.zip.webpresent'
 
 
-
+- taskbar icon order: teams, firedoge, firefox, email, explorer, gedit, office, store, term, help
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
--? to-merge's firstboot: dont attempt to chown ubiquity-slideshow. other attempt to fix
+[BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
+
+[BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
+[REPORT] the settings of Cinnamobile were applied, unlike the others (!)
+
+[BUG] in familiar slide, taskbar icon is still off. both taskbar and explore imgs are outdated
+[BUG] in central slide, icon is still off
+[BUG] music icon is still bigger
+[BUG] os error 13 when trying to run nushell
+-
+probably these "bugs" are bc ubiquity-slideshow is installed outdated
+
+- web slide: add firefox as available software
+- office slide: update icons, get from Floflis icons
+
+- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
+- fix FloflisPNG icon branch issues
+
+BUG ---->
+firefox/updater.ini
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+sending incremental file list
+rsync: [Receiver] mkdir "/usr/lib/floflis/browser/firedoge" failed: Permission denied (13)
+rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
+sending incremental file list
+rsync: [Receiver] mkdir "/usr/lib/floflis/browser/firedoge/defaults/firstpage" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
+cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No such file or directory
+<---- BUG
 
 
 firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
@@ -17,6 +47,9 @@ only define desklets on firstboot, not on every Cinnamobile switch
 E: Unable to locate package winehq-stable
 
 move "Keyboard" applet to left edge
+
+Installing installer's slideshow...
+mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
 
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 -
@@ -63,3 +96,7 @@ install spices' default settings in a permanent place, and install it every time
 run wine config at user firstlogon
 
 fix pooltogether icon
+
+- make Central smarter (such as not bugging when username JSON not found), and move imgs/assets to the HTML repo (FrameworkJS template will follow this example)
+- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
+- upgrade floapps Node template + AppPlayer to the latest version possible
