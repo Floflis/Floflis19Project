@@ -1,9 +1,7 @@
 
 
 
-
-
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/9
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/10
 
 
 -? New Ubuntu 23 ISO base https://cdimage.ubuntu.com/daily-live/
@@ -101,16 +99,6 @@ ubuntu_installed.png
 ubuntu_installed.svg
 ubuntu/
 ubuntu/logo.png
-
-Package wine32 is not available, but is referred to by another package.
-This may mean that the package is missing, has been obsoleted, or
-is only available from another source
-However the following packages replace it:
-  libwine
-E: Package 'wine32' has no installation candidate
-
-updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
-/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
 
 fix path issue in /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/witchcraft-candy-colors
 

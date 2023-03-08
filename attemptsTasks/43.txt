@@ -1,3 +1,11 @@
+
+
+
+/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
+
+-? [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
+-? [BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
+
 Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
 
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
@@ -41,6 +49,11 @@ https://hypeddit.com/u1d9z7
 Floflis new sounds https://pastebin.com/JJgBSgN5
 
 run wine config at user firstlogon
+
+Installing installer's slideshow...
+mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
+
+- fix FloflisPNG icon branch issues
 
 - make Central smarter (such as not bugging when username JSON not found), and move imgs/assets to the HTML repo (FrameworkJS template will follow this example)
 - dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)

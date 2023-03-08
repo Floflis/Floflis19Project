@@ -2,20 +2,14 @@
 - fix removing 'New Compressed (zipped) Folder.zip.webpresent'
 - attempt to fix installing WINE!
 - taskbar icon order: teams, firedoge, firefox, email, explorer, gedit, office, store, term, help
+- Ubiquity slideshow: familiar slide: update the Explore and Bar's imgs; browse slide: add firefox as available software; office slide: update icons, get from Floflis icons; browse slide: use svg chromium icon
 
 
 - run Cinnamon default settings from external bash file
 - install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
-- web slide: add firefox as available software
-- office slide: update icons, get from Floflis icons
 - New icon for Voxels! /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
 [BUG] os error 13 when trying to run nushell
-
--? [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
--? [BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
-
-- fix FloflisPNG icon branch issues
 
 BUG ---->
 firefox/updater.ini
@@ -33,11 +27,15 @@ only define desklets on firstboot, not on every Cinnamobile switch
 
 move "Keyboard" applet to left edge
 
-Installing installer's slideshow...
-mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
-
 install spices' default settings in a permanent place, and install it every time Cinnamobile run
+
+switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
+
+use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
 
 firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
 lsb-release
 os-release
+-
+updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
+/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
