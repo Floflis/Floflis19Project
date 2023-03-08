@@ -14,3 +14,14 @@ Phase W3U
 
 Phase Nutshell
 - Mouse and Keyboard courses with badge awards
+
+Phase WindowSync
+
+Phase AndroSync
+- Floflis Mobile with Cinnamon and Gnome to choose
+
+Phase GnomeSync
+- Gnome with support to Cinnamon spices!
+
+Phase Screens
+- https://github.com/capyloon/nutria/issues/26#issuecomment-1090674723
