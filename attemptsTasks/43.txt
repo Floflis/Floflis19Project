@@ -9,6 +9,9 @@
 Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
 on every switch, Cinnamobile will bkp default spice settings then re-apply
 
+- move "Keyboard" applet to left edge
+- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
+
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 -
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
