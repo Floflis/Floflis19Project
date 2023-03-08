@@ -6,13 +6,13 @@
 
 
 - use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
-- firstboot: chown /home/daniella/.config/nushell
+- firstboot: chown /home/daniella/.config/nushell (fixes "os error 13" bug)
 - switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
 - only define desklets on firstboot, not on every Cinnamobile switch
 - run Cinnamon default settings from external bash file
 - New icon for Voxels! /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
-[BUG] os error 13 when trying to run nushell
+firstboot installing nftmark/buildmark: echo to a log file
 
 BUG ---->
 firefox/updater.ini
