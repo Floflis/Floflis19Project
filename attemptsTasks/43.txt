@@ -7,6 +7,7 @@
 -? [BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
 
 Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
+on every switch, Cinnamobile will bkp default spice settings then re-apply
 
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG
 -

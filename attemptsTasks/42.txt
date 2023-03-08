@@ -5,7 +5,9 @@
 - Ubiquity slideshow: familiar slide: update the Explore and Bar's imgs; browse slide: add firefox as available software; office slide: update icons, get from Floflis icons; browse slide: use svg chromium icon
 
 
+- only define desklets on firstboot, not on every Cinnamobile switch
 - run Cinnamon default settings from external bash file
+- move "Keyboard" applet to left edge
 - install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
 - New icon for Voxels! /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
 
@@ -23,11 +25,6 @@ rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
 cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No such file or directory
 <---- BUG
 
-only define desklets on firstboot, not on every Cinnamobile switch
-
-move "Keyboard" applet to left edge
-
-install spices' default settings in a permanent place, and install it every time Cinnamobile run
 
 switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
 
