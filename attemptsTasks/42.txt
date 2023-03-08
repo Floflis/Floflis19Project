@@ -15,12 +15,6 @@
 -? [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
 -? [BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
 
-[BUG] in familiar slide, taskbar icon is still off. both taskbar and explore imgs are outdated
-[BUG] in central slide, icon is still off
-[BUG] music icon is still bigger
--
-probably these "bugs" are bc ubiquity-slideshow is installed outdated
-
 - fix FloflisPNG icon branch issues
 
 BUG ---->
