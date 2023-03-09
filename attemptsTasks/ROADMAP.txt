@@ -10,7 +10,7 @@ Phase W3U
 - Implement Web3Updater using Polygon+PNS
 - Reduce ISO size to 5GB or less
 - Support ARM (RPI-ZW, OrangePi, 3DS https://github.com/linux-3ds/firm_linux_loader/issues/34) and RISC-V
-- First Insiders build (Pure edition without WINE)
+- First Insiders build (Pure edition without WINE (2GB less), and Server edition)
 
 Phase Nutshell
 - Mouse and Keyboard courses with badge awards
