@@ -15,6 +15,8 @@ sudo apt install sylpheed #8.544 kB of additional disk space will be used
 sudo apt purge thunderbird #242 MB disk space will be freed
 pin sylpheed in place of thunberbird on taskbar (two applets to do)
 
+install floapps 2048 replacing Ubuntu's one
+
 install IPFS-Desktop from snap
 
 Setting autostart apps...

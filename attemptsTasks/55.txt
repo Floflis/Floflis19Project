@@ -42,3 +42,4 @@ pin a .exe file on taskbar and explore, as if it were a installed linux app
 
 option to position the left side of taskbar at the center
 when setting taskbar to autohide, also ask user to make it bigger
+when selecting windows-like in calendar applet display, ask to include seconds as in floflis
