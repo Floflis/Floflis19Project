@@ -20,6 +20,9 @@ pinky and brown cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:
 https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
+change background on dark theme
+https://share.pho.to/BE6SL
+
 BUG ---->
 firefox/updater.ini
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
