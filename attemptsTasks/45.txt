@@ -5,7 +5,7 @@
 
 
 -? New Ubuntu 23 ISO base https://cdimage.ubuntu.com/daily-live/
-https://bugs.launchpad.net/cubic/+bug/2008949
+https://github.com/PJ-Singh-001/Cubic/issues/151
 
 update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
 
