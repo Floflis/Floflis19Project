@@ -16,6 +16,8 @@ firstboot installing nftmark/buildmark: echo to a log file
 
 install alpha wl (mimetype) + usv-tools (mimetype)
 
+pinky and brown cream themes 🥰
+
 BUG ---->
 firefox/updater.ini
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
