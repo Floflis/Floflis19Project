@@ -14,6 +14,8 @@ smaller versions of floflisCentral icon
 
 firstlogon first ask if Internet is connected before proceeding.
 
+INSP Floflis Ethereum accounts https://archive.is/EfdS4 http://web.archive.org/web/20230319194257/https://twitter.com/thebookisclosed/status/1636759487829917698?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1636759487829917698%7Ctwgr%5Eb987a38689a99c335a311579b61dfe22541810dc%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fportaldobitcoin.uol.com.br%2Fmicrosoft-testa-integrar-uma-carteira-de-criptomoedas-ao-navegador-edge%2F
+
 
 
 -? replace bash by cicada (but keep bashoriginal) in Starshell https://github.com/mitnk/cicada/releases/ CICADA DOESN'T SUPPORT BASH FALLBACK
