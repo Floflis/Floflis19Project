@@ -3,6 +3,7 @@
 - attempt to fix installing WINE!
 - taskbar icon order: teams, firedoge, firefox, email, explorer, gedit, office, store, term, help
 - Ubiquity slideshow: familiar slide: update the Explore and Bar's imgs; browse slide: add firefox as available software; office slide: update icons, get from Floflis icons; browse slide: use svg chromium icon
+- Add AI/Midjourney-generated Floflis ball background <3
 
 
 - use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
