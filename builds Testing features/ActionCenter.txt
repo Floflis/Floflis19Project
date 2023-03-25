@@ -1,0 +1,8 @@
+Ask chatgpt to make this applet; use the best description as possible
+
+after done, put this applet to borrow functions from existing applets
+this applet could change how it is displayed in the panel depending if it is mobile or desktop mode (Windows 11, Android)
+
+the buttons of this applet:
+Wi-Fi, Sound profile, Bluetooth, Screen orientation (dont display if not mobile mode), Airplane mode, Flashlight (dont display if not mobile mode), Energy economy, Wireless PowerShare (dont display if not mobile mode), Mobile data (dont display if not mobile mode), Wi-Fi Router, Phone Link, Read QR code; Eyeshield (Redshift), Location, Don't disturb, DeX (dont display if not mobile mode), NFC, Always On Display (dont display if not mobile mode), Screen recorder, Sync, Dark mode
+In the applet's settings, user should be able to re-order these buttons' positions

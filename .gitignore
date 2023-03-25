@@ -1,6 +1,12 @@
-builds Testing features/timecalc
-*/timecalc
 *.zip
 *.AppImage
 *.tar*
 *.bz2
+*.png
+
+FIRSTBUILD/run Windows apps using... ...Windows/frk/Linux-Subsystem-for-Windows_Seamless_windows_apps_on_Linux/
+FIRSTBUILD/run Windows apps using... ...Windows/frk/cassowary/
+attemptsTasks/use/-usr-share-ubiquity/pixmaps/
+attemptsTasks/use/icons windows/
+attemptsTasks/use/know-user/
+

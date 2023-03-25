@@ -46,3 +46,6 @@ html {
 </svg>
     
     </tag>
+    
+ask chatgpt to take cinnviistark's src and add a boolean when nft-pic is true or false, then convert the above HTML to Cinnamon applet code and change user pic HTML accordingly
+also ask chatgpt to make a cinnamon extension that also uses that on the login screen pic

@@ -1,0 +1,32 @@
+This folder: /usr/bin
+
+  File: ./.folderstamp
+  Size: 22        	Blocks: 1          IO Block: 4096   regular file
+Device: 8,4	Inode: 1435232     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-25 15:57:01.845106100 -0300
+Modify: 2023-03-25 15:57:01.851969400 -0300
+Change: 2023-03-25 15:57:01.851969400 -0300
+ Birth: -
+IPFS hash: QmavfEc27Ua6jV5HNkUj3WNPiMsxuH8a23QbcqbF5vRBa9
+------------------------------
+  File: ./pixmaps/qr-help-ubuntu-com-bitlocker.png
+  Size: 1067      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 4138537     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-09 22:31:27.394992000 -0300
+Modify: 2023-01-27 12:47:28.000000000 -0300
+Change: 2023-02-09 22:29:55.309661800 -0300
+ Birth: -
+IPFS hash: QmU1s5njb91z88ZR4cyfLVNRLx3qvNsJ7f8FpuSMYvtmdZ
+------------------------------
+  File: ./pixmaps/qr-help-ubuntu-com-rst.png
+  Size: 1087      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 4138538     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-09 22:31:27.364631400 -0300
+Modify: 2023-01-27 12:47:28.000000000 -0300
+Change: 2023-02-09 22:29:55.311717200 -0300
+ Birth: -
+IPFS hash: QmQFxiodTLGJv8BLYn3fVrLnokKdnDGEKBQ2cr8UDDkFwK
+------------------------------

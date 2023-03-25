@@ -1,0 +1,622 @@
+This folder: /usr/bin
+
+  File: ./-usr-share-ubiquity/.folderstamp
+  Size: 1377      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 1435232     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-25 15:57:02.070901200 -0300
+Modify: 2023-03-25 15:57:02.217931400 -0300
+Change: 2023-03-25 15:57:02.217931400 -0300
+ Birth: -
+IPFS hash: Qmf3FDkrXqWRYoXEWSUiEmCCiNiPpYNxFDXk6F35Soacpu
+------------------------------
+  File: ./-usr-share-ubiquity/pixmaps/qr-help-ubuntu-com-bitlocker.png
+  Size: 1067      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 4138537     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-09 22:31:27.394992000 -0300
+Modify: 2023-01-27 12:47:28.000000000 -0300
+Change: 2023-02-09 22:29:55.309661800 -0300
+ Birth: -
+IPFS hash: QmU1s5njb91z88ZR4cyfLVNRLx3qvNsJ7f8FpuSMYvtmdZ
+------------------------------
+  File: ./-usr-share-ubiquity/pixmaps/qr-help-ubuntu-com-rst.png
+  Size: 1087      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 4138538     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-09 22:31:27.364631400 -0300
+Modify: 2023-01-27 12:47:28.000000000 -0300
+Change: 2023-02-09 22:29:55.311717200 -0300
+ Birth: -
+IPFS hash: QmQFxiodTLGJv8BLYn3fVrLnokKdnDGEKBQ2cr8UDDkFwK
+------------------------------
+  File: ./.folderstamp
+  Size: 1437      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 1435248     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-25 15:58:51.303953900 -0300
+Modify: 2023-03-25 15:58:51.544706000 -0300
+Change: 2023-03-25 15:58:51.544706000 -0300
+ Birth: -
+IPFS hash: QmYKnUARaWyEQxoVgyErAYg5UHyHtKttzRnuhHkNGESw8t
+------------------------------
+  File: ./icons windows/Stable-better release/apps/gcr-smart-card.png
+  Size: 9294      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084769     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.823910900 -0300
+Modify: 2020-03-11 07:09:56.000000000 -0300
+Change: 2023-02-01 10:04:56.729394000 -0300
+ Birth: -
+IPFS hash: QmPqrH37thbpNqyDzrbKAZWrUJQ9gPfg3UJY1Vv6UwYWmk
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-apps.png.png
+  Size: 16849     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084753     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.588717800 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.609353400 -0300
+ Birth: -
+IPFS hash: QmVAPtNPUhvVhdrksAYqtdzQdM1FXEdqiLDS4rJ2DajeWG
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-audacity-project.png
+  Size: 25618     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084754     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.536646900 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.616461300 -0300
+ Birth: -
+IPFS hash: QmTsBytxz9vKiQXJk6B1uieQQ15yvoWAhmoAMZNPVPCLBP
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-game.png
+  Size: 16439     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084755     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.481818200 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.624185000 -0300
+ Birth: -
+IPFS hash: QmTi8DqpiSpULpwEM3LYdJbzh2kf8DA5DWgb72Cj5w2t3Z
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-html5.png
+  Size: 19837     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084756     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.429162300 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.631947300 -0300
+ Birth: -
+IPFS hash: QmdWH7QoWKquWTWuyzfWrxYfi5pB943CgWcVceRVabDwG7
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-krita.png
+  Size: 73650     	Blocks: 144        IO Block: 4096   regular file
+Device: 8,4	Inode: 1084757     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.345467600 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.640342200 -0300
+ Birth: -
+IPFS hash: QmPaH9RMRCCKpbZBrhhr2TmKZqDpW5rrq3gaJwEFf13LSp
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-lmms-project.png
+  Size: 18876     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084758     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.300728400 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.647694700 -0300
+ Birth: -
+IPFS hash: QmQDvruKLu53Zbtrt42ntrU8XDD9Ged9kn4m15yUAwPh2e
+------------------------------
+  File: ./icons windows/Stable-better release/apps/application-x-pdf.png
+  Size: 22742     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084759     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.262846400 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.655199700 -0300
+ Birth: -
+IPFS hash: QmWckhLhz2QuiHyBHjDnWyDEE1AxPzYGCLoNdEk6xKri1q
+------------------------------
+  File: ./icons windows/Stable-better release/apps/blueman.png
+  Size: 25761     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084760     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.223405100 -0300
+Modify: 2020-10-30 22:27:36.000000000 -0300
+Change: 2023-02-01 10:04:56.663183000 -0300
+ Birth: -
+IPFS hash: QmUvmerpChCtBXPuUz2QDxxaDjeGr2kEZe6PpB1ePE1Zq7
+------------------------------
+  File: ./icons windows/Stable-better release/apps/cubic.png
+  Size: 25273     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084762     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.142733400 -0300
+Modify: 2021-05-16 03:39:58.000000000 -0300
+Change: 2023-02-01 10:04:56.678079900 -0300
+ Birth: -
+IPFS hash: QmRgske2k2g8XyUHpTH9qTFXTug98ZHDreMndX3wunCcMU
+------------------------------
+  File: ./icons windows/Stable-better release/apps/d4lbdln-2226ac8a-c199-4f75-82c4-2def7d2fbab8.png
+  Size: 101100    	Blocks: 200        IO Block: 4096   regular file
+Device: 8,4	Inode: 1084763     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.093088100 -0300
+Modify: 2021-02-04 07:54:52.000000000 -0300
+Change: 2023-02-01 10:04:56.686837100 -0300
+ Birth: -
+IPFS hash: QmXKVyJyPTqBh2n9m5adoWGyNkx4ieH1uCRSxVmhpZwQ4G
+------------------------------
+  File: ./icons windows/Stable-better release/apps/easytag.png
+  Size: 15132     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084764     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.051945700 -0300
+Modify: 2020-03-22 15:38:50.000000000 -0300
+Change: 2023-02-01 10:04:56.694075700 -0300
+ Birth: -
+IPFS hash: Qmcf6daGFXbVZLw2rrkCdqu4kYWwrkHc4j2PagjxtNqzdG
+------------------------------
+  File: ./icons windows/Stable-better release/apps/filezilla.png
+  Size: 7870      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084765     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:50.000997300 -0300
+Modify: 2020-02-08 10:59:12.000000000 -0300
+Change: 2023-02-01 10:04:56.701148800 -0300
+ Birth: -
+IPFS hash: QmQMAazoAYY51uSKHjwk1r4ZTanSdup7u1Lff2wKUaCCbS
+------------------------------
+  File: ./icons windows/Stable-better release/apps/frame.png
+  Size: 9446      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084766     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.953457400 -0300
+Modify: 2020-06-12 06:33:44.000000000 -0300
+Change: 2023-02-01 10:04:56.708281300 -0300
+ Birth: -
+IPFS hash: QmfZ2Gxo8uAcLynRWNc7D8CXXhmiBiEnjWqDxmJmWtiWgq
+------------------------------
+  File: ./icons windows/Stable-better release/apps/gcr-gnupg.png
+  Size: 4227      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084767     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.911939000 -0300
+Modify: 2020-03-19 15:30:36.000000000 -0300
+Change: 2023-02-01 10:04:56.715284800 -0300
+ Birth: -
+IPFS hash: QmUDSPgf4orSJyyaCMPqiLWicrCptaq22p8DeH5cT7XmW2
+------------------------------
+  File: ./icons windows/Stable-better release/apps/gcr-password.png
+  Size: 4037      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 1084768     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.871135900 -0300
+Modify: 2020-03-19 15:30:36.000000000 -0300
+Change: 2023-02-01 10:04:56.722274600 -0300
+ Birth: -
+IPFS hash: QmX4tnYopYEuuxopZtY7FEzRDnKFYVMnGzhRfWTCtnRosm
+------------------------------
+  File: ./icons windows/Stable-better release/apps/image-x-xcf.png
+  Size: 20173     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084770     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.785663800 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.736647300 -0300
+ Birth: -
+IPFS hash: QmQk9b5fk6RSWT3anwxWdxzoNj6udYsLgDzeQNvgZwknXq
+------------------------------
+  File: ./icons windows/Stable-better release/apps/ipfs-desktop.png
+  Size: 25644     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084771     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.736035600 -0300
+Modify: 2020-10-12 16:07:26.000000000 -0300
+Change: 2023-02-01 10:04:56.744044300 -0300
+ Birth: -
+IPFS hash: Qmd3jVhPs39fadXC5mWhnmLAzRWkE9RuwmAvUSU5tNxzvR
+------------------------------
+  File: ./icons windows/Stable-better release/apps/keepassxc-dark.png
+  Size: 11601     	Blocks: 24         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084772     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.655074000 -0300
+Modify: 2019-06-11 23:08:02.000000000 -0300
+Change: 2023-02-01 10:04:56.751154700 -0300
+ Birth: -
+IPFS hash: QmSPZFyP896kPmsyjqVgyQ8HempcSmCji4WbW2p5YVHi8s
+------------------------------
+  File: ./icons windows/Stable-better release/apps/keepassxc-locked.png
+  Size: 14718     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084773     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.608468700 -0300
+Modify: 2020-03-23 06:17:04.000000000 -0300
+Change: 2023-02-01 10:04:56.758414100 -0300
+ Birth: -
+IPFS hash: QmQFmw6A2UnZ6dUJ9h9waCYLe8fGdidnRCKuSQ7x4qsYTa
+------------------------------
+  File: ./icons windows/Stable-better release/apps/keepassxc.png
+  Size: 16276     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084774     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.692615100 -0300
+Modify: 2020-03-23 06:17:04.000000000 -0300
+Change: 2023-02-01 10:04:56.765687800 -0300
+ Birth: -
+IPFS hash: QmUTNPtzGJABxVey8xyPHZqyJdWyMEmAahxuAJvNe6GDta
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-base.png
+  Size: 41286     	Blocks: 88         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084775     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.530936100 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.773434400 -0300
+ Birth: -
+IPFS hash: QmSDuRuuT6MidGvcE6G5ZbkG4RWubgzQT6q6ATVgVeAaey
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-calc.png
+  Size: 17709     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084776     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.458857700 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.781848800 -0300
+ Birth: -
+IPFS hash: QmTWbr2ZxYZLPLLTnxehDheaefbBNWm8Wi3ShwxMGjfxNy
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-draw.png
+  Size: 21281     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084777     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.404966300 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.790857800 -0300
+ Birth: -
+IPFS hash: QmWbYXVnJ9qerrR1pjKAFGsu9oxFQQ3XBtbbVnjcrK2gU7
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-impress.png
+  Size: 19763     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084778     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.359780300 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.799228500 -0300
+ Birth: -
+IPFS hash: Qmbr1VMtJoFhHQXEmeqjb6eg2cwz1h8ybJ2K9for81MJuK
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-main.png
+  Size: 7917      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084779     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.300811200 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.805805700 -0300
+ Birth: -
+IPFS hash: QmYn7P35x3MNd57bE6i8owA6hwBP1tLz6FRSskQc8cMd5W
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-math.png
+  Size: 22218     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084780     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.241701800 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.812434900 -0300
+ Birth: -
+IPFS hash: QmdAxAZggGdGuWoYtf5vCb1MMnKUC42bCFU1wT6p1MJ2ct
+------------------------------
+  File: ./icons windows/Stable-better release/apps/libreoffice-writer.png
+  Size: 34377     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084781     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.172236500 -0300
+Modify: 2020-10-17 17:40:48.000000000 -0300
+Change: 2023-02-01 10:04:56.819263800 -0300
+ Birth: -
+IPFS hash: QmVy5GkwrZmixEzPw2ofpw7qbNc4o6db9RqoV3W9iQo1YR
+------------------------------
+  File: ./icons windows/Stable-better release/apps/mailspring.png
+  Size: 25013     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084782     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.088505100 -0300
+Modify: 2020-05-25 00:30:38.000000000 -0300
+Change: 2023-02-01 10:04:56.826256400 -0300
+ Birth: -
+IPFS hash: QmaYYLQadhvyJKbMhKULf9vFyx9V7XQMqNc4LjDgY7XrJG
+------------------------------
+  File: ./icons windows/Stable-better release/apps/media-flash.png
+  Size: 12001     	Blocks: 24         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084783     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:49.033400600 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.832684100 -0300
+ Birth: -
+IPFS hash: QmeGiasMNoZRiFvnxuL2gxhJmQ9bi8pdQqeBLJQiKofsTQ
+------------------------------
+  File: ./icons windows/Stable-better release/apps/notes/accessories-text-editor.png
+  Size: 15396     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084790     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-06 20:28:35.039645700 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.878458500 -0300
+ Birth: -
+IPFS hash: QmSGrCyL6UdNzvUVXez6774ZtjA8ZWzEAPwzUrySTTrb32
+------------------------------
+  File: ./icons windows/Stable-better release/apps/notes/bluetooth.png
+  Size: 21543     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084791     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-06 20:28:34.824246100 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.886879400 -0300
+ Birth: -
+IPFS hash: QmWBK8budK1J1KNShbZozEZ5iJZCJhRNgC75YvqjykmSN5
+------------------------------
+  File: ./icons windows/Stable-better release/apps/notes/notes-app.png
+  Size: 18658     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084792     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-06 20:28:34.652086700 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.894912400 -0300
+ Birth: -
+IPFS hash: QmXmLEtosJZPsZ3ToFA9VQcxufEgJSmBHu11U3zi5MCErx
+------------------------------
+  File: ./icons windows/Stable-better release/apps/org.gnome.Todo.png
+  Size: 81335     	Blocks: 160        IO Block: 4096   regular file
+Device: 8,4	Inode: 1084784     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:48.936108000 -0300
+Modify: 2018-04-10 14:08:52.000000000 -0300
+Change: 2023-02-01 10:04:56.840381600 -0300
+ Birth: -
+IPFS hash: QmNrmyM7NxwAXCCiug219sHdjcysmGRXYfqk7NEPtrsJBK
+------------------------------
+  File: ./icons windows/Stable-better release/apps/stacer.png
+  Size: 21255     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084785     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:48.893567200 -0300
+Modify: 2019-05-12 22:00:38.000000000 -0300
+Change: 2023-02-01 10:04:56.847201000 -0300
+ Birth: -
+IPFS hash: QmRzRA5VA9e7mgqWTFha9fvtsRSNipMaMJ9HYgQgtCoD6a
+------------------------------
+  File: ./icons windows/Stable-better release/apps/superproductivity.png
+  Size: 80781     	Blocks: 160        IO Block: 4096   regular file
+Device: 8,4	Inode: 1084786     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:48.804875500 -0300
+Modify: 2021-03-05 17:34:36.000000000 -0300
+Change: 2023-02-01 10:04:56.854590000 -0300
+ Birth: -
+IPFS hash: Qmd8bDT3pKXjfz5NzAJ5vfvNGuh91kLqhRmy6C7RsKaaVD
+------------------------------
+  File: ./icons windows/Stable-better release/apps/text-x-gettext-translation.png
+  Size: 18233     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084787     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:48.745704800 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.861744500 -0300
+ Birth: -
+IPFS hash: QmYyk8UarDpU27dQomH3ywjVUSte9hoj71LWvuPDrM1MW1
+------------------------------
+  File: ./icons windows/Stable-better release/apps/unios-application-x-apps.png
+  Size: 14977     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084788     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:48.688463900 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.868815600 -0300
+ Birth: -
+IPFS hash: QmPEWqDaEALDLWS9N4XotWM9rgzUZDehKo9UkGXsNSBJ9L
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-base.png
+  Size: 38113     	Blocks: 80         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084794     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.455170900 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.909876000 -0300
+ Birth: -
+IPFS hash: QmNY6r3HDnzJeFoi497h9Z4Ti8KQGbk2tqh27Ye5uN3bNq
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-calc.png
+  Size: 26520     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084795     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.474815700 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.917914200 -0300
+ Birth: -
+IPFS hash: QmVfvoVKAz9BVWDqJEYk3HsMmmDpcGAdNcko2bEgvUruNK
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-draw.png
+  Size: 35651     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084796     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.483933200 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.927014400 -0300
+ Birth: -
+IPFS hash: QmbhCwEoBLgpzA6mhayqv67dG6JfJ8EsYyfNpbthDrTu3e
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-impress.png
+  Size: 33522     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084797     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.573945100 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.935678000 -0300
+ Birth: -
+IPFS hash: QmNmuqjYESQSCY3nHqduqx4VXmbSPcDJzumYYcQaC5c1R5
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-main.png
+  Size: 16476     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084798     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.581956400 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.943720900 -0300
+ Birth: -
+IPFS hash: QmQpkFTCznN21QAxcynyJkgRtkZtj94ekKqMp2aYX8z4yQ
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-math.png
+  Size: 26092     	Blocks: 56         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084799     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.608569100 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.951868300 -0300
+ Birth: -
+IPFS hash: QmdsGMSLcAFMKLU6MPF3makc2YFTu9PzthvQjKSDv3GFfL
+------------------------------
+  File: ./icons windows/Stable-better release/apps/Untitled Folder/libreoffice-writer.png
+  Size: 29491     	Blocks: 64         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084800     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-04 16:48:48.631177100 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.960258000 -0300
+ Birth: -
+IPFS hash: QmYLSi5MwgLQfmSEmxv85e4yxyzkKmp4y6ghrtfTwFwSTj
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.database.png
+  Size: 47528     	Blocks: 96         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084802     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.721922100 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.989828400 -0300
+ Birth: -
+IPFS hash: Qme8XmnruCSZNd6BovZ9znk933hfNBVj9ovQJRJ7goATs1
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.drawing.png
+  Size: 43280     	Blocks: 88         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084803     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.674300500 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:56.997581300 -0300
+ Birth: -
+IPFS hash: Qmdpi8pnNcnP84meDU2DWNqXTdkt3ynbAfnPodcwpVhve2
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.formula.png
+  Size: 35625     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084804     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.636009100 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.005781800 -0300
+ Birth: -
+IPFS hash: QmaFqHZoJSUhfnxRejWFMk9SDFJutFeHCXZqDSMPEBBSU5
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.master-document.png
+  Size: 20374     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084805     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.591949400 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.013481100 -0300
+ Birth: -
+IPFS hash: QmWAABJPY2BLa3rU5zifPqgYo8izUeXwqwAkUHDuTwTZbV
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.presentation.png
+  Size: 33243     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084806     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.525496500 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.028282900 -0300
+ Birth: -
+IPFS hash: QmRkSQaKhJWC2yfPnRev7RuCdso7wV4mWbUSodvYWeo37a
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.spreadsheet.png
+  Size: 41522     	Blocks: 88         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084807     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.481829500 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.036668900 -0300
+ Birth: -
+IPFS hash: QmaMe41NgPXFaufYcGgwPFPXqNGxQLnSrwqhSzpooPjjY3
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.text.png
+  Size: 36863     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084808     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.438688200 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.044666800 -0300
+ Birth: -
+IPFS hash: QmZ3ehCLhFWcG58hHfKAp6sZ74AuUB5ba5HR6iwJ3nQhiS
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/application-vnd.oasis.opendocument.web.png
+  Size: 48262     	Blocks: 96         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084809     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:56.383549700 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.052859600 -0300
+ Birth: -
+IPFS hash: QmbtDap7SxxGPPQSxFtT7QdVPRgbbLNSKLX96Ss9yhx4Th
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/use/application-vnd.sun.xml.calc.png
+  Size: 11291     	Blocks: 24         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084811     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:59.338705900 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.070328800 -0300
+ Birth: -
+IPFS hash: QmdET5j258zK8o5Puw6H5gv4JHsmQPfSasGjY3vRYG5XtH
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/use/x-office-document.png
+  Size: 13574     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084812     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:59.280554500 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.078939400 -0300
+ Birth: -
+IPFS hash: QmcaVnaNMxafm2CNo9h5KBAPNVX2G18o9ogTeM4owXaYEc
+------------------------------
+  File: ./icons windows/Stable-better release/mimetypes/use/x-office-presentation.png
+  Size: 13372     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084813     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:59.080155200 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.100212400 -0300
+ Birth: -
+IPFS hash: QmX94Z6zqtUCzidJMtbUfoJvXXnsNWdLXtpM3DsqnpZ6RY
+------------------------------
+  File: ./know-user/avatar-default.png
+  Size: 35914     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,4	Inode: 1084816     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-02-01 12:42:36.825111000 -0300
+Modify: 2020-11-05 15:08:58.000000000 -0300
+Change: 2023-02-01 10:04:57.136902100 -0300
+ Birth: -
+IPFS hash: QmUtifC7mphgXi5T4LdDhgZKevFqqNr9VuedCS48KYb8cx
+------------------------------
+  File: ./tasks.txt
+  Size: 1790      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,4	Inode: 4104520     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-03-06 20:44:44.428603800 -0300
+Modify: 2023-03-06 20:44:44.426510300 -0300
+Change: 2023-03-06 20:44:45.109899800 -0300
+ Birth: -
+IPFS hash: QmTkqCY1iLLPDaJD6HCAB6HEbYWihCrwNW8CymsTMuzX9j
+------------------------------
