@@ -2,6 +2,8 @@ Internal testing: current non-Floflis art NFTs as backgrounds (accept Foundation
 
 -? NFT backgrounds. Applying a background is saved on smart-contract state and Floflis srv
 
+/media/daniella/B/git/Floflis/Smart-Contracts/FloflisBackgrounds-Contract
+
 Learn the basic of Solidity
 - 
 
