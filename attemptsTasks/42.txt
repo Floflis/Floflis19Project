@@ -18,7 +18,11 @@ firstboot installing nftmark/buildmark: echo to a log file
 
 install alpha wl (mimetype) + usv-tools (mimetype)
 
-pinky and brown cream themes 🥰
+add the blend package manager from BlendOS
+https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+
+[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
+pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:
 https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
