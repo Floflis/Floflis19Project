@@ -1,2 +1,2 @@
-- ChatGPT Neurus Assistant, with parents mode
+- ChatGPT Neurus Assistant, with parents mode https://github.com/Floflis/NeurusAssistant
 - Use any NFT you own, as desktop background (not limited to the Floflis Backgrounds collection from UniStore)
