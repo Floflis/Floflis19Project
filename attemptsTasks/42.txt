@@ -21,6 +21,8 @@ install alpha wl (mimetype) + usv-tools (mimetype)
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 
+gedit as the default program for webpresent files? they should be considered text files
+
 [Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
 pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:

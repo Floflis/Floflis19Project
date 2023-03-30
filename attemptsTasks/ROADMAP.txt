@@ -17,11 +17,11 @@ Phase Nutshell
 
 Phase WindowSync
 
-Phase AndroSync
+[Floflis 20] Phase AndroSync
 - Floflis Mobile with Cinnamon and Gnome to choose
 
-Phase GnomeSync
+[Floflis 20] Phase GnomeSync
 - Gnome with support to Cinnamon spices!
 
-Phase Screens
+[Floflis 20] Phase Screens
 - https://github.com/capyloon/nutria/issues/26#issuecomment-1090674723
