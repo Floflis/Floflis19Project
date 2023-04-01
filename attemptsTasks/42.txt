@@ -28,6 +28,14 @@ pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:
 https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
+"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
+
+make a teleg channel/group for Floflis
+
+Insp on https://ubuntucinnamon.org/ both normal and mobile
+
+INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184
+
 change background on dark theme
 https://share.pho.to/BE6SL
 

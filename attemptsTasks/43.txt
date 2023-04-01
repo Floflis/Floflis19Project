@@ -14,7 +14,7 @@ on every switch, Cinnamobile will bkp default spice settings then re-apply
 
 start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
 
-Floflis Rust CLI tools https://pastebin.com/Tt912XAG
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG, https://github.com/sts10/rust-command-line-utilities
 -
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 
