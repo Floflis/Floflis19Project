@@ -6,6 +6,7 @@
 - Add AI/Midjourney-generated Floflis ball background <3
 - add Floflis' nostalgic backgrounds💝🥰
 - Core: upgrade twice (I dunno why, but locally it worked twice and upgrading what wasn't upgraded before)
+- attempt to upgrade Cinnamon
 
 
 - use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
