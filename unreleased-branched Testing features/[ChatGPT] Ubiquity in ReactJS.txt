@@ -1,0 +1,103 @@
+"Are you aware about Subiquity?"
+
+Yes, Subiquity is a new server installer developed by Canonical, the company behind Ubuntu Linux distribution. It was introduced with Ubuntu 18.04 LTS release, replacing the previous installer called "debian-installer" (also known as "d-i"). Subiquity is designed to provide a modern and streamlined installation experience for server administrators, with a focus on simplicity and ease of use.
+
+"Please write a basic Ubiquity replacement in ReactJS+Electron.
+
+It should leverage subiquity by using shell commands."
+
+Sure, here's a basic Ubiquity replacement using ReactJS and Electron that leverages Subiquity through shell commands:
+
+index.html:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Subiquity</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+
+renderer.js:
+const { shell } = require('electron');
+const { useState } = React;
+
+function App() {
+  const [query, setQuery] = useState('');
+  
+  function handleSubmit(e) {
+    e.preventDefault();
+    shell.exec(query);
+    setQuery('');
+  }
+  
+  return (
+    <form onSubmit={handleSubmit}>
+      <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
+      <button type="submit">Execute</button>
+    </form>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+This is a very basic example that simply allows the user to enter a shell command and execute it through Electron's shell module. You could expand upon this by adding more features such as autocomplete for commands, history, and other Ubiquity-like functionality.
+
+"Please rewrite that in ReactNative and with support to displaying stdout commands from Subiquity (the backend) and sending commands to Subiquity to perform a full Linux install on Ubuntu."
+
+Sure, here's a rewrite of the previous code in React Native, with added support for displaying stdout commands from Subiquity and sending commands to Subiquity to perform a full Linux install on Ubuntu:
+import React, { useState } from 'react';
+import { Text, TextInput, View, Button, ScrollView } from 'react-native';
+import { exec } from 'child_process';
+
+export default function App() {
+  const [input, setInput] = useState('');
+  const [output, setOutput] = useState('');
+
+  const handleInput = async () => {
+    const command = input.trim();
+    setInput('');
+    const child = exec(command, (error, stdout, stderr) => {
+      if (error) {
+        console.log(error.message);
+        setOutput(`Error: ${error.message}`);
+        return;
+      }
+      if (stderr) {
+        console.log(stderr);
+        setOutput(`Error: ${stderr}`);
+        return;
+      }
+      console.log(stdout);
+      setOutput(stdout);
+    });
+    child.stdin.write('sudo subiquity');
+    child.stdin.write('install ubuntu');
+    child.stdin.end();
+  };
+
+  return (
+    <ScrollView>
+      <View style={{ padding: 20 }}>
+        <Text style={{ fontSize: 20, marginBottom: 10 }}>
+          Subiquity Terminal
+        </Text>
+        <TextInput
+          style={{ borderWidth: 1, padding: 10, marginBottom: 10 }}
+          placeholder="Enter your command here"
+          value={input}
+          onChangeText={(text) => setInput(text)}
+        />
+        <Button title="Run" onPress={handleInput} />
+        <Text style={{ marginTop: 20, fontSize: 16 }}>{output}</Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+This code uses React Native's TextInput component to allow the user to input commands, and displays the output in a Text component within a ScrollView. It also uses Node.js' child_process module to execute shell commands and sends commands to Subiquity to perform a full Linux install on Ubuntu.
+
+Note that this code is just a proof of concept and may require further implementation and customization to fully support Subiquity and its features.
