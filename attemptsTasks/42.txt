@@ -7,6 +7,7 @@
 - add Floflis' nostalgic backgrounds💝🥰
 - Core: upgrade twice (I dunno why, but locally it worked twice and upgrading what wasn't upgraded before)
 - attempt to upgrade Cinnamon
+- ethgas fix: now use only two numbers on gas values
 
 
 - use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
