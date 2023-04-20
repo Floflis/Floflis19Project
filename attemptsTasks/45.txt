@@ -4,11 +4,10 @@
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/10
 
 
--? New Ubuntu 23 ISO base https://cdimage.ubuntu.com/daily-live/
-https://github.com/PJ-Singh-001/Cubic/issues/151
-https://github.com/PJ-Singh-001/Cubic/issues/172
-
-update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
+New Ubuntu 23 ISO base /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Ubuntu/23.04-legacyUbiquity
+-? https://github.com/PJ-Singh-001/Cubic/issues/151
+-? https://github.com/PJ-Singh-001/Cubic/issues/172
+-? update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
 
 smaller versions of floflisCentral icon
 
