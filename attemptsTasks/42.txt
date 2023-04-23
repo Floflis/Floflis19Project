@@ -9,6 +9,7 @@
 - attempt to upgrade Cinnamon
 - ethgas fix: now use only two numbers on gas values
 - remove oibaf/graphics-drivers
+- install ppa-purge
 
 
 - use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
