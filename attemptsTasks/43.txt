@@ -3,6 +3,9 @@
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
 
+- switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
+- firstboot installing nftmark/buildmark: echo to a log file
+
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 
