@@ -10,10 +10,10 @@
 - ethgas fix: now use only two numbers on gas values
 - remove oibaf/graphics-drivers
 - install ppa-purge
+- updt (crypto)Voxels icon (again)
+- customShortcuts: use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
 
 
-- New icon for Voxels! /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/7
-- use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
 - firstboot: chown /home/daniella/.config/nushell (fixes "os error 13" bug)
 - switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
 - firstboot installing nftmark/buildmark: echo to a log file
