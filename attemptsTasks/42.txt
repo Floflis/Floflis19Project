@@ -12,8 +12,9 @@
 - install ppa-purge
 - updt (crypto)Voxels icon (again)
 - customShortcuts: use /usr/share/applications/org.kde.kolourpaint.desktop instead of snap one
+- add Soil's own firstboot.sh
+- Soil's firstlogonroot: chown /home/daniella/.config/nushell (fixes "os error 13" bug)
 
 
-- firstboot: chown /home/daniella/.config/nushell (fixes "os error 13" bug)
 - switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
 - firstboot installing nftmark/buildmark: echo to a log file
