@@ -14,7 +14,13 @@ sudo ln -s isoimage daniella
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
-- firstboot installing nftmark/buildmark: echo to a log file
+-? firstboot installing nftmark/buildmark: echo to a log file
+
+BUG ---->
+firefox/updater.ini
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+sending incremental file list
+<---- BUG
 
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
