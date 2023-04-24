@@ -14,6 +14,27 @@ sudo ln -s isoimage daniella
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
+add the blend package manager from BlendOS
+https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+
+/usr/share/backgrounds:
+mv the following files to /usr/share/backgrounds/ubuntu:
+/usr/share/backgrounds/Copper_Mountain_by_Eduardo_Battaglia.jpg
+/usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
+/usr/share/backgrounds/Lobster_Wallpaper_Grey.png
+/usr/share/backgrounds/LunarCatcher_by_Espio347.png
+/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-dark.png
+/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-light.png
+/usr/share/backgrounds/Multiverse_by_Emanuele_Santoro.png
+/usr/share/backgrounds/Startrail_by_Hajime_Mizuno.jpg
+/usr/share/backgrounds/Warm_Filament_by_Eduardo_Battaglia.jpg
+/usr/share/backgrounds/warty-final-ubuntu.png
+/usr/share/backgrounds/winter-is-leaving_by_Gixo-dark.png
+/usr/share/backgrounds/winter-is-leaving_by_Gixo-light.png
+
+change background on dark theme
+https://share.pho.to/BE6SL
+
 [Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
 pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:

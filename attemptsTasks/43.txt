@@ -49,33 +49,9 @@ Waiting to finish the 'Installer (root mode)'...
 
 
 
-/usr/share/backgrounds:
-mv the following files to /usr/share/backgrounds/ubuntu:
-/usr/share/backgrounds/Copper_Mountain_by_Eduardo_Battaglia.jpg
-/usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
-/usr/share/backgrounds/Lobster_Wallpaper_Grey.png
-/usr/share/backgrounds/LunarCatcher_by_Espio347.png
-/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-dark.png
-/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-light.png
-/usr/share/backgrounds/Multiverse_by_Emanuele_Santoro.png
-/usr/share/backgrounds/Startrail_by_Hajime_Mizuno.jpg
-/usr/share/backgrounds/Warm_Filament_by_Eduardo_Battaglia.jpg
-/usr/share/backgrounds/warty-final-ubuntu.png
-/usr/share/backgrounds/winter-is-leaving_by_Gixo-dark.png
-/usr/share/backgrounds/winter-is-leaving_by_Gixo-light.png
-
-dont use that:
-cat > /usr/share/glib-2.0/schemas/90_ubuntucinnamon-wallpaper.gschema.override <<EOF
-[org.gnome.desktop.background]
-picture-uri='file:///1/img/bg.jpg'
-EOF
-
 study, interesting: /usr/share/glib-2.0/schemas/10_ubuntucinnamon-environment.gschema.override
 then run:
 "glib-compile-schemas /usr/share/glib-2.0/schemas/"
-
-change background on dark theme
-https://share.pho.to/BE6SL
 
 firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
 lsb-release
@@ -84,8 +60,9 @@ os-release
 updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
 /etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
 
-❯ central
 /usr/bin/central: line 4: npm: command not found
+
+- firstboot installing nftmark/buildmark: echo to a log file
 
 BUG ---->
 firefox/updater.ini
@@ -106,11 +83,6 @@ cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No
 
 
 
-
-- firstboot installing nftmark/buildmark: echo to a log file
-
-add the blend package manager from BlendOS
-https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 
 - only define desklets on firstboot, not on every Cinnamobile switch
 - run Cinnamon default settings from external bash file
