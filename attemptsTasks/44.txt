@@ -1,66 +1,26 @@
+install alpha wl (mimetype) + usv-tools (mimetype)
+usv-tools will be part of the usm-tools suite
 
+automatize watermark.png
 
+gedit as the default program for webpresent files? they should be considered text files
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/9
+"Account Details" and "Backgrounds" not opening
 
--? [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
--? [BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
+- automatically download+install wine-mono
 
-Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
-on every switch, Cinnamobile will bkp default spice settings then re-apply
+/home then /media:
+sudo ln -s isoimage daniella
 
-- move "Keyboard" applet to left edge
-- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
+"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
-start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
+[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
+pinkyogurt and brown-cream themes 🥰
+but so for normal/dark/light, now follow this tip by Joshua Peisach:
+https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
-Floflis Rust CLI tools https://pastebin.com/Tt912XAG, https://github.com/sts10/rust-command-line-utilities
--
-install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
+make a teleg channel/group for Floflis
 
-upgrade to Linux 6.3-rc1
-compile latest signed kernel with Android support https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944
-https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
-https://gloveboxes.github.io/Ubuntu-for-Azure-Developers/docs/signing-kernel-for-secure-boot.html
--
-ls -1 /dev/{ashmem,binder}
+Insp on https://ubuntucinnamon.org/ both normal and mobile
 
-"snap install --devmode --beta anbox" (user-side)
--? https://docs.anbox.io/userguide/install.html
--
-anbox session-manager
--
-anbox system-info | grep -l binder
-anbox system-info | grep binder
-anbox system-info | grep -1 binder
-
-
-taskbar search applet isn't loading its defaults
--
-fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
-
-
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
-https://soundcloud.com/vendrediduo/when-winter-rises-1
-https://www.toneden.io/vendredi-duo/post/when-winter-rises
-https://soundcloud.com/markvard/craving
-https://hypeddit.com/xuhxkq
-https://soundcloud.com/cykarl/nightfall
-https://soundcloud.com/extenz/kalon
-https://soundcloud.com/limujii/limujii-feel
-https://hypeddit.com/3fgi7h
-https://soundcloud.com/markvard/markvard-hold-on
-https://hypeddit.com/u1d9z7
--
-Floflis new sounds https://pastebin.com/JJgBSgN5
-
-run wine config at user firstlogon
-
-Installing installer's slideshow...
-mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
-
-- fix FloflisPNG icon branch issues
-
-- make Central smarter (such as not bugging when username JSON not found), and move imgs/assets to the HTML repo (FrameworkJS template will follow this example)
-- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
-- upgrade floapps Node template + AppPlayer to the latest version possible
+INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184

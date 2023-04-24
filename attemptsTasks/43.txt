@@ -101,8 +101,6 @@ Waiting to finish the 'Installer (root mode)'...
 
 
 
-"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
-
 /usr/share/backgrounds:
 mv the following files to /usr/share/backgrounds/ubuntu:
 /usr/share/backgrounds/Copper_Mountain_by_Eduardo_Battaglia.jpg
@@ -117,8 +115,6 @@ mv the following files to /usr/share/backgrounds/ubuntu:
 /usr/share/backgrounds/warty-final-ubuntu.png
 /usr/share/backgrounds/winter-is-leaving_by_Gixo-dark.png
 /usr/share/backgrounds/winter-is-leaving_by_Gixo-light.png
-
-automatize watermark.png
 
 dont use that:
 cat > /usr/share/glib-2.0/schemas/90_ubuntucinnamon-wallpaper.gschema.override <<EOF
@@ -163,32 +159,10 @@ cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No
 
 
 
-- automatically download+install wine-mono
 - firstboot installing nftmark/buildmark: echo to a log file
-
-/home then /media:
-sudo ln -s isoimage daniella
 
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 
-gedit as the default program for webpresent files? they should be considered text files
-
-"Account Details" and "Backgrounds" not opening
-
 - only define desklets on firstboot, not on every Cinnamobile switch
 - run Cinnamon default settings from external bash file
-
-install alpha wl (mimetype) + usv-tools (mimetype)
-usv-tools will be part of the usm-tools suite
-
-[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
-pinkyogurt and brown-cream themes 🥰
-but so for normal/dark/light, now follow this tip by Joshua Peisach:
-https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
-
-make a teleg channel/group for Floflis
-
-Insp on https://ubuntucinnamon.org/ both normal and mobile
-
-INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184
