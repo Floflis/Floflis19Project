@@ -3,9 +3,9 @@
 - move zombiespice install from firstboot to firstlogon
 
 
-"sudo mv -f 10_ubuntucinnamon-lightdm-theme.gschema.override /usr/share/glib-2.0/schemas/ && sudo mv -f 10_ubuntucinnamon-environment.gschema.override /usr/share/glib-2.0/schemas/"
+"sudo cp -f include/System/gschemas/10_ubuntucinnamon-environment.gschema.override /usr/share/glib-2.0/schemas/ && sudo cp -f include/System/gschemas/10_ubuntucinnamon-lightdm-theme.gschema.override /usr/share/glib-2.0/schemas/"
 then run:
-"glib-compile-schemas /usr/share/glib-2.0/schemas/"
+"sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
 -
 - only define desklets on firstboot, not on every Cinnamobile switch
 - run Cinnamon default settings from external bash file
