@@ -1,5 +1,8 @@
-Phase Fatning
+Phase Fatning (attempts 43-45)
 - Get ISO to its largest size ever (so new features/resources can be experimented), before taking measures to minify ISO size
+
+Phase Chapekning (attempt 46-?)
+- Continuously clean/minify ISO size
 
 Phase W3U
 🔵 Make a resilient (future-proof) and modular structure that futurely will require minimal changes to its core
