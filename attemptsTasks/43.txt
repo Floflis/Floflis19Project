@@ -1,52 +1,20 @@
 - updt (crypto)Voxels icon (again)
+- firstboot: chown Cinnamon default settings
 
 
-chown /home/isoimage/.config/cinnamon
 chk how chown of nushell works bc didnt worked /home/isoimage/.config/nushell
 
 1. Floflis has successfully loaded the default applet settings
 
-2. However:
-Cinnamon looking-glass:
-error t=2023-04-24T11:32:53Z [undefined]: File not found: /usr/share/cinnamon/extensions/buildmark@floflis/extension.js
-error t=2023-04-24T11:32:53Z Error creating directory /home/isoimage/.config/cinnamon/spices/search-box@mtwebster: Permission denied
-error t=2023-04-24T11:32:53Z Error creating directory /home/isoimage/.config/cinnamon/spices/printers@cinnamon.org: Permission denied
-error t=2023-04-24T11:32:54Z [Gio.IOErrorEnum: Error creating directory /home/isoimage/.config/cinnamon/spices/transparent-panels@germanfr: Permission denied]: Failed to evaluate 'init' function on extension: transparent-panels@germanfr
-error t=2023-04-24T11:32:54Z Error creating directory /home/isoimage/.config/cinnamon/spices/notifications@cinnamon.org: Permission denied
-[printers@cinnamon.org]: Applet printers@cinnamon.org: Could not create applet object.
-[printers@cinnamon.org]: Error importing applet.js from printers@cinnamon.org
-[transparent-panels@germanfr]: Extension transparent-panels@germanfr: Could not create extension object.
-[transparent-panels@germanfr]: Error importing extension.js from transparent-panels@germanfr
-error t=2023-04-24T11:32:54Z 
-[notifications@cinnamon.org]: Applet notifications@cinnamon.org: Could not create applet object.
-[notifications@cinnamon.org]: Error importing applet.js from notifications@cinnamon.org
-error t=2023-04-24T11:32:54Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
-error t=2023-04-24T11:32:54Z Error opening file “/home/isoimage/.config/cinnamon/spices/grouped-window-list@cinnamon.org/2.json”: Permission denied
-warning t=2023-04-24T11:32:54Z upgrade failed for grouped-window-list@cinnamon.org: falling back to previous settings
-[power@cinnamon.org]: Applet power@cinnamon.org: Could not create applet object.
-[power@cinnamon.org]: Error importing applet.js from power@cinnamon.org
-error t=2023-04-24T11:32:54Z Error opening file “/home/isoimage/.config/cinnamon/spices/weather@mockturtl/13.json”: Permission denied
-warning t=2023-04-24T11:32:54Z upgrade failed for weather@mockturtl: falling back to previous settings
-error t=2023-04-24T11:32:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/network@cinnamon.org: Permission denied
-error t=2023-04-24T11:32:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
-[sound@cinnamon.org]: Applet sound@cinnamon.org: Could not create applet object.
-[sound@cinnamon.org]: Error importing applet.js from sound@cinnamon.org
-error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/notifications@cinnamon.org: Permission denied
-error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/printers@cinnamon.org: Permission denied
-error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/network@cinnamon.org: Permission denied
-error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
-error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
-error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/search-box@mtwebster: Permission denied
+2. Cinnamon dconf settings for desklets did work!
 
-3. While that, Cinnamon dconf settings for desklets did work!
-
-4. second tab in witchcraft:
+3. second tab in witchcraft:
 chown: cannot access '/home/isoimage/.local/share/gvfs-metadata/home*': No such file or directory
 - Upper layers are here. Detecting...
 - Openning Floflis Soil firstlogon installer...
 chmod: cannot access '/home/isoimage/.config/nushell': No such file or directory
 - Cleanning install...
-5. first tab:
+4. first tab:
 Done!
 Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
@@ -76,8 +44,6 @@ Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
-
-6. When trying to open term: failed to execute nu
 
 
 
