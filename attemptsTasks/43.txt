@@ -3,7 +3,7 @@
 - move zombiespice install from firstboot to firstlogon
 
 
-""
+"sudo mv -f 10_ubuntucinnamon-lightdm-theme.gschema.override /usr/share/glib-2.0/schemas/ && sudo mv -f 10_ubuntucinnamon-environment.gschema.override /usr/share/glib-2.0/schemas/"
 then run:
 "glib-compile-schemas /usr/share/glib-2.0/schemas/"
 -
