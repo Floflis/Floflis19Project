@@ -3,6 +3,11 @@
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
 
+- switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
+
+chown /home/isoimage/.config/cinnamon
+chk how chown of nushell works bc didnt worked /home/isoimage/.config/nushell
+
 1. Floflis has successfully loaded the default applet settings
 
 2. However:
@@ -12,10 +17,8 @@ error t=2023-04-24T11:32:53Z Error creating directory /home/isoimage/.config/cin
 error t=2023-04-24T11:32:53Z Error creating directory /home/isoimage/.config/cinnamon/spices/printers@cinnamon.org: Permission denied
 error t=2023-04-24T11:32:54Z [Gio.IOErrorEnum: Error creating directory /home/isoimage/.config/cinnamon/spices/transparent-panels@germanfr: Permission denied]: Failed to evaluate 'init' function on extension: transparent-panels@germanfr
 error t=2023-04-24T11:32:54Z Error creating directory /home/isoimage/.config/cinnamon/spices/notifications@cinnamon.org: Permission denied
-error t=2023-04-24T11:32:54Z 
 [printers@cinnamon.org]: Applet printers@cinnamon.org: Could not create applet object.
 [printers@cinnamon.org]: Error importing applet.js from printers@cinnamon.org
-error t=2023-04-24T11:32:54Z 
 [transparent-panels@germanfr]: Extension transparent-panels@germanfr: Could not create extension object.
 [transparent-panels@germanfr]: Error importing extension.js from transparent-panels@germanfr
 error t=2023-04-24T11:32:54Z 
@@ -42,8 +45,6 @@ error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cin
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/search-box@mtwebster: Permission denied
-error t=2023-04-24T11:34:35Z extension is null
-warning t=2023-04-24T11:34:39Z Invalid or null source id used when attempting to run Mainloop.source_remove()
 overrideDumpStack/global.dump_gjs_stack@/usr/share/cinnamon/js/ui/overrides.js:24:42
 overrideMainloop/Mainloop.source_remove@/usr/share/cinnamon/js/ui/overrides.js:163:20
 destroy@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appGroup.js:1152:22
@@ -149,6 +150,10 @@ firefox/updater.ini
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
 sending incremental file list
 rsync: [Receiver] mkdir "/usr/lib/floflis/browser/firedoge" failed: Permission denied (13)
+-
+-
+-
+-
 rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
 sending incremental file list
 rsync: [Receiver] mkdir "/usr/lib/floflis/browser/firedoge/defaults/firstpage" failed: No such file or directory (2)
@@ -161,7 +166,6 @@ cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No
 
 
 - automatically download+install wine-mono
-- switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
 - firstboot installing nftmark/buildmark: echo to a log file
 
 add the blend package manager from BlendOS
