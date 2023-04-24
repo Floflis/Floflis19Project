@@ -1,8 +1,6 @@
 - updt (crypto)Voxels icon (again)
 
 
-- switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
-
 chown /home/isoimage/.config/cinnamon
 chk how chown of nushell works bc didnt worked /home/isoimage/.config/nushell
 
