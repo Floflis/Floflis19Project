@@ -3,34 +3,146 @@
 
 /media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/8
 
-- switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
-- firstboot installing nftmark/buildmark: echo to a log file
+1. Floflis has successfully loaded the default applet settings
 
-add the blend package manager from BlendOS
-https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+2. However:
+Cinnamon looking-glass:
+error t=2023-04-24T11:32:53Z [undefined]: File not found: /usr/share/cinnamon/extensions/buildmark@floflis/extension.js
+error t=2023-04-24T11:32:53Z Error creating directory /home/isoimage/.config/cinnamon/spices/search-box@mtwebster: Permission denied
+error t=2023-04-24T11:32:53Z Error creating directory /home/isoimage/.config/cinnamon/spices/printers@cinnamon.org: Permission denied
+error t=2023-04-24T11:32:54Z [Gio.IOErrorEnum: Error creating directory /home/isoimage/.config/cinnamon/spices/transparent-panels@germanfr: Permission denied]: Failed to evaluate 'init' function on extension: transparent-panels@germanfr
+error t=2023-04-24T11:32:54Z Error creating directory /home/isoimage/.config/cinnamon/spices/notifications@cinnamon.org: Permission denied
+error t=2023-04-24T11:32:54Z 
+[printers@cinnamon.org]: Applet printers@cinnamon.org: Could not create applet object.
+[printers@cinnamon.org]: Error importing applet.js from printers@cinnamon.org
+error t=2023-04-24T11:32:54Z 
+[transparent-panels@germanfr]: Extension transparent-panels@germanfr: Could not create extension object.
+[transparent-panels@germanfr]: Error importing extension.js from transparent-panels@germanfr
+error t=2023-04-24T11:32:54Z 
+[notifications@cinnamon.org]: Applet notifications@cinnamon.org: Could not create applet object.
+[notifications@cinnamon.org]: Error importing applet.js from notifications@cinnamon.org
+error t=2023-04-24T11:32:54Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
+error t=2023-04-24T11:32:54Z Error opening file “/home/isoimage/.config/cinnamon/spices/grouped-window-list@cinnamon.org/2.json”: Permission denied
+warning t=2023-04-24T11:32:54Z upgrade failed for grouped-window-list@cinnamon.org: falling back to previous settings
+error t=2023-04-24T11:32:54Z 
+[power@cinnamon.org]: Applet power@cinnamon.org: Could not create applet object.
+[power@cinnamon.org]: Error importing applet.js from power@cinnamon.org
+error t=2023-04-24T11:32:54Z Error opening file “/home/isoimage/.config/cinnamon/spices/weather@mockturtl/13.json”: Permission denied
+warning t=2023-04-24T11:32:54Z upgrade failed for weather@mockturtl: falling back to previous settings
+error t=2023-04-24T11:32:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/network@cinnamon.org: Permission denied
+error t=2023-04-24T11:32:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
+error t=2023-04-24T11:32:55Z 
+[sound@cinnamon.org]: Applet sound@cinnamon.org: Could not create applet object.
+[sound@cinnamon.org]: Error importing applet.js from sound@cinnamon.org
+warning t=2023-04-24T11:32:56Z Error retrieving address https://weather-broker-cdn.api.bbci.co.uk/en/forecast/rss/3day/. Status: 2: Error resolving “weather-broker-cdn.api.bbci.co.uk”: No address associated with hostname
+warning t=2023-04-24T11:32:56Z Error retrieving address https://weather-broker-cdn.api.bbci.co.uk/en/observation/rss/. Status: 2: Error resolving “weather-broker-cdn.api.bbci.co.uk”: No address associated with hostname
+error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/notifications@cinnamon.org: Permission denied
+error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/printers@cinnamon.org: Permission denied
+error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/network@cinnamon.org: Permission denied
+error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
+error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
+error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/search-box@mtwebster: Permission denied
+error t=2023-04-24T11:34:35Z extension is null
+warning t=2023-04-24T11:34:39Z Invalid or null source id used when attempting to run Mainloop.source_remove()
+overrideDumpStack/global.dump_gjs_stack@/usr/share/cinnamon/js/ui/overrides.js:24:42
+overrideMainloop/Mainloop.source_remove@/usr/share/cinnamon/js/ui/overrides.js:163:20
+destroy@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appGroup.js:1152:22
+windowRemoved/<@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:419:42
+windowRemoved@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appGroup.js:965:19
+windowRemoved@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:385:34
+removeWindowFromAllWorkspaces/<@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/applet.js:239:29
+each@/usr/share/cinnamon/js/misc/util.js:505:25
+removeWindowFromAllWorkspaces@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/applet.js:238:21
+trigger@/usr/share/cinnamon/js/misc/state.js:241:44
+windowRemoved@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:364:24
+AppList/<@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:57:86
 
-gedit as the default program for webpresent files? they should be considered text files
+3. While that, Cinnamon dconf settings for desklets did work!
 
-- only define desklets on firstboot, not on every Cinnamobile switch
-- run Cinnamon default settings from external bash file
+4. second tab in witchcraft:
+chown: cannot access '/home/isoimage/.local/share/gvfs-metadata/home*': No such file or directory
+- Upper layers are here. Detecting...
+- Openning Floflis Soil firstlogon installer...
+chmod: cannot access '/home/isoimage/.config/nushell': No such file or directory
+- Cleanning install...
+5. first tab:
+Done!
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
 
-install alpha wl (mimetype) + usv-tools (mimetype)
+6. When trying to open term: failed to execute nu
 
-[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
-pinkyogurt and brown-cream themes 🥰
-but so for normal/dark/light, now follow this tip by Joshua Peisach:
-https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
+
+
+
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
-make a teleg channel/group for Floflis
+/usr/share/backgrounds:
+mv the following files to /usr/share/backgrounds/ubuntu:
+/usr/share/backgrounds/Copper_Mountain_by_Eduardo_Battaglia.jpg
+/usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
+/usr/share/backgrounds/Lobster_Wallpaper_Grey.png
+/usr/share/backgrounds/LunarCatcher_by_Espio347.png
+/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-dark.png
+/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-light.png
+/usr/share/backgrounds/Multiverse_by_Emanuele_Santoro.png
+/usr/share/backgrounds/Startrail_by_Hajime_Mizuno.jpg
+/usr/share/backgrounds/Warm_Filament_by_Eduardo_Battaglia.jpg
+/usr/share/backgrounds/warty-final-ubuntu.png
+/usr/share/backgrounds/winter-is-leaving_by_Gixo-dark.png
+/usr/share/backgrounds/winter-is-leaving_by_Gixo-light.png
 
-Insp on https://ubuntucinnamon.org/ both normal and mobile
+automatize watermark.png
 
-INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184
+dont use that:
+cat > /usr/share/glib-2.0/schemas/90_ubuntucinnamon-wallpaper.gschema.override <<EOF
+[org.gnome.desktop.background]
+picture-uri='file:///1/img/bg.jpg'
+EOF
+
+study, interesting: /usr/share/glib-2.0/schemas/10_ubuntucinnamon-environment.gschema.override
+then run:
+"glib-compile-schemas /usr/share/glib-2.0/schemas/"
 
 change background on dark theme
 https://share.pho.to/BE6SL
+
+firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
+lsb-release
+os-release
+-
+updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
+/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
+
+❯ central
+/usr/bin/central: line 4: npm: command not found
 
 BUG ---->
 firefox/updater.ini
@@ -47,9 +159,31 @@ cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No
 
 
 
-firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
-lsb-release
-os-release
--
-updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
-/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
+
+- automatically download+install wine-mono
+- switch cinnamon spice defaults from /home/daniella/.cinnamon/configs to /home/daniella/.config/cinnamon/spices
+- firstboot installing nftmark/buildmark: echo to a log file
+
+add the blend package manager from BlendOS
+https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+
+gedit as the default program for webpresent files? they should be considered text files
+
+"Account Details" and "Backgrounds" not opening
+
+- only define desklets on firstboot, not on every Cinnamobile switch
+- run Cinnamon default settings from external bash file
+
+install alpha wl (mimetype) + usv-tools (mimetype)
+usv-tools will be part of the usm-tools suite
+
+[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
+pinkyogurt and brown-cream themes 🥰
+but so for normal/dark/light, now follow this tip by Joshua Peisach:
+https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
+
+make a teleg channel/group for Floflis
+
+Insp on https://ubuntucinnamon.org/ both normal and mobile
+
+INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184

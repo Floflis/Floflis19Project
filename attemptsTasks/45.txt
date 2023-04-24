@@ -5,6 +5,8 @@
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
 
+rmv previous kernel
+
 remove all other desktop Backgrounds and their lists, except the SVG ones
 
 install the latest software directly from gh releases, prepare to later use unistore+shrdchn
