@@ -25,36 +25,20 @@ error t=2023-04-24T11:32:54Z
 error t=2023-04-24T11:32:54Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
 error t=2023-04-24T11:32:54Z Error opening file “/home/isoimage/.config/cinnamon/spices/grouped-window-list@cinnamon.org/2.json”: Permission denied
 warning t=2023-04-24T11:32:54Z upgrade failed for grouped-window-list@cinnamon.org: falling back to previous settings
-error t=2023-04-24T11:32:54Z 
 [power@cinnamon.org]: Applet power@cinnamon.org: Could not create applet object.
 [power@cinnamon.org]: Error importing applet.js from power@cinnamon.org
 error t=2023-04-24T11:32:54Z Error opening file “/home/isoimage/.config/cinnamon/spices/weather@mockturtl/13.json”: Permission denied
 warning t=2023-04-24T11:32:54Z upgrade failed for weather@mockturtl: falling back to previous settings
 error t=2023-04-24T11:32:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/network@cinnamon.org: Permission denied
 error t=2023-04-24T11:32:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
-error t=2023-04-24T11:32:55Z 
 [sound@cinnamon.org]: Applet sound@cinnamon.org: Could not create applet object.
 [sound@cinnamon.org]: Error importing applet.js from sound@cinnamon.org
-warning t=2023-04-24T11:32:56Z Error retrieving address https://weather-broker-cdn.api.bbci.co.uk/en/forecast/rss/3day/. Status: 2: Error resolving “weather-broker-cdn.api.bbci.co.uk”: No address associated with hostname
-warning t=2023-04-24T11:32:56Z Error retrieving address https://weather-broker-cdn.api.bbci.co.uk/en/observation/rss/. Status: 2: Error resolving “weather-broker-cdn.api.bbci.co.uk”: No address associated with hostname
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/notifications@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/printers@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/network@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/sound@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/power@cinnamon.org: Permission denied
 error t=2023-04-24T11:33:55Z Error creating directory /home/isoimage/.config/cinnamon/spices/search-box@mtwebster: Permission denied
-overrideDumpStack/global.dump_gjs_stack@/usr/share/cinnamon/js/ui/overrides.js:24:42
-overrideMainloop/Mainloop.source_remove@/usr/share/cinnamon/js/ui/overrides.js:163:20
-destroy@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appGroup.js:1152:22
-windowRemoved/<@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:419:42
-windowRemoved@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appGroup.js:965:19
-windowRemoved@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:385:34
-removeWindowFromAllWorkspaces/<@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/applet.js:239:29
-each@/usr/share/cinnamon/js/misc/util.js:505:25
-removeWindowFromAllWorkspaces@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/applet.js:238:21
-trigger@/usr/share/cinnamon/js/misc/state.js:241:44
-windowRemoved@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:364:24
-AppList/<@/usr/share/cinnamon/applets/grouped-window-list@cinnamon.org/appList.js:57:86
 
 3. While that, Cinnamon dconf settings for desklets did work!
 
