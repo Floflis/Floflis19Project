@@ -2,6 +2,24 @@
 - firstboot: chown Cinnamon default settings
 
 
+- only define desklets on firstboot, not on every Cinnamobile switch
+- run Cinnamon default settings from external bash file
+-
+study, interesting: /usr/share/glib-2.0/schemas/10_ubuntucinnamon-environment.gschema.override
+then run:
+"glib-compile-schemas /usr/share/glib-2.0/schemas/"
+
+firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
+lsb-release
+os-release
+-
+updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
+/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
+
+/usr/bin/central: line 4: npm: command not found
+
+- firstboot installing nftmark/buildmark: echo to a log file
+
 chk how chown of nushell works bc didnt worked /home/isoimage/.config/nushell
 
 1. Floflis has successfully loaded the default applet settings
@@ -49,21 +67,6 @@ Waiting to finish the 'Installer (root mode)'...
 
 
 
-study, interesting: /usr/share/glib-2.0/schemas/10_ubuntucinnamon-environment.gschema.override
-then run:
-"glib-compile-schemas /usr/share/glib-2.0/schemas/"
-
-firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
-lsb-release
-os-release
--
-updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-release
-/etc/os-release (change pretty_name+home_url+bug_report_url, prepare for changing logo and others)
-
-/usr/bin/central: line 4: npm: command not found
-
-- firstboot installing nftmark/buildmark: echo to a log file
-
 BUG ---->
 firefox/updater.ini
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
@@ -79,10 +82,3 @@ rsync: [Receiver] mkdir "/usr/lib/floflis/browser/firedoge/defaults/firstpage" f
 rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
 cp: cannot create regular file '/usr/lib/floflis/browser/firedoge/powers.sh': No such file or directory
 <---- BUG
-
-
-
-
-
-- only define desklets on firstboot, not on every Cinnamobile switch
-- run Cinnamon default settings from external bash file
