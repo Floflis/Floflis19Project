@@ -17,6 +17,8 @@ sudo ln -s isoimage daniella
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 
+Floflis sound theme (Gnome-compatible), symlinking from tree!
+
 /usr/share/backgrounds:
 mv the following files to /usr/share/backgrounds/ubuntu:
 /usr/share/backgrounds/Copper_Mountain_by_Eduardo_Battaglia.jpg
