@@ -1,13 +1,16 @@
 - updt (crypto)Voxels icon (again)
 - firstboot: chown Cinnamon default settings
+- move zombiespice install from firstboot to firstlogon
 
 
-- only define desklets on firstboot, not on every Cinnamobile switch
-- run Cinnamon default settings from external bash file
--
 study, interesting: /usr/share/glib-2.0/schemas/10_ubuntucinnamon-environment.gschema.override
 then run:
 "glib-compile-schemas /usr/share/glib-2.0/schemas/"
+-
+- only define desklets on firstboot, not on every Cinnamobile switch
+- run Cinnamon default settings from external bash file
+
+- inalguration of lockscreen img!
 
 firstboot: change distro pretty-name and others such as ubuntu-logo (now floflis-logo). version now will include build and attempt
 lsb-release
@@ -22,17 +25,13 @@ updt distro pretty-name to "Floflis 19" (but get it from config/json) /etc/os-re
 
 chk how chown of nushell works bc didnt worked /home/isoimage/.config/nushell
 
-1. Floflis has successfully loaded the default applet settings
-
-2. Cinnamon dconf settings for desklets did work!
-
-3. second tab in witchcraft:
+1. second tab in witchcraft:
 chown: cannot access '/home/isoimage/.local/share/gvfs-metadata/home*': No such file or directory
 - Upper layers are here. Detecting...
 - Openning Floflis Soil firstlogon installer...
 chmod: cannot access '/home/isoimage/.config/nushell': No such file or directory
 - Cleanning install...
-4. first tab:
+2. first tab:
 Done!
 Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
