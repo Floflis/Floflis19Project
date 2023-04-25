@@ -3,6 +3,8 @@
 - fix writing + add new customizations to /etc/os-release and /etc/lsb-release
 
 
+add more apt -y
+
 Installing Stacer...
 dpkg: warning: downgrading stacer from 1.1.0+ds-2 to 1.1.0-1
 (Reading database ... 356493 files and directories currently installed.)
