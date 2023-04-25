@@ -4,6 +4,52 @@
 - floapps: pre-include node_modules libs
 
 
+chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home*': No such file or directory
+chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home': No such file or directory
+- Upper layers are here. Detecting...
+- Openning Floflis Soil firstlogon installer...
+- Cleanning install...
+floflis@floflis:/home$ 
+
+                  Welcome to Floflis!
+Getting and storing username...
+Done!
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+Waiting to finish the 'Installer (root mode)'...
+
+Failed to execute child process “nu”: Failed to execve: No such file or directory
+
+internet search applet didnt load settings
+
+/home/floflis/Pictures not saving screenshots at specifie location
+
+/home/floflis/aragon
+/home/floflis/hop
+
+Firedoge didn't even open:
+sent 195,226 bytes  received 305 bytes  391,062.00 bytes/sec
+total size is 193,918  speedup is 0.99
+- Installing Firedoge in /usr/bin...
+- Turning Firedoge into a executable...
+Creating settings profile...
+[i] Its normal that your browser opens and closes.
+Running Nightly as root in a regular user's session is not supported.  ($XAUTHORITY is /home/floflis/.Xauthority which is owned by floflis.)
+Installation didn't succeed. Try opening Firedoge icon and re-installing it.
+What happened: Firedoge settings profile wasn't been created
+(sorry but it isn't a helpful error message; BTW it will be improved <3)
+
+Floflis Nutshell:
+- ask if user want text editor theme dark or light
+
+/etc/os-release:
+PRETTY_NAME="$osname $osversion build $osbuild $osbuildcodename"
+/etc/lsb-release:
+DISTRIB_DESCRIPTION="$osname $osversion build $osbuild $osbuildcodename"
+
 add more apt -y
 
 Installing Stacer...
