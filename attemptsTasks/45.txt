@@ -9,6 +9,8 @@ pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:
 https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
+gedit as the default program for webpresent files? they should be considered text files
+
 BUG ---->
 firefox/updater.ini
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
@@ -50,3 +52,7 @@ usv-tools will be part of the usm-tools suite
 
 change background on dark theme
 https://share.pho.to/BE6SL
+
+Insp on https://ubuntucinnamon.org/ both normal and mobile
+
+INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184

@@ -4,7 +4,12 @@
 - floapps: pre-include node_modules libs
 - fix desktop showing drives
 - fix: /home/floflis/Pictures not saving screenshots at specifie location
+- separate more backgrounds from Ubuntu/Ubuntu Cinnamon
 
+
+- automatically download+install wine-mono
+
+"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
 first set buildmark@floflis extension data, before loading it
 
@@ -34,28 +39,3 @@ Installing Stacer...
 dpkg: warning: downgrading stacer from 1.1.0+ds-2 to 1.1.0-1
 (Reading database ... 356493 files and directories currently installed.)
 Preparing to unpack .../DEB/stacer_1.1.0_amd64.deb ...
-
-gedit as the default program for webpresent files? they should be considered text files
-
-- automatically download+install wine-mono
-
-"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
-
-/usr/share/backgrounds:
-mv the following files to /usr/share/backgrounds/ubuntu:
-/usr/share/backgrounds/Copper_Mountain_by_Eduardo_Battaglia.jpg
-/usr/share/backgrounds/Flow_by_Emanuele_Santoro.png
-/usr/share/backgrounds/Lobster_Wallpaper_Grey.png
-/usr/share/backgrounds/LunarCatcher_by_Espio347.png
-/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-dark.png
-/usr/share/backgrounds/Lunar-lobster-side_by_Gixo-light.png
-/usr/share/backgrounds/Multiverse_by_Emanuele_Santoro.png
-/usr/share/backgrounds/Startrail_by_Hajime_Mizuno.jpg
-/usr/share/backgrounds/Warm_Filament_by_Eduardo_Battaglia.jpg
-/usr/share/backgrounds/warty-final-ubuntu.png
-/usr/share/backgrounds/winter-is-leaving_by_Gixo-dark.png
-/usr/share/backgrounds/winter-is-leaving_by_Gixo-light.png
-
-Insp on https://ubuntucinnamon.org/ both normal and mobile
-
-INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184
