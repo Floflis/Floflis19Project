@@ -6,12 +6,14 @@
 - fix: /home/floflis/Pictures not saving screenshots at specifie location
 - separate more backgrounds from Ubuntu/Ubuntu Cinnamon
 - automatically download+install wine-mono and dotnet45
-- use --refuse-downgrade on every .deb install
+- use --refuse-downgrade on every .deb install (fixes Stacer downgrade issue when running Floflis install for 2nd time onward)
 
  
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
 first set buildmark@floflis extension data, before loading it
+
+Failed to execute child process “nu”: Failed to execve: No such file or directory
 
 chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home*': No such file or directory
 chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home': No such file or directory
@@ -29,5 +31,3 @@ Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
-
-Failed to execute child process “nu”: Failed to execve: No such file or directory
