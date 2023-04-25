@@ -1,9 +1,6 @@
 - updt (crypto)Voxels icon (again)
 
 
-install alpha wl (mimetype) + usv-tools (mimetype)
-usv-tools will be part of the usm-tools suite
-
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 sed: couldn't open file ww.ubuntu.com/"/HOME_URL="https://www.floflis.com/"/g: No such file or directory
 Done (to-merge.sh)
@@ -13,7 +10,10 @@ dpkg: warning: downgrading stacer from 1.1.0+ds-2 to 1.1.0-1
 (Reading database ... 356493 files and directories currently installed.)
 Preparing to unpack .../DEB/stacer_1.1.0_amd64.deb ...
 
-automatize watermark.png
+install alpha wl (mimetype) + usv-tools (mimetype)
+usv-tools will be part of the usm-tools suite
+
+automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
 
 gedit as the default program for webpresent files? they should be considered text files
 
