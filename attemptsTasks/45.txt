@@ -9,6 +9,8 @@ pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:
 https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
+add more apt -y if Cubic mode/flag
+
 gedit as the default program for webpresent files? they should be considered text files
 
 BUG ---->

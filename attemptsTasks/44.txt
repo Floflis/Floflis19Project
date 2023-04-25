@@ -6,10 +6,9 @@
 - fix: /home/floflis/Pictures not saving screenshots at specifie location
 - separate more backgrounds from Ubuntu/Ubuntu Cinnamon
 - automatically download+install wine-mono and dotnet45
+- use --refuse-downgrade on every .deb install
 
-
-add more apt -y
-
+ 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
 first set buildmark@floflis extension data, before loading it
@@ -32,9 +31,3 @@ Waiting to finish the 'Installer (root mode)'...
 Waiting to finish the 'Installer (root mode)'...
 
 Failed to execute child process “nu”: Failed to execve: No such file or directory
-
-
-Installing Stacer...
-dpkg: warning: downgrading stacer from 1.1.0+ds-2 to 1.1.0-1
-(Reading database ... 356493 files and directories currently installed.)
-Preparing to unpack .../DEB/stacer_1.1.0_amd64.deb ...
