@@ -1,10 +1,15 @@
 "Account Details" not opening
 
-install alpha wl (mimetype) + usv-tools (mimetype)
-usv-tools will be part of the usm-tools suite
+add the blend package manager from BlendOS
+https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+
+Floflis sound theme (Gnome-compatible), symlinking from tree!
 
 automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
 
 sudo ln -s $(logname) /media/daniella
 sudo ln -s $(logname) /home/daniella
 ISO mode can import settings such as username (symlink), git global settings, WiFi networks+passwords, show hidden files, keyboard settings, etc (Floflis Sync)
+
+install alpha wl (mimetype) + usv-tools (mimetype)
+usv-tools will be part of the usm-tools suite
