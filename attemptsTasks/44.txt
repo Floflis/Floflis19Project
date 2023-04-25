@@ -45,11 +45,6 @@ What happened: Firedoge settings profile wasn't been created
 Floflis Nutshell:
 - ask if user want text editor theme dark or light
 
-/etc/os-release:
-PRETTY_NAME="$osname $osversion build $osbuild $osbuildcodename"
-/etc/lsb-release:
-DISTRIB_DESCRIPTION="$osname $osversion build $osbuild $osbuildcodename"
-
 add more apt -y
 
 Installing Stacer...
