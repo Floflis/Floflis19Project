@@ -1,7 +1,7 @@
-Phase Fatning (attempts 43-45)
+Phase Fatning (attempts 44-46)
 - Get ISO to its largest size ever (so new features/resources can be experimented), before taking measures to minify ISO size
 
-Phase Chapekning (attempt 46-?)
+Phase Chapekning (attempt 47-?)
 - Continuously clean/minify ISO size
 
 Phase W3U
@@ -16,6 +16,7 @@ Phase W3U
 - First Insiders build (Pure edition without WINE (2GB less), and Server edition)
 
 Phase Nutshell
+- ask if user want text editor theme dark or light
 - Mouse and Keyboard courses with badge awards
 
 Phase WindowSync

@@ -42,9 +42,6 @@ Installation didn't succeed. Try opening Firedoge icon and re-installing it.
 What happened: Firedoge settings profile wasn't been created
 (sorry but it isn't a helpful error message; BTW it will be improved <3)
 
-Floflis Nutshell:
-- ask if user want text editor theme dark or light
-
 add more apt -y
 
 Installing Stacer...
@@ -52,20 +49,9 @@ dpkg: warning: downgrading stacer from 1.1.0+ds-2 to 1.1.0-1
 (Reading database ... 356493 files and directories currently installed.)
 Preparing to unpack .../DEB/stacer_1.1.0_amd64.deb ...
 
-install alpha wl (mimetype) + usv-tools (mimetype)
-usv-tools will be part of the usm-tools suite
-
-automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
-
 gedit as the default program for webpresent files? they should be considered text files
 
-"Account Details" not opening
-
 - automatically download+install wine-mono
-
-sudo ln -s $(logname) /media/daniella
-sudo ln -s $(logname) /home/daniella
-ISO mode can import settings such as username (symlink), git global settings, WiFi networks+passwords, show hidden files, keyboard settings, etc (Floflis Sync)
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
