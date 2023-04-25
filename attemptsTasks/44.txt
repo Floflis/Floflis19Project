@@ -7,7 +7,9 @@
 - separate more backgrounds from Ubuntu/Ubuntu Cinnamon
 
 
-- automatically download+install wine-mono
+- automatically download+install wine-mono and dotnet45
+https://dl.winehq.org/wine/wine-mono/7.4.0/wine-mono-7.4.0-x86.msi wine msiexec /i wine-mono-7.4.0-x86.msi #from https://askubuntu.com/a/1448770
+winetricks dotnet45 #from https://askubuntu.com/a/1106750
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
