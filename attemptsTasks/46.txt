@@ -1,8 +1,6 @@
 
 
 
-/media/daniella/Seagate Expansion Drive/flo-bkp-sync/full/home/daniella/Desktop/fl/fl voxels icons timeline/10
-
 don't anymore run npm install on floapps (test if Central still work)
 
 -? [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't

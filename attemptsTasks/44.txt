@@ -2,9 +2,9 @@
 - fix writing floflis.com URL to /etc/os-release
 - fix writing + add new customizations to /etc/os-release and /etc/lsb-release
 - floapps: pre-include node_modules libs
+- fix desktop showing drives
+- fix: /home/floflis/Pictures not saving screenshots at specifie location
 
-
-desktop is showing drives! shouldn't
 
 chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home*': No such file or directory
 chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home': No such file or directory
@@ -25,24 +25,6 @@ Waiting to finish the 'Installer (root mode)'...
 
 Failed to execute child process “nu”: Failed to execve: No such file or directory
 
-internet search applet didnt load settings
-
-/home/floflis/Pictures not saving screenshots at specifie location
-
-/home/floflis/aragon
-/home/floflis/hop
-
-Firedoge didn't even open:
-sent 195,226 bytes  received 305 bytes  391,062.00 bytes/sec
-total size is 193,918  speedup is 0.99
-- Installing Firedoge in /usr/bin...
-- Turning Firedoge into a executable...
-Creating settings profile...
-[i] Its normal that your browser opens and closes.
-Running Nightly as root in a regular user's session is not supported.  ($XAUTHORITY is /home/floflis/.Xauthority which is owned by floflis.)
-Installation didn't succeed. Try opening Firedoge icon and re-installing it.
-What happened: Firedoge settings profile wasn't been created
-(sorry but it isn't a helpful error message; BTW it will be improved <3)
 
 add more apt -y
 
@@ -56,14 +38,6 @@ gedit as the default program for webpresent files? they should be considered tex
 - automatically download+install wine-mono
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
-
--? firstboot installing nftmark/buildmark: echo to a log file
-
-BUG ---->
-firefox/updater.ini
-mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
-sending incremental file list
-<---- BUG
 
 /usr/share/backgrounds:
 mv the following files to /usr/share/backgrounds/ubuntu:
@@ -79,18 +53,6 @@ mv the following files to /usr/share/backgrounds/ubuntu:
 /usr/share/backgrounds/warty-final-ubuntu.png
 /usr/share/backgrounds/winter-is-leaving_by_Gixo-dark.png
 /usr/share/backgrounds/winter-is-leaving_by_Gixo-light.png
-
-change background on dark theme
-https://share.pho.to/BE6SL
-
-Firedoge: detect if ~/.mozilla exist; if not, create a full profile as skip some steps!
-
-[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
-pinkyogurt and brown-cream themes 🥰
-but so for normal/dark/light, now follow this tip by Joshua Peisach:
-https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
-
-make a teleg channel/group for Floflis
 
 Insp on https://ubuntucinnamon.org/ both normal and mobile
 
