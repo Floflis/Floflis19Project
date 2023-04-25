@@ -1,9 +1,7 @@
 - updt (crypto)Voxels icon (again)
+- fix writing floflis.com URL to /etc/os-release
+- fix writing + add new customizations to /etc/os-release and /etc/lsb-release
 
-
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-sed: couldn't open file ww.ubuntu.com/"/HOME_URL="https://www.floflis.com/"/g: No such file or directory
-Done (to-merge.sh)
 
 Installing Stacer...
 dpkg: warning: downgrading stacer from 1.1.0+ds-2 to 1.1.0-1
@@ -17,12 +15,30 @@ automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/IS
 
 gedit as the default program for webpresent files? they should be considered text files
 
-"Account Details" and "Backgrounds" not opening
+"Account Details" not opening
 
 - automatically download+install wine-mono
 
-/home then /media:
-sudo ln -s isoimage daniella
+sudo ln -s $(logname) /media/daniella
+sudo ln -s $(logname) /home/daniella
+ISO mode can import settings such as username (symlink), git global settings, WiFi networks+passwords, show hidden files, keyboard settings, etc (Floflis Sync)
+
+Central:
+.navdrawer-content {
+    background-color: transparent!important;
+    backdrop-filter: blur(10px);
+}
+
+.nav-tabs .nav-link {
+    opacity: unset!important;
+}
+
+.nav-tabs .nav-link:active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    backdrop-filter: blur(10px)!important;
+}
+.nav-link:hover{font-weight:unset!important}
+- svg -> png icon!
+- can enter fullscreen with F11, but can't exit it with same F11 (also, F11 works in any place of the desktop despite Central's window not visible)
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
@@ -56,6 +72,10 @@ mv the following files to /usr/share/backgrounds/ubuntu:
 
 change background on dark theme
 https://share.pho.to/BE6SL
+-
+desktop is showing drives! shouldn't
+
+Firedoge: detect if ~/.mozilla exist; if not, create a full profile as skip some steps!
 
 [Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
 pinkyogurt and brown-cream themes 🥰
