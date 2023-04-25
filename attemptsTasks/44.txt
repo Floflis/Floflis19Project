@@ -6,6 +6,8 @@
 - fix: /home/floflis/Pictures not saving screenshots at specifie location
 
 
+first set buildmark@floflis extension data, before loading it
+
 chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home*': No such file or directory
 chown: cannot access '/home/floflis/.local/share/gvfs-metadata/home': No such file or directory
 - Upper layers are here. Detecting...
