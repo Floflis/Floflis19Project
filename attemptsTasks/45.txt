@@ -2,9 +2,9 @@
 - Central: PLA and GAME token icons: from PNG to SVG; blur in left sidebar!
 - updt (crypto)Voxels icon (again)
 - WeblinkAps: 16x16 version of Voxels SVG icon
+- updt Central icon
+- 16x16 version of Central SVG icon
 
-
-16x16 version of Central SVG icon
 
 [Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
 pinkyogurt and brown-cream themes 🥰
