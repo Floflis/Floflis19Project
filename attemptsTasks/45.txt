@@ -7,6 +7,9 @@
 
 
 DNA: run post-install if found not-empty
+UniOS installer sh
+
+floapps: new icon for .app
 
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
