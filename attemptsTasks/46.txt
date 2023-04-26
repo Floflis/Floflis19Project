@@ -3,22 +3,6 @@
 
 /media/daniella/b9674728-0498-44c0-9f4d-e4739b5865e6/home/daniella/Desktop/Tasks/fl/fl voxels icons timeline/11
 
-don't anymore run npm install on floapps (test if Central still work)
-
--? [BUG] in QEMU, buildmark had its dependency installed; in real test, it didn't
--? [BUG] in QEMU, gnome-term settings weren't applied; in real test, it did
-
-Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
-on every switch, Cinnamobile will bkp default spice settings then re-apply
-
-- move "Keyboard" applet to left edge
-- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
-
-start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
-
-Floflis Rust CLI tools https://pastebin.com/Tt912XAG, https://github.com/sts10/rust-command-line-utilities
--
-install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 
 upgrade to Linux 6.3-rc1
 compile latest signed kernel with Android support https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944
@@ -37,32 +21,24 @@ anbox system-info | grep binder
 anbox system-info | grep -1 binder
 
 
-taskbar search applet isn't loading its defaults
--
-fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
+don't anymore run npm install on floapps (test if Central still work)
+- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
+- upgrade floapps Node template + AppPlayer to the latest version possible
+
+Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
+on every switch, Cinnamobile will bkp default spice settings then re-apply
+
+- move "Keyboard" applet to left edge
 
 
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
-https://soundcloud.com/vendrediduo/when-winter-rises-1
-https://www.toneden.io/vendredi-duo/post/when-winter-rises
-https://soundcloud.com/markvard/craving
-https://hypeddit.com/xuhxkq
-https://soundcloud.com/cykarl/nightfall
-https://soundcloud.com/extenz/kalon
-https://soundcloud.com/limujii/limujii-feel
-https://hypeddit.com/3fgi7h
-https://soundcloud.com/markvard/markvard-hold-on
-https://hypeddit.com/u1d9z7
+
+
+taskbar search applet isn't loading its defaults (depends upstream, Mint's Cinnamon)
 -
-Floflis new sounds https://pastebin.com/JJgBSgN5
+-? fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
 
 run wine config at user firstlogon
 
-Installing installer's slideshow...
-mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
+
 
 - fix FloflisPNG icon branch issues
-
-- make Central smarter (such as not bugging when username JSON not found), and move imgs/assets to the HTML repo (FrameworkJS template will follow this example)
-- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
-- upgrade floapps Node template + AppPlayer to the latest version possible

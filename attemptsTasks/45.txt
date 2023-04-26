@@ -11,6 +11,32 @@ pinkyogurt and brown-cream themes 🥰
 but so for normal/dark/light, now follow this tip by Joshua Peisach:
 https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
+https://soundcloud.com/vendrediduo/when-winter-rises-1
+https://www.toneden.io/vendredi-duo/post/when-winter-rises
+https://soundcloud.com/markvard/craving
+https://hypeddit.com/xuhxkq
+https://soundcloud.com/cykarl/nightfall
+https://soundcloud.com/extenz/kalon
+https://soundcloud.com/limujii/limujii-feel
+https://hypeddit.com/3fgi7h
+https://soundcloud.com/markvard/markvard-hold-on
+https://hypeddit.com/u1d9z7
+-
+Floflis new sounds https://pastebin.com/JJgBSgN5
+
+start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
+
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG, https://github.com/sts10/rust-command-line-utilities
+-
+install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
+
+Installing installer's slideshow...
+mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
+
+fix installing wine-mono and dotnet45, which is requiring GUI confirmations
+
+- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
 add more apt -y if Cubic mode/flag
 
 bug: buildmark@floflis having to be removed/re-added to work
