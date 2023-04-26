@@ -6,6 +6,8 @@
 - 16x16 version of Central SVG icon
 
 
+DNA: run post-install if found not-empty
+
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
 https://www.toneden.io/vendredi-duo/post/when-winter-rises
