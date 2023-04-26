@@ -6,17 +6,6 @@
 - 16x16 version of Central SVG icon
 
 
-[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
-pinkyogurt and brown-cream themes 🥰
-but so for normal/dark/light, now follow this tip by Joshua Peisach:
-https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
--
-https://www.google.com/search?q=pink+linux+theme&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj4s6_YtMj-AhUdiJUCHR_UCpIQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=1BC_HPBnglIYOM
-https://www.google.com/search?q=retro+desktop&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQhOGatcj-AhWap5UCHQadCHcQ_AUoAXoECAIQAw&biw=1366&bih=606&dpr=1#imgrc=6x9z8lNEkgZYrM
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fvaporwave-retro-desktop-artwork-404-260nw-2086764727.jpg&tbnid=Kt0MHMfsJhbGOM&vet=12ahUKEwiF6dqbtcj-AhUuBbkGHXg5DvIQMygUegUIARCOAg..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fpt%2Fimage-vector%2Fvaporwave-retro-desktop-artwork-404-error-2086764727&docid=BAlfwA4mTGAYjM&w=520&h=280&q=retro%20desktop&client=firefox-b-d&ved=2ahUKEwiF6dqbtcj-AhUuBbkGHXg5DvIQMygUegUIARCOAg
-https://www.google.com/search?q=brown+linux+theme&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiajcLVtMj-AhWQr5UCHaY1D-EQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=16aRJQ2XTfYH4M
-https://www.google.com/search?q=brown+cream+colors&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiS9sqYtcj-AhVDlZUCHSYvAvwQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=aVDj-UQy9OA7eM
-
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
 https://www.toneden.io/vendredi-duo/post/when-winter-rises
@@ -30,6 +19,19 @@ https://soundcloud.com/markvard/markvard-hold-on
 https://hypeddit.com/u1d9z7
 -
 Floflis new sounds https://pastebin.com/JJgBSgN5
+
+[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
+pinkyogurt and brown-cream themes 🥰
+but so for normal/dark/light, now follow this tip by Joshua Peisach:
+https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
+-
+https://www.google.com/search?q=pink+linux+theme&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj4s6_YtMj-AhUdiJUCHR_UCpIQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=1BC_HPBnglIYOM
+https://www.google.com/search?q=retro+desktop&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQhOGatcj-AhWap5UCHQadCHcQ_AUoAXoECAIQAw&biw=1366&bih=606&dpr=1#imgrc=6x9z8lNEkgZYrM
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fvaporwave-retro-desktop-artwork-404-260nw-2086764727.jpg&tbnid=Kt0MHMfsJhbGOM&vet=12ahUKEwiF6dqbtcj-AhUuBbkGHXg5DvIQMygUegUIARCOAg..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fpt%2Fimage-vector%2Fvaporwave-retro-desktop-artwork-404-error-2086764727&docid=BAlfwA4mTGAYjM&w=520&h=280&q=retro%20desktop&client=firefox-b-d&ved=2ahUKEwiF6dqbtcj-AhUuBbkGHXg5DvIQMygUegUIARCOAg
+https://www.google.com/search?q=brown+linux+theme&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiajcLVtMj-AhWQr5UCHaY1D-EQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=16aRJQ2XTfYH4M
+https://www.google.com/search?q=brown+cream+colors&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiS9sqYtcj-AhVDlZUCHSYvAvwQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=aVDj-UQy9OA7eM
+-
+Floflis Theme wrapper format will be able to include sound theme, backgrounds and even the Explore menu orb!
 
 start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
 

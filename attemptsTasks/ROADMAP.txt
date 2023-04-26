@@ -17,6 +17,7 @@ Phase W3U
 
 Phase Nutshell
 - ask if user want text editor theme dark or light
+- other first logon questions, such as bar style (taskbar, dock - Mac or Ubuntu) and theme (Floflis, Pink, Violet, Cream)
 - Mouse and Keyboard courses with badge awards
 
 Phase WindowSync
