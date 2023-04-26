@@ -11,6 +11,10 @@ https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
 
 add more apt -y if Cubic mode/flag
 
+bug: buildmark@floflis having to be removed/re-added to work
+
+"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
+
 gedit as the default program for webpresent files? they should be considered text files
 
 BUG ---->
