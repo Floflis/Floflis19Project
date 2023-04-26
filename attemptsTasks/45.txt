@@ -35,6 +35,26 @@ Installing installer's slideshow...
 mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
 
 fix installing wine-mono and dotnet45, which is requiring GUI confirmations
+-
+Executing cd /root/.cache/winetricks/dotnet40
+Executing wine dotNetFx40_Full_x86_x64.exe
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+008c:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
+008c:err:winediag:nodrv_CreateWindow L"The explorer process failed to start."
+008c:err:systray:initialize_systray Could not create tray window
+0024:fixme:heap:RtlSetHeapInformation handle 00000000, info_class 1, info 00000000, size 0 stub!
+0024:fixme:clusapi:OpenCluster ((null)) stub!
+0024:fixme:clusapi:ClusterOpenEnum (DEADBEEF, 4) stub!
+0024:fixme:clusapi:ClusterEnum (DEADBEEF, 0, 0053F920, 00665530, 261) stub!
+0024:fixme:clusapi:ClusterCloseEnum (DEADBEEF) stub!
+0024:fixme:clusapi:CloseCluster (DEADBEEF) stub!
+0024:fixme:advapi:DecryptFileW (L"C:\\3ce4693e255d539ea8bea5562b\\", 00000000): stub
+0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
+0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
 
 - install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
 add more apt -y if Cubic mode/flag
@@ -86,6 +106,43 @@ usv-tools will be part of the usm-tools suite
 
 change background on dark theme
 https://share.pho.to/BE6SL
+
+Installing Stacer...
+dpkg: error: cannot access archive '--refuse-downgrade': No such file or directory
+
+
+Installing git-LFS...
+dpkg: warning: downgrading git-lfs from 3.3.0-1 to 3.0.2-1
+
+
+Installing webpresent's dependencies...
+sudo: unable to resolve host cubic: Name or service not known
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+python3-pip is already the newest version (23.0.1+dfsg-1).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.11/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Installing 'webpresent' syswide...
 
 Insp on https://ubuntucinnamon.org/ both normal and mobile
 
