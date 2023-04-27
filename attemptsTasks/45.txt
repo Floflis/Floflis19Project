@@ -9,6 +9,10 @@
 DNA: run post-install if found not-empty
 UniOS installer sh
 
+focus on Floflis Server layer
+
+fix folderstamp ("This folder")
+
 floapps: new icon for .app
 
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
