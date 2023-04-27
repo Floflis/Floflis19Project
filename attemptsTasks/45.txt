@@ -6,14 +6,18 @@
 - 16x16 version of Central SVG icon
 
 
+fix folderstamp ("This folder")
+
+floapps: new icon for .app
+
+lnch PLA-License:
+- inherit Arbitrum's Business License
+- contributors require waiver sign commit before merging PR
+
 DNA: run post-install if found not-empty
 UniOS installer sh
 
 focus on Floflis Server layer
-
-fix folderstamp ("This folder")
-
-floapps: new icon for .app
 
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
 https://soundcloud.com/vendrediduo/when-winter-rises-1
