@@ -4,6 +4,7 @@
 - WeblinkAps: 16x16 version of Voxels SVG icon
 - updt Central icon
 - 16x16 version of Central SVG icon
+- add 4 nostalgic Screens/Floflis backgrounds made back from 2012💝🥰
 
 
 fix folderstamp ("This folder")
