@@ -15,11 +15,39 @@ fix folderstamp ("This folder")
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
 new dist-logo img
 
-rmv previous kernel
+separator applet between weather and calendar
+- move "Keyboard" applet to left edge
 
-remove all other desktop Backgrounds and their lists, except the SVG ones
+
+
+
+
+
+
+
+
 
 ISO size reduction measures:
+
+rmv previous kernel
+Cleanup old kernel versions
+Find a list of all currently installed kernel versions. An easy way to do this is to list the config files in the /boot folder:
+-
+ls -r /boot/config-*
+-
+This will provide a list. For each instance make a note of that version number. Then, list all linux packages:
+-
+dpkg --list | grep -i "linux-"
+-
+Then purge all the packages with old version numbers. IconsPage/warning.png Do not purge packages with the most current kernel number:
+-
+apt-get purge <packages>
+-
+For example:
+-
+apt-get purge linux-headers-5.15.0-43 linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
+
+remove all other desktop Backgrounds and their lists, except the SVG ones
 
 install internet-related software from user-side
 
@@ -56,23 +84,6 @@ firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
 ?, https://packages.microsoft.com/repos/ms-teams/
 sudo apt-add-repository ppa:cubic-wizard/release
-
-Cleanup old kernel versions
-Find a list of all currently installed kernel versions. An easy way to do this is to list the config files in the /boot folder:
--
-ls -r /boot/config-*
--
-This will provide a list. For each instance make a note of that version number. Then, list all linux packages:
--
-dpkg --list | grep -i "linux-"
--
-Then purge all the packages with old version numbers. IconsPage/warning.png Do not purge packages with the most current kernel number:
--
-apt-get purge <packages>
--
-For example:
--
-apt-get purge linux-headers-5.15.0-43 linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
 
 don't anymore run npm install on floapps (test if Central still work)
 - dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
@@ -223,9 +234,6 @@ Installing git-LFS...
 dpkg: warning: downgrading git-lfs from 3.3.0-1 to 3.0.2-1
 
 remove dracl colors installer
-
-separator applet between weather and calendar
-- move "Keyboard" applet to left edge
 
 /usr/share/cinnamon/faces are symlinks, which is causing cinnamon to fail opening avatars (unlike Gnome Contacts app)
 
