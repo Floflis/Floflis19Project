@@ -4,9 +4,13 @@
 - WeblinkAps: 16x16 version of Voxels SVG icon
 - updt Central icon
 - 16x16 version of Central SVG icon
-- add 4 nostalgic Screens/Floflis backgrounds made back from 2012💝🥰
+- add 5 nostalgic Screens/Floflis backgrounds made back from 2012💝🥰
+- add Floflis flat SVG background
 
 
+git push:
+/media/floflis/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds
+-
 fix folderstamp ("This folder")
 
 VERSION_CODENAME=lunar (os-release)
@@ -15,8 +19,9 @@ Screenshots organization still not working!
 
 remove dracl colors installer
 
-install watermark zombie extensions at firstboot
-install Starshell's fantasque font at firstboot
+- install watermark zombie extensions at firstboot
+- install Starshell's fantasque font at firstboot - install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
+- add more apt -y if Cubic mode/flag
 
 floapps: new icon for .app
 
@@ -88,9 +93,6 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 0024:fixme:advapi:DecryptFileW (L"C:\\3ce4693e255d539ea8bea5562b\\", 00000000): stub
 0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
 0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
-
-- install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
-add more apt -y if Cubic mode/flag
 
 bug: buildmark@floflis having to be removed/re-added to work
 
