@@ -17,6 +17,11 @@ Linux Desktop
 /media/floflis/B/git/Floflis/Floflis 20
 /media/floflis/B/git/Floflis/Sites/floflis-blog/static
 /media/floflis/B/git/Floflis/Sites/Floflis.github.io
+/media/floflis/B/git/Plasmmer/Dackdone/Plasmium
+
+git repo:
+/media/floflis/B/git/Plasmmer/Dackdone/POL3
+/media/floflis/B/git/Plasmmer/Dackdone/XUSD
 
 VERSION_CODENAME=lunar (os-release)
 
