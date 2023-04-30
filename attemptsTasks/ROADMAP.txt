@@ -1,7 +1,7 @@
-Phase Fatning (attempts 45-46)
+Phase Fatning (attempts ?-?)
 - Get Desktop ISO to its largest size ever (so new features/resources can be experimented), before taking measures to minify ISO size
 
-Phase Chapekning (attempt 47-?)
+Phase Chapekning (attempt ?-?)
 - Continuously clean/minify Desktop ISO size
 
 Phase HeartGold

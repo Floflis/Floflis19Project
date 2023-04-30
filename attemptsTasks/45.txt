@@ -13,6 +13,7 @@
 fix folderstamp ("This folder")
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+new dist-logo img
 
 rmv previous kernel
 
@@ -22,16 +23,15 @@ ISO size reduction measures:
 
 install internet-related software from user-side
 
-sudo apt install sylpheed #8.544 kB of additional disk space will be used
+install IPFS-Desktop from snap
+
 sudo apt purge thunderbird #242 MB disk space will be freed
-pin sylpheed in place of thunberbird on taskbar (two applets to do)
+on first logon, install thunderbird (snap)
 
 install floapps 2048 replacing Ubuntu's one
 replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
 /usr/share/applications/org.gnome.TwentyFortyEight.desktop
 /media/daniella/B/git/FloflisPull/2048
-
-install IPFS-Desktop from snap
 
 Floflis have:
 gnome games
@@ -215,6 +215,13 @@ add /home/daniella/.face at firstboot
 
 install redshift
 
+Installing Stacer...
+dpkg: error: cannot access archive '--refuse-downgrade': No such file or directory
+
+
+Installing git-LFS...
+dpkg: warning: downgrading git-lfs from 3.3.0-1 to 3.0.2-1
+
 remove dracl colors installer
 
 separator applet between weather and calendar
@@ -381,13 +388,6 @@ usv-tools installs .svg mimetype icon and feature to pack .usv videos (should be
 
 change background on dark theme
 https://share.pho.to/BE6SL
-
-Installing Stacer...
-dpkg: error: cannot access archive '--refuse-downgrade': No such file or directory
-
-
-Installing git-LFS...
-dpkg: warning: downgrading git-lfs from 3.3.0-1 to 3.0.2-1
 
 
 Installing webpresent's dependencies...

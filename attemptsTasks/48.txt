@@ -3,7 +3,10 @@
 
 install the latest software directly from gh releases, prepare to later use unistore+shrdchn
 
-have to manipulate taskbar windows applet's data to pin or unpin teams
+have to manipulate taskbar windows applet's data to pin or unpin teams (and others)
+on first boot, ask wether to install thunderbird or the lighter sylpheed
+sudo apt install sylpheed #8.544 kB of additional disk space will be used
+pin sylpheed in place of thunberbird on taskbar (two window-list applets to do)
 
 
 https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+deduplicate+files
