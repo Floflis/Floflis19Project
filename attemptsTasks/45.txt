@@ -22,6 +22,8 @@ remove dracl colors installer
 
 separator applet between weather and calendar
 
+Floflis Lite edition
+
 /usr/share/cinnamon/faces are symlinks, which is causing cinnamon to fail opening avatars (unlike Gnome Contacts app)
 
 at non-iso user, firstlogonroot.sh behaves normally:
@@ -160,6 +162,8 @@ What happened: Firedoge settings profile wasn't been created
 
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+-
+or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makedeb
 
 Floflis sound theme (Gnome-compatible), symlinking from tree!
 
