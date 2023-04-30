@@ -27,6 +27,9 @@ sudo apt purge thunderbird #242 MB disk space will be freed
 pin sylpheed in place of thunberbird on taskbar (two applets to do)
 
 install floapps 2048 replacing Ubuntu's one
+replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
+/usr/share/applications/org.gnome.TwentyFortyEight.desktop
+/media/daniella/B/git/FloflisPull/2048
 
 install IPFS-Desktop from snap
 
@@ -121,6 +124,64 @@ rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdi
 
 
 
+
+deactivate current monitor's desktop auto-arrange (find in gconf)
+
+"apt" wrapper to be aware of upgrades so Floflis reinstalls its custom stuff
+
+firstlogon first ask if Internet is connected before proceeding.
+
+move more features out of firstlogon to firstboot (those that don't need user interaction, except Firedoge and Edge)
+
+upgrade all of Floflis' dependencies and programs/apps
+
+use webpresent in all of Floflis layers' files
+
+IPFS has an updating tool that can be accessed through ipfs update. The tool is not installed alongside IPFS in order to keep that logic independent of the main codebase. To install ipfs-update tool, download it here.
+
+https://github.com/floating/frame/releases
+https://github.com/frame-labs/frame-canary/releases
+
+replace current installer:
+sudo snap install starship
+sudo snap install hugo
+
+ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
+-
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+
+mv: cannot move 'hop' to '/1/apps/hop': Directory not empty (same for Aragon)
+-
+SOLUTION: replace mv by rsync
+-
+Updating default background...
+mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
+-
+SOLUTION: replace mv by rsync
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
+Installing avatars...
+-
+to-merge_firstlogon.sh: line 207: /usr/bin/hop: Permission denied (same for Aragon)
+to-merge_firstlogon.sh: line 214: /usr/share/applications/hop.desktop: Permi (same for Aragon)
+-
+possibleSOLUTION: move these installers to firstlogon root
+
+mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
+-
+Installing Floflis Packager...
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
+Done! Run 'floflis-packager' command to use it.
+-
+(Sym)Linking from host extension...
+Installing Buildmark's presets...
+mkdir: cannot create directory ‘/home/daniella/.cinnamon/configs/buildmark@floflis’: File exists
+
+- Turning flo command into a executable...
+install.sh: line 122: break: only meaningful in a `for', `while', or `until' loop
+- Installing Floflis DNA as init program...
 
 Screenshots organization still not working!
 add /home/daniella/.face at firstboot

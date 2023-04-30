@@ -181,10 +181,6 @@ Floflis Central display IPFS ID
 new screenshots for Central
 
 
-replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
-/usr/share/applications/org.gnome.TwentyFortyEight.desktop
-/media/daniella/B/git/FloflisPull/2048
-
 mkdocs and README.md abt Webpresent: webpresent means a file was uploaded, and weborigin means a file was downloaded. naming weborigin or webpresent doesn't alter how webpresent works, but only serves as semantic. how to format google drive. google drive, ipfs and git supported, and wget for all other sites.
 mkdocs add soon info abt witchlink files
 fl mkdocs dev tell about zombie spices
@@ -201,13 +197,6 @@ firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean
 
 
 find ". /usr/lib/floflis/./config" in Core and Soil's installers, then thanks to functions move them to Floflis' DNA installer
-
-Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
-Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
-Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
-
-Testing if Pijul works:
-pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
 
 - Look at all from-git Floflis dependencies, and init.sh on all
 - All Floflis layers should take use of init.sh (also for UniOS)
@@ -262,20 +251,13 @@ pre-installed HTML5 apps (also the HTML5Apps Platform)!
 - the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
 
 
-use cyan color on floflis logos, do the same in default-testpage.pdf (also reflect this update in its press site)
-
 new network icons, for OP, Arbitrum and zSync (reflect these changes in central and its listed networks)
 
 - restart my linux, test taskbar context, settings central and settings user avatar symlink
 
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/logo.png and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/token.png as SVG images (also reflect these changes in the explore menu btn and central)
 
-New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
-
-deactivate current monitor's desktop auto-arrange (find in gconf)
-
-
-Floflis DNA: if Core is found after finishing install, ?
+-? New Floflis theme taskbar colors: /media/ubuntu/78CFABD670741B23/ISO/attempt 33/Live ISO/Insp/Screenshot from 2022-12-24 19-50-55.png
 
 
 up-to-date OS info in config
