@@ -50,4 +50,4 @@ https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+dedup
 -? Paint: also uninstall breeze-cursor-theme
 
 explore menu without round borders on bottom but bigger round borders on top
-Yaru-floflis theme will have dark applet-box
+-? Yaru-floflis theme will have dark applet-box

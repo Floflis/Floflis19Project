@@ -21,14 +21,8 @@ anbox system-info | grep binder
 anbox system-info | grep -1 binder
 
 
-don't anymore run npm install on floapps (test if Central still work)
-- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
-- upgrade floapps Node template + AppPlayer to the latest version possible
-
 Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
 on every switch, Cinnamobile will bkp default spice settings then re-apply
-
-- move "Keyboard" applet to left edge
 
 
 
