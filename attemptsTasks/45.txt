@@ -55,6 +55,7 @@ install IPFS-Desktop from snap
 
 sudo apt purge thunderbird #242 MB disk space will be freed
 on first logon, install thunderbird (snap)
+ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer)
 
 install floapps 2048 replacing Ubuntu's one
 replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
@@ -78,8 +79,6 @@ sudo apt remove gnote
 0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
 After this operation, 20.4 MB disk space will be freed.
 
-ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer)
-
 firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
 ?, https://packages.microsoft.com/repos/ms-teams/
@@ -98,12 +97,15 @@ firstlogon install Weather, Maps, KeePassXC
 don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
 don't install hexchat from ISO
 -
-apt purge drawing hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
+apt purge drawing hexchat hypnotix onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
 
 -? Paint: also uninstall breeze-cursor-theme
 
 explore menu without round borders on bottom but bigger round borders on top
 -? Yaru-floflis theme will have dark applet-box
+
+# sudo apt purge libreoffice* # After this operation, 433 MB disk space will be freed.
+# sudo dpkg -i include/deb packages/pending/maybe/onlyoffice-desktopeditors_amd64.deb && sudo apt install --fix-broken # Installed-Size: 861 MB
 
 
 
