@@ -9,6 +9,15 @@
 
 fix folderstamp ("This folder")
 
+VERSION_CODENAME=lunar (os-release)
+
+Screenshots organization still not working!
+
+remove dracl colors installer
+
+install watermark zombie extensions at firstboot
+install Starshell's fantasque font at firstboot
+
 floapps: new icon for .app
 
 lnch PLA-License:
