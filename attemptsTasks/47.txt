@@ -3,51 +3,7 @@
 
 install the latest software directly from gh releases, prepare to later use unistore+shrdchn
 
-Unpacking teams (1.5.00.23861) ...
-dpkg: dependency problems prevent configuration of teams:
--
-probably fixed after using Snap
 have to manipulate taskbar windows applet's data to pin or unpin teams
-
-firstlogon install Weather, Maps, KeePassXC
-don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
-don't install hexchat
--
-apt purge drawing hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
-
-
-
-
-Before exiting chroot:
-apt-get autoremove
-
-apt clean
-apt-get clean
-
-rm -rf /tmp/* ~/.bash_history
-
-rm /var/lib/dbus/machine-id
-rm /sbin/initctl
-dpkg-divert --rename --remove /sbin/initctl
-
-apt-get autoremove -y --purge
-
-# Clean up
-update-initramfs -k all -u
-apt-get clean
-rm -f /var/lib/apt/lists/*_Packages
-rm -f /var/lib/apt/lists/*_Sources
-rm -f /var/lib/apt/lists/*_Translation-*
-rm -rf /tmp/* ~/.bash_history
-rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdiqs/cubic_ubuntu_iso_size_keeps_increasing/
-
-
-
 
 
 https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+deduplicate+files
-
--? Paint: also uninstall breeze-cursor-theme
-
-explore menu without round borders on bottom but bigger round borders on top
--? Yaru-floflis theme will have dark applet-box

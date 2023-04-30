@@ -75,6 +75,53 @@ don't anymore run npm install on floapps (test if Central still work)
 - dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
 - upgrade floapps Node template + AppPlayer to the latest version possible
 
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+-
+probably fixed after using Snap
+
+firstlogon install Weather, Maps, KeePassXC
+don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
+don't install hexchat from ISO
+-
+apt purge drawing hexchat hypnotix libreoffice* onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
+
+-? Paint: also uninstall breeze-cursor-theme
+
+explore menu without round borders on bottom but bigger round borders on top
+-? Yaru-floflis theme will have dark applet-box
+
+
+
+
+Before exiting chroot:
+apt-get autoremove
+
+apt clean
+apt-get clean
+
+rm -rf /tmp/* ~/.bash_history
+
+rm /var/lib/dbus/machine-id
+rm /sbin/initctl
+dpkg-divert --rename --remove /sbin/initctl
+
+apt-get autoremove -y --purge
+
+# Clean up
+update-initramfs -k all -u
+apt-get clean
+rm -f /var/lib/apt/lists/*_Packages
+rm -f /var/lib/apt/lists/*_Sources
+rm -f /var/lib/apt/lists/*_Translation-*
+rm -rf /tmp/* ~/.bash_history
+rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdiqs/cubic_ubuntu_iso_size_keeps_increasing/
+
+
+
+
+
+
 Screenshots organization still not working!
 add /home/daniella/.face at firstboot
 
