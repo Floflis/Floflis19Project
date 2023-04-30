@@ -18,6 +18,12 @@ new dist-logo img
 separator applet between weather and calendar
 - move "Keyboard" applet to left edge
 
+ubiquity:
+up-to-date Store screenshot
+up-to-date Firedoge screenshot (Chrome+Vivaldifox)
+familiar.html: gray text at header (make it #fff)
+up-to-date Shotwell screenshot
+
 
 
 
@@ -226,7 +232,7 @@ install.sh: line 122: break: only meaningful in a `for', `while', or `until' loo
 Screenshots organization still not working!
 add /home/daniella/.face at firstboot
 
-install redshift
+install redshift /media/daniella/B/git/Floflis/Mint-INSP/redshift-gtk.desktop
 
 Installing Stacer...
 dpkg: error: cannot access archive '--refuse-downgrade': No such file or directory
@@ -263,10 +269,6 @@ Waiting for Firedoge 🐶 to wake up...
 Waiting for Firedoge 🐶 to wake up...
 
 ubiquity:
-up-to-date Store screenshot
-up-to-date Firedoge screenshot (Chrome+Vivaldifox)
-familiar.html: gray text at header (make it #fff)
-up-to-date Shotwell screenshot
 up-to-date LibreImpress screenshot
 access.html: rename "Appearance" icon to "Personalization" (use symbolic icon on central, change .desktop shortcut), central showing Floflis' pre-installed bgs + system style + accent
 
