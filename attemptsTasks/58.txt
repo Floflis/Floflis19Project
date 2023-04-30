@@ -1,12 +1,6 @@
 
 
 
-Gamer personality pack:
-https://www.edivaldobrito.com.br/como-ativar-o-proton-para-jogar-jogos-do-windows-no-linux/
-https://diolinux.com.br/tutoriais/como-instalar-o-winetricks-e.html
-https://www.edivaldobrito.com.br/como-instalar-o-sysdvr-qt-no-linux-via-flatpak/
-
-usv-tools installs .svg mimetype icon and feature to pack .usv videos (should be leveraged by OmniPackager!)
 NeTVision first PoC: this app is a screen to open DTube or Lenstube
 USV PoC player first MVP
 
@@ -34,8 +28,4 @@ https://www.google.com/search?client=firefox-b-d&q=nushell+history+remove+limit
 -
 -? nushell history: support for prioritizing favorite lines
 
-PoolTogether WebLink app
-
 /1/Floflis/system/os.json up-to-date build info and, now add distrobase
-
-use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds

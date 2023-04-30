@@ -125,7 +125,7 @@ rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdi
 
 
 
-deactivate current monitor's desktop auto-arrange (find in gconf)
+deactivate current monitor's desktop auto-arrange (find in gconf) - auto-arrange desktop setting
 
 "apt" wrapper to be aware of upgrades so Floflis reinstalls its custom stuff
 
@@ -151,10 +151,11 @@ Pijul available to riscv64
 Other software available to riscv64
 
 use webpresent in all of Floflis layers' files
+use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
 check this duplicate:
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/img/Pictures
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Pictures/Sample Photos
-
+-
 webpresent ggl drv:
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Videos/Sample Videos/Home Life - Animals.3gp
 /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
@@ -376,6 +377,7 @@ ISO mode can import settings such as username (symlink), git global settings, Wi
 
 install alpha wl (mimetype) + usv-tools (mimetype)
 usv-tools will be part of the usm-tools suite
+usv-tools installs .svg mimetype icon and feature to pack .usv videos (should be leveraged by OmniPackager!)
 
 change background on dark theme
 https://share.pho.to/BE6SL
