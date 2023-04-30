@@ -1,93 +1,9 @@
 
 
 
-New Ubuntu 23 ISO base /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Ubuntu/23.04-legacyUbiquity
--? https://github.com/PJ-Singh-001/Cubic/issues/151
--? https://github.com/PJ-Singh-001/Cubic/issues/172
--? update ubiquity slides (and new pixmaps) to support Ubuntu 23's new Flutter installer
+install the latest software directly from gh releases, prepare to later use unistore+shrdchn
 
-reform on Floflis' Web3 things; make it optional, for the web3-personality-pack. Support importing address with walletconnect through frame
--
-Floflis propose to split assets by using multiple wallets (include option to import ronin address)
-floflis site insp adding "Developers" tab and simpler site divising the platform and the OS https://www.kaiostech.com/ https://www.kaiostech.com/blog/
-insp for floflis-backup-sync and wallet: https://twitter.com/messages/874386747878232068-1103191459409420288
-
-INSP Floflis Ethereum accounts https://archive.is/EfdS4 http://web.archive.org/web/20230319194257/https://twitter.com/thebookisclosed/status/1636759487829917698?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1636759487829917698%7Ctwgr%5Eb987a38689a99c335a311579b61dfe22541810dc%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fportaldobitcoin.uol.com.br%2Fmicrosoft-testa-integrar-uma-carteira-de-criptomoedas-ao-navegador-edge%2F
-
-Plasmmer Accounts integrated https://wiki.gnome.org/Initiatives/OnlineServicesAPIKeys, https://gitlab.gnome.org/GNOME/gnome-online-accounts/
+have to manipulate taskbar windows applet's data to pin or unpin teams
 
 
-
-install flatpak (but study its popularity, disk size and advantages over snap) https://www.edivaldobrito.com.br/instalar-o-suporte-flatpak-no-linux/
-
--? new switch workspace sound
-
-fix snap installing issue on Cubic/chroot
-best answer: https://askubuntu.com/questions/1344916/how-to-install-snap-packages-in-cubic (will require FLIC as middleware assistant between host and Cubic chroot)
-https://forum.snapcraft.io/t/ubuntu-cubic-install-snap-applications-from-chroot-in-customized-iso-fails/13541
-https://bugs.launchpad.net/cubic/+bug/1843257
-https://answers.launchpad.net/cubic/+question/697883
-
-
-------------------------------
-Installing ETH Gas's presets...
-mkdir: cannot create directory ‘/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis’: No such file or directory
-cp: cannot create regular file '/home/ubuntu/.cinnamon/configs/ethgas-desklet@floflis/': No such file or directory
-------------------------------
-
-fix ethgas display
-fix ethgas applet
-
-
-
-Floflis cinnamon applet: Show desklets. Borrow this feature from cornerbar applet
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
-/media/daniella/B/git/Floflis/CinnSpices/Applets/home@floflis
-/media/daniella/B/git/Floflis/CinnSpices/Applets/return@floflis
-/media/daniella/B/git/Floflis/CinnSpices/Applets/widgets@floflis
--
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/bbcwx@oak-wood.co.uk
-/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/home-daniella-.cinnamon-configs/calendar@deeppradhan
--
-/media/daniella/B/git/Floflis/Floflis 19/builds Testing features/Cinnamobile
-https://github.com/Floflis/Cinnamobile.git
-install Floflis default spice settings in a permanent place, and apply from it
-cinnamon alpha mobile mode (apply spices' default settings every time it toggles)
-install widgets@floflis applet and add it to taskbar
-come with some desklets open
-default favorited apps
--? default settings for search applet
--? default settings for power applet on mobile mode
-new icon for cs-desklets (both normal and symbolic)
-
-floflis dna's config file is extendable by other layers
-cat cinnamon dconf will be made by a variable, which will also accept variables
-
-You are using a 64-bit WINEPREFIX. Note that many verbs only install 32-bit versions of packages. If you encounter problems, please retest in a clean 32-bit WINEPREFIX before reporting a bug.
-
--? buildmark and nftmark are being installed but not installing their dependence: watermark
-
-Error: peer ID represented as CIDv1 require libp2p-key multicodec: retry with /ipns/bafzaad3bobyc45lonfzxoylqfzxxezy
--
-probably after installed, Floflis is using the same IPFS ID from the ISO
-
-
-
-mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/cd_in_tray.png': No such file or directory
-mv: cannot stat '/usr/share/ubiquity/pixmaps/ubuntu/ubuntu_installed.png': No such file or directory
-sending incremental file list
-./
-cd_in_tray.png
-ubuntu_installed.png
-ubuntu_installed.svg
-ubuntu/
-ubuntu/logo.png
-
--? fix path issue in /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Terminal/starshell/include/witchcraft-candy-colors
-
-Core's git dependencies: only install icons if icons folder detected existing
-
-
-with maysudo, fix issue of "sudo: unable to resolve host cubic: Temporary failure in name resolution"
-
-after running upgrade, chk for modifications at /etc/mime.types then re-do actions (all of scripts should support that). same for plymouth and others that can be overwritten
+https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+deduplicate+files

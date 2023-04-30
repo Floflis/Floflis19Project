@@ -1,9 +1,49 @@
 
 
 
-install the latest software directly from gh releases, prepare to later use unistore+shrdchn
-
-have to manipulate taskbar windows applet's data to pin or unpin teams
+/media/daniella/b9674728-0498-44c0-9f4d-e4739b5865e6/home/daniella/Desktop/Tasks/fl/fl voxels icons timeline/11
 
 
-https://www.google.com/search?channel=fs&client=ubuntu&q=Linux+reduce+size+deduplicate+files
+Testing if Pijul works:
+pijul: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
+
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-apps" is an invalid MIME type ("application-x-apps" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "application-x-game" is an invalid MIME type ("application-x-game" does not contain a subtype)
+
+upgrade to Linux 6.3-rc1
+compile latest signed kernel with Android support https://github.com/anbox/anbox-modules/issues/75#issuecomment-794079944
+https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel
+https://gloveboxes.github.io/Ubuntu-for-Azure-Developers/docs/signing-kernel-for-secure-boot.html
+-
+ls -1 /dev/{ashmem,binder}
+
+"snap install --devmode --beta anbox" (user-side)
+-? https://docs.anbox.io/userguide/install.html
+-
+anbox session-manager
+-
+anbox system-info | grep -l binder
+anbox system-info | grep binder
+anbox system-info | grep -1 binder
+
+
+Improve Cinnamobile's mobile mode (add floflis' applets for bottombar buttons)
+on every switch, Cinnamobile will bkp default spice settings then re-apply
+
+
+
+
+taskbar search applet isn't loading its defaults (depends upstream, Mint's Cinnamon)
+-
+-? fix issue of not installing nftmark/buildmark's dependency /media/daniella/B/git/Floflis/Utilities/zombiespices
+
+run wine config at user firstlogon
+
+
+
+- fix FloflisPNG icon branch issues
+fix branch issues
+https://github.com/Floflis/iconsPNG
+https://github.com/Floflis/iconsPNG/tree/master
+/media/daniella/B/git/Floflis/Branding/FloflisPNG

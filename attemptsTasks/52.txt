@@ -1,161 +1,172 @@
 
 
 
-install Firedoge (w blur effect and/or w/o NewTabHere) and others
+include/deb packages/pending: sfxr-sdl_1.2.1-1_amd64.deb (add comment about its personality-pack), almanah
 
-Firedoge replaces Firefox
-Update include/ubiquity-slideshow.tar.gz
+rename system monitor to task manager (pt, pt-br, en, es)
 
-- Floflis Central loops into every NFT of ETH address and pins their content
-- Detect DS4 gamepad and load its profile
-- Share app with OBS (triggered by gamepad btn)
+https://github.com/awslabs/git-secrets
+https://github.com/liuchengxu/git-commit-emoji-cn
+https://github.com/streamich/git-cz
+https://github.com/sickill/git-dude
+https://github.com/tj/git-extras
 
-matroska: FloflisOS, UniOS (post-install - ONLY IN CUBIC MODE)
+- copy desktop applet settings, with peek enabled by default
 
-reduce Floflis DNA size, by splitting into individual scripts when new layers are detected (floflis, install.sh), and by adding new functions to config via upper layers
+Core:
+- Update ipget from v0.6.0 to  https://github.com/ipfs/ipget/tags
+Soil:
+Update Gitoxide from 0.10.0 to v0.20.0 https://github.com/Byron/gitoxide/releases/tag/v0.20.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
+- Update GDevelop from 5.0.0-beta72 to 5.1.153 https://github.com/4ian/GDevelop/releases/tag/v5.1.153
+- Update Hugo from 0.89.2 to v0.109.0 https://github.com/gohugoio/hugo/releases/tag/v0.109.0
+- Update geth from 1.10.11 to v1.10.26 https://github.com/ethereum/go-ethereum/releases/tag/v1.10.26
+- Update git-lfs from 2.9.2 to v3.3.0 https://github.com/git-lfs/git-lfs/releases/tag/v3.3.0
+- Update Pijul from 1.0.0-alpha.56 to 
 
-Correct chown at /1
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+install openshot/mmex from a different source
 
-sudo chown -R 65534:0 "/root/.npm"
+- possible solution to issues: don't detect ISO mode at boot, but after logon. So, run the firstlogon anyway and differ functions if ISO or installation
+- fix Ubiquity appearing after os is installed (possibly related with Core's firstboot running on ISO)
+possible workaround: disable firstboot on both Core/Soil and re-enable slowly
 
-/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Base/sound
-/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Home/sound
-/usr/share/sounds
+--------------------------------------------------------------------------------------------
+COLORS INSP:
+<pre><font color="#8BE9FD"><b>ubuntu-gdm-set-background</b></font> on <font color="#FF5555"><b> main</b></font> 
+<font color="#50FA7B"><b>❯</b></font> sudo ./ubuntu-gdm-set-background --gradient horizontal \#F19399 \#61EACA
+[sudo] password for daniell: 
 
-colored output
--
-<pre><font color="#34E2E2"><b>nushell</b></font> on <font color="#AD7FA8"><b> main</b></font> is <font color="#FF8700"><b>📦 v0.39.0</b></font> via <font color="#EF2929"><b>🦀 v1.56.1 </b></font>
-<font color="#8AE234"><b>❯</b></font> cargo build
-<font color="#8AE234"><b>    Updating</b></font> crates.io index
-<font color="#8AE234"><b>  Downloaded</b></font> dirs-next v2.0.0
-<font color="#8AE234"><b>  Downloaded</b></font> dirs-sys-next v0.1.2
-<font color="#8AE234"><b>  Downloaded</b></font> nod</pre>
-<pre><font color="#34E2E2"><b>/1/Floflis/libs</b></font> is <font color="#FF8700"><b>📦 v1.0.0</b></font> via <font color="#8AE234"><b> v10.19.0 </b></font>took <font color="#FCE94F"><b>2s</b></font> </pre>
+😀 <font color="#50FA7B"><b>Seems &apos;background change is successful&apos;</b></font>
+Changes will be effective after a Reboot (<font color="#FFB86C"><b>CTRL+ALT+F1</b></font> may show the changes immediately)
+If something went wrong, log on to tty and run the below command
+<font color="#FFB86C"><b>$ sudo update-alternatives --quiet --set gdm3-theme.gresource /usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource</b></font></pre>
+(use at DeFi Central)
+--------------------------------------------------------------------------------------------
+include/img/icons/Floflis https://github.com/Floflis/icons/pull/1
 
-restore ubuntu background: /usr/share/backgrounds/ubuntu
-restore: /usr/share/icons/ubuntu-mono-dark/actions/24/ubuntu/package-supported.svg
+replace .git symlink, to "git clone --no-checkout <repo_url> ."
+include/Theme/Eleganse-Floflis /media/daniell/B/git/Floflis/Floflis-DNA/layers/soil/include/Theme/Eleganse-Floflis.tar.gz
+https://github.com/Floflis/Eleganse-Floflis.git
 
-replace Ubuntu branding
-/usr/share/plymouth
-/usr/share/icons/LoginIcons/apps/64
-/usr/share/icons/hicolor/256x256/apps
-/usr/share/icons/ubuntu-mono-dark/actions/24/
+floflis core energy module:
+systemctl reboot --firmware-setup
+#-credits: https://superuser.com/a/1083166
+(only if UEFI is detected. if true, also implement to Central)
 
-install to-merge_firstlogon.sh's programs also for live ISO user
-install Uniswap, Aragon and Hop protocol in two steps: both in to-merge.sh and on firstlogon
+floflis central personalization: detect when user background is Pokemon_Scarlet_Violet_Terastal_Wallpaper_(*).jpg and add to list of NFTs,then put message at UniStore and mark as owned
+wallet: display nintendo silver/gold coins!
 
-Floflis Central: manage applets and desklets; introduce zombie applets and desklets! (existing spices that are changed/managed by another)
+https://www.omgubuntu.co.uk/2022/08/install-webp-image-support-ubuntu-22-04
+https://www.omgubuntu.co.uk/2022/01/spicetify-change-spotify-app-theme
 
-export data of nft bg extension
+Explore menu: merge two sources using foldmerger; add applet context menu with power menu including option to reboot to UEFI firmware (only if UEFI is detected)
+(also merge git folders for the other applet)
 
-UniStore and Central will support Cinnamon extensions, desklets and applets; including zombie spices.
-untitled lib will be used in the zombie spices editor; so it creates a untitled spice to be edited then renamed/packaged
+begin with the pre-installed IPFS apps/sites
+include: rpidtables, json lint
 
-example of zombie desklets: "Command result desklet" fork as "ETHGas"
-example of zombie applets: "Bash Sensors" fork as "ETHGas"
-example of zombie extensions: "Watermark" forks as "NFTmark" and "Buildmark"
-When Floflis Central identifies you are adding a spice, its pre-set data overwrites.
+to-merge.sh: line 1024: break: only meaningful in a `for', `while', or `until' loop
+Installing 01 VCS...
 
-mimetypes for .nu files
-
-❯ cinnamon --version
-Cinnamon 4.8.6
-(ask to not install Cinnamon if already installed)
-
-unzip include/BeepBox_4_0_1.zip
-rm -rf __MACOSX
-ipfs add -r BeepBox_4_0_1
-ipfs pin add $(ipfs add -Qr --only-hash BeepBox_4_0_1)
-rm -rf BeepBox_4_0_1
-
-install default avatar on firstboot
-
-Install Almanah Diary, rename to Diary
-
-sudo apt install redshift
-redshift applet
-applets and settings from main (such as hour + date)
-
-Move Nushell to Floflis DNA (optional) and Floflis Core default (only install if detect not installed recently by DNA)
-
-Move Starship to Floflis Core (optional) and Floflis Soil default (only install if detect not installed recently by Core)
-
-full Floflis icon install; show CID of every icon file when verifying de-duplication
-
+- Installing flo command in /usr/bin...
 - Turning flo command into a executable...
-./install.sh: line 122: break: only meaningful in a `for', `while', or `until' loop
+install.sh: line 120: break: only meaningful in a `for', `while', or `until' loop
+- Installing Floflis DNA as init program...
 
-firstlogon.sh: line 55: break: only meaningful in a `for', `while', or `until' loop
 
-UniStore CLI
 
-- Play version's sound
-Move /1/img and /1/sounds to /1/Floflis/system
 
-uninstall libreoffice
-don't install onlyoffice
 
-mv: cannot stat '/usr/share/cinnamon/faces/0_cars.jpg': No such file or directory
-don't display this error when theres no need to
 
-Support to armhf, arm64 and riscv64 architectures
-only display "installing..." if supported arch
 
-if arm*/riscv64: install rust-ipfs instead of ipfs
 
-icons for weblink apps (Decentraland, The Sandbox, Cryptovoxels, Aragon, OpenSea)
 
-export environment variables so it dont have to use the same such as detecting arch
+-? fix floapps installer
 
-Central: rndm tips banner (maintain your bin clean every time you rm a file, so you remember)
-recycle task (cron) there's days you dont clean your bin
+If Cubic mode, don't ask before installing important programs such as git (also git lfs)
+Soil: don't install autoconf elinks ceni gdebi udftools nodejs
 
-clean iso pj
-screenshots (floflis nft cinnamon extension, floflis central, floflis site firedoge, ethgas applet/desklet) made in sda new
+include/BeepBox_4_0_1.zip ? futurely convert to .apps
 
-store username:
-/home
-/home/~/.cinnamon/backgrounds/user-folders.lst
-/home/daniell/.face
--
-/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Base/sound
-/media/daniell/B1/bkp/ST500LM012 HN-M500MBB Dat/0/ok/Pendrive/.0/Home/sound
-dconf dump /org/cinnamon/ > org-cinnamon (dev cmd; dev bin installs Cubic)
-dconf load /org/cinnamon/ < org-cinnamon
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj4mfe8z-PwAhXxpZUCHVnrDG4QFjADegQIChAD&url=https%3A%2F%2Fwww.cyberciti.biz%2Ffaq%2Flinux-logout-user-howto%2F&usg=AOvVaw1SQvVIMVAsj8kiqQcc-nod
-https://github.com/linuxmint/Cinnamon/wiki/Backing-up-and-restoring-your-cinnamon-settings-(dconf)
-/home/daniell/.cinnamon/configs
--
-ipfs-desktop
-/usr/share/applications
-/home/daniell/.config/autostart
--
-/home/daniell/.bash_logout
-ask to clear .bash_history
-new feature: add commands to favorites
--
-/home/~/.themes
-install Floflis theme
+only prepare to build if Floflis Central tasks are done
 
-Peepeth app:
-ethereal contract send --contract=0xfa28eC7198028438514b49a3CF353BcA5541ce1d --abi=Peepeth.json --call='post("hashgoeshere")' --from=0xfe0836F7181b2D068E861853e0b225DD4b0e6762 --passphrase="test"
-/home/daniell/Peepeth.json
+up-to-date OS data (build)
 
-Personal Issues app (now fully working, inspired by WFS' looping programming)
+Core:
+- Update go-ipfs from v0.9.0-rc1 to 
+- Update ipget from v0.6.0 to 
+- Update jq from jq-1.6 to 
+Soil:
+- Update Ethereal from 2.7.4 to 2.8.5 https://github.com/wealdtech/ethereal/releases/tag/v2.8.5
+- Update Nushell from 0.44.0 to 0.72.0 https://github.com/nushell/nushell/releases/tag/0.72.0
+- Update Starship from v1.0.0 to v1.11.0 https://github.com/starship/starship/releases/tag/v1.11.0
+- Update Gitoxide from 0.10.0 to v0.19.0 https://github.com/Byron/gitoxide/releases/tag/v0.19.0 (plus study to add https://github.com/Byron/gitoxide/releases/tag/git-actor-v0.14.1, https://github.com/Byron/gitoxide/releases/tag/git-features-v0.24.1, https://github.com/Byron/gitoxide/releases/tag/git-index-v0.9.1, https://github.com/Byron/gitoxide/releases/tag/git-hash-v0.10.1, https://github.com/Byron/gitoxide/releases/tag/git-hashtable-v0.1.0)
+- Update balenaEtcher from 1.6.0 to 
+- Update Hugo from 0.89.2 to 
+- Update GDevelop from  to 
+- Update geth from 1.10.11 to 
+- Update git-lfs from 2.9.2 to 
+- Update Pijul from 1.0.0-alpha.56 to 
 
-Floflis Central: extension manager (available only in Cinnamon)
-remove Cinnamon Extensions app
-Own Watermark extension reserved for Floflis (the normal, available to user), hidden with NFTmark extension
+sounds are still incomplete
+dconf dump /org/cinnamon/ > org-cinnamon.txt
 
-Check if there are more than 1 user folder, then ask which one pertains to main user. Then remove first boot from other folders then add to it.
+- guppy cmd uses neofetch
+/media/daniell/B/git/Floflis/Utilities/guppy
 
-move obs and other custom icons' hicolor into Floflis icon folder; symlink hicolor's OBS icon into Floflis icons
-Floflis Central: OBS icon point into hicolor
+add Floflis Packager and other tools
+add httb to server layer
+Floflis Central tasks /media/daniell/Seagate Expansion Drive/Windows/Floflis/Floflis Settings
+Update Floflis Central, now installed from .apps file
+add these pre-installed apps: David Explorer, David Text, Personal Issues?, Internet Boat, Internet Cat, 2048, FrameworkJS, nt1m mediaplayer. Use Framlr r1 on these except mediaplayer, FrameworkJS (already have), 2048 (focus issue)
 
-if Ubuntu use dpkg/if antix use gdebi
-sudo apt-get install gdebi-core
--
-sudo gdebi 
-sudo dpkg -i 
+up-to-date OS data (build)
+
+if required: put "telemetry" in firstboot, into a log file so we can understand what happen at boot. remove functions that are potentially interfering in Desktop/ubiquity.desktop
+
+organize Eleganse-Floflis.tar.gz, Adapta.tar.gz, Adapta-Nokto.tar.gz at own folder at include/
+
+- update the settings for all extensions/applets
+- Change thumbnail of Eleganse-Floflis theme
+
+create common-user-iso_installed.sh and install floapps, nu-post-install, aragon.tar.gz, hop.tar.gz, uniswap.tar.gz, home-daniella-.cinnamon-configs.tar.gz at both ISO and installation user. avatar.png and avatar-iso.png
+
+Ubuntu Cinnamon Remix
+- detect, differ from normal ubuntu
+- rework Floflis Yaru icon theme, symlink all dupliced, support to Cinnamon Remix/Ubuntu 22 colors in folders
+
+superProductivity pre-installed
+
+- Central lists spices (integrated with UniStore to permit downloads, on next builds)
+
+- new icons for BuildMark and NFTMark
+- system spices (such as ethgas applet, calendar applet, BuildMark/NFTMark extensions) are root protected
+
+- second logon script: ask for some personalizations such as if user want the ethgas applet, weather applet, screen dimmer and bluelight filter, show desktop button, desktop icons, left or center explore btn+icons, autohide taskbar/dock, select icon for firedoge (default or spacecat from newtab), workspaces (and its switcher applet)
+- better background apps drawer
+- bottom panel: dock mode, with top panel
+
+Floflis move apt to apt-original, and nala as apt (falling back to apt-original in out-of-range commands)
+https://diolinux.com.br/tecnologia/nala-uma-bela-interface-para-o-apt.html
+
+new temporary HTML5 apps:
+https://github.com/FloflisPull/pdf-editor
+https://github.com/FloflisPull/jspaint/
+https://github.com/FloflisPull/webamp/
+https://github.com/FloflisPull/minesweeper
+https://github.com/FloflisPull/js-solitaire/
+https://github.com/FloflisPull/win95-media-player
+https://github.com/FloflisPull/pipes
+https://github.com/1j01?tab=repositories&q=&type=&language=&sort=
+https://98.js.org/
+https://github.com/FloflisPull/SpaceCadetPinball/tree/gh-pages
+https://github.com/FloflisPull/Ultimate-TicTacToe
+
+
+
+Floflis Fixer: option to re-do the firstlogon script (required by Floflis Central when validating)
+
+/1/Floflis/system pertaining to root only
+
+
+
+up-to-date OS data (build)

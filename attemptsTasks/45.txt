@@ -135,7 +135,33 @@ move more features out of firstlogon to firstboot (those that don't need user in
 
 upgrade all of Floflis' dependencies and programs/apps
 
+Nushell available to armhf
+Starship available to armhf
+Pijul available to armhf
+Other software available to armhf
+
+Nushell available to arm64
+Starship available to arm64
+Pijul available to arm64
+Other software available to arm64
+
+Nushell available to riscv64
+Starship available to riscv64
+Pijul available to riscv64
+Other software available to riscv64
+
 use webpresent in all of Floflis layers' files
+check this duplicate:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/img/Pictures
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Pictures/Sample Photos
+
+webpresent ggl drv:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Videos/Sample Videos/Home Life - Animals.3gp
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity/pixmaps
+
+verify CPU architecture before installing debs
 
 IPFS has an updating tool that can be accessed through ipfs update. The tool is not installed alongside IPFS in order to keep that logic independent of the main codebase. To install ipfs-update tool, download it here.
 
