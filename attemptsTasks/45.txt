@@ -6,22 +6,17 @@
 - 16x16 version of Central SVG icon
 - add 5 nostalgic Screens/Floflis backgrounds made back from 2012💝🥰
 - add Floflis flat SVG background
+- don't open Firedoge installer as sudo
 
 
 git push:
-/media/floflis/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds
-/media/floflis/Windows 10 main/Users/Daniell/Desktop
-Linux Desktop
-/media/floflis/B/git/Floflis/Floflis 19/
-/media/floflis/B/git/Floflis/&meta
-/media/floflis/B/git/Floflis/Floflis 20
-/media/floflis/B/git/Floflis/Sites/floflis-blog/static
-/media/floflis/B/git/Floflis/Sites/Floflis.github.io
-/media/floflis/B/git/Plasmmer/Dackdone/Plasmium
+/media/daniella/B/git/Floflis/Sites/floflis-blog/static
+/media/daniella/B/git/Floflis/Sites/Floflis.github.io
+/media/daniella/B/git/Plasmmer/Dackdone/Plasmium
 
 git repo:
-/media/floflis/B/git/Plasmmer/Dackdone/POL3
-/media/floflis/B/git/Plasmmer/Dackdone/XUSD
+/media/daniella/B/git/Plasmmer/Dackdone/POL3
+/media/daniella/B/git/Plasmmer/Dackdone/XUSD
 
 install redshift
 
