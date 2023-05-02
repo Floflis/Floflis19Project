@@ -23,6 +23,7 @@ up-to-date Store screenshot
 up-to-date Firedoge screenshot (Chrome+Vivaldifox)
 familiar.html: gray text at header (make it #fff)
 up-to-date Shotwell screenshot
+/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides/screenshots
 
 
 
