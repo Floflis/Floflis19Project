@@ -4,9 +4,10 @@ Phase Fatning (attempts ?-?)
 Phase Chapekning (attempt ?-?)
 - Continuously clean/minify Desktop ISO size
 
-Phase HeartGold
+Phase HeartGold (attempt 50)
 - Shape the definition of Floflis' DNA core on IoT devices
 - ncurses Central
+- Floflis Update
 - Floflis Server
 
 Phase W3U

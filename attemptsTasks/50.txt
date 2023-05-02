@@ -1,8 +1,7 @@
 
 
 
-
-
+heavily focus on Floflis Update, now using W3U and safety measures
 
 re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
 /media/daniella/B/git/Floflis/cinnamon-patch

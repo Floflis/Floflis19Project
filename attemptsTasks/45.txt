@@ -8,6 +8,7 @@
 - add Floflis flat SVG background
 - don't run Firedoge installer as sudo
 - VERSION_CODENAME=lunar in os-release (fixes apt issue)
+- ubiquity-slideshow: gethelp.html: add its own, vectorized slide img; welcome.html: improved banner img, also now vectorized; new browse, photos and store slide banners!
 
 
 fix folderstamp ("This folder")
@@ -185,6 +186,21 @@ webpresent ggl drv:
 verify CPU architecture before installing debs
 
 IPFS has an updating tool that can be accessed through ipfs update. The tool is not installed alongside IPFS in order to keep that logic independent of the main codebase. To install ipfs-update tool, download it here.
+
+sh: 0: cannot open ./firstlogon.sh: No such file
+/home🔒
+
+- make Starshell more dynamic/modular + support for other architectures and mv it to Core layer
+- Server layer will have a "config" overrid file (Floflis Server 2023) and same for forks like UniOS
+- Soil mv from "to-merge" to "include" ; start divising layers
+- Floflis Update (git)
+- add Mint's network-disconnected and bluetooth icons
+- nft watermark: replace JSON by nft:// URI
+
+Floflis Update
+- each layer will have its own updates folder
+- updates will be separated by branches, separated by: cumulative, patch
+- updates folder will have the updates as .sh files, and if necessary their files folder (will be removed after done)
 
 https://github.com/floating/frame/releases
 https://github.com/frame-labs/frame-canary/releases
