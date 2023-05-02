@@ -10,6 +10,8 @@
 - VERSION_CODENAME=lunar in os-release (fixes apt issue)
 - ubiquity-slideshow: gethelp.html: add its own, vectorized slide img; welcome.html: improved banner img, also now vectorized; new browse, photos and store slide banners!
 - Floflis Icons: new, smaller icon for Witchcraft (not Yaru-aligned yet); New Library icons! (not Yaru-aligned full-vectorized, yet)
+- new logo.svg, remove PNG version
+- New icons for .apps, .game and .html5 mimetypes (now moderner and smaller)!
 
 
 fix folderstamp ("This folder")
