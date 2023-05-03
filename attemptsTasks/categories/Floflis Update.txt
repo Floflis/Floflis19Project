@@ -1,0 +1,3 @@
+- each layer will have its own updates folder
+- updates will be separated by branches, separated by: cumulative, patch
+- updates folder will have the updates as .sh files, and if necessary their files folder (will be removed after done)
