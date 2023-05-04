@@ -20,14 +20,10 @@
 
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
-new dist-logo img
 
 separator applet between weather and calendar
-- move "Keyboard" applet to left edge
 
-ubiquity:
-familiar.html: gray text at header (make it #fff)
-/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
+ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
 
 fix folderstamp ("This folder")
 
@@ -453,6 +449,8 @@ error: externally-managed-environment
 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
 hint: See PEP 668 for the detailed specification.
 Installing 'webpresent' syswide...
+
+- move "Keyboard" applet to left edge
 
 Insp on https://ubuntucinnamon.org/ both normal and mobile
 
