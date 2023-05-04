@@ -19,8 +19,6 @@
 - FilePeace and FilePeace's Webpresent: Updated mimetypes icons (now smaller in storage size and 100% vectorized)
 
 
-fix folderstamp ("This folder")
-
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
 new dist-logo img
 
@@ -29,7 +27,9 @@ separator applet between weather and calendar
 
 ubiquity:
 familiar.html: gray text at header (make it #fff)
-/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides/screenshots
+/media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
+
+fix folderstamp ("This folder")
 
 
 
