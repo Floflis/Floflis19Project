@@ -14,6 +14,7 @@
 - New icons for .apps, .game and .html5 mimetypes (now moderner and smaller)!
 - move Floflis' excess backgrounds to last position (make other backgrounds more visible)
 - replace PNG to SVG for .nu mimetype icon
+- Floflis theme: Add hover and improve effects for Explore menu; Add effects for Search applet ; add Yaru-blue/Yaru-blue-dark accent colors/elements
 
 
 fix folderstamp ("This folder")
@@ -25,10 +26,7 @@ separator applet between weather and calendar
 - move "Keyboard" applet to left edge
 
 ubiquity:
-up-to-date Store screenshot
-up-to-date Firedoge screenshot (Chrome+Vivaldifox)
 familiar.html: gray text at header (make it #fff)
-up-to-date Shotwell screenshot
 /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides/screenshots
 
 
