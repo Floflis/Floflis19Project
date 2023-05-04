@@ -1,0 +1,417 @@
+remove all other desktop Backgrounds and their lists, except the SVG ones
+
+rmv previous kernel
+Cleanup old kernel versions
+Find a list of all currently installed kernel versions. An easy way to do this is to list the config files in the /boot folder:
+-
+ls -r /boot/config-*
+-
+This will provide a list. For each instance make a note of that version number. Then, list all linux packages:
+-
+dpkg --list | grep -i "linux-"
+-
+Then purge all the packages with old version numbers. IconsPage/warning.png Do not purge packages with the most current kernel number:
+-
+apt-get purge <packages>
+-
+For example:
+-
+apt-get purge linux-headers-5.15.0-43 linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
+
+install internet-related software from user-side
+
+install IPFS-Desktop from snap
+
+sudo apt purge thunderbird #242 MB disk space will be freed
+on first logon, install thunderbird (snap)
+ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer)
+
+install floapps 2048 replacing Ubuntu's one
+replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
+/usr/share/applications/org.gnome.TwentyFortyEight.desktop
+/media/daniella/B/git/FloflisPull/2048
+
+Floflis have:
+gnome games
+GIMP
+Inkscape
+gnomePhotos
+reminna
+hexchat
+Brasero
+SoundJuicer
+sudo apt remove gnome-games gimp inkscape gnome-photos remmina hexchat brasero sound-juicer
+0 upgraded, 0 newly installed, 11 to remove and 0 not upgraded.
+After this operation, 128 MB disk space will be freed.
+gnote too
+sudo apt remove gnote
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 20.4 MB disk space will be freed.
+
+firstlogon edge question: install edge from ms repo instead of from deb
+sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
+?, https://packages.microsoft.com/repos/ms-teams/
+sudo apt-add-repository ppa:cubic-wizard/release
+
+don't anymore run npm install on floapps (test if Central still work)
+- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
+- upgrade floapps Node template + AppPlayer to the latest version possible
+
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+-
+probably fixed after using Snap
+
+firstlogon install Weather, Maps, KeePassXC
+don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
+don't install hexchat from ISO
+-
+apt purge drawing hexchat hypnotix onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
+
+-? Paint: also uninstall breeze-cursor-theme
+
+explore menu without round borders on bottom but bigger round borders on top
+-? Yaru-floflis theme will have dark applet-box
+
+# sudo apt purge libreoffice* # After this operation, 433 MB disk space will be freed.
+# sudo dpkg -i include/deb packages/pending/maybe/onlyoffice-desktopeditors_amd64.deb && sudo apt install --fix-broken # Installed-Size: 861 MB
+
+
+
+
+Before exiting chroot:
+apt-get autoremove
+
+apt clean
+apt-get clean
+
+rm -rf /tmp/* ~/.bash_history
+
+rm /var/lib/dbus/machine-id
+rm /sbin/initctl
+dpkg-divert --rename --remove /sbin/initctl
+
+apt-get autoremove -y --purge
+
+# Clean up
+update-initramfs -k all -u
+apt-get clean
+rm -f /var/lib/apt/lists/*_Packages
+rm -f /var/lib/apt/lists/*_Sources
+rm -f /var/lib/apt/lists/*_Translation-*
+rm -rf /tmp/* ~/.bash_history
+rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdiqs/cubic_ubuntu_iso_size_keeps_increasing/
+
+
+
+
+
+
+deactivate current monitor's desktop auto-arrange (find in gconf) - auto-arrange desktop setting
+
+"apt" wrapper to be aware of upgrades so Floflis reinstalls its custom stuff
+
+firstlogon first ask if Internet is connected before proceeding.
+
+move more features out of firstlogon to firstboot (those that don't need user interaction, except Firedoge and Edge)
+
+upgrade all of Floflis' dependencies and programs/apps
+
+Nushell available to armhf
+Starship available to armhf
+Pijul available to armhf
+Other software available to armhf
+
+Nushell available to arm64
+Starship available to arm64
+Pijul available to arm64
+Other software available to arm64
+
+Nushell available to riscv64
+Starship available to riscv64
+Pijul available to riscv64
+Other software available to riscv64
+
+use webpresent in all of Floflis layers' files
+use its unsplash weborigin /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/Backgrounds/Backgrounds
+check this duplicate:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/img/Pictures
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Pictures/Sample Photos
+-
+webpresent ggl drv:
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Videos/Sample Videos/Home Life - Animals.3gp
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/sounds
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/System/ubiquity/pixmaps
+
+verify CPU architecture before installing debs
+
+IPFS has an updating tool that can be accessed through ipfs update. The tool is not installed alongside IPFS in order to keep that logic independent of the main codebase. To install ipfs-update tool, download it here.
+
+sh: 0: cannot open ./firstlogon.sh: No such file
+/home🔒
+
+- make Starshell more dynamic/modular + support for other architectures and mv it to Core layer
+- Server layer will have a "config" overrid file (Floflis Server 2023) and same for forks like UniOS
+- Soil mv from "to-merge" to "include" ; start divising layers
+- Floflis Update (git) './categories/Floflis Update.txt'
+- add Mint's network-disconnected and bluetooth icons
+- nft watermark: replace JSON by nft:// URI
+
+Yaru's "symlink" and "desktop" icons
+
+incentivize to subscribe Ubuntu PRO/Livepatch (both GUI and Server)
+
+Flubuntu (Gnome kept) and Ubuntu Cinnamagic (based-off UCR) flavors
+
+https://github.com/floating/frame/releases
+https://github.com/frame-labs/frame-canary/releases
+
+replace current installer:
+sudo snap install starship
+sudo snap install hugo
+
+ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
+-
+Installing Floflis Central...
+mkdir: cannot create directory ‘/1/apps/central’: File exists
+
+mv: cannot move 'hop' to '/1/apps/hop': Directory not empty (same for Aragon)
+-
+SOLUTION: replace mv by rsync
+-
+Updating default background...
+mv: cannot move '/usr/share/wallpapers/FuturePrototype/contents' to '/usr/share/wallpapers/FuturePrototype/debian/contents/contents': Directory not empty
+-
+SOLUTION: replace mv by rsync
+ln: failed to create symbolic link '/usr/share/wallpapers/FuturePrototype/contents/images/1680x1050.png': File exists
+Installing avatars...
+-
+to-merge_firstlogon.sh: line 207: /usr/bin/hop: Permission denied (same for Aragon)
+to-merge_firstlogon.sh: line 214: /usr/share/applications/hop.desktop: Permi (same for Aragon)
+-
+possibleSOLUTION: move these installers to firstlogon root
+
+mkdir: cannot create directory ‘/tmp/zombiespices’: File exists /media/daniella/B/git/Floflis/Utilities/zombiespices
+same for floflis-packager, floapps, floflis-application-handler and nu-script-handler /media/daniella/B/git/Floflis/HTML5/Floflis Packager /media/daniella/B/git/Floflis/HTML5/floapps /media/daniella/B/git/Floflis/HTML5/floflis-application-handler /media/daniella/B/git/Floflis/Rust/nushell/nu-post-install (also, only reset icons after installing icons)
+-
+Installing Floflis Packager...
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+mkdir: cannot create directory ‘/usr/lib/floflis/packager’: File exists
+Done! Run 'floflis-packager' command to use it.
+-
+(Sym)Linking from host extension...
+Installing Buildmark's presets...
+mkdir: cannot create directory ‘/home/daniella/.cinnamon/configs/buildmark@floflis’: File exists
+
+- Turning flo command into a executable...
+install.sh: line 122: break: only meaningful in a `for', `while', or `until' loop
+- Installing Floflis DNA as init program...
+
+Screenshots organization still not working!
+add /home/daniella/.face at firstboot
+
+install redshift /media/daniella/B/git/Floflis/Mint-INSP/redshift-gtk.desktop
+
+Installing Stacer...
+dpkg: error: cannot access archive '--refuse-downgrade': No such file or directory
+
+
+Installing git-LFS...
+dpkg: warning: downgrading git-lfs from 3.3.0-1 to 3.0.2-1
+
+remove dracl colors installer
+
+/usr/share/cinnamon/faces are symlinks, which is causing cinnamon to fail opening avatars (unlike Gnome Contacts app)
+
+at non-iso user, firstlogonroot.sh behaves normally:
+[sudo] password for daniella:
+- Upper layers are here. Detecting...
+- Openning Floflis Soil firstlogon installer...
+- Cleanning install...
+daniella@daniella-Aspire-A315-23:/home$
+
+non-iso:
+- Installing Firedoge in /usr/bin...
+- Turning Firedoge into a executable...
+Creating settings profile...
+[i] Its normal that your browser opens and closes.
+Waiting for Firedoge 🐶 to wake up...
+Running Nightly as root in a regular user's session is not supported.  ($XAUTHORITY is /home/daniella/.Xauthority which is owned by daniella.)
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+Waiting for Firedoge 🐶 to wake up...
+
+ubiquity:
+up-to-date LibreImpress screenshot
+access.html: rename "Appearance" icon to "Personalization" (use symbolic icon on central, change .desktop shortcut), central showing Floflis' pre-installed bgs + system style + accent
+
+- install watermark zombie extensions at firstboot
+- install Starshell's fantasque font at firstboot - install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
+- add more apt -y if Cubic mode/flag
+
+floapps: new icon for .app
+
+lnch PLA-License:
+- inherit Arbitrum's Business License
+- contributors require waiver sign commit before merging PR
+
+DNA: run post-install if found not-empty
+UniOS installer sh
+-
+focus on Floflis Server layer
+Floflis Lite edition
+
+/media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/to-merge/include-firstlogon/Home/Music/Sample Music
+https://soundcloud.com/vendrediduo/when-winter-rises-1
+https://www.toneden.io/vendredi-duo/post/when-winter-rises
+https://soundcloud.com/markvard/craving
+https://hypeddit.com/xuhxkq
+https://soundcloud.com/cykarl/nightfall
+https://soundcloud.com/extenz/kalon
+https://soundcloud.com/limujii/limujii-feel
+https://hypeddit.com/3fgi7h
+https://soundcloud.com/markvard/markvard-hold-on
+https://hypeddit.com/u1d9z7
+-
+Floflis new sounds https://pastebin.com/JJgBSgN5
+
+[Yaru-floflis theme] https://github.com/ubuntu/yaru/blob/master/create-new-variant.md follow this
+pinkyogurt and brown-cream themes 🥰
+but so for normal/dark/light, now follow this tip by Joshua Peisach:
+https://github.com/ubuntu/yaru/blob/master/create-new-variant.md
+-
+https://www.google.com/search?q=pink+linux+theme&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj4s6_YtMj-AhUdiJUCHR_UCpIQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=1BC_HPBnglIYOM
+https://www.google.com/search?q=retro+desktop&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQhOGatcj-AhWap5UCHQadCHcQ_AUoAXoECAIQAw&biw=1366&bih=606&dpr=1#imgrc=6x9z8lNEkgZYrM
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fvaporwave-retro-desktop-artwork-404-260nw-2086764727.jpg&tbnid=Kt0MHMfsJhbGOM&vet=12ahUKEwiF6dqbtcj-AhUuBbkGHXg5DvIQMygUegUIARCOAg..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fpt%2Fimage-vector%2Fvaporwave-retro-desktop-artwork-404-error-2086764727&docid=BAlfwA4mTGAYjM&w=520&h=280&q=retro%20desktop&client=firefox-b-d&ved=2ahUKEwiF6dqbtcj-AhUuBbkGHXg5DvIQMygUegUIARCOAg
+https://www.google.com/search?q=brown+linux+theme&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiajcLVtMj-AhWQr5UCHaY1D-EQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=16aRJQ2XTfYH4M
+https://www.google.com/search?q=brown+cream+colors&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiS9sqYtcj-AhVDlZUCHSYvAvwQ_AUoAXoECAEQAw&biw=1366&bih=606&dpr=1#imgrc=aVDj-UQy9OA7eM
+-
+Floflis Theme wrapper format will be able to include sound theme, backgrounds and even the Explore menu orb!
+
+start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
+
+Floflis Rust CLI tools https://pastebin.com/Tt912XAG, https://github.com/sts10/rust-command-line-utilities
+-
+install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
+-
+experiment this: /media/daniella/Seagate Expansion Drive/1/Desktop/shell-genie
+
+Floflis Central's Tasks.txt for build Attempt 45 (try to automatize Central builds)
+
+Installing installer's slideshow...
+mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
+
+fix installing wine-mono and dotnet45, which is requiring GUI confirmations
+-
+Executing cd /root/.cache/winetricks/dotnet40
+Executing wine dotNetFx40_Full_x86_x64.exe
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+008c:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
+008c:err:winediag:nodrv_CreateWindow L"The explorer process failed to start."
+008c:err:systray:initialize_systray Could not create tray window
+0024:fixme:heap:RtlSetHeapInformation handle 00000000, info_class 1, info 00000000, size 0 stub!
+0024:fixme:clusapi:OpenCluster ((null)) stub!
+0024:fixme:clusapi:ClusterOpenEnum (DEADBEEF, 4) stub!
+0024:fixme:clusapi:ClusterEnum (DEADBEEF, 0, 0053F920, 00665530, 261) stub!
+0024:fixme:clusapi:ClusterCloseEnum (DEADBEEF) stub!
+0024:fixme:clusapi:CloseCluster (DEADBEEF) stub!
+0024:fixme:advapi:DecryptFileW (L"C:\\3ce4693e255d539ea8bea5562b\\", 00000000): stub
+0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
+0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
+
+bug: buildmark@floflis having to be removed/re-added to work
+
+"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
+
+gedit as the default program for webpresent files? they should be considered text files
+
+BUG ---->
+firefox/updater.ini
+mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
+sending incremental file list
+<---- BUG
+-
+Firedoge: detect if ~/.mozilla exist; if not, create a full profile as skip some steps!
+-
+Firedoge didn't even open:
+sent 195,226 bytes  received 305 bytes  391,062.00 bytes/sec
+total size is 193,918  speedup is 0.99
+- Installing Firedoge in /usr/bin...
+- Turning Firedoge into a executable...
+Creating settings profile...
+[i] Its normal that your browser opens and closes.
+Running Nightly as root in a regular user's session is not supported.  ($XAUTHORITY is /home/floflis/.Xauthority which is owned by floflis.)
+Installation didn't succeed. Try opening Firedoge icon and re-installing it.
+What happened: Firedoge settings profile wasn't been created
+(sorry but it isn't a helpful error message; BTW it will be improved <3)
+
+"Account Details" not opening
+
+add the blend package manager from BlendOS
+https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+-
+or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makedeb
+
+Floflis sound theme (Gnome-compatible), symlinking from tree!
+
+automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
+
+sudo ln -s $(logname) /media/daniella
+sudo ln -s $(logname) /home/daniella
+ISO mode can import settings such as username (symlink), git global settings, WiFi networks+passwords, show hidden files, keyboard settings, etc (Floflis Sync)
+
+/home/floflis/aragon
+/home/floflis/hop
+
+install alpha wl (mimetype) + usv-tools (mimetype)
+usv-tools will be part of the usm-tools suite
+usv-tools installs .svg mimetype icon and feature to pack .usv videos (should be leveraged by OmniPackager!)
+
+change background on dark theme
+https://share.pho.to/BE6SL
+
+
+Installing webpresent's dependencies...
+sudo: unable to resolve host cubic: Name or service not known
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+python3-pip is already the newest version (23.0.1+dfsg-1).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.11/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Installing 'webpresent' syswide...
+
+- move "Keyboard" applet to left edge
+
+Insp on https://ubuntucinnamon.org/ both normal and mobile
+
+INSP customize https://github.com/PJ-Singh-001/Cubic/issues/184
