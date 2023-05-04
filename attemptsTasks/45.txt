@@ -15,6 +15,8 @@
 - move Floflis' excess backgrounds to last position (make other backgrounds more visible)
 - replace PNG to SVG for .nu mimetype icon
 - Floflis theme: Add hover and improve effects for Explore menu; Add effects for Search applet ; add Yaru-blue/Yaru-blue-dark accent colors/elements
+- GIPFS: New mimetype icon for .cid files
+- FilePeace and FilePeace's Webpresent: Updated mimetypes icons (now smaller in storage size and 100% vectorized)
 
 
 fix folderstamp ("This folder")
