@@ -48,3 +48,6 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 0024:fixme:advapi:DecryptFileW (L"C:\\3ce4693e255d539ea8bea5562b\\", 00000000): stub
 0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
 0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
+
+rmv anything breaky introduced since attempt 40
+personal fl bkp-sync: always guarantee freshy copy of software

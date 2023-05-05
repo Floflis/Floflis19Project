@@ -323,6 +323,13 @@ or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makede
 FLIC
 automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
 
+Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
+Theme: round applet and menu selection using ::after CSS
+Theme: no padding/margin in left's separator applet
+Theme: top+bottom 5px margin on separator applet
+Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
+apt wrapper
+
 BUG ---->
 firefox/updater.ini
 mkdir: cannot create directory ‘/usr/lib/floflis’: File exists
