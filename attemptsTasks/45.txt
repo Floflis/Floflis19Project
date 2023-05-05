@@ -26,3 +26,25 @@ separator applet between weather and calendar
 ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
 
 fix folderstamp ("This folder")
+
+fix installing wine-mono and dotnet45, which is requiring GUI confirmations
+-
+Executing cd /root/.cache/winetricks/dotnet40
+Executing wine dotNetFx40_Full_x86_x64.exe
+002c:err:winediag:getaddrinfo Failed to resolve your host name IP
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+007c:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+008c:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
+008c:err:winediag:nodrv_CreateWindow L"The explorer process failed to start."
+008c:err:systray:initialize_systray Could not create tray window
+0024:fixme:heap:RtlSetHeapInformation handle 00000000, info_class 1, info 00000000, size 0 stub!
+0024:fixme:clusapi:OpenCluster ((null)) stub!
+0024:fixme:clusapi:ClusterOpenEnum (DEADBEEF, 4) stub!
+0024:fixme:clusapi:ClusterEnum (DEADBEEF, 0, 0053F920, 00665530, 261) stub!
+0024:fixme:clusapi:ClusterCloseEnum (DEADBEEF) stub!
+0024:fixme:clusapi:CloseCluster (DEADBEEF) stub!
+0024:fixme:advapi:DecryptFileW (L"C:\\3ce4693e255d539ea8bea5562b\\", 00000000): stub
+0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
+0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
