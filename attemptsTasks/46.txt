@@ -1,4 +1,36 @@
+
+
+
 remove all other desktop Backgrounds and their lists, except the SVG ones
+
+"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
+
+gedit as the default program for webpresent files? they should be considered text files
+
+add the blend package manager from BlendOS
+https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
+-
+or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makedeb
+
+Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
+Theme: round applet and menu selection using ::after CSS
+Theme: no padding/margin in left's separator applet
+Theme: top+bottom 5px margin on separator applet
+Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
+apt wrapper
+
+FLIC
+automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
+- Cubic pjs folder
+- Full, Basic (w/o WINE) and Lite versions
+- generate build number automatically (year, month, add number)
+- flic.conf: src ISOs, etc
+- Automate DNA "config", cubic.conf and desktop watermark
+- export folders, with all of the builds/attempts
+- run "cubic --verbose", then export to build folder's cubic.html
+- support to Snap seeding!
+- support to generate the latest kernel, signed!
+- support to Floflis forks such as UniOS
 
 rmv previous kernel
 Cleanup old kernel versions
@@ -310,25 +342,6 @@ Installing installer's slideshow...
 mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
 
 bug: buildmark@floflis having to be removed/re-added to work
-
-"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
-
-gedit as the default program for webpresent files? they should be considered text files
-
-add the blend package manager from BlendOS
-https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
--
-or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makedeb
-
-FLIC
-automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
-
-Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
-Theme: round applet and menu selection using ::after CSS
-Theme: no padding/margin in left's separator applet
-Theme: top+bottom 5px margin on separator applet
-Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
-apt wrapper
 
 BUG ---->
 firefox/updater.ini
