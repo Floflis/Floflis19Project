@@ -14,7 +14,7 @@ or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makede
 
 Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
 Theme: round applet and menu selection using ::after CSS
-Theme: no padding/margin in left's separator applet
+Theme: no padding/margin in right's separator applet (.panelRight)
 Theme: top+bottom 5px margin on separator applet
 Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
 apt wrapper

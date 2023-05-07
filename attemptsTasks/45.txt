@@ -50,4 +50,6 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
 
 rmv anything breaky introduced since attempt 40
+
 personal fl bkp-sync: always guarantee freshy copy of software
+ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
