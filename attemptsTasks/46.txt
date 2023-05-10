@@ -8,7 +8,7 @@ remove all other desktop Backgrounds and their lists, except the SVG ones
 gedit as the default program for webpresent files? they should be considered text files
 
 Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
-Theme: round applet and menu selection using ::after CSS
+Theme: round applet and menu selection using ::after CSS https://github.com/orgs/linuxmint/discussions/12
 Theme: no padding/margin in right's separator applet (.panelRight)
 Theme: top+bottom 5px margin on separator applet
 Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
