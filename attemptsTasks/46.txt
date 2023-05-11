@@ -16,6 +16,15 @@ apt wrapper
 
 develop Cinnamon-version for https://github.com/PRATAP-KUMAR/ubuntu-gdm-set-background/issues/20
 
+fl design INSP:
+https://www.tudocelular.com/curiosidade/noticias/n205692/windows-12-conceito-recursos-novo-design-iniciar.html
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.trhaber.com%2Fimages%2Fupload%2FW%25C4%25B0NDOWS-12-S%25C4%25B0STEM-GEREKS%25C4%25B0N%25C4%25B0MLER%25C4%25B0-NE.jpg&tbnid=E-P9rGx70pRRoM&vet=10CAoQxiAoAWoXChMI8JGhlcTt_gIVAAAAAB0AAAAAEAY..i&imgrefurl=https%3A%2F%2Fwww.trhaber.com%2Fbilim-teknoloji%2Fwindows-12-ne-zaman-cikacak-windows-12-sistem-gereksinimleri-ne-h96069.html&docid=xc_XQ9Ljs7Jy3M&w=770&h=512&itg=1&q=Windows%2012&client=ubuntu-sn&ved=0CAoQxiAoAWoXChMI8JGhlcTt_gIVAAAAAB0AAAAAEAY
+https://www.google.com/search?q=Windows+12&client=ubuntu-sn&hs=KIr&channel=fs&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi9kqLbw-3-AhX3jJUCHfBlBB4Q_AUoAnoECAEQBA#imgrc=FqrVdDi7Dcf3oM
+https://www.google.com/imgres?imgurl=https%3A%2F%2Ffilestore.community.support.microsoft.com%2Fapi%2Fimages%2Fext%3Furl%3Dhttps%253A%252F%252Fbetanews.com%252Fwp-content%252Fuploads%252F2022%252F03%252FWin12-6-640x360.jpg&tbnid=FTlHhJ10Nif47M&vet=12ahUKEwip5fuaxO3-AhWijJUCHYOiDeYQxiAoCnoECAAQGA..i&imgrefurl=https%3A%2F%2Fanswers.microsoft.com%2Fen-us%2Fwindows%2Fforum%2Fall%2Fwill-there-be-windows-12%2F7c57dc5c-c5bb-4974-92ac-46089a560c7a&docid=2rONO67GGAPgTM&w=640&h=360&itg=1&q=Windows%2012&client=ubuntu-sn&ved=2ahUKEwip5fuaxO3-AhWijJUCHYOiDeYQxiAoCnoECAAQGA
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fbetanews.com%2Fwp-content%2Fuploads%2F2023%2F03%2FWin11.1-6-640x360.jpg&tbnid=y1CjicrLBPCn4M&vet=12ahUKEwip5fuaxO3-AhWijJUCHYOiDeYQxiAoBXoECAAQJA..i&imgrefurl=https%3A%2F%2Fbetanews.com%2F2023%2F03%2F07%2Fforget-windows-12-heres-windows-11-1%2F&docid=wJmkC5lLeIuEUM&w=640&h=360&itg=1&q=Windows%2012&client=ubuntu-sn&ved=2ahUKEwip5fuaxO3-AhWijJUCHYOiDeYQxiAoBXoECAAQJA
+https://betanews.com/2023/03/07/forget-windows-12-heres-windows-11-1/
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fb2c-contenthub.com%2Fwp-content%2Fuploads%2F2022%2F10%2Fwindows-12-ui-mockup.jpg%3Fquality%3D50%26strip%3Dall&tbnid=zpVvUYMsfY5eZM&vet=12ahUKEwjpo8Tew-3-AhX4ArkGHfBlBEQQMygEegUIARDnAQ..i&imgrefurl=https%3A%2F%2Fwww.tecmundo.com.br%2Fsoftware%2F257328-windows-12-esperar-possivel-sistema-operacional.htm&docid=zgrRpdu5-MU90M&w=1200&h=800&q=Windows%2012&client=ubuntu-sn&ved=2ahUKEwjpo8Tew-3-AhX4ArkGHfBlBEQQMygEegUIARDnAQ
+
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 -

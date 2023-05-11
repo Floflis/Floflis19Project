@@ -56,3 +56,6 @@ new Plymouth screen
 
 personal fl bkp-sync: always guarantee freshy copy of software
 ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
+
+Improve/fix first login questions
+add first login questions: Explore button label, centered Explorer+window btns, Weather button label, Battery btn label
