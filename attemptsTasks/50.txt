@@ -7,6 +7,14 @@ re-work cinnamon-patch (this will also be responsible for symlinking its avatars
 /media/daniella/B/git/Floflis/cinnamon-patch
 https://github.com/Floflis/cinnamon-patch.git
 
+Floflis Cornerbar context-menu: "open Terminal in Desktop", organize everything into "Applet preferences" like in the window-list applet, add icons to items that dont have one
+-
+Explore menu context-menu: "open Terminal" and other power-menu options, organize everything into "Applet preferences" like in the window-list applet
+-
+Sound applet: organize everything into "Applet preferences" like in the window-list applet
+-
+Weather applet: organize everything into "Applet preferences" like in the window-list applet
+
 - sync settings of Frame and Frame Canary
 
 Floverse app will have shortcuts for Cryptovoxels, Decentraland and TheSandbox. Also for Minetest. Minecraft shortcut will ask to install it. Also Floflis Places.

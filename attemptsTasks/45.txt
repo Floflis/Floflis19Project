@@ -17,6 +17,7 @@
 - Floflis theme: Add hover and improve effects for Explore menu; Add effects for Search applet ; add Yaru-blue/Yaru-blue-dark accent colors/elements
 - GIPFS: New mimetype icon for .cid files
 - FilePeace and FilePeace's Webpresent: Updated mimetypes icons (now smaller in storage size and 100% vectorized)
+- new Gamlr token img
 
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
