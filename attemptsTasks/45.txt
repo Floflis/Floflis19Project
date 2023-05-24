@@ -22,6 +22,8 @@
 
 fix folderstamp ("This folder")
 
+implement chatgpt-credits update on 01
+
 rmv Frame Canary
 updt Frame
 
