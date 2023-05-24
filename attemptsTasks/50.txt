@@ -3,20 +3,6 @@
 
 heavily focus on Floflis Update, now using W3U and safety measures
 
-re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
-/media/daniella/B/git/Floflis/cinnamon-patch
-https://github.com/Floflis/cinnamon-patch.git
-
-Floflis Cornerbar context-menu: "open Terminal in Desktop", organize everything into "Applet preferences" like in the window-list applet, add icons to items that dont have one
--
-Explore menu context-menu: "open Terminal" and other power-menu options, organize everything into "Applet preferences" like in the window-list applet
--
-Sound applet: organize everything into "Applet preferences" like in the window-list applet
--
-Weather applet: organize everything into "Applet preferences" like in the window-list applet
-
-- sync settings of Frame and Frame Canary
-
 Floverse app will have shortcuts for Cryptovoxels, Decentraland and TheSandbox. Also for Minetest. Minecraft shortcut will ask to install it. Also Floflis Places.
 Floflis Places will have two tabs after opened by Floverse: "Shortcuts" and "Metaverse"; initially only Shortcuts available, such as Pooltogethers lottery. Floflis Shortcuts will be entirely replaced by the Floverse app!
 -
@@ -31,8 +17,6 @@ exactly Floflis like: " %H:%M:%S%n%e-%b-%y" ---- exactly WindOS like: "%H:%M%n%d
 
 updated Yaru-cinnamon desktop themes, with hover effects
 Floflis Central light/dark theme toggle (affects cinnamon theme)
--
--? Desktop Background1, Desktop Background2, DesktopBackground3, DesktopBackground4
 
 
 before asking to create SSH and IPFS ID, check for flo-bkp-sync

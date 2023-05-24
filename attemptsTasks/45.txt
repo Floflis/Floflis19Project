@@ -17,16 +17,31 @@
 - Floflis theme: Add hover and improve effects for Explore menu; Add effects for Search applet ; add Yaru-blue/Yaru-blue-dark accent colors/elements
 - GIPFS: New mimetype icon for .cid files
 - FilePeace and FilePeace's Webpresent: Updated mimetypes icons (now smaller in storage size and 100% vectorized)
-- new Gamlr token img
+- Central: new Gamlr token img
 
+
+fix folderstamp ("This folder")
+
+rmv Frame Canary
+updt Frame
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+
+Floflis Icons: new icon for Platform
 
 separator applet between weather and calendar
 
 ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
 
-fix folderstamp ("This folder")
+re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
+/media/daniella/B/git/Floflis/cinnamon-patch
+https://github.com/Floflis/cinnamon-patch.git
+
+Floflis Cornerbar context-menu: "open Terminal in Desktop", organize everything into "Applet preferences" like in the window-list applet, add icons to items that dont have one
+-
+Sound applet: organize everything into "Applet preferences" like in the window-list applet
+-
+Explore menu context-menu: "open Terminal" and other power-menu options, organize everything into "Applet preferences" like in the window-list applet
 
 fix installing wine-mono and dotnet45, which is requiring GUI confirmations
 -
@@ -60,3 +75,5 @@ ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
 
 Improve/fix first login questions
 add first login questions: Explore button label, centered Explorer+window btns, Weather button label, Battery btn label
+
+New Central app build
