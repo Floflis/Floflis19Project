@@ -1,11 +1,25 @@
 
 
 
+-?rmv anything breaky introduced since attempt 40
+
 remove all other desktop Backgrounds and their lists, except the SVG ones
 
 "The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
 gedit as the default program for webpresent files? they should be considered text files
+
+fix issue of Kolourpaint not opening jpg https://forums.gentoo.org/viewtopic-t-1133067-start-0.html
+
+re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
+/media/daniella/B/git/Floflis/cinnamon-patch
+https://github.com/Floflis/cinnamon-patch.git
+
+Floflis Cornerbar context-menu: "open Terminal in Desktop", organize everything into "Applet preferences" like in the window-list applet, add icons to items that dont have one
+-
+Sound applet: organize everything into "Applet preferences" like in the window-list applet
+-
+Explore menu context-menu: "open Terminal" and other power-menu options, organize everything into "Applet preferences" like in the window-list applet
 
 Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
 Theme: round applet and menu selection using ::after CSS https://github.com/orgs/linuxmint/discussions/12
@@ -340,6 +354,8 @@ Floflis Theme wrapper format will be able to include sound theme, backgrounds an
 start moving some safe items for new tree structure /home/daniella/Desktop/fl/fl tree and then update mkdocs
 
 Floflis Rust CLI tools https://pastebin.com/Tt912XAG, https://github.com/sts10/rust-command-line-utilities
+-
+https://github.com/orhun/kmon
 -
 install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from floflis with an install.sh (both /usr/bin and /usr/lib)
 -

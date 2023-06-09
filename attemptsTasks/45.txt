@@ -20,30 +20,21 @@
 - Central: new Gamlr token img
 
 
-fix folderstamp ("This folder")
-
-implement chatgpt-credits update on 01
-
 rmv Frame Canary
 updt Frame
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
-
 Floflis Icons: new icon for Platform
 
 separator applet between weather and calendar
 
+fix folderstamp ("This folder")
+
+implement chatgpt-credits update on 01
+
 ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
 
-re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
-/media/daniella/B/git/Floflis/cinnamon-patch
-https://github.com/Floflis/cinnamon-patch.git
 
-Floflis Cornerbar context-menu: "open Terminal in Desktop", organize everything into "Applet preferences" like in the window-list applet, add icons to items that dont have one
--
-Sound applet: organize everything into "Applet preferences" like in the window-list applet
--
-Explore menu context-menu: "open Terminal" and other power-menu options, organize everything into "Applet preferences" like in the window-list applet
 
 fix installing wine-mono and dotnet45, which is requiring GUI confirmations
 -
@@ -67,10 +58,8 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
 0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
 
-rmv anything breaky introduced since attempt 40
-
 pending customs: "Ubuntu base" in Software Updater, "Ubuntu" in ISO/installed GRUB
-new Plymouth screen
+new Plymouth screen (floflis by plasmmer)
 
 personal fl bkp-sync: always guarantee freshy copy of software
 ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
