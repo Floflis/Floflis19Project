@@ -35,6 +35,8 @@ fix issue of not accepting Home items symlinks
 
 session saver (!)
 
+floflis has to be early introducing shell-genie
+
 https://www.google.com/search?client=firefox-b-d&q=Linux+identify+broken+packages
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
