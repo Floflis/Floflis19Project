@@ -37,6 +37,7 @@ session saver (!)
 
 floflis has to be early introducing shell-genie
 
+https://www.google.com/search?channel=fs&client=ubuntu-sn&q=tracker-miner-fs-2+stopped+working
 https://www.google.com/search?client=firefox-b-d&q=Linux+identify+broken+packages
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
@@ -45,6 +46,12 @@ Floflis Icons: new icon for Platform
 
 
 fix installing wine-mono and dotnet45, which is requiring GUI confirmations
+https://askubuntu.com/questions/1396739/failed-to-load-module-xapp-gtk3-module
+https://ubuntuforums.org/showthread.php?t=2378479
+https://www.linuxquestions.org/questions/slackware-14/cannot-get-wine-to-work-in-15-0-a-4175709687/
+https://forum.winehq.org/viewtopic.php?t=32584
+https://github.com/NixOS/nixpkgs/issues/189567
+https://www.reddit.com/r/winehq/comments/yiauog/wine_can_only_ran_through_sudo/
 -
 Executing cd /root/.cache/winetricks/dotnet40
 Executing wine dotNetFx40_Full_x86_x64.exe
