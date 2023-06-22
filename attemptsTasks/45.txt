@@ -23,6 +23,10 @@
 rmv Frame Canary
 updt Frame
 
+sudo apt install dateutils
+Need to get 237 kB of archives.
+After this operation, 1.459 kB of additional disk space will be used.
+
 fix folderstamp ("This folder")
 
 separator applet between weather and calendar
