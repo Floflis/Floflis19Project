@@ -25,6 +25,9 @@ updt Frame
 
 - fix Floflis environment (dont use root when installing WINE and NODE) (!)
 
+/home/daniella/.themes/Yaru-floflis-light-next
+add style for .applet-cornerbar:last-child first-child (also count hover effect?)
+
 sudo apt install dateutils
 Need to get 237 kB of archives.
 After this operation, 1.459 kB of additional disk space will be used.
