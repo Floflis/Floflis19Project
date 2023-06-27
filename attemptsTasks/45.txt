@@ -20,22 +20,20 @@
 - Central: new Gamlr token img
 - Core: fix folderstamp ("This folder: /usr/bin")
 - Floflis Icons: new icon for Platform
+- rmv Frame Canary, updt Frame
 
 
-rmv Frame Canary
-updt Frame
+sudo apt install dateutils
+Need to get 237 kB of archives.
+After this operation, 1.459 kB of additional disk space will be used.
+
+floflis has to be early introducing shell-genie
 
 implement chatgpt-credits update on 01
 
 ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
 
 separator applet between weather and calendar
-
-floflis has to be early introducing shell-genie
-
-sudo apt install dateutils
-Need to get 237 kB of archives.
-After this operation, 1.459 kB of additional disk space will be used.
 
 /home/daniella/.themes/Yaru-floflis-light-next
 add style for .applet-cornerbar:last-child first-child (also count hover effect?)
