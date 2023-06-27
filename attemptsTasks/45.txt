@@ -18,7 +18,18 @@
 - GIPFS: New mimetype icon for .cid files
 - FilePeace and FilePeace's Webpresent: Updated mimetypes icons (now smaller in storage size and 100% vectorized)
 - Central: new Gamlr token img
+- Core: fix folderstamp ("This folder: /usr/bin")
 
+
+Floflis Icons: new icon for Platform
+
+implement chatgpt-credits update on 01
+
+ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
+
+separator applet between weather and calendar
+
+floflis has to be early introducing shell-genie
 
 rmv Frame Canary
 updt Frame
@@ -32,25 +43,14 @@ sudo apt install dateutils
 Need to get 237 kB of archives.
 After this operation, 1.459 kB of additional disk space will be used.
 
-fix folderstamp ("This folder")
-
-separator applet between weather and calendar
-
-implement chatgpt-credits update on 01
-
-ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
-
 fix issue of not accepting Home items symlinks
 
-session saver (!)
-
-floflis has to be early introducing shell-genie
+session saver (!) /media/daniella/B/git/Floflis/Floflis/Utilities/SessionGuard
 
 https://www.google.com/search?channel=fs&client=ubuntu-sn&q=tracker-miner-fs-2+stopped+working
 https://www.google.com/search?client=firefox-b-d&q=Linux+identify+broken+packages
 
 SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
-Floflis Icons: new icon for Platform
 
 
 
