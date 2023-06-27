@@ -21,11 +21,8 @@
 - Core: fix folderstamp ("This folder: /usr/bin")
 - Floflis Icons: new icon for Platform
 - rmv Frame Canary, updt Frame
+- Core: install dateutils
 
-
-sudo apt install dateutils
-Need to get 237 kB of archives.
-After this operation, 1.459 kB of additional disk space will be used.
 
 floflis has to be early introducing shell-genie
 
