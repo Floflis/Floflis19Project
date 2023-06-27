@@ -19,9 +19,11 @@
 - FilePeace and FilePeace's Webpresent: Updated mimetypes icons (now smaller in storage size and 100% vectorized)
 - Central: new Gamlr token img
 - Core: fix folderstamp ("This folder: /usr/bin")
+- Floflis Icons: new icon for Platform
 
 
-Floflis Icons: new icon for Platform
+rmv Frame Canary
+updt Frame
 
 implement chatgpt-credits update on 01
 
@@ -31,17 +33,14 @@ separator applet between weather and calendar
 
 floflis has to be early introducing shell-genie
 
-rmv Frame Canary
-updt Frame
-
-- fix Floflis environment (dont use root when installing WINE and NODE) (!)
+sudo apt install dateutils
+Need to get 237 kB of archives.
+After this operation, 1.459 kB of additional disk space will be used.
 
 /home/daniella/.themes/Yaru-floflis-light-next
 add style for .applet-cornerbar:last-child first-child (also count hover effect?)
 
-sudo apt install dateutils
-Need to get 237 kB of archives.
-After this operation, 1.459 kB of additional disk space will be used.
+- fix Floflis environment (dont use root when installing WINE and NODE) (!)
 
 fix issue of not accepting Home items symlinks
 
