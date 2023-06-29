@@ -24,6 +24,8 @@
 - Core: install dateutils
 
 
+re-activate Cinnamon Patch, add Task Manager to Taskbar context-menu
+
 floflis has to be early introducing shell-genie
 
 implement chatgpt-credits update on 01
