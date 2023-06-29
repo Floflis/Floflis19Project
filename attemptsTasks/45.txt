@@ -24,7 +24,7 @@
 - Core: install dateutils
 
 
-re-activate Cinnamon Patch, add Task Manager to Taskbar context-menu
+re-activate Cinnamon Patch, add Task Manager to Taskbar context-menu /media/daniella/B/git/Floflis/Floflis/Cinnamon/cinnamon-patch
 
 floflis has to be early introducing shell-genie
 
