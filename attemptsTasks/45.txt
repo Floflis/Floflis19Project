@@ -90,4 +90,9 @@ ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
 Improve/fix first login questions
 add first login questions: Explore button label, centered Explorer+window btns, Weather button label, Battery btn label
 
+https://www.google.com/search?q=Windows+corrupting+Linux+symlinks&client=ubuntu-sn&hs=Jjv&channel=fs&sxsrf=AB5stBhk9AHVaUlqz7VH7xwRrhSOGvEybw%3A1688838924560&ei=DKOpZIvvIdXZ5OUP9fGgmAg&ved=0ahUKEwiLpbmh1___AhXVLLkGHfU4CIMQ4dUDCA4&uact=5&oq=Windows+corrupting+Linux+symlinks&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQogQyBQgAEKIEMgUIABCiBDIFCAAQogQ6CggAEEcQ1gQQsANKBAhBGABQP1jFBWDdC2gBcAF4AIAB2AKIAeQDkgEHMC4xLjAuMZgBAKABAcABAcgBCA&sclient=gws-wiz-serp
+
+fl nfc actions: turn wifi router on (add to Floflis 19 tasks)
+after floflis attempt 32: work at firedoge and test if its binary will be firefox or firedoge, then issue command to turn into default browser from CLI
+
 New Central app build
