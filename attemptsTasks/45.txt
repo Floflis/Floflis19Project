@@ -27,7 +27,7 @@
 re-activate Cinnamon Patch, add Task Manager to Taskbar context-menu /media/daniella/B/git/Floflis/Floflis/Cinnamon/cinnamon-patch
 
 mv network icons to Floflis icons (reflect update in Central)
-Floflis icons: add Aragon icon
+Floflis icons: add Aragon icon, add all Noto emojis to a brand new /emojis/ directory
 
 floflis has to be early introducing shell-genie
 
