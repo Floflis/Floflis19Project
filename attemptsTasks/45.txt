@@ -24,38 +24,24 @@
 - Core: install dateutils
 
 
-sounds: nivelate volumes
+- ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
+- separator applet between weather and calendar
+- don't autostart MS Teams
+- fix issue of not accepting Home items symlinks
 
-re-activate Cinnamon Patch, add Task Manager to Taskbar context-menu /media/daniella/B/git/Floflis/Floflis/Cinnamon/cinnamon-patch
-
-mv blockchain-network icons to Floflis icons (reflect update in Central)
-Floflis icons: add Aragon icon, add all Noto emojis to a brand new /emojis/ directory
-
-floflis has to be early introducing shell-genie
-
-implement chatgpt-credits update on 01
-
-ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
-
-separator applet between weather and calendar
-
-/home/daniella/.themes/Yaru-floflis-light-next
-add style for .applet-cornerbar:last-child first-child (also count hover effect?)
-
+- Finally fix:
+Error in file "/usr/share/applications/nu-script-handler.desktop": "application-
+x-nu" is an invalid MIME type ("application-x-nu" does not contain a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "ap
+plication-x-apps" is an invalid MIME type ("application-x-apps" does not contain
+ a subtype)
+Error in file "/usr/share/applications/floflis-application-handler.desktop": "ap
+plication-x-game" is an invalid MIME type ("application-x-game" does not contain
+ a subtype)
+ 
 - fix Floflis environment (dont use root when installing WINE and NODE) (!)
-
-fix issue of not accepting Home items symlinks
-
-session saver (!) /media/daniella/B/git/Floflis/Floflis/Utilities/SessionGuard
-
-https://www.google.com/search?channel=fs&client=ubuntu-sn&q=tracker-miner-fs-2+stopped+working
-https://www.google.com/search?client=firefox-b-d&q=Linux+identify+broken+packages
-
-SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
-
-
-
-fix installing wine-mono and dotnet45, which is requiring GUI confirmations
+ 
+- fix installing wine-mono and dotnet45, which is requiring GUI confirmations; and:
 https://askubuntu.com/questions/1396739/failed-to-load-module-xapp-gtk3-module
 https://ubuntuforums.org/showthread.php?t=2378479
 https://www.linuxquestions.org/questions/slackware-14/cannot-get-wine-to-work-in-15-0-a-4175709687/
@@ -83,18 +69,4 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
 0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
 
-pending customs: "Ubuntu base" in Software Updater, "Ubuntu" in ISO/installed GRUB
-new Plymouth screen (floflis by plasmmer)
 
-personal fl bkp-sync: always guarantee freshy copy of software
-ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
-
-Improve/fix first login questions
-add first login questions: Explore button label, centered Explorer+window btns, Weather button label, Battery btn label
-
-https://www.google.com/search?q=Windows+corrupting+Linux+symlinks&client=ubuntu-sn&hs=Jjv&channel=fs&sxsrf=AB5stBhk9AHVaUlqz7VH7xwRrhSOGvEybw%3A1688838924560&ei=DKOpZIvvIdXZ5OUP9fGgmAg&ved=0ahUKEwiLpbmh1___AhXVLLkGHfU4CIMQ4dUDCA4&uact=5&oq=Windows+corrupting+Linux+symlinks&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQogQyBQgAEKIEMgUIABCiBDIFCAAQogQ6CggAEEcQ1gQQsANKBAhBGABQP1jFBWDdC2gBcAF4AIAB2AKIAeQDkgEHMC4xLjAuMZgBAKABAcABAcgBCA&sclient=gws-wiz-serp
-
-fl nfc actions: turn wifi router on (add to Floflis 19 tasks)
-after floflis attempt 32: work at firedoge and test if its binary will be firefox or firedoge, then issue command to turn into default browser from CLI
-
-New Central app build
