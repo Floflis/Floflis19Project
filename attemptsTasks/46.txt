@@ -8,11 +8,9 @@ explore menu without round borders on bottom but bigger round borders on top
 - Floflis icons: add Aragon icon
 - Floflis icons: add all Noto emojis to a brand new /emojis/ directory
 
-via Internet at firstlogon: sudo dpkg -i include/deb packages/pending/maybe/onlyoffice-desktopeditors_amd64.deb && sudo apt install --fix-broken
-
 - early introducing shell-genie
 -
-apt wrapper (should prevent being self-broken by an apt update)
+"apt" wrapper to be aware of upgrades so Floflis reinstalls its custom stuff (should prevent being self-broken by an apt update)
 add the blend package manager from BlendOS
 https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
 -
@@ -76,6 +74,51 @@ After this operation, 20.4 MB disk space will be freed.
 
 - pending customs: "Ubuntu base" in Software Updater, "Ubuntu" in ISO/installed GRUB
 - new Plymouth screen; credit floflis by plasmmer
+
+- Floflis Central light/dark theme toggle (affects cinnamon theme)
+don't anymore run npm install on floapps (test if Central still work)
+- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
+- upgrade floapps Node template + AppPlayer to the latest version possible
+- Floflis Central: organize functions in separate event-sheets
+Floflis Central fix card hovering freeze, also attention to the ETHGas badge in topbar
+Floflis Central frameless window with window buttons on topbar (inspiration by Framlr)
+Floflis Central: support being opened with a flag (useful for the Explore menu opening Floflis Central directly in the "More Settings" tab
+Floflis Central basic redesign in the vertical menu, also not using capital letters for menu items
+Floflis Central updated "Open classical settings" button in the "More settings" tab
+Floflis Central Profile>Wallet tab: replace "ETH" by "Gas" and display breakdown of blockchains' native tokens; then right after this item, display "Stablecoins" then its breakdown
+Floflis Central fix the "Play with" tab's items. display OBS/supertux/audacity/etcher item only if it is detected installed
+Floflis Central deactivate "Lockscreen" card (but add placeholder img) and "Change both at once" in the Personalization tab
+Floflis Central Personalization>change look-and-feel tab: dark theme activated by default. when deactivated, change theme to yaru-cinnamon light
+Floflis Central enable to set Profile/Inventory/Metaverse Stuff/Paintings as NFT desktop background
+Floflis Central turn Home+About tab's "up-to-date" into linkish to open the Update tab, which will tell implemented soon
+- work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
+-
+register IPFS ID
+jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
+-
+Floflis Central display IPFS ID
+/media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/abis: fix hardlink, use repo
+- new network icons, for OP, Arbitrum and zSync (reflect these changes in central and its listed networks)
+- new screenshots for Central (github, ubiquity)
+- floflis-packager c2 projects will have a file containing git files for c2export, HTML and scripts (FMWK2C2 will be the template)
+
+filepeace's handler for sum files (gipfs will be a plugin to handle .cid files)
+-
+HTML5Player as mime default app for .html5 files (these files can either be texty or .tar.gz, and updt abt this on Floflis Docs Dev)
+-
+floapps use reverse domain on application/package IDs
+fl install central in /1/apps/eth.floflis.central
+floapps run post-install.sh or pre-install.sh when installing a .apps or .game, but user will have to open it on notepad and review first! or better: floflis-packager will offer to include a bash "binary" to be installed in /usr/bin, .desktop shortcuts and icons (svg for linux and png for electron)
+-
+pre-installed HTML5 apps (also the HTML5Apps Platform)!
+
+- Framework4C2 merge with FMWK r3
+- Framework4C2 uses webpresent to get git out of c2export/HTML+scripts
+- Framework4C2 detecting if HTML dont exist/is empty, then displaying error. Also enable apps to tell they can run only in specific platforms.
+- the foundation for Framework4C2 at spawning new app with c2export/HTML+scripts, and floflis-packager recognizing a config file
+- New Central app build
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 personal fl bkp-sync: always guarantee freshy copy of software
 

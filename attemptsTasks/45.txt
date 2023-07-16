@@ -87,9 +87,25 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 
 - Improve/fix first login questions
 - add first login questions: Explore button label, centered Explorer+window btns, Weather button label, Battery btn label
+- firstlogon first ask if Internet is connected before proceeding.
+- via Internet at firstlogon option: sudo dpkg -i include/deb packages/pending/maybe/onlyoffice-desktopeditors_amd64.deb && sudo apt install --fix-broken
+-
+firstlogon questions:
+ask to have label in Explore menu or not (default is not)
+exactly Floflis like: " %H:%M:%S%n%e-%b-%y" ---- exactly WindOS like: "%H:%M%n%d/%m/%Y"
 
+- move more features out of firstlogon to firstboot (those that don't need user interaction, except Firedoge and Edge)
+
+-?ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
+-?Installing Floflis Central... mkdir: cannot create directory ‘/1/apps/central’: File exists
+- Floflis Central's Tasks.txt for build Attempt 45 (try to automatize Central builds)
+-? /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/logo.png and /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img/token.png as SVG images (also reflect these changes in the explore menu btn and central)
 - SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
 - mv blockchain-network icons to Floflis icons (reflect update in Central)
+- Floflis Central issue with user.json when running from Floflis shortcut (same don't happen when using npm start. have to test central.apps for same behavior) /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/fullname.sh
+- user.json personalities field
 - New Central app build
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site

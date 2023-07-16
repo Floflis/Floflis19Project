@@ -42,10 +42,6 @@ sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edg
 ?, https://packages.microsoft.com/repos/ms-teams/
 sudo apt-add-repository ppa:cubic-wizard/release
 
-don't anymore run npm install on floapps (test if Central still work)
-- dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
-- upgrade floapps Node template + AppPlayer to the latest version possible
-
 firstlogon install Weather, Maps, KeePassXC
 don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
 don't install hexchat from ISO
@@ -87,24 +83,18 @@ rm -rf /var/cache/ #from https://www.reddit.com/r/linuxmasterrace/comments/10vdi
 
 deactivate current monitor's desktop auto-arrange (find in gconf) - auto-arrange desktop setting
 
-"apt" wrapper to be aware of upgrades so Floflis reinstalls its custom stuff
-
-firstlogon first ask if Internet is connected before proceeding.
-
-move more features out of firstlogon to firstboot (those that don't need user interaction, except Firedoge and Edge)
-
 upgrade all of Floflis' dependencies and programs/apps
 
 Nushell available to armhf
 Starship available to armhf
 Pijul available to armhf
 Other software available to armhf
-
+-
 Nushell available to arm64
 Starship available to arm64
 Pijul available to arm64
 Other software available to arm64
-
+-
 Nushell available to riscv64
 Starship available to riscv64
 Pijul available to riscv64
@@ -148,11 +138,6 @@ https://github.com/frame-labs/frame-canary/releases
 replace current installer:
 sudo snap install starship
 sudo snap install hugo
-
-ln: failed to create symbolic link '/usr/share/sounds/Yaru/stereo/desktop-login.oga': File exists
--
-Installing Floflis Central...
-mkdir: cannot create directory ‘/1/apps/central’: File exists
 
 mv: cannot move 'hop' to '/1/apps/hop': Directory not empty (same for Aragon)
 -
@@ -233,7 +218,7 @@ access.html: rename "Appearance" icon to "Personalization" (use symbolic icon on
 - install Starshell's fantasque font at firstboot - install fantasque and fonts at boot instead of firstlogon (will require multipart Starshell)
 - add more apt -y if Cubic mode/flag
 
-floapps: new icon for .app
+floapps: new icon for .apps
 
 lnch PLA-License:
 - inherit Arbitrum's Business License
@@ -283,8 +268,6 @@ install /media/daniella/B/git/Floflis/Utilities/scripts-common, but a fork from 
 https://github.com/Byron/dua-cli
 -
 experiment this: /media/daniella/Seagate Expansion Drive/1/Desktop/shell-genie
-
-Floflis Central's Tasks.txt for build Attempt 45 (try to automatize Central builds)
 
 Installing installer's slideshow...
 mv: cannot stat '/usr/share/ubiquity-slideshow/slides/icons/firefox.png': No such file or directory
