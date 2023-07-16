@@ -71,12 +71,7 @@ chmod: cannot access 'install.sh': No such file or directory
 
 
 Installing ethgas...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
-sudo: unable to resolve host cubic: Temporary failure in name resolution
 - Turning ethgas into an executable...
-sudo: unable to resolve host cubic: Temporary failure in name resolution
 parse error: Invalid numeric literal at line 1, column 3
 Installation has failed.
 

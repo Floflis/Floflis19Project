@@ -25,6 +25,8 @@
 
 
 - ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
+- "/home/daniella/.themes/Yaru-floflis-light-next": add style for .applet-cornerbar:last-child first-child (also count hover effect?)
+- session saver (!) /media/daniella/B/git/Floflis/Floflis/Utilities/SessionGuard
 - separator applet between weather and calendar
 - don't autostart MS Teams
 - fix issue of not accepting Home items symlinks
@@ -40,15 +42,14 @@ plication-x-game" is an invalid MIME type ("application-x-game" does not contain
  a subtype)
  
 - fix Floflis environment (dont use root when installing WINE and NODE) (!)
- 
-- fix installing wine-mono and dotnet45, which is requiring GUI confirmations; and:
 https://askubuntu.com/questions/1396739/failed-to-load-module-xapp-gtk3-module
 https://ubuntuforums.org/showthread.php?t=2378479
 https://www.linuxquestions.org/questions/slackware-14/cannot-get-wine-to-work-in-15-0-a-4175709687/
 https://forum.winehq.org/viewtopic.php?t=32584
 https://github.com/NixOS/nixpkgs/issues/189567
 https://www.reddit.com/r/winehq/comments/yiauog/wine_can_only_ran_through_sudo/
--
+ 
+- fix installing wine-mono and dotnet45, which is requiring GUI confirmations
 Executing cd /root/.cache/winetricks/dotnet40
 Executing wine dotNetFx40_Full_x86_x64.exe
 002c:err:winediag:getaddrinfo Failed to resolve your host name IP
@@ -69,4 +70,11 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 0104:err:winediag:nodrv_CreateWindow Application tried to create a window, but no driver could be loaded.
 0104:err:winediag:nodrv_CreateWindow L"Make sure that your X server is running and that $DISPLAY is set correctly."
 
+- Improve/fix first login questions
+- add first login questions: Explore button label, centered Explorer+window btns, Weather button label, Battery btn label
 
+- SVG icon for logo (also reflect this update in fl central) /media/daniella/B/git/Floflis/Floflis-DNA/layers/soil/include/img
+- mv blockchain-network icons to Floflis icons (reflect update in Central)
+- New Central app build
+
+ISO: copy Pictures and Downloads folder, take screenshot like in floflisOS site
