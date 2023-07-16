@@ -93,6 +93,19 @@ Floflis Central enable to set Profile/Inventory/Metaverse Stuff/Paintings as NFT
 Floflis Central turn Home+About tab's "up-to-date" into linkish to open the Update tab, which will tell implemented soon
 - work at Central supporting Ronin https://explorer.roninchain.com/address/ronin:e51b58bb6733dabcd86050e13e77f61f5ea00664 https://docs.roninchain.com/docs/intro/mainnet https://www.coingecko.com/pt/moedas/weth https://www.coingecko.com/pt/moedas/usd-coin https://www.coingecko.com/pt/moedas/smooth-love-potion https://www.coingecko.com/pt/moedas/axie-infinity)
 -
+use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
+-
+fl central script hash the background. if it is any of these:
+QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
+QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
+QmYkAC1gTaBj7Ynxa7csumKbve6iVS7VhVk1Tfzru8MnQ6
+Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
+QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
+then assign NFT both at user settings/unistore and mark as pokefan personality
+-
+davidExplorer
+- if floflis detect user is pokefan, add easter egg .folderdata when accessing "/", showing a great tusk with "a wild dngrs thing appeared" with SV south battle music (get from external URL). only enable it if user is detected as pokefan and it have bgfxmusic mode activated
+-
 register IPFS ID
 jq -r '.Identity.PeerID' /home/daniella/.ipfs/config
 -

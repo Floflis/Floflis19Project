@@ -20,10 +20,6 @@ rmv Eleganse-Floflis.tar.gz, Adapta.tar.gz and Adapta-Nokto.tar.gz; install http
 
 floflis fork of cinnamon settings
 
-davidExplorer
-- if floflis detect user is pokefan, add easter egg .folderdata when accessing "/", showing a great tusk with "a wild dngrs thing appeared" with SV south battle music (get from external URL). only enable it if user is detected as pokefan and it have bgfxmusic mode activated
-- replace native file dialog (open, save)
-
 logname: no login name
 Installing floflis-application-handler...
 sudo: unable to resolve host cubic: Temporary failure in name resolution
@@ -129,8 +125,6 @@ play music at desktop if setting, detect background color
 /media/daniella/Main Linux/home/daniell/Desktop/PJs/Incubator/not-on-github/Floflis ppl - Feofle
 
 
-if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
-
 webpresent: dont run if a file is already existing (check file name by removing extension .webpresent/.weborigin)
 
 firstlogon-user and firstlogon-IT-technician
@@ -141,19 +135,7 @@ fl study about allocations https://community.optimism.io/docs/governance/allocat
 fl FLOF claim site: like in https://app.optimism.io/airdrop/constitution
 insp for FLOF grants programme https://app.optimism.io/retropgf
 
-central NFT listing: https://etherscan.io/token/0xc36442b4a4522e871399cd717abdd847ab11fe88 (should map this NFT in other chains)
-
 gipfs' fs wrapper blcklist such as the poke nft bgs! /media/daniella/Main Linux/home/daniell/Pictures/NFT Backgrounds
-
-use /media/daniella/B/git/Floflis/HTML5/Central/c2export/scripts/personalization-update.sh as one of the ways for detecting pokefan
--
-fl central script hash the background. if it is any of these:
-QmTYrkwo8fhLB8XCsafFmDeNFbSPXQkv7gJPx4yL9hNcJA
-QmXZFEEyV5i4JK9dc1AqNSbTDA7nyedXRFG193MUKVN7U6
-QmYkAC1gTaBj7Ynxa7csumKbve6iVS7VhVk1Tfzru8MnQ6
-Qmdu3mHGTv5PYXuJ5z4kpv5wa1BewePp9wvrLB1MATBbzY
-QmRduucU9J6K7JzPssnPfwiAGwtUWW8XErGj3PUTscfwut
-then assign NFT both at user settings/unistore and mark as pokefan personality
 
 
 

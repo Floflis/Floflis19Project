@@ -56,6 +56,8 @@ Error in file "/usr/share/applications/floflis-application-handler.desktop": "ap
 plication-x-game" is an invalid MIME type ("application-x-game" does not contain
  a subtype)
  
+- better method for renaming shortcuts; don't overwrite a whole file but a part of it
+ 
 - fix Floflis environment (dont use root when installing WINE and NODE) (!)
 https://askubuntu.com/questions/1396739/failed-to-load-module-xapp-gtk3-module
 https://ubuntuforums.org/showthread.php?t=2378479
@@ -93,6 +95,8 @@ Executing wine dotNetFx40_Full_x86_x64.exe
 firstlogon questions:
 ask to have label in Explore menu or not (default is not)
 exactly Floflis like: " %H:%M:%S%n%e-%b-%y" ---- exactly WindOS like: "%H:%M%n%d/%m/%Y"
+-
+if user choose to install MS Edge, add its shortcut both on cinnamon-window-list and cobi-window-list, before Firedoge's shortcut. also add its shortcut to the Desktop
 
 - move more features out of firstlogon to firstboot (those that don't need user interaction, except Firedoge and Edge)
 

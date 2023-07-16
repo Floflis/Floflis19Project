@@ -143,8 +143,6 @@ fl layers update all readme.mds
 - FLIC installs and opens cbc
 
 
-better method for renaming shortcuts; don't overwrite a whole file but a part of it
-
 firstlogon open wizard, then ask user to add the ethgas applet/desklet (etherean-personality-pack assigned)
 
 
