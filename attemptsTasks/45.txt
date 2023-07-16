@@ -27,6 +27,7 @@
 - ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
 
 - "/home/daniella/.themes/Yaru-floflis-light-next": add style for .applet-cornerbar:last-child first-child (also count hover effect?)
+- better CSS for open-window indicator in window-list applets
 Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
 Theme: round applet and menu selection using ::after CSS https://github.com/orgs/linuxmint/discussions/12
 Theme: no padding/margin in right's separator applet (.panelRight)
