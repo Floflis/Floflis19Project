@@ -25,11 +25,26 @@
 
 
 - ubiquity: familiar.html: gray text at header (make it #fff) /media/daniella/B/git/Floflis/Branding/ubiquity-slideshow/slides
+
 - "/home/daniella/.themes/Yaru-floflis-light-next": add style for .applet-cornerbar:last-child first-child (also count hover effect?)
-- session saver (!) /media/daniella/B/git/Floflis/Floflis/Utilities/SessionGuard
+Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
+Theme: round applet and menu selection using ::after CSS https://github.com/orgs/linuxmint/discussions/12
+Theme: no padding/margin in right's separator applet (.panelRight)
+Theme: top+bottom 5px margin on separator applet
+
 - separator applet between weather and calendar
+
 - don't autostart MS Teams
+Unpacking teams (1.5.00.23861) ...
+dpkg: dependency problems prevent configuration of teams:
+-
+probably fixed after using Snap
+
 - fix issue of not accepting Home items symlinks
+- gedit as the default program for webpresent files; they should be considered text files
+- "GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
+- remove all other desktop Backgrounds and their lists, except the SVG ones
+- session saver (!) /media/daniella/B/git/Floflis/Floflis/Utilities/SessionGuard
 
 - Finally fix:
 Error in file "/usr/share/applications/nu-script-handler.desktop": "application-

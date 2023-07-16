@@ -3,30 +3,15 @@
 
 -?rmv anything breaky introduced since attempt 40
 
-remove all other desktop Backgrounds and their lists, except the SVG ones
 
-"The Ubuntu Cinnamon daily build I tried lacks a web browser, and The GIMP is set as the default image viewer (!) which feels a little odd given that both gThumb (which Linux Mint’s Pix is based on) and GNOME’s Photos are included."
 
-gedit as the default program for webpresent files? they should be considered text files
-
-fix issue of Kolourpaint not opening jpg https://forums.gentoo.org/viewtopic-t-1133067-start-0.html
-
-re-work cinnamon-patch (this will also be responsible for symlinking its avatars)
-/media/daniella/B/git/Floflis/cinnamon-patch
-https://github.com/Floflis/cinnamon-patch.git
-
-Floflis Cornerbar context-menu: "open Terminal in Desktop", organize everything into "Applet preferences" like in the window-list applet, add icons to items that dont have one
+Floflis Cornerbar context-menu: "open Terminal in Desktop"; organize everything into "Applet preferences" like in the window-list applet; add icons to items that dont have one
 -
 Sound applet: organize everything into "Applet preferences" like in the window-list applet
 -
 Explore menu context-menu: "open Terminal" and other power-menu options, organize everything into "Applet preferences" like in the window-list applet
 
-Theme: round corners on applet window, fix deskcorner and window-list on light-theme, ask chtgpt abt ::after CSS for .applet-box
-Theme: round applet and menu selection using ::after CSS https://github.com/orgs/linuxmint/discussions/12
-Theme: no padding/margin in right's separator applet (.panelRight)
-Theme: top+bottom 5px margin on separator applet
-Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
-apt wrapper
+-? Cinnamon patcher (now smarter, using cinnamon's source to identify conflicts)
 
 develop Cinnamon-version for https://github.com/PRATAP-KUMAR/ubuntu-gdm-set-background/issues/20
 
@@ -38,11 +23,6 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Ffilestore.community.support.m
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fbetanews.com%2Fwp-content%2Fuploads%2F2023%2F03%2FWin11.1-6-640x360.jpg&tbnid=y1CjicrLBPCn4M&vet=12ahUKEwip5fuaxO3-AhWijJUCHYOiDeYQxiAoBXoECAAQJA..i&imgrefurl=https%3A%2F%2Fbetanews.com%2F2023%2F03%2F07%2Fforget-windows-12-heres-windows-11-1%2F&docid=wJmkC5lLeIuEUM&w=640&h=360&itg=1&q=Windows%2012&client=ubuntu-sn&ved=2ahUKEwip5fuaxO3-AhWijJUCHYOiDeYQxiAoBXoECAAQJA
 https://betanews.com/2023/03/07/forget-windows-12-heres-windows-11-1/
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fb2c-contenthub.com%2Fwp-content%2Fuploads%2F2022%2F10%2Fwindows-12-ui-mockup.jpg%3Fquality%3D50%26strip%3Dall&tbnid=zpVvUYMsfY5eZM&vet=12ahUKEwjpo8Tew-3-AhX4ArkGHfBlBEQQMygEegUIARDnAQ..i&imgrefurl=https%3A%2F%2Fwww.tecmundo.com.br%2Fsoftware%2F257328-windows-12-esperar-possivel-sistema-operacional.htm&docid=zgrRpdu5-MU90M&w=1200&h=800&q=Windows%2012&client=ubuntu-sn&ved=2ahUKEwjpo8Tew-3-AhX4ArkGHfBlBEQQMygEegUIARDnAQ
-
-add the blend package manager from BlendOS
-https://www.theregister.com/2023/02/23/ubuntu_remixes_drop_flatpak/
--
-or also: https://github.com/pacstall/pacstall, https://github.com/makedeb/makedeb
 
 FLIC
 automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/ISOs/Floflis/Attempts/create-new-build.sh
@@ -57,54 +37,6 @@ automatize watermark.png /media/daniella/ceb6a175-7104-43d8-8064-48e6ef72cd27/IS
 - support to generate the latest kernel, signed!
 - support to Floflis forks such as UniOS
 
-rmv previous kernel
-Cleanup old kernel versions
-Find a list of all currently installed kernel versions. An easy way to do this is to list the config files in the /boot folder:
--
-ls -r /boot/config-*
--
-This will provide a list. For each instance make a note of that version number. Then, list all linux packages:
--
-dpkg --list | grep -i "linux-"
--
-Then purge all the packages with old version numbers. IconsPage/warning.png Do not purge packages with the most current kernel number:
--
-apt-get purge <packages>
--
-For example:
--
-apt-get purge linux-headers-5.15.0-43 linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
-
-install internet-related software from user-side
-
-install IPFS-Desktop from snap
-
-sudo apt purge thunderbird #242 MB disk space will be freed
-on first logon, install thunderbird (snap)
-ask to install winapps at firstlogon, and it will require Internet (be it target user or it technicial for customer)
-
-install floapps 2048 replacing Ubuntu's one
-replace Ubuntu's 2048 by Floflis Pull's own (but also come with script that installs its icon)
-/usr/share/applications/org.gnome.TwentyFortyEight.desktop
-/media/daniella/B/git/FloflisPull/2048
-
-Floflis have:
-gnome games
-GIMP
-Inkscape
-gnomePhotos
-reminna
-hexchat
-Brasero
-SoundJuicer
-sudo apt remove gnome-games gimp inkscape gnome-photos remmina hexchat brasero sound-juicer
-0 upgraded, 0 newly installed, 11 to remove and 0 not upgraded.
-After this operation, 128 MB disk space will be freed.
-gnote too
-sudo apt remove gnote
-0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
-After this operation, 20.4 MB disk space will be freed.
-
 firstlogon edge question: install edge from ms repo instead of from deb
 sudo apt install microsoft-edge-stable, https://packages.microsoft.com/repos/edge/
 ?, https://packages.microsoft.com/repos/ms-teams/
@@ -114,24 +46,13 @@ don't anymore run npm install on floapps (test if Central still work)
 - dock/undock: install floapps also at Cubic side, then on next build attempt don't install on firstlogon anymore. with that, test if Floflis Central with NodeJS can come with the ISO (which is the ideal)
 - upgrade floapps Node template + AppPlayer to the latest version possible
 
-Unpacking teams (1.5.00.23861) ...
-dpkg: dependency problems prevent configuration of teams:
--
-probably fixed after using Snap
-
 firstlogon install Weather, Maps, KeePassXC
 don't install GIMP, Inkscape, remmina, VLC; prepare these for a user personality pack which will be asked on firstlogon also for IT technician
 don't install hexchat from ISO
 -
-apt purge drawing hexchat hypnotix onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
+apt purge drawing hexchat? hypnotix onboard redshift redshift-gtk rhythmbox sticky thingy warpinator webapp-manager
 
 -? Paint: also uninstall breeze-cursor-theme
-
-explore menu without round borders on bottom but bigger round borders on top
--? Yaru-floflis theme will have dark applet-box
-
-# sudo apt purge libreoffice* # After this operation, 433 MB disk space will be freed.
-# sudo dpkg -i include/deb packages/pending/maybe/onlyoffice-desktopeditors_amd64.deb && sudo apt install --fix-broken # Installed-Size: 861 MB
 
 
 
