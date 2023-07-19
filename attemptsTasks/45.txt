@@ -33,6 +33,8 @@ Theme: round applet and menu selection using ::after CSS https://github.com/orgs
 Theme: no padding/margin in right's separator applet (.panelRight)
 Theme: top+bottom 5px margin on separator applet
 
+ChatGPT build better transparent-panels extension, by onchange of taskbar detect its current background and color scheme so to update theme accordingly!
+
 - separator applet between weather and calendar
 
 - don't autostart MS Teams
