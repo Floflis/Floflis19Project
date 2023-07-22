@@ -35,6 +35,7 @@ Theme: top+bottom 5px margin on separator applet
 
 ChatGPT build better transparent-panels extension, by onchange of taskbar detect its current background and color scheme so to update theme accordingly!
 
+- new icon for Paint https://www.flaticon.com/free-icon/color-palette_3199937?related_id=3199899&origin=search
 - separator applet between weather and calendar
 
 - don't autostart MS Teams
