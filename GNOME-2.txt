@@ -1,0 +1,4 @@
+https://github.com/Fmstrat/wintile
+
+gsettings set org.gnome.desktop.interface gtk-theme "Floflis"
+gsettings set org.gnome.desktop.wm.preferences theme "Floflis"
